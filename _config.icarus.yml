@@ -205,12 +205,12 @@ comment:
 #         type: wechat
 #         # Wechat qrcode image URL
 #         qrcode: ''
-# Share plugin configurations
-# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-share:
-    type: sharethis
-    # URL to the ShareThis share plugin script
-    install_url: 'https://platform-api.sharethis.com/js/sharethis.js#property=64f92860d8106e00193f3073&product=inline-share-buttons&source=platform'
+# # Share plugin configurations
+# # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
+# share:
+#     type: sharethis
+#     # URL to the ShareThis share plugin script
+#     install_url: 'https://platform-api.sharethis.com/js/sharethis.js#property=64f92860d8106e00193f3073&product=inline-share-buttons&source=platform'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
