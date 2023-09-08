@@ -1,4 +1,4 @@
-title: Lucfe Knowledge Documentation
+title: Lucfe Knowledge Documentation by Hexo
 subtitle: ''
 description: ''
 keywords: null
@@ -28,7 +28,6 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -64,17 +63,17 @@ deploy:
   type: git
   repo: https://github.com/lucfe2010/lucfe-hexo.git
   branch: master
-  message: 
+  message: null
 feed:
   enable: true
   type: atom
-  path: /atom.xml
+  path: atom.xml
   limit: 20
   hub: null
   content: null
   content_limit: 140
   content_limit_delim: ' '
   order_by: '-date'
-  icon: /assets/images/rss_icon_l.png
+  icon: icon.png
   autodiscovery: true
   template: null
