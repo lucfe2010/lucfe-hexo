@@ -156,7 +156,3 @@ If you feel like to help us build a better Icarus, you can
 ## :memo: License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/ppoffice/hexo-theme-icarus/blob/master/LICENSE) file for details.
-
-0000000000000000000000000
-
-222222222222222222

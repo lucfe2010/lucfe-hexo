@@ -13,9 +13,9 @@ Once all the requirements are installed, you can install Hexo with npm:
 Once Hexo is installed, run the following commands to initialize Hexo in the target `<folder>`.
 
 ```bash
-`$` hexo init <folder>
-$ cd <folder>
-$ npm install
+hexo init <folder>
+cd <folder>
+npm install
 ```
 
 eg:
@@ -70,7 +70,7 @@ eg:
 
 5. 这时根据提示
 
-   ```bash
+   ```bsh
    ERROR Package hexo-renderer-stylus's version (3.0.0) does not satisfy the required version (^2.0.0).
    ERROR Please install the missing dependencies your Hexo site root directory:
    ERROR npm install --save hexo-renderer-stylus@^2.0.0
@@ -99,31 +99,36 @@ hint: Clones of the outer repository will not contain the contents of
 hint: the embedded repository and will not know how to obtain it.
 ```
 
-### 设置icarus主题文件夹的 GIT 和 GITHUB
+### 清除icarus主题文件夹的 GIT 和 GITHUB
 
-cd themes/icarus
+使用 windows file explore删除 icarus主题文件夹 中的`.git`文件夹
 
+然后
 
+git rm -r --cached .
+git add .
 
-git remote -v
+#### git 用法
 
-git remote remove origin
-
-git remote add origin https://github.com/lucfe2010/lucfe-hexo-private-1-icarus.git
-
+git init
 git add .
 git commit -m "first commit"
 git branch -M main
 git push -u origin main
 
-git remote
+##### git remote
+
 git remote -v：列出当前仓库中已配置的远程仓库，并显示它们的 URL。
-git remote add <remote_name> <remote_url>：添加一个新的远程仓库。指定一个远程仓库的名称和 URL，将其添加到当前仓库中。
-如git remote add lucfe-clone https://github.com/lucfe2010/lucfe-hexo.git
 
+- git remote add
+`git remote add <remote_name> <remote_url>`
+添加一个新的远程仓库。指定一个远程仓库的名称和 URL，将其添加到当前仓库中。如
+`git remote add lucfe-clone https://github.com/lucfe2010/lucfe-hexo-61.git`
+`git remote add origin https://github.com/lucfe2010/lucfe-private-91.git`
 
-`git remote remove <name>`
-
+- git remote remove
+`git remote remove <remote_name>`
+`git remote remove origin`
 
 ## hexo config
 
@@ -336,6 +341,7 @@ post.md
 ```md
 title: Icarus快速上手
 thumbnail: /gallery/thumbnails/thumbnail.jpg
+
 ---
 Post content...
 ```
@@ -437,6 +443,8 @@ widgets:
 - 你可以启用作者资料卡挂件来展示文章作者/网站站长的信息。 资料卡的配置如下所示：
 
 如果你希望使用Gravatar而不是avatar配置项作为头像图片，请在gravatar项填入 你的Gravatar邮箱地址并在avatar一项中留空；
+
+本站使用的如下
 
 ![Alt text](/assets/images/avatar_l.png)
 
