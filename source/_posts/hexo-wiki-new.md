@@ -616,3 +616,40 @@ share:
     type: sharethis
     install_url: https://platform-api.sharethis.com/js/sharethis.js#property=xxxxxxxxxxxxx&product=inline-share-buttons
 ```
+
+### CDN提供商
+
+内置CDN提供商
+目前，Icarus提供如下的内置CDN服务提供商：
+
+JavaScript库CDN
+cdnjs.com (cdnjs)
+jsDelivr (jsdelivr)
+UNPKG (unpkg)
+loli.net (loli)
+Web字体CDN
+Google Fonts (google)
+loli.net (loli)
+font.im (fontim)
+中国科学技术大学 (ustc)
+FontAwesome图标CDN
+FontAwesome 5 (fontawesome)
+loli.net (loli)
+
+默认的CDN服务提供商配置为：
+
+```yml
+providers:
+    cdn: jsdelivr
+    fontcdn: google
+    iconcdn: fontawesome
+```
+
+修改为：
+
+```yml
+providers:
+    cdn: cdnjs
+    fontcdn: ustc
+    iconcdn: loli
+```
