@@ -1,6 +1,7 @@
 ---
 title: hexo wiki
 toc: true
+categories: [category level1, category level2]
 ---
 ## hexo install and setup
 
@@ -381,6 +382,7 @@ post.md
 ```md
 title: Icarus快速上手
 updated: 2020-04-01 00:00:00
+
 ---
 Post content...
 ```
