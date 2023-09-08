@@ -484,7 +484,7 @@ toc: true
 
 ##### 文章归档 archives
 
-##### 文章分类categories
+##### 文章分类 categories
 
 ##### 文章标签 tags
 
