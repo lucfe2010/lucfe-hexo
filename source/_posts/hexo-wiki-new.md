@@ -589,7 +589,7 @@ feed:
 
 在评论服务首页的右上角点击“编辑配置”(Edit Settings)按钮。
 
-![Alt text](/assets/images/hexo-wiki-new/image-6.png)
+![Alt text](/assets/images/hexo-wiki-new/image.png)
 
 在“为你的站点配置Disqus”(Configure Disqus for Your Site)页面上找到“Shortname”的值， 复制到主题配置的评论配置项中。 例如，下面截图中的“Shortname”为my-hexo-blog-1：
 
@@ -618,7 +618,7 @@ window.changyan.api.config({
 ```yml
 comment:
     type: changyan
-    app_id: ????appid????
+    app_id: appid
     conf: prod_xxxxxxxxxxxxxxxxxxxxxxx
 ```
 
