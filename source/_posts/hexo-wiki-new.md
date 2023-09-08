@@ -650,6 +650,6 @@ providers:
 ```yml
 providers:
     cdn: cdnjs
-    fontcdn: ustc
+    fontcdn: loli
     iconcdn: loli
 ```
