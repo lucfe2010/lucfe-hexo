@@ -5,8 +5,8 @@ keywords: null
 author: John Doe
 language: en
 timezone: ''
-url: http://example.com
-permalink: ':year/:month/:day/:title/'
+url: http://lucfe2010.github.io/lucfe-hexo
+permalink: ':title/'
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
@@ -61,4 +61,7 @@ exclude: null
 ignore: null
 theme: icarus
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/lucfe2010/lucfe-hexo.git
+  branch: master
+  message: 
