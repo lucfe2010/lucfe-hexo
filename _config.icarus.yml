@@ -240,8 +240,8 @@ widgets:
         avatar: /assets/images/avatar_l.png
         # Whether show the rounded avatar image
         avatar_rounded: false
-        # Email address for the Gravatar
-        gravatar: lucfe2010@gmail.com
+        # # Email address for the Gravatar
+        # gravatar: lucfe2010@gmail.com
         # URL or path for the follow button
         follow_link: https://github.com/lucfe2010
         # Links to be shown on the bottom of the profile widget
@@ -327,15 +327,15 @@ widgets:
         action_url: 'https://api.follow.it/subscription-form/a0w2UTRhRlUzdHFDZTByNWpCUUM2eXk0Tkl2WmltRVZZc0hjZVlQbzBWZWVNem8wQ3d0aVo0ZzgrWWN5OHI4OG9jcmdLSnJaL2UrZkU2WnNiVGtnc0s5ZmwxT2JMdXNaMWRkUHhGSGxwODhHZWhnZUlMNzExUlp2ZEFwTXVqME98UE1scGRBVnQ5V2xSN0xyTXN4dm50OFV5ck1lNHA0M3ZuMFk2ZCtIaWJzYz0=/8'
         # Feed claiming verification code
         verification_code: 'PCSNn7qXe1pGC26W3k43'
-    # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: 'ca-pub-4690792959176853'
-        # AdSense AD unit ID
-        slot_id: '6734387243'
+    # # Google AdSense unit configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: adsense
+    #     # AdSense client ID
+    #     client_id: 'ca-pub-4690792959176853'
+    #     # AdSense AD unit ID
+    #     slot_id: '6734387243'
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
@@ -378,11 +378,11 @@ plugins:
         policyLink: https://www.cookiesandyou.com/
     # Enable the lightGallery and Justified Gallery plugins
     gallery: false
-    # Google Analytics plugin settings
-    # https://analytics.google.com
-    google_analytics:
-        # Google Analytics tracking ID
-        tracking_id: G-3HCNTDF09M
+    # # Google Analytics plugin settings
+    # # https://analytics.google.com
+    # google_analytics:
+    #     # Google Analytics tracking ID
+    #     tracking_id: G-3HCNTDF09M
     # # Hotjar user feedback plugin
     # # https://www.hotjar.com/
     # hotjar:
