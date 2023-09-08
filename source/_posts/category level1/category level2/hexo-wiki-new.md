@@ -1,7 +1,7 @@
 ---
 title: hexo wiki
 toc: true
-categories: [category level1, category level2]
+categories: [category1 level1, category1 level2]
 ---
 ## hexo install and setup
 
