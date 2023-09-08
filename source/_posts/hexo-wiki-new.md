@@ -1,5 +1,7 @@
-# hexo website
-
+---
+title: hexo wiki
+toc: true
+---
 ## hexo install and setup
 
 ### Install Hexo
@@ -205,12 +207,12 @@ In static mode, only files in the public folder will be served and file watching
      message: [message]
    ```
 
-   | Option | Description | Default |
-   | --- | --- | --- |
-   | repo | URL of the target repository |
-   | branch | Branch name. | gh-pages (GitHub) |
-   | message | Customize commit message. | Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }} |
-   | token | Optional token value to authenticate with the repo. Prefix with $ to read token from environment variable |
+   | Option  | Description                                                                                               | Default                                          |
+   | ------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+   | repo    | URL of the target repository                                                                              |                                                  |
+   | branch  | Branch name.                                                                                              | gh-pages (GitHub)                                |
+   | message | Customize commit message.                                                                                 | Site updated: `{{ now('YYYY-MM-DD HH:mm:ss') }}` |
+   | token   | Optional token value to authenticate with the repo. Prefix with $ to read token from environment variable |                                                  |
 
    eg
 
