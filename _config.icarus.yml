@@ -247,8 +247,8 @@ widgets:
         avatar_rounded: false
         # # Email address for the Gravatar
         # gravatar: lucfe2010@gmail.com
-        # URL or path for the follow button
-        follow_link: https://github.com/lucfe2010
+        # # URL or path for the follow button
+        # follow_link: https://github.com/lucfe2010
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
@@ -260,9 +260,9 @@ widgets:
             Twitter:
                 icon: fab fa-twitter
                 url: https://twitter.com/lucfe2010
-            Dribbble:
-                icon: fab fa-dribbble
-                url: https://dribbble.com
+            # Dribbble:
+            #     icon: fab fa-dribbble
+            #     url: https://dribbble.com
             RSS:
                 icon: fas fa-rss
                 url: /atom.xml
