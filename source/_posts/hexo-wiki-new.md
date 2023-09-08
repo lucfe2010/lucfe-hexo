@@ -589,13 +589,38 @@ feed:
 
 在评论服务首页的右上角点击“编辑配置”(Edit Settings)按钮。
 
-![Alt text](/assets/images/hexo-wiki-new/image.png)
+![Alt text](/source/assets/images/hexo-wiki-new/image-5.png)
 
 在“为你的站点配置Disqus”(Configure Disqus for Your Site)页面上找到“Shortname”的值， 复制到主题配置的评论配置项中。 例如，下面截图中的“Shortname”为my-hexo-blog-1：
 
 ![Alt text](/assets/images/hexo-wiki-new/image-1.png)
 
 ##### 畅言
+
+![Alt text](/assets/images/hexo-wiki-new/image-5.png)
+
+复制appid与conf的值到主题配置的对应配置项中。 例如，如下的HTML代码：
+
+```html
+<!--PC版-->
+<div id="SOHUCS" sid="..."></div>
+<script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+window.changyan.api.config({
+    appid: '????appid????',
+    conf: 'prod_xxxxxxxxxxxxxxxxxxxxxxx'
+});
+</script>
+```
+
+对应到主题配置为：
+
+```yml
+comment:
+    type: changyan
+    app_id: ????appid????
+    conf: prod_xxxxxxxxxxxxxxxxxxxxxxx
+```
 
 #### 分享按钮
 

@@ -166,10 +166,15 @@ search:
     index_pages: true
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
+# comment:
+#     type: disqus
+#     # Disqus shortname
+#     shortname: 'lucfe'
 comment:
-    type: disqus
-    # Disqus shortname
-    shortname: 'lucfe'
+    type: changyan
+    app_id: cywRRsWkD
+    conf: prod_f5188938defb656f2ee69006c0cbbcb7
+
 # # Donate plugin configurations
 # # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:
