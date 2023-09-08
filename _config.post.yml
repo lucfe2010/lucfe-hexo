@@ -28,12 +28,12 @@ widgets:
         collapsed: true
         # Maximum level of headings to show (1-6)
         depth: 3
-    # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: 'ca-pub-4690792959176853'
-        # AdSense AD unit ID
-        slot_id: '6734387243'
+    # # Google AdSense unit configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: adsense
+    #     # AdSense client ID
+    #     client_id: 'ca-pub-4690792959176853'
+    #     # AdSense AD unit ID
+    #     slot_id: '6734387243'
