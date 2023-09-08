@@ -642,7 +642,27 @@ share:
     install_url: https://platform-api.sharethis.com/js/sharethis.js#property=xxxxxxxxxxxxx&product=inline-share-buttons
 ```
 
-### CDN提供商
+## for china web connecting
+
+### disable these plugins
+
+business or payment
+feedburn
+google ad sense
+google analytics
+sharethis
+changyan comments
+disqus commnets
+cookie consent
+follow.it
+
+### disable these links and font icons
+
+article licsence links
+footer links
+navbar links
+
+### CDN提供商 change cdn provider
 
 内置CDN提供商
 目前，Icarus提供如下的内置CDN服务提供商：
