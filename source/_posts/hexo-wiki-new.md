@@ -165,6 +165,8 @@ Assets are non-post files in the source folder, such as images, CSS or JavaScrip
 
 #### For vscode copy images
 
+Use vscode open the `source` folder as project folder to create and edit the posts
+
 change the the image relative path link
 `assets/images/<post title>/*.jpg`
 or
