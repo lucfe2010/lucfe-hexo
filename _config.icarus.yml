@@ -170,10 +170,10 @@ search:
 #     type: disqus
 #     # Disqus shortname
 #     shortname: 'lucfe'
-comment:
-    type: changyan
-    app_id: cywRRsWkD
-    conf: prod_f5188938defb656f2ee69006c0cbbcb7
+# comment:
+#     type: changyan
+#     app_id: cywRRsWkD
+#     conf: prod_f5188938defb656f2ee69006c0cbbcb7
 
 # # Donate plugin configurations
 # # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
