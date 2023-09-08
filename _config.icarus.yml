@@ -321,17 +321,17 @@ widgets:
     #     description: 
     #     # Feedburner ID
     #     feedburner_id: 'lucfe2010/cp8zkbw2anp'
-    # Follow.it email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: followit
-        # Hint text under the email input
-        description: 
-        # Subscription form action URL
-        action_url: 'https://api.follow.it/subscription-form/a0w2UTRhRlUzdHFDZTByNWpCUUM2eXk0Tkl2WmltRVZZc0hjZVlQbzBWZWVNem8wQ3d0aVo0ZzgrWWN5OHI4OG9jcmdLSnJaL2UrZkU2WnNiVGtnc0s5ZmwxT2JMdXNaMWRkUHhGSGxwODhHZWhnZUlMNzExUlp2ZEFwTXVqME98UE1scGRBVnQ5V2xSN0xyTXN4dm50OFV5ck1lNHA0M3ZuMFk2ZCtIaWJzYz0=/8'
-        # Feed claiming verification code
-        verification_code: 'PCSNn7qXe1pGC26W3k43'
+    # # Follow.it email subscription widget configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: followit
+    #     # Hint text under the email input
+    #     description: 
+    #     # Subscription form action URL
+    #     action_url: 'https://api.follow.it/subscription-form/a0w2UTRhRlUzdHFDZTByNWpCUUM2eXk0Tkl2WmltRVZZc0hjZVlQbzBWZWVNem8wQ3d0aVo0ZzgrWWN5OHI4OG9jcmdLSnJaL2UrZkU2WnNiVGtnc0s5ZmwxT2JMdXNaMWRkUHhGSGxwODhHZWhnZUlMNzExUlp2ZEFwTXVqME98UE1scGRBVnQ5V2xSN0xyTXN4dm50OFV5ck1lNHA0M3ZuMFk2ZCtIaWJzYz0=/8'
+    #     # Feed claiming verification code
+    #     verification_code: 'PCSNn7qXe1pGC26W3k43'
     # # Google AdSense unit configurations
     # -
     #     # Where should the widget be placed, left sidebar or right sidebar
