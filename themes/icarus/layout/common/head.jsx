@@ -122,6 +122,7 @@ module.exports = class extends Component {
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
             {noIndex ? <meta name="robots" content="noindex" /> : null}
             {meta && meta.length ? <MetaTags meta={meta} /> : null}
+            <meta name="baidu-site-verification" content="codeva-07TW7qEHGg" />
 
             <title>{getPageTitle(page, config.title, helper)}</title>
 

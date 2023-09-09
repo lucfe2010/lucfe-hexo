@@ -1,18 +1,10 @@
+---
+title: react jsx
+---
+
+{% raw %}
 html
 
-css
-
-js
-
-yarn
-
-npm
-
-
-
-git
-
-shell
 
 ejs
 
@@ -764,3 +756,5 @@ class SignUpDialog extends React.Component {
     alert(`Welcome aboard, ${this.state.login}!`);
   }
 }
+
+{% endraw %}
