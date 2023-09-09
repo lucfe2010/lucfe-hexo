@@ -137,6 +137,10 @@ git remote -v：列出当前仓库中已配置的远程仓库，并显示它们�
 
 ### basic config
 
+#### language
+
+`language: cn`
+
 #### site url
 
 change the `url` to the website url of your own
