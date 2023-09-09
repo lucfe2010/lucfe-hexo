@@ -4,6 +4,8 @@ toc: true
 categories: [category1 level1, category1 level2]
 ---
 
+{% raw %}
+
 ## Component
 
 ```jsx
@@ -108,8 +110,19 @@ head:
         # Name of the web application (default to the site title)
         name: 
 
+        ...
+
+    meta:
+    rss
+
 
 {rss ? <link rel="alternate" href={url_for(rss)} title={config.title} type="application/atom+xml" /> : null}
+
+head:
+    # URL or path to the website's icon
+    favicon: /assets/images/favicon_l.png
+
+{favicon ? <link rel="icon" href={url_for(favicon)} /> : null}
 
 ##### 
 article,
@@ -123,12 +136,22 @@ article:
 
 
 
-##### 
+##### highlight theme
 highlight,
 
 variant = 'default'
 the theme variant 'default' or 'cyberpunk'
 see [cnd](#cdn-fontcdn-and-iconcdn)
+
+let hlTheme, images;
+        if (highlight && highlight.enable === false) {
+            hlTheme = null;
+        } else if (article && article.highlight && article.highlight.theme) {
+            hlTheme = article.highlight.theme;
+        } else {
+            hlTheme = 'atom-one-light';
+        }
+
 
 ##### 
 config.title 
@@ -249,12 +272,24 @@ if (helper.is_categories()) {
 
 ##### cdn fontcdn and iconcdn
 
+cdn()
+
+{hlTheme ? <link rel="stylesheet" href={cdn('highlight.js', '11.7.0', 'styles/' + hlTheme + '.css')} /> : null}
+
+[hlTheme](#highlight-theme)
+
+fontcdn()
 <link rel="stylesheet" href={fontCssUrl[variant]} />
 
 const fontCssUrl = {
             default: fontcdn('Ubuntu:wght@400;600&family=Source+Code+Pro', 'css2'),
             cyberpunk: fontcdn('Oxanium:wght@300;400;600&family=Roboto+Mono', 'css2')
         };
+
+iconcdn()
+<link rel="stylesheet" href={iconcdn()} />
+
+
 
 ##### is_post
 
@@ -284,6 +319,11 @@ let img;
 const imgPattern = /<img [^>]*src=['"]([^'"]+)([^>]*>)/gi;
 img = imgPattern.exec(page.content);
 
+
+## page.photos
+structured_data.image
+
+images = [url_for('/img/og_image.png')];
 
 ## 
 
@@ -337,3 +377,22 @@ img = imgPattern.exec(page.content);
         { src: '/path/to/image', sizes: '128x128 256x256' },
         { src: '/path/to/image', sizes: '512x512' },
     ]} />
+
+
+
+
+## followIt
+
+{followItVerificationCode ? <meta name="follow.it-verification-code" content={followItVerificationCode} /> : null}
+
+let followItVerificationCode = null;
+        if (Array.isArray(config.widgets)) {
+            const widget = config.widgets.find(widget => widget.type === 'followit');
+            if (widget) {
+                followItVerificationCode = widget.verification_code;
+            }
+        }
+
+
+
+{% endraw %}
