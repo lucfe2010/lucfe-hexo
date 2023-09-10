@@ -397,6 +397,15 @@ The best is, that VS Code’s Markdown can now show the image.
 
 
 
+### deploy ci
+
+我们通过持续集成，能够简化 Hexo 发布博客的步骤，即：将清除缓存 hexo clean ，生成静态文件 hexo generate 和部署到 GitHub Pages hexo deploy 这些步骤通过持续集成工具来帮助我们自动执行。
+
+在每次我们将博客的源文件通过 git 推送到 GitHub 的 hexo 分支上后，Travis CI 就会自动检测并主动开始构建我们的博客静态文件，并自动部署到 GitHub Pages 中。
+
+这样我们在本地对博客文件进行修改、新增博文内容或者新增博客文章，只需要通过 git 推送到 GitHub 仓库之后，持续集成工具就可以帮助我们在线构建博客静态文件并直接部署到 GitHub Pages。这之后，我们发布博客内容就不需要本地三步走了。
+
+Travis CI 
 
 
 
@@ -408,9 +417,15 @@ The best is, that VS Code’s Markdown can now show the image.
 
 
 
-
-
-
+分页
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+参数	描述
+per_page	每页显示的文章量 (0 = 关闭分页功能)
+pagination_dir	分页目录
+#扩展
 
 
 

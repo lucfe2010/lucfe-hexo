@@ -6,7 +6,7 @@ title: react jsx
 html
 
 
-ejs
+### ejs
 
 https://ejs.co
 
