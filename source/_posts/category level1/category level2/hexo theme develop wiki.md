@@ -1,3 +1,9 @@
+---
+title: hexo theme wiki
+---
+
+{% raw %}
+
 languages 文件夹放有一个或多个语言文件。
 
 layout 文件夹下面用于存放页面文件，通常第一层有 Index 首页 、 Archive 归档页 、 Tag 标签页 、 Category 分类页 、 Post 文章页 、 Page 页面详情页 、 layout 布局 ，一般还会创建一个公共页面的文件夹，该文件夹用于放置一个页面的部分内容，用于复用。
@@ -148,3 +154,5 @@ post-card 文件内容为：
 category.ejs 页面只显示单个分类，当你点击分类 1 跳转过去的页面就是 category ，它不会显示出网站中所有的分类。
 
 想要全部显示出来，需要自行创建一个页面categories 、 tags
+
+{% endraw %}
