@@ -24,11 +24,16 @@ conscientious一丝不苟的,认真的
 
 
 - Example
+
+```jsx
 <% if (user) { %>
   <h2><%= user.name %></h2>
 <% } %>
+```
 
 - Tags
+
+```ejs
 <% 'Scriptlet' tag, for control-flow, no output
 <%_ ‘Whitespace Slurping’ Scriptlet tag, strips all whitespace before it
 <%= Outputs the value into the template (HTML escaped)
@@ -38,6 +43,7 @@ conscientious一丝不苟的,认真的
 %> Plain ending tag
 -%> Trim-mode ('newline slurp') tag, trims following newline
 _%> ‘Whitespace Slurping’ ending tag, removes all whitespace after it
+```
 
 
 - Includes
@@ -45,16 +51,19 @@ Includes are relative to the template with the include call. (This requires the 
 
 You'll likely want to use the raw output tag (<%-) with your include to avoid double-escaping the HTML output.
 
+```ejs
 <ul>
   <% users.forEach(function(user){ %>
     <%- include('user/show', {user: user}); %>
   <% }); %>
 </ul>
+```
 
 
 - Layouts
 EJS does not specifically support blocks, but layouts can be implemented by including headers and footers, like so:
 
+```ejs
 <%- include('header'); -%>
 <h1>
   Title
@@ -63,7 +72,7 @@ EJS does not specifically support blocks, but layouts can be implemented by incl
   My page
 </p>
 <%- include('footer'); -%>
-
+```
 
 ### jsx
 
@@ -90,14 +99,14 @@ After compilation, JSX expressions become regular JavaScript function calls and 
 This means that you can use JSX inside of if statements and for loops, assign it to variables, accept it as arguments, and return it from functions:
 
 
-
+```jsx
 function getGreeting(user) {
   if (user) {
     return <h1>Hello, {formatName(user)}!</h1>;
   }
   return <h1>Hello, Stranger.</h1>;
 }
-
+```
 
 
 - Specifying Attributes with JSX
@@ -111,15 +120,17 @@ You may also use curly braces to embed a JavaScript expression in an attribute:
 - Specifying Children with JSX
 If a tag is empty, you may close it immediately with />, like XML:
 
-const element = <img src={user.avatarUrl} />;
+`const element = <img src={user.avatarUrl} />;`
 JSX tags may contain children:
 
+```jsx
 const element = (
   <div>
     <h1>Hello!</h1>
     <h2>Good to see you here.</h2>
   </div>
 );
+```
 
 - JSX Prevents Injection Attacks
 It is safe to embed user input in JSX:
@@ -166,6 +177,8 @@ Babel compiles JSX down to React.createElement() calls.
 
 These two examples are identical:
 
+
+```jsx
 const element = (
   <h1 className="greeting">
     Hello, world!
@@ -186,6 +199,9 @@ const element = {
     children: 'Hello, world!'
   }
 };
+```
+
+
 These objects are called “React elements”. You can think of them as descriptions of what you want to see on the screen.
 
 ### Rendering an Element into the DOM
@@ -217,11 +233,14 @@ This function is a valid React component because it accepts a single “props”
 
 You can also use an ES6 class to define a component:
 
+```jsx
 class Welcome extends React.Component {
   render() {
     return <h1>Hello, {this.props.name}</h1>;
   }
 }
+```
+
 The above two components are equivalent from React’s point of view.
 
 - Composing Components
@@ -229,6 +248,7 @@ Components can refer to other components in their output. This lets us use the s
 
 For example, we can create an App component that renders Welcome many times:
 
+```jsx
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
 }
@@ -242,12 +262,15 @@ function App() {
     </div>
   );
 }
+```
 
 - Extracting Components
 Don’t be afraid to split components into smaller components.
 
 For example, consider this Comment component:
 
+
+```jsx
 function Comment(props) {
   return (
     <div className="Comment">
@@ -269,6 +292,8 @@ function Comment(props) {
     </div>
   );
 }
+```
+
 
 
 It accepts author (an object), text (a string), and date (a date) as props, and describes a comment on a social media website.
@@ -277,6 +302,7 @@ This component can be tricky to change because of all the nesting, and it is als
 
 First, we will extract Avatar:
 
+```jsx
 function Avatar(props) {
   return (
     <img className="Avatar"
@@ -285,6 +311,7 @@ function Avatar(props) {
     />
   );
 }
+```
 
 The Avatar doesn’t need to know that it is being rendered inside a Comment. This is why we have given its prop a more generic name: user rather than author.
 
@@ -292,6 +319,7 @@ We recommend naming props from the component’s own point of view rather than t
 
 We can now simplify Comment a tiny bit:
 
+```jsx
 function Comment(props) {
   return (
     <div className="Comment">
@@ -310,9 +338,11 @@ function Comment(props) {
     </div>
   );
 }
+```
 
 Next, we will extract a UserInfo component that renders an Avatar next to the user’s name:
 
+```jsx
 function UserInfo(props) {
   return (
     <div className="UserInfo">
@@ -323,10 +353,12 @@ function UserInfo(props) {
     </div>
   );
 }
+```
 
 
 This lets us simplify Comment even further:
 
+```jsx
 function Comment(props) {
   return (
     <div className="Comment">
@@ -340,12 +372,14 @@ function Comment(props) {
     </div>
   );
 }
+```
 
 - Props are Read-Only
 Whether you declare a component as a function or a class, it must never modify its own props.
 
 - Adding Local State to a Class
-
+- 
+```jsx
 class Clock extends React.Component {
   constructor(props) {
     super(props);
@@ -364,6 +398,7 @@ class Clock extends React.Component {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Clock />);
+```
 
 - Adding Lifecycle Methods to a Class
 
@@ -371,7 +406,7 @@ We want to set up a timer whenever the Clock is rendered to the DOM for the firs
 
 We also want to clear that timer whenever the DOM produced by the Clock is removed. This is called “unmounting” in React.
 
-
+```jsx
 class Clock extends React.Component {
   constructor(props) {
     super(props);
@@ -407,6 +442,7 @@ class Clock extends React.Component {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Clock />);
+```
 
 1. When the Clock output is inserted in the DOM, React calls the componentDidMount() lifecycle method. Inside it, the Clock component asks the browser to set up a timer to call the component’s tick() method once a second.
 
@@ -424,16 +460,24 @@ Because this.props and this.state may be updated asynchronously, you should not 
 For example, this code may fail to update the counter:
 
 // Wrong
+
+```jsx
 this.setState({
   counter: this.state.counter + this.props.increment,
 });
+```
+
 
 To fix it, use a second form of setState() that accepts a function rather than an object. That function will receive the previous state as the first argument, and the props at the time the update is applied as the second argument:
 
 // Correct
+
+```jsx
 this.setState((state, props) => ({
   counter: state.counter + props.increment
 }));
+```
+
 
 ### Handling Events
 Handling events with React elements is very similar to handling events on DOM elements. There are some syntax differences:
@@ -446,6 +490,7 @@ With JSX you pass a function as the event handler, rather than a string.
 
 You have to be careful about the meaning of this in JSX callbacks. In JavaScript, class methods are not bound by default. If you forget to bind this.handleClick and pass it to onClick, this will be undefined when the function is actually called.
 
+```jsx
 class Toggle extends React.Component {
   constructor(props) {
     super(props);
@@ -469,9 +514,12 @@ class Toggle extends React.Component {
     );
   }
 }
+```
+
 
 use public class fields syntax to correctly bind callbacks:
 
+```jsx
 class LoggingButton extends React.Component {
   // This syntax ensures `this` is bound within handleClick.
   handleClick = () => {
@@ -485,9 +533,11 @@ class LoggingButton extends React.Component {
     );
   }
 }
+```
 
 If you aren’t using class fields syntax, you can use an arrow function in the callback:
 
+```jsx
 class LoggingButton extends React.Component {
   handleClick() {
     console.log('this is:', this);
@@ -502,6 +552,7 @@ class LoggingButton extends React.Component {
     );
   }
 }
+```
 
 The problem with this syntax is that a different callback is created each time the LoggingButton renders. In most cases, this is fine. However, if this callback is passed as a prop to lower components, those components might do an extra re-rendering. We generally recommend binding in the constructor or using the class fields syntax, to avoid this sort of performance problem.
 
@@ -509,8 +560,8 @@ The problem with this syntax is that a different callback is created each time t
 - Passing Arguments to Event Handlers
 Inside a loop, it is common to want to pass an extra parameter to an event handler. For example, if id is the row ID, either of the following would work:
 
-<button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button>
-<button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>
+`<button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button>`
+`<button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>`
 The above two lines are equivalent, and use arrow functions and Function.prototype.bind respectively.
 
 In both cases, the e argument representing the React event will be passed as a second argument after the ID. With an arrow function, we have to pass it explicitly, but with bind any further arguments are automatically forwarded.
@@ -524,6 +575,7 @@ Therefore, if the condition is true, the element right after && will appear in t
 
 Note that returning a falsy expression will still cause the element after && to be skipped but will return the falsy expression. In the example below, <div>0</div> will be returned by the render method.
 
+```jsx
 render() {
   const count = 0;
   return (
@@ -532,6 +584,7 @@ render() {
     </div>
   );
 }
+```
 
 - Inline If-Else with Conditional Operator
 
@@ -540,6 +593,7 @@ Another method for conditionally rendering elements inline is to use the JavaScr
 Preventing Component from Rendering
 In rare cases you might want a component to hide itself even though it was rendered by another component. To do this return null instead of its render output.
 
+```jsx
 function WarningBanner(props) {
   if (!props.warn) {
     return null;
@@ -551,6 +605,7 @@ function WarningBanner(props) {
     </div>
   );
 }
+```
 
 - Rendering Multiple Components
 You can build collections of elements and include them in JSX using curly braces {}.
@@ -567,6 +622,7 @@ Then, we can include the entire listItems array inside a <ul> element:
 
 When you run code, you’ll be given a warning that a key should be provided for list items. A “key” is a special string attribute you need to include when creating lists of elements.
 
+```jsx
 function NumberList(props) {
   const numbers = props.numbers;
   const listItems = numbers.map((number) =>
@@ -578,6 +634,7 @@ function NumberList(props) {
     <ul>{listItems}</ul>
   );
 }
+```
 
 - Keys
 
@@ -587,6 +644,7 @@ We don’t recommend using indexes for keys if the order of items may change. Th
 
 Example: Incorrect Key Usage
 
+```jsx
 function ListItem(props) {
   const value = props.value;
   return (
@@ -609,8 +667,11 @@ function NumberList(props) {
     </ul>
   );
 }
+```
+
 Example: Correct Key Usage
 
+```jsx
 function ListItem(props) {
   // Correct! There is no need to specify the key here:
   return <li>{props.value}</li>;
@@ -628,11 +689,13 @@ function NumberList(props) {
     </ul>
   );
 }
+```
 
 
 - Embedding map() in JSX
 JSX allows embedding any expression in curly braces so we could inline the map() result:
 
+```jsx
 function NumberList(props) {
   const numbers = props.numbers;
   return (
@@ -644,6 +707,7 @@ function NumberList(props) {
     </ul>
   );
 }
+```
 
 - Composition vs Inheritance
 
@@ -654,6 +718,7 @@ Some components don’t know their children ahead of time. This is especially co
 
 We recommend that such components use the special children prop to pass children elements directly into their output:
 
+```jsx
 function FancyBorder(props) {
   return (
     <div className={'FancyBorder FancyBorder-' + props.color}>
@@ -661,8 +726,11 @@ function FancyBorder(props) {
     </div>
   );
 }
+```
+
 This lets other components pass arbitrary children to them by nesting the JSX:
 
+```jsx
 function WelcomeDialog() {
   return (
     <FancyBorder color="blue">
@@ -675,12 +743,15 @@ function WelcomeDialog() {
     </FancyBorder>
   );
 }
+```
+
 Try it on CodePen
 
 Anything inside the <FancyBorder> JSX tag gets passed into the FancyBorder component as a children prop. Since FancyBorder renders {props.children} inside a <div>, the passed elements appear in the final output.
 
 - sometimes you might need multiple “holes” in a component. In such cases you may come up with your own convention instead of using children:
 
+```jsx
 function SplitPane(props) {
   return (
     <div className="SplitPane">
@@ -705,6 +776,8 @@ function App() {
       } />
   );
 }
+```
+
 Try it on CodePen
 
 React elements like <Contacts /> and <Chat /> are just objects, so you can pass them as props like any other data. This approach may remind you of “slots” in other libraries but there are no limitations on what you can pass as props in React.
@@ -713,6 +786,7 @@ React elements like <Contacts /> and <Chat /> are just objects, so you can pass 
 Sometimes we think about components as being “special cases” of other components. For example, we might say that a WelcomeDialog is a special case of Dialog.
 
 
+```jsx
 function Dialog(props) {
   return (
     <FancyBorder color="blue">
@@ -726,6 +800,7 @@ function Dialog(props) {
     </FancyBorder>
   );
 }
+
 
 class SignUpDialog extends React.Component {
   constructor(props) {
@@ -756,5 +831,6 @@ class SignUpDialog extends React.Component {
     alert(`Welcome aboard, ${this.state.login}!`);
   }
 }
+```
 
 {% endraw %}
