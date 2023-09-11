@@ -1,8 +1,36 @@
 ---
-title: hexo wiki
+title: hexo icarus setup
 toc: true
 categories: [category1 level1, category1 level2]
 ---
+
+## hexo command
+
+Usage: `hexo <command>`
+
+Commands:
+  clean     Remove generated files and cache.
+  config    Get or set configurations.
+  deploy    Deploy your website.
+  generate  Generate static files.
+  help      Get help on a command.
+  init      Create a new Hexo folder.
+  list      List the information of the site
+  migrate   Migrate your site from other system to Hexo.
+  new       Create a new post.
+  publish   Moves a draft post from `_drafts` to `_posts` folder.
+  **render**    Render files with renderer plugins.
+  server    Start the server.
+  version   Display version information.
+
+Global Options:
+  --config  Specify config file instead of using _config.yml
+  --cwd     Specify the CWD(change working diretory)
+  --debug   Display all verbose messages in the terminal
+  --draft   Display draft posts
+  --safe    Disable all plugins and scripts
+  --silent  Hide output on console
+
 ## hexo install and setup
 
 ### Install Hexo
@@ -237,7 +265,6 @@ In static mode, only files in the public folder will be served and file watching
    - `hexo-deployer-git` does not store your username and password. Use `git-credential-cache` to store them temporarily.
 
 4. Navigate to your repository settings and change the “Pages” branch to gh-pages (or the branch specified in your config). The deployed site should be live on the link shown on the “Pages” setting.
-
 
 - 部署步骤
 每次部署的步骤，可按以下三步来进行。

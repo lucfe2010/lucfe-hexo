@@ -4,6 +4,8 @@ toc: true
 categories: [category1 level1, category1 level2]
 ---
 
+## `(0,function)(arg1,agr2,)`
+
 ```js
 (0, function (arg) { console.log(arg) })(2);
 console.log((0, 1, 2, 3));

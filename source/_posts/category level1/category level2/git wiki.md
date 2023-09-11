@@ -274,6 +274,8 @@ Otherwise, a "real" merge must occur. You can choose other strategies, but the d
 
 ![Alt text](</assets/images/git wiki/image-14.png>)
 
+"git merge" used to allow merging two branches that have no common base by default, which led to a brand new history of an existing project created and then get pulled by an unsuspecting maintainer, which allowed an unnecessary parallel history merged into the existing project. The command has been taught not to allow this by default, with an escape hatch --allow-unrelated-histories option to be used in a rare event that merges histories of two projects that started their lives independently.
+
 ### git rebase
 
 git rebase will take the commits on this branch and "move" them so that their new "base" is at the point you specify.
@@ -346,15 +348,10 @@ As you just saw, to get data from your remote projects, you can run:
 
 `$ git fetch <remote>`
 
-If you clone a repository, the command automatically adds that remote repository under the name “origin”
-
-
 
 git fetch will update all of the "remote tracking branches" in your local repository. Remote tracking branches are tagged in grey.
 
 It’s important to note that the git fetch command only downloads the data to your local repository — it doesn’t automatically merge it with any of your work or modify what you’re currently working on. You have to merge it manually into your work when you’re ready.
-
-
 
 ![Alt text](</assets/images/git wiki/image-16.png>)
 
@@ -364,27 +361,21 @@ It’s important to note that the git fetch command only downloads the data to y
 
 A git pull is a two step process that first does a git fetch, and then does a git merge of the remote tracking branch associated with your current branch. If you have no current branch, the process will stop after fetching.
 
-If your current branch is set up to track a remote branch (see the next section and Git Branching for more information), you can use the git pull command to automatically fetch and then merge that remote branch into your current branch.
+If your current branch is set up to track a remote branch, you can use the git pull command to automatically fetch and then merge that remote branch into your current branch.
 
 If you have a tracking branch set up as demonstrated in the last section, either by explicitly setting it or by having it created for you by the clone or checkout commands, git pull will look up what server and branch your current branch is tracking, fetch from that server and then try to merge in that remote branch.
 
-by default, the git clone command automatically sets up your local master branch to track the remote master branch (or whatever the default branch is called) 
+
 
 ---
 
 Tracking branches are local branches that have a direct relationship to a remote branch. If you’re on a tracking branch and type git pull, Git automatically knows which server to fetch from and which branch to merge in.
 
-you can set up other tracking branches if you wish — ones that track branches on other remotes, or don’t track the master branch. The simple case is the example you just saw, running git checkout -b <branch> <remote>/<branch>. This is a common enough operation that Git provides the --track shorthand:
+If you clone a repository, the command automatically adds that remote repository under the name “origin”
 
-$ git checkout --track origin/serverfix
-Branch serverfix set up to track remote branch serverfix from origin.
-Switched to a new branch 'serverfix'
-In fact, this is so common that there’s even a shortcut for that shortcut. If the branch name you’re trying to checkout (a) doesn’t exist and (b) exactly matches a name on only one remote, Git will create a tracking branch for you:
+by default, the git clone command automatically sets up your local master branch to track the remote master branch (or whatever the default branch is called)
 
-$ git checkout serverfix
-Branch serverfix set up to track remote branch serverfix from origin.
-Switched to a new branch 'serverfix'
-To set up a local branch with a different name than the remote branch, you can easily use the first version with a different local branch name:
+you can set up other tracking branches if you wish — ones that track branches on other remotes, or don’t track the master branch. The simple case is the example you just saw, running git checkout -b <branch> <remote>/<branch>.
 
 $ git checkout -b sf origin/serverfix
 Branch sf set up to track remote branch serverfix from origin.
@@ -397,6 +388,20 @@ $ git branch -u origin/serverfix
 Branch serverfix set up to track remote branch serverfix from origin.
 
 If you want to see what tracking branches you have set up, you can use the -vv option to git branch. This will list out your local branches with more information including what each branch is tracking and if your local branch is ahead, behind or both.
+
+
+hint: If you are planning on basing your work on an upstream
+hint: branch that already exists at the remote, you may need to
+hint: run "git fetch" to retrieve it.
+hint:
+hint: If you are planning to push out a new local branch that
+hint: will track its remote counterpart, you may want to use
+hint: "git push -u" to set the upstream config as you push.
+
+$ git push
+fatal: The current branch newbrachname has no upstream branch.
+To push the current branch and set the remote as upstream, use
+    git push --set-upstream origin newbrachname
 
 ```bash
 $ git branch -vv
@@ -425,7 +430,7 @@ If you have a branch named serverfix that you want to work on with others, you c
 
 $ git push origin serverfix
 
-You can also do git push origin serverfix:serverfix, which does the same thing — it says, “Take my serverfix and make it the remote’s serverfix.” You can use this format to push a local branch into a remote branch that is named differently. If you didn’t want it to be called serverfix on the remote, you could instead run git push origin serverfix:awesomebranch to push your local serverfix branch to the awesomebranch branch on the remote project.
+You can also do `git push origin serverfix:serverfix`, which does the same thing — it says, “Take my serverfix and make it the remote’s serverfix.” You can use this format to push a local branch into a remote branch that is named differently. If you didn’t want it to be called serverfix on the remote, you could instead run `git push origin serverfix:awesomebranch` to push your local serverfix branch to the awesomebranch branch on the remote project.
 
 
 ### example
@@ -440,7 +445,7 @@ If you do some work on your local master branch, and, in the meantime, someone e
 
 To synchronize your work with a given remote, you run a git fetch <remote> command (in our case, git fetch origin). This command looks up which server “origin” is (in this case, it’s git.ourcompany.com), fetches any data from it that you don’t yet have, and updates your local database, moving your origin/master pointer to its new, more up-to-date position.
 
-![Alt text](<../../../assets/images/git wiki/image-23.png>)
+![Alt text](</assets/images/git wiki/image-23.png>)
 
 you have another internal Git server that is used only for development by one of your sprint teams. This server is at git.team1.ourcompany.com. You can add it as a new remote reference to the project you’re currently working on by running the git remote add command.Name this remote teamone, which will be your shortname for that whole URL.
 
@@ -452,9 +457,303 @@ Now, you can run git fetch teamone to fetch everything the remote teamone server
 
 It’s important to note that when you do a fetch that brings down new remote-tracking branches, you don’t automatically have local, editable copies of them. In other words, in this case, you don’t have a new serverfix branch — you have only an origin/serverfix pointer that you can’t modify.
 
-To merge this work into your current working branch, you can run git merge origin/serverfix. If you want your own serverfix branch that you can work on, you can base it off your remote-tracking branch:
+To merge this work into your current working branch, you can run `git merge origin/serverfix`.
 
-$ git checkout -b serverfix origin/serverfix
+If you want your own serverfix branch that you can work on, you can base it off your remote-tracking branch:
+
+`$ git checkout -b serverfix origin/serverfix`
 Branch serverfix set up to track remote branch serverfix from origin.
 Switched to a new branch 'serverfix'
 This gives you a local branch that you can work on that starts where origin/serverfix is.
+
+
+- How to create a new repository which is a clone of another repository
+
+1. There's probably several ways to do this, including a smarter one, but this is how I would do this:
+
+Make a new repo on Github called SecondProject.
+Locally clone your MyfirstProject, either from disk or from Github. Then use git pull on the branches you need to move to the second repo.
+git remote set-url origin git@github.com:yourname/SecondProject.git
+Push it.
+Note that the clone retains a shared history with MyfirstProject, which is useful if you change your mind about the "never merge" bit.
+
+1. 
+
+Clone your MyfirstProject to your local machine.
+Delete .git folder
+git init
+Publish your new project
+
+
+2. lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test (newbrachname)
+$ cd ../test1
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1
+$ git clone git@github.com:lucfe2010/images-1.git
+Cloning into 'images-1'...
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 13 (delta 2), reused 9 (delta 2), pack-reused 0
+Receiving objects: 100% (13/13), 160.86 KiB | 285.00 KiB/s, done.
+Resolving deltas: 100% (2/2), done.
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1
+$ cd images-1/
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1/images-1 (master)
+$ git remote -v
+origin  git@github.com:lucfe2010/images-1.git (fetch)
+origin  git@github.com:lucfe2010/images-1.git (push)
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1/images-1 (master)
+$ git branch -vv
+* master 0a5aeaa [origin/master] Upload by PicGo
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1/images-1 (master)
+$ git remote remove origin
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1/images-1 (master)
+$ git remote -v
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1/images-1 (master)
+$ git branch -vv
+* master 0a5aeaa Upload by PicGo
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1/images-1 (master)
+$ git remote add origin git@github.com:lucfe2010/test.git
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1/images-1 (master)
+$ git remote -v
+origin  git@github.com:lucfe2010/test.git (fetch)
+origin  git@github.com:lucfe2010/test.git (push)
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1/images-1 (master)
+$ git branch -v
+* master 0a5aeaa Upload by PicGo
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1/images-1 (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1/images-1 (master)
+$ git push -u origin master
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/lucfe2010/test/pull/new/master
+remote:
+To github.com:lucfe2010/test.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1/images-1 (master)
+$ git remote -v
+origin  git@github.com:lucfe2010/test.git (fetch)
+origin  git@github.com:lucfe2010/test.git (push)
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1/images-1 (master)
+$ git branch -vv
+* master 0a5aeaa [origin/master] Upload by PicGo
+
+
+---
+
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1
+$ cd test3
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test3
+$ git clone git@github.com:lucfe2010/test.git
+Cloning into 'test'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 11 (delta 2), reused 11 (delta 2), pack-reused 0
+Receiving objects: 100% (11/11), 160.61 KiB | 309.00 KiB/s, done.
+Resolving deltas: 100% (2/2), done.
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test3
+$ git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test3
+$ cd test
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test3/test (newbrachname)
+$ git remote -v
+origin  git@github.com:lucfe2010/test.git (fetch)
+origin  git@github.com:lucfe2010/test.git (push)
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test3/test (newbrachname)
+$ git branch -vv
+* newbrachname 6c2d445 [origin/newbrachname] 4253
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test3/test (newbrachname)
+$ git remote set-url origin git@github.com:lucfe2010/images-1.git
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test3/test (newbrachname)
+$ git remote -v
+origin  git@github.com:lucfe2010/images-1.git (fetch)
+origin  git@github.com:lucfe2010/images-1.git (push)
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test3/test (newbrachname)
+$ git branch -vv
+* newbrachname 6c2d445 [origin/newbrachname] 4253
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test3/test (newbrachname)
+$ git push
+Everything up-to-date
+
+
+---
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4
+$ git clone git@github.com:lucfe2010/test.git
+Cloning into 'test'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 11 (delta 2), reused 11 (delta 2), pack-reused 0
+Receiving objects: 100% (11/11), 160.61 KiB | 261.00 KiB/s, done.
+
+Resolving deltas: 100% (2/2), done.
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4
+$ cd test
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4/test (newbrachname)
+$ git remote -v
+origin  git@github.com:lucfe2010/test.git (fetch)
+origin  git@github.com:lucfe2010/test.git (push)
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4/test (newbrachname)
+$ git branch -vv
+* newbrachname 6c2d445 [origin/newbrachname] 4253
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4/test (newbrachname)
+$ git remote add myrepo git@github.com:lucfe2010/images-1.git
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4/test (newbrachname)
+$ git remote -v
+myrepo  git@github.com:lucfe2010/images-1.git (fetch)
+myrepo  git@github.com:lucfe2010/images-1.git (push)
+origin  git@github.com:lucfe2010/test.git (fetch)
+origin  git@github.com:lucfe2010/test.git (push)
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4/test (newbrachname)
+$ git branch -vv
+* newbrachname 6c2d445 [origin/newbrachname] 4253
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4/test (newbrachname)
+$ git branch myb
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4/test (newbrachname)
+$ git checkout myb
+Switched to branch 'myb'
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4/test (myb) 
+$ git fetch myrepo
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 56.66 KiB | 118.00 KiB/s, done.
+From github.com:lucfe2010/images-1
+ * [new branch]      main         -> myrepo/main
+ * [new branch]      master       -> myrepo/master
+ * [new branch]      myb          -> myrepo/myb
+ * [new branch]      newbrachname -> myrepo/newbrachname
+
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4/test (myb)
+$ git branch -u myrepo/myb
+branch 'myb' set up to track 'myrepo/myb'.
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4/test (myb) 
+$ git branch -vv
+* myb          6c2d445 [myrepo/myb] 4253
+  newbrachname 6c2d445 [origin/newbrachname] 4253
+
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test4/test (myb) 
+$ git pull
+Already up to date.
+
+---
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test5
+$ git clone git@github.com:lucfe2010/test.git
+Cloning into 'test'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 11 (delta 2), reused 11 (delta 2), pack-reused 0
+Receiving objects: 100% (11/11), 160.61 KiB | 302.00 KiB/s, done.
+
+Resolving deltas: 100% (2/2), done.
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test5
+$ cd test
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test5/test (newbrachname)
+$ git remote -v
+origin  git@github.com:lucfe2010/test.git (fetch)
+origin  git@github.com:lucfe2010/test.git (push)
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test5/test (newbrachname)
+$ git branch -v
+* newbrachname 6c2d445 4253
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test5/test (newbrachname)
+$ git remote add myrepo git@github.com:lucfe2010/images-1.git
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test5/test (newbrachname)
+$ git remote -v
+myrepo  git@github.com:lucfe2010/images-1.git (fetch)
+myrepo  git@github.com:lucfe2010/images-1.git (push)
+origin  git@github.com:lucfe2010/test.git (fetch)
+origin  git@github.com:lucfe2010/test.git (push)
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test5/test (newbrachname)
+$ git fetch myrepo
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 56.66 KiB | 118.00 KiB/s, done.
+From github.com:lucfe2010/images-1
+ * [new branch]      main         -> myrepo/main
+ * [new branch]      master       -> myrepo/master
+ * [new branch]      myb          -> myrepo/myb
+ * [new branch]      newbrachname -> myrepo/newbrachname
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test5/test (newbrachname)
+$ git checkout -b myb myrepo/myb
+Switched to a new branch 'myb'
+branch 'myb' set up to track 'myrepo/myb'.
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test5/test (myb) 
+$ git branch -vv
+* myb          6c2d445 [myrepo/myb] 4253
+  newbrachname 6c2d445 [origin/newbrachname] 4253
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test5/test (myb) 
+$ git remote -v
+myrepo  git@github.com:lucfe2010/images-1.git (fetch)
+myrepo  git@github.com:lucfe2010/images-1.git (push)
+origin  git@github.com:lucfe2010/test.git (fetch)
+origin  git@github.com:lucfe2010/test.git (push)
+
+
+
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test5/test (myb) 
+$ git pull
+Already up to date.
