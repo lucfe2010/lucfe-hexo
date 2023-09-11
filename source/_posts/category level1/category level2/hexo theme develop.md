@@ -4,7 +4,7 @@ toc: true
 categories: [category1 level1, category1 level2]
 ---
 
-{% raw %}
+
 
 
 ## hexo theme variables
@@ -904,4 +904,3 @@ category.ejs 页面只显示单个分类，当你点击分类 1 跳转过去的�
 
 
 
-{% endraw %}
