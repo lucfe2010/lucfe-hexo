@@ -1,35 +1,40 @@
+---
+title: 11ty wiki
+---
+
+
 1. 查看当前地址
-npm config get registry
+`npm config get registry`
 复制
 
 2. 设置当前地址（设置为淘宝镜像）
-不要用这个npm config set registry http://registry.npm.taobao.org/
-npm config set registry https://registry.npmmirror.com
+不要用这个`npm config set registry http://registry.npm.taobao.org/`
+`npm config set registry https://registry.npmmirror.com`
 复制
 3. 设置当前地址（设置为默认地址）
-npm config set registry https://registry.npmjs.org/
+`npm config set registry https://registry.npmjs.org/`
 
 
 MAKE A PROJECT DIRECTORY 
 Create a directory for your project using the mkdir command (short for make directory):
 
-mkdir eleventy-sample
+`mkdir eleventy-sample`
 Now move into that directory with the cd command (short for change directory):
 
-cd eleventy-sample
+`cd eleventy-sample`
 
 
 ## INSTALL ELEVENTY 
 ### CREATE A package.json 
 Installing Eleventy into a project requires a package.json file. The npm command (provided by Node.js) will create one for you with npm init -y. -y tells npm to use default values and skips the command line questionnaire.
 
-npm init -y
+`npm init -y`
 
 
 ### INSTALL ELEVENTY 
 @11ty/eleventy is published on npm and we can install and save it into our project’s package.json by running:
 
-npm install @11ty/eleventy --save-dev
+`npm install @11ty/eleventy --save-dev`
 You may also install Eleventy globally but the package.json installation method above is recommended.
 
 ## RUN ELEVENTY 
@@ -42,8 +47,11 @@ A template is a content file written in a format such as Markdown, HTML, Liquid,
 
 Let’s run two commands to create two new template files.
 
+```bash
 echo '<!doctype html><title>Page title</title><p>Hi</p>' > index.html
 echo '# Page header' > README.md
+```
+
 Alternatively, you can create these using any text editor—just make sure you save them into your project folder and they have the correct file extensions.
 
 ### After you’ve created an HTML template and a Markdown template, let’s run Eleventy again with the following command:
@@ -51,11 +59,13 @@ Alternatively, you can create these using any text editor—just make sure you s
 npx @11ty/eleventy
 The output might look like this:
 
+```bash
 npx @11ty/eleventy
 [11ty] Writing _site/README/index.html from ./README.md (liquid)
 [11ty] Writing _site/index.html from ./index.html (liquid)
 [11ty] Wrote 2 files in 0.04 seconds (v2.0.1)
 We’ve compiled our two content templates in the current directory into the output folder (_site is the default).
+```
 
 ## GAZE UPON YOUR TEMPLATES 
 Use --serve to start up a hot-reloading local web server.
@@ -63,6 +73,7 @@ Use --serve to start up a hot-reloading local web server.
 npx @11ty/eleventy --serve
 Your command line might look something like:
 
+```bash
 npx @11ty/eleventy --serve
 [11ty] Writing _site/index.html from ./index.html (liquid)
 [11ty] Writing _site/README/index.html from ./README.md (liquid)
@@ -70,18 +81,24 @@ npx @11ty/eleventy --serve
 [11ty] Watching…
 [11ty] Server at http://localhost:8080/
 Open http://localhost:8080/ or http://localhost:8080/README/ in your favorite web browser to see your Eleventy site live! When you save your template files—Eleventy will refresh the browser with your new changes automatically!
+```
 
 
 ## USE A BUILD SCRIPT 
 When deploying your Eleventy site, the goal is to provide your chosen host with your project’s build output (the _site folder by default). The command you run is usually configured via a build script in your package.json file. It might look like this:
 ## DEPOLY ON GITHUB PAGES.0B
 
+
 FILENAME package.json
+
+```json
+
 {
   "scripts": {
     "build": "npx @11ty/eleventy"
   }
 }
+```
 
 ### New files in your GitHub repo
 .nojekyll file: Open a plain-text editor and save an empty file in the root of your repo (where you have the .eleventy.js) with the filename .nojekyll. This will stop GitHub from trying to build your site as a Jekyll site.
@@ -89,8 +106,9 @@ FILENAME package.json
 .github directory: Create a new directory in the root of your repo and name it .github (yes, starting with a period). Inside that directory, make a directory named workflows. Open a plain-text editor and save a file inside the workflows directory called build.yml. Copy the contents from my build.yml file here.
 Note: my build.yml file was updated 6/14/23 with Node version improvements thanks to Simon Wiles
 
+{% raw %}
 
-```YML
+```yml
 name: Build Eleventy
 on:
   push:
@@ -127,6 +145,8 @@ jobs:
           publish_branch: gh-pages
 ```
 
+{% endraw %}
+
 Depending on your Eleventy setup, you may need to change publish_dir in your build.yml file. My Eleventy site builds to a folder called dist. If yours builds to a folder with a different name, change it in this file.
 
 ### GitHub configuration
@@ -161,13 +181,20 @@ To denote that a piece of content should be wrapped in a template, use the layou
 
 content-using-layout.md
 
+{% raw %}
+
 ```markdown
 ---
+
 layout: "layouts/mylayout.njk"
 title: My Rad Markdown Blog Post
+
 ---
-# {{ title }}
+`# {{ title }}`
+
 ```
+
+{% endraw %}
 
 This will look for a mylayout.njk Nunjucks file in your includes folder at _includes/layouts/mylayout.njk.
 
@@ -175,10 +202,12 @@ This will look for a mylayout.njk Nunjucks file in your includes folder at _incl
 
 FILENAME _includes/mylayout.njk
 
-```
+```md
+{% raw %}
 
 ---
 title: My Rad Blog
+
 ---
 
 <!doctype html>
@@ -192,7 +221,7 @@ title: My Rad Blog
     {{ content | safe }}{% endraw %}
   </body>
 </html>
-
+{% endraw %}
 
 ```
 

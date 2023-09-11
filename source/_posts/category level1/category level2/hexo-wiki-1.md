@@ -255,7 +255,7 @@ Although you can write your posts in any formats, but the tag plugins will alway
 ### Link
 Inserts a link with target="_blank" attribute.
 
-{% link text url [external] [title] %}
+{% raw %}{% link text url [external] [title] %}{% endraw %}
 
 ### Include Code
 Inserts code snippets in source/downloads/code folder. The folder location can be specified through the code_dir option in the config.
@@ -287,18 +287,24 @@ Post’s title and custom text are escaped by default. You can use the escape op
 
 Display title of the post.
 
+{% raw %}
 {% post_link hexo-3-8-released %}
+{% endraw %}
+
 
 Hexo 3.8.0 Released
 Display custom text.
 
+{% raw %}
 {% post_link hexo-3-8-released 'Link to a post' %}
+{% endraw %}
 
 Link to a post
 Escape title.
 
+{% raw %}
 {% post_link hexo-4-released 'How to use <b> tag in title' %}
-
+{% endraw %}
 
 
 ### Raw
@@ -313,7 +319,9 @@ content
 ### Image
 Inserts an image with specified size.
 
+{% raw %}
 {% img [class names] /path/to/image [width] [height] '"title text" "alt text"' %}
+{% endraw %}
 
 #### Embedding an image using markdown
 hexo-renderer-marked 3.1.0 introduced a new option that allows you to embed an image in markdown without using asset_img tag plugin.
@@ -341,7 +349,9 @@ Once enabled, an asset image will be automatically resolved to its corresponding
 
 Default (no option)
 
+{% raw %}
 {% asset_img foo.jpg %}
+{% endraw %}
 
 `<img src="/2020/01/02/hello/foo.jpg">`
 

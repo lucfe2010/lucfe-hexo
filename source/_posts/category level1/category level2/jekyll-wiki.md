@@ -148,7 +148,7 @@ none  /:categories/:title:output_ext
 Markdown › Copy Files: Destination
 Defines where files copied created by drop or paste should be created. This is a map from globs that match on the Markdown document to destinations.
 item value
-"*"  /assets/images/${documentBaseName}/
+{% raw %}`"*"  /assets/images/${documentBaseName}/`{% endraw %}
 
 when copy image to vs code the `![]()`,is relative path like
 ../../../assets/images/2023-09-05-jekyll-wiki/image-6.png
@@ -168,7 +168,7 @@ These are the partials that can be mixed and matched by your layouts and posts t
 
 _layouts
 
-These are the templates that wrap posts. Layouts are chosen on a post-by-post basis in the front matter, which is described in the next section. The liquid tag {{ content }} is used to inject content into the web page.
+These are the templates that wrap posts. Layouts are chosen on a post-by-post basis in the front matter, which is described in the next section. The liquid tag {% raw %} {{ content }} {% endraw %} is used to inject content into the web page.
 
 _posts
 
