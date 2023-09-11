@@ -266,6 +266,8 @@ In static mode, only files in the public folder will be served and file watching
 
 4. Navigate to your repository settings and change the “Pages” branch to gh-pages (or the branch specified in your config). The deployed site should be live on the link shown on the “Pages” setting.
 
+5. 注意在部署的REPOSITORY主目录下加入.jekyll文件
+
 - 部署步骤
 每次部署的步骤，可按以下三步来进行。
 
