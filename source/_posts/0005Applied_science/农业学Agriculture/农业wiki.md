@@ -3,9 +3,9 @@
 植物生产类 090101 农学 农学
 农业工程类 082301 农业工程 工学
 
-![Alt text](../../assets/images/农业wiki/image-5.png)
+![Alt text](/assets/images/农业wiki/image-5.png)
 
-![Alt text](../../assets/images/农业wiki/image-6.png)
+![Alt text](/assets/images/农业wiki/image-6.png)
 
 《农业气象学》、
 
@@ -24,9 +24,9 @@
 
 《农业经济管理》
 
-![Alt text](../../assets/images/农业wiki/image-4.png)
+![Alt text](/assets/images/农业wiki/image-4.png)
 
-![Alt text](../../assets/images/农业wiki/image-3.png)
+![Alt text](/assets/images/农业wiki/image-3.png)
 
 ## 谷物为主
 
@@ -82,7 +82,7 @@
 
 ### 荞麦
 
-![Alt text](../../assets/images/农业wiki/image-1.png)
+![Alt text](/assets/images/农业wiki/image-1.png)
 
 荞麦（Fagopyrum esculentum Moench），别名：净肠草、乌麦、三角麦，是蓼科（Polygonaceae）
 
@@ -105,7 +105,7 @@
 
 ### 黍
 
-![Alt text](../../assets/images/农业wiki/image.png)
+![Alt text](/assets/images/农业wiki/image.png)
 
 黍一般是指现代的黄米。黍去皮后叫黄米,粟一般是指现代的小米，外壳的颜色是红色。颗粒比小米要大一些
 
@@ -179,7 +179,7 @@
 
 ### 豇jiāng豆
 
-![Alt text](../../assets/images/农业wiki/image-2.png)
+![Alt text](/assets/images/农业wiki/image-2.png)
 
 豇豆（Vigna unguiculata (L.) Walp.），豆科豇豆属一年生缠绕、草质藤本或近直立草本植物
 豇豆的嫩豆荚和豆粒味道鲜美，食用方法多种多样，可炒、煮、炖、拌、做馅等。嫩豆荚可炒食，也可凉拌，另外还可用于加工腌泡、速冻、干制、保鲜菜,加工成罐头等。干种子还可以煮粥、煮饭、制酱、制粉。
