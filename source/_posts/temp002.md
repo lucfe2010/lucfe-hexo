@@ -170,20 +170,4 @@ GTD (Getting Things Done)
 
 Getting Things Done was created by David Allen. The basic idea behind this method is to finish all the small tasks immediately and a big task is to be divided into smaller tasks to start completing now. The reasoning behind this is to avoid the information overload or "brain freeze" which is likely to occur when there are hundreds of tasks. The thrust of GTD is to encourage the user to get their tasks and ideas out and on paper and organized as quickly as possible so they're easy to manage and see.
 
-## plans by lucfe
-
-everyday
-
-
-english
-math
-中文 news reading  1 hr
-
-science
-each one from the three
-
-natural science
-social science
-apllied science
-
 
