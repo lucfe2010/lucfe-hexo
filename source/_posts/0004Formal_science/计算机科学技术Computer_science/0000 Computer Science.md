@@ -199,3 +199,161 @@ DoT：v6.rubyfish.cn
 DoH：<https://v6.rubyfish.cn/dns-query>
 腾讯 IPv6 DNS
 2402:4e00::
+
+## Computer science
+
+### computer hardware
+
+#### Theory of computation
+
+- Automata theory (Formal languages)
+
+- Computability theory
+
+- Computational complexity theory
+
+- Concurrency theory
+
+#### VLSI design
+
+#### Computer architecture
+
+#### Distributed computing
+
+- Grid computing
+
+#### Parallel computing
+
+- High-performance computing
+
+#### Operating systems
+
+#### Human–computer interaction
+
+#### Computer communications (networks)
+
+- Information theory
+
+- Internet, World Wide Web
+
+- Wireless computing (Mobile computing)
+
+- Ubiquitous computing
+
+- Cloud computing
+
+### computer software
+
+#### Information science
+
+- Data management
+
+- Data mining
+
+- Database (outline)
+
+  - Relational database
+
+  - Distributed database
+
+  - Object database
+
+- Information retrieval
+
+- Information management
+
+- Information system
+
+- Information technology
+
+- Knowledge management
+
+- Multimedia, hypermedia
+
+  - Sound and music computing
+
+#### Database
+
+#### Data structures
+
+#### Algorithms
+
+- Randomized algorithms
+
+- Distributed algorithms
+
+- Parallel algorithms
+
+- Computational geometry
+
+#### Computer program
+
+#### Computer programming
+
+#### Programming languages
+
+- Programming paradigms
+
+  - Imperative programming
+
+  - Object-oriented programming
+
+  - Functional programming
+
+  - Logic programming
+
+  - Concurrent programming
+
+- Program semantics
+
+- Type theory
+
+- Compilers
+
+#### Software engineering
+
+- Formal methods (Formal verification)
+
+### others
+
+#### Computer security and reliability
+
+- Cryptanalysis
+
+- Cryptography
+
+- Fault-tolerant computing
+
+#### Computer graphics
+
+- Image processing
+
+- Scientific visualization
+
+#### Artificial intelligence
+
+- Cognitive science
+
+  - Automated reasoning
+
+  - Machine learning
+
+  - Artificial neural network
+
+  - Support vector machine
+
+  - Natural language processing (Computational linguistics)
+
+  - Computer vision (outline)
+
+- Expert systems
+
+- Robotics (outline)
+
+#### Computing in engineering
+
+- Computer-aided engineering
+
+  - Finite element analysis
+
+  - Computational fluid dynamics
