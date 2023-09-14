@@ -140,6 +140,23 @@ Git figures out that it’s a rename implicitly, so it doesn’t matter if you r
 
 you can use any tool you like to rename a file, and address the add/rm later, before you commit.
 
+### github git vsCode proxy setting
+
+1. vsCode setting
+
+   ```yml
+   "http.proxyAuthorization": null,
+   "http.proxy": "http://127.0.0.1:8000",
+   "https.proxy": "http://127.0.0.1:8000"
+   ```
+
+2. git bash command
+
+   ```bash
+   git config -global http.proxy http://127.0.0.1:8000
+   git config -global https.proxy http://127.0.0.1:8000
+   ```
+
 ## basic commands
 
 ![Alt text](</assets/images/git wiki/image-19.png>)
