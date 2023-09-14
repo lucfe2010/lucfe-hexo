@@ -3,20 +3,20 @@
 ## 1
 
 查找替换
-查找 Ctrl+F
-查找替换 Ctrl+H
+Ctrl+F | 查找
+Ctrl+H | 查找替换
 
-F3 / Shift+F3 Find next/previous
-Alt+Enter Select all occurences of Find match
+F3 / Shift+F3 | Find next/previous
+Alt+Enter | Select all occurences of Find match
 
-Ctrl+D Add selection to next Find match下一个匹配的也被选中
-Select all occurrences of current selection同时选中所有匹配的 Ctrl+Shift+L
+Ctrl+D | Add selection to next Find match下一个匹配的也被选中
 
-Ctrl+F2 Select all occurrences of current word
+Ctrl+Shift+L | Select all occurrences of current selection同时选中所有匹配的
+Ctrl+F2 | Select all occurrences of current word
 
-Ctrl+K Ctrl+D Move last selection to next Find match
+Ctrl+K Ctrl+D | Move last selection to next Find match将光标移动到，搜索结果中的下一个
 
-整个文件夹中查找 Ctrl+Shift+F
+Ctrl+Shift+F | 整个文件夹中查找
 
 file to include or exclude
 path segment匹配符：
@@ -34,8 +34,8 @@ path segment匹配符：
  zoomIn/zoomOut：Ctrl + =/Ctrl + -
  侧边栏显/隐：Ctrl+B
 
- 侧边栏4大功能显示：
- Show Explorer Ctrl+Shift+E
+侧边栏4大功能显示：
+  Show Explorer Ctrl+Shift+E
   Show Search Ctrl+Shift+F
   Show Git Ctrl+Shift+G
   Show Debug Ctrl+Shift+D
@@ -76,7 +76,7 @@ Ctrl+K P Copy path of active file
 
 在Ctrl+P下输入>又可以回到主命令框 Ctrl+Shift+P模式。
 
-### quick open, go to file
+#### quick open, go to file
 
 直接输入文件名，快速打开文件
 ? 列出当前可执行的动作
@@ -94,7 +94,7 @@ Ctrl+K P Copy path of active file
 
 查看diff 在explorer里选择文件右键 Set file to compare，然后需要对比的文件上右键选择Compare with 'file_name_you_chose'.
 
-Ctrl+Space, Ctrl+I Trigger suggestion
+Ctrl+Space 或 Ctrl+I Trigger suggestion
 
 Ctrl+. Quick Fix
 
@@ -110,57 +110,52 @@ Ctrl+K Ctrl+F Format selection
 列出所有的引用：Shift+F12
 同时修改本文件中所有匹配的：Ctrl+F12
 
-## 4
+## editing
 
-代码行缩进Ctrl+[， Ctrl+]
+| KEYS | ACTION |
+| --- | --- |
+| Ctrl + [ / ] | 代码行缩进 |
+| Ctrl + Shift + [ / ] | 折叠打开代码块  |
+| Ctrl+K Ctrl+0 | Fold (collapse) all regions |
+| Ctrl+K Ctrl+J | Unfold (uncollapse) all regions |
+| Ctrl + X | 如果不选中，默认复制或剪切一整行 |
+| Ctrl + C | 如果不选中，默认复制或剪切一整行 |
+| Alt + Up / Down | 上下移动一行 |
+| Shift+Alt+Up 或 Shift+Alt+Down | 向上向下复制一行 |
+| Ctrl+Enter | 在当前行下边插入一行 |
+| Ctrl+Shift+Enter | 在当前行上方插入一行 |
 
-折叠打开代码块 Ctrl+Shift+[， Ctrl+Shift+]
+## 光标相关
 
-Ctrl+K Ctrl+0 Fold (collapse) all regions
-Ctrl+K Ctrl+J Unfold (uncollapse) all regions
+| KEYS | ACTION |
+| --- | --- |
+| Home | 移动到行首： |
+| End | 移动到行尾： |
+| Ctrl+End | 移动到文件结尾： |
+| Ctrl+Home | 移动到文件开头： |
+| Ctrl+Shift+\ | 移动到后半个括号 |
+| Ctrl+L | Select current line 选中当前行 |
+| Shift+End | 选择从光标到行尾 |
+| Shift+Home | 选择从行首到光标处 |
+| Ctrl + Shift + K | 删除光标所在行 |
+| Ctrl + Left / Right | 一个单词一个单词的移动光标 |
+| Shift + Left / Right | 一个字母一个字母的加入选择 |
+| Ctrl + Shift + Left / Right | 一个单词一个单词的加入选择 |
+| Shift + Alt + Left / Right | Shrink/expand selection（光标所在单词，文档高亮显示相同的） |
 
-Ctrl + x, Ctrl+C Ctrl+V如果不选中，默认复制或剪切一整行
+### multi cursor
 
- 上下移动一行： Alt+Up 或 Alt+Down
- 向上向下复制一行： Shift+Alt+Up或Shift+Alt+Down
+| KEYS | ACTION |
+| --- | --- |
+| Alt+Click | Multi-Cursor：可以连续选择多处，然后一起修改，添加cursor |
+| Ctrl+Alt+Down 或 Ctrl+Alt+Up | Insert cursor above / below  |
+| Ctrl + Shift + Alt + (arrow key) | Column (box) selection |
+| Shift+Alt+I | Insert cursor at end of each line selected |
+| Ctrl+U | 回退上一个光标操作 |
+| Ctrl+↑ / ↓ | Scroll line up/down |
+| Alt+PgUp / PgDn | Scroll page up/down, not change the cusor location |
 
- 在当前行下边插入一行Ctrl+Enter
- 在当前行上方插入一行Ctrl+Shift+Enter
-
-## 5
-
- 光标相关
- 移动到行首：Home
- 移动到行尾：End
- 移动到文件结尾：Ctrl+End
- 移动到文件开头：Ctrl+Home
-
-移动到后半个括号 Ctrl+Shift+\
-
-Ctrl+L Select current line 选中当前行
-
- 选择从光标到行尾Shift+End
- 选择从行首到光标处Shift+Home
-
- 删除光标所在行Ctrl+Delete 或 Ctrl + Shift + K
-
- Shrink/expand selection（光标所在单词，文档高亮显示相同的）： Shift+Alt+Left和Shift+Alt+Right
-
-### 7
-
- Multi-Cursor：可以连续选择多处，然后一起修改，Alt+Click添加cursor
- Insert cursor above / below Ctrl+Alt+Down 或 Ctrl+Alt+Up
-
- Shift+Alt+I Insert cursor at end of each line selected
-
- Ctrl+Shift + Alt + (arrow key)  Column (box) selection
-
- 回退上一个光标操作Ctrl+U
-
- Ctrl+↑ / ↓ Scroll line up/down
-Alt+PgUp / PgDn Scroll page up/down
-
-### comment
+## comment
 
 Ctrl+K Ctrl+C Add line comment
 Ctrl+K Ctrl+U Remove line comment
