@@ -49,7 +49,9 @@ Unimportant/Not Urgent quadrant tasks are dropped, e.g. time wasters, pleasant a
 > delegate授(权);
 > If you delegate duties, responsibilities, or power to someone, you give them those duties, those responsibilities, or that power so that they can act on your behalf.
 
-![Alt text](/assets/images/temp002/image.png)
+![Alt text](</assets/images/time management/image.png>)
+
+
 A basic "Eisenhower box" to help evaluate urgency and importance. Items may be placed at more precise points within each quadrant.
 
 ---

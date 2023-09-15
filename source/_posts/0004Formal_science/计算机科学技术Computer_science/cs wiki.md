@@ -61,7 +61,7 @@ In a framework, unlike in libraries or in standard user applications, the overal
 
 The intent of the template method is to define the overall structure of the operation, while allowing subclasses to refine, or redefine, certain steps
 
-![Alt text](/assets/images/temp001/image.png)
+![Alt text](</assets/images/cs wiki/image.png>)
 
 ### Abstraction
 

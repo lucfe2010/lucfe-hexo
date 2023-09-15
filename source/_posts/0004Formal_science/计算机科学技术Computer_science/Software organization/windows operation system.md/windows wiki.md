@@ -773,3 +773,12 @@ b.如果还是在继续运行，service列表中还显示的话，用管理员�
 
 至此就可以完全卸载掉了。
 
+## Win10的序列号查询
+
+本机的Win10的序列号很容易查出来，按“Win”+ “R”，运行powershell，然后执行以下命令：
+(Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey
+
+## 输入法
+
+
+半角状态就是说输入法状态条中，那半月形变为圆形时为全角这时输入的英文字母及数字与汉字等大，半角当然是输入法状态条中为半月形时的状态了，这时输入的英文字母及数字不与汉字等大为汉字一半(全角占用两个字节)。

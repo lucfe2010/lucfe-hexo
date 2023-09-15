@@ -31,14 +31,14 @@
 双馈式风机为例，风电轴承主要分变桨、偏航轴承和传动系统轴承（主轴、齿轮箱及电机轴承）两大类，每台风力发电机内各类轴承配套数量为主轴轴承 1-2 个（小兆瓦用 1 个，大兆瓦用 2 个）、偏航轴承 1 个、变桨轴承 3 个、发电机轴承 1 套和齿轮箱轴承 1 套。
 主轴和齿轮箱轴承用到球面滚子轴承、单排/双排大直径圆锥滚子轴承和圆筒形滚柱轴承等，应用于偏航、变桨的旋转枢轴轴承等。
 
-![Alt text](/assets/images/wiki_1/image-3.png)
+![Alt text](/assets/images/风机wiki/image-3.png)
 
 偏航轴承:连接机舱和塔筒，跟踪风向的变化，确保最大的发电量
 变桨轴承:位于叶片与轮毂之间，调整桨叶迎风角度，使其达到最佳状态
 风电轴承的关键技术主要体现在设计、材料、防腐和密封等方面，主轴轴承和齿轮箱轴 承还需进行高精度加工，偏航、变桨轴承则需要解决好游隙设计和磨削加工滚道技术等。
 轴承设计对设备运行的寿命和稳定性有重要影响
 
-![Alt text](/assets/images/wiki_1/image-4.png)
+![Alt text](/assets/images/风机wiki/image-4.png)
 
 前国内部分厂家能够生产风电轴承，但主要集中在 2MW 及以下风电轴承，对于 3MW 及以上风电轴承，由于技术难度高，国内生产还处于起步阶段，进口依赖度较高，中大型轴承本土产量占比不足 13%。
 齿轮箱轴承目前的国产化程度较低,由于齿轮箱的工况更加恶劣，鉴于高昂的维保成本，对齿轮箱轴承的稳定性和可靠性要求更高
@@ -47,7 +47,7 @@
 独立变桨系统包括液压变桨距系统和电动变桨距系统两种。大型风力发电机组发展的趋势是采用电动变桨距系统。
 独立变桨轴承的结构也将从单排、双排、球轴承向承载力更强的三排圆柱滚子轴承转变，单套价值量有所提升，驱动变桨轴承市场扩容。
 
-![Alt text](/assets/images/wiki_1/image-5.png)
+![Alt text](/assets/images/风机wiki/image-5.png)
 
 国内风电机组中，水平轴风电机组是主要机型，水平轴主要包括双馈型机组（带增速齿轮箱）、直驱型机组（不带增速齿轮箱）和半直驱型机组（带中速齿轮箱的直驱系统）,其中又以双馈型机组为主，
 双馈和直驱型机组全面对比：各具优劣势，中长期半直驱/直驱型占比提升
@@ -58,32 +58,32 @@
 从可靠性方面来看，直驱机组的可靠性最高
 长期来看，风机往更高功率方向演进，半直驱和直驱具有天然的可靠性优势，两者的装机占比有望进一步提升。
 
-![Alt text](/assets/images/wiki_1/image-6.png)
+![Alt text](/assets/images/风机wiki/image-6.png)
 
 调心性能，可以自动调整因轴与轴承座之间的角度误差所产生的倾斜或轴的挠曲。
 调心滚子轴承可以承受较大的径向载荷与双向轴向载荷。
 
-![Alt text](/assets/images/wiki_1/image-7.png)
+![Alt text](/assets/images/风机wiki/image-7.png)
 
 单列圆锥滚子轴承可以承受一个方向的轴向载荷。并能限制轴相对轴承座一个方向的轴向位移。
 
-![Alt text](/assets/images/wiki_1/image-8.png)
+![Alt text](/assets/images/风机wiki/image-8.png)
 
 "双列圆锥滚子轴承在承受以径向负荷同时，可承受双向轴向负荷，可在轴承的轴向游隙范围内，
 限制轴承或外壳的双向轴向位移。"
 
-![Alt text](/assets/images/wiki_1/image-9.png)
+![Alt text](/assets/images/风机wiki/image-9.png)
 
-![Alt text](/assets/images/wiki_1/image-10.png)
+![Alt text](/assets/images/风机wiki/image-10.png)
 
-![Alt text](/assets/images/wiki_1/image-11.png)
+![Alt text](/assets/images/风机wiki/image-11.png)
 
-![Alt text](/assets/images/wiki_1/image-12.png)
+![Alt text](/assets/images/风机wiki/image-12.png)
 
-![Alt text](/assets/images/wiki_1/image-13.png)
+![Alt text](/assets/images/风机wiki/image-13.png)
 
 变桨控制意味着叶片可以在 0°到 90°之间转动。在风速低于额定速度（通常为 12m/s）时，风轮叶片会转动到完全朝向风向，即桨距为 0°。当风速增大时，可以控制叶片桨距，将风机的输出功率调整到其额定值。当风速达到预定极限时（通常为 28m/s），风机将叶片转动到 90°，停止发电。
 
-![Alt text](/assets/images/wiki_1/image-14.png)
+![Alt text](/assets/images/风机wiki/image-14.png)
 
 滚动体行业具有较高的技术壁垒。

@@ -113,7 +113,7 @@ BLDC电机利用电力电子技术（变频器）输入控制讯号到马达，�
 新能源车驱动电机是电动车的核心部件之一，主要以永磁同步电机为主，占比超 80%，其他包括交流异步电机和开关磁阻电机等
 
 
-![Alt text](/assets/images/wiki_1/image.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image.png>)
 
 我国伺服市场近 70%的市场份额由外资品牌占据
 
@@ -122,38 +122,38 @@ BLDC电机利用电力电子技术（变频器）输入控制讯号到马达，�
 
 PLC（Programmable Logic Controller）即可编程控制器，是一种专用于工业控制的计算 机，使用可编程存储器储存指令，执行诸如逻辑、顺序、计时、计数与计算等功能，并通 过模拟或数字 I/O 组件，控制各种机械或生产过程的装置
 
-![Alt text](/assets/images/wiki_1/image-21.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image-21.png>)
 
 PLC 的工作原理是 “顺序扫描，不断循环”。PLC 的一个扫描周期经过输入采样、程序执行和输出刷新三个阶段。
 
-![Alt text](/assets/images/wiki_1/image-22.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image-22.png>)
 
 "一般的分类方式是按照 I/O 点数的数量分为大、中、小型 PLC。一般而言，I/O点数越多，控制关系越复杂，要求的程序存储器容量也越大，可编程控制器的指令及其他功
 能也较多，能够适应大型、复杂的控制任务。"
 
-![Alt text](/assets/images/wiki_1/image-23.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image-23.png>)
 
 一般大中型 PLC 用于汽车、冶金、市政等项目型市场，小型 PLC 一般用于通用性较强的 OEM（设备供应商）市场。
 其中纺织机械、包装机械、机床工具是小型 PLC 应用最多的领域，三个领域的市场规模占比约 50%。
 
-![Alt text](/assets/images/wiki_1/image-24.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image-24.png>)
 
 欧美和日系品牌占据国内 PLC 市场绝大份额
 PLC 是工业自动化领域国产化率最低的品种
 
-![Alt text](/assets/images/wiki_1/image-25.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image-25.png>)
 
 ## 机器视觉
 
 根据美国自动化成像协会（AIA）定义，机器 视觉指的是通过相机和计算机代替人的视觉感知和判断能力，以实现检测任务。它自动采集并分析图像，以获取 用于控制或评估特定零件与特定活动所需的数据。通俗来讲，即是利用机器代替人眼实现检测、判断和控制等功 能。
 
-![Alt text](/assets/images/wiki_1/image-15.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image-15.png>)
 
-![Alt text](/assets/images/wiki_1/image-16.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image-16.png>)
 
 典型的机器视觉应用系统包括图像捕捉、光源系统、图像数字化模块、数 字图像处理模块、智能判断决策模块和机械控制执行模块。
 
-![Alt text](/assets/images/wiki_1/image-17.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image-17.png>)
 
 视觉控制系统是对通过光源、镜头、相机获得的图像进行分析处理，并根据处理结果和一定的判决条件实现机器视觉功能目标的软件。
 
@@ -169,15 +169,15 @@ PLC 是工业自动化领域国产化率最低的品种
 
 直流伺服电机由于具有低电枢感应电抗，因此可实现精确和快速的启动或停止功能。它们多用于能通过微控制器或计算机控制的装备上
 
-![Alt text](/assets/images/wiki_1/image-18.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image-18.png>)
 
-![Alt text](/assets/images/wiki_1/image-19.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image-19.png>)
 
 我国伺服电机中高端市场主要被国外企业垄断，进口产品在我国工业机器人伺服市场上占有率达 70%以上。
 
 国产伺服与外资尚存在一定的差距，主要体现在高低速防振动方面。
 
-![Alt text](/assets/images/wiki_1/image-20.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image-20.png>)
 
 
 ## afagqag
@@ -188,7 +188,7 @@ PLC 是工业自动化领域国产化率最低的品种
 
 自耦变压器是指它的绕组是初级和次级在同一条绕组上的变压器，原、副绕组直接串联，自行耦合的变压器。根据结构还可细分为可调压式和固定式。自耦的耦是电磁耦合的意思，普通的变压器是通过原副边线圈电磁耦合来传递能量，原副边没有直接电的联系，自耦变压器原副边有直接电的联系，它的低压线圈就是高压线圈的一部分。
 
-![Alt text](assets/images/wiki_1/image-26.png)
+![Alt text](</assets/images/Electrical & Electronic Engineering wiki/image-26.png>)
 
 短路分断（short-circuit breaking）
 断路器可用来分配电能，不频繁地启动异步电动机，对电源线路及电动机等实行保护，当它们发生严重的过载或者短路及欠压等故障时能自动切断电路，其功能相当于熔断器式开关与过欠热继电器等的组合。而且在分断故障电流后一般不需要变更零部件。已获得了广泛的应用。

@@ -2,7 +2,6 @@
 
 ## The 2012 ACM Computing Classification System
 
-
 Hardware
 Printed circuit board
 Peripheral
@@ -13,13 +12,11 @@ Energy consumption (Green computing)
 Electronic design automation
 Hardware acceleration
 
-
 Computer systems organization
 Computer architecture
 Embedded system
 Real-time computing
 Dependability
-
 
 Networks
 Network architecture
@@ -29,14 +26,12 @@ Network scheduler
 Network performance evaluation
 Network service
 
-
 Software organization
 Interpreter
 Middleware
 Virtual machine
 Operating system
 Software quality
-
 
 Software notations and tools
 Programming paradigm
@@ -50,7 +45,6 @@ Software configuration management
 Software library
 Software repository
 
-
 Software development
 Control variable
 Software development process
@@ -63,8 +57,6 @@ Software maintenance
 Programming team
 Open-source model
 
-
-
 Theory of computation
 Model of computation
 Formal language
@@ -74,14 +66,12 @@ Computational complexity theory
 Logic
 Semantics
 
-
 Algorithms
 Algorithm design
 Analysis of algorithms
 Algorithmic efficiency
 Randomized algorithm
 Computational geometry
-
 
 Mathematics of computing
 Discrete mathematics
@@ -92,7 +82,6 @@ Information theory
 Mathematical analysis
 Numerical analysis
 Theoretical computer science
-
 
 Information systems
 Database management system
@@ -109,7 +98,6 @@ Computing platform
 Digital marketing
 World Wide Web
 Information retrieval
-
 
 Security
 Cryptography
@@ -128,14 +116,12 @@ Ubiquitous computing
 Visualization
 Accessibility
 
-
 Concurrency
 Concurrent computing
 Parallel computing
 Distributed computing
 Multithreading
 Multiprocessing
-
 
 Artificial intelligence
 Natural language processing
@@ -147,14 +133,12 @@ Control method
 Philosophy of artificial intelligence
 Distributed artificial intelligence
 
-
 Machine learning
 Supervised learning
 Unsupervised learning
 Reinforcement learning
 Multi-task learning
 Cross-validation
-
 
 Graphics
 Animation
@@ -165,7 +149,6 @@ Mixed reality
 Virtual reality
 Image compression
 Solid modeling
-
 
 Applied computing
 E-commerce

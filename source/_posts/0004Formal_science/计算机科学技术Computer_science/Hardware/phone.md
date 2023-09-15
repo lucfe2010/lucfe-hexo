@@ -10,4 +10,5 @@
 要想拍清楚远处的东西，就需要长焦距。
 
 不一定非得装两块反光镜，如果装一个反光棱镜，传感器的位置相应的调整即可。
-![Alt text](/assets/images/temp000/image.png)
+
+![Alt text](/assets/images/phone/image.png)

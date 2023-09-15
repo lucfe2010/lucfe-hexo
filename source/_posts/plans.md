@@ -2,9 +2,6 @@
 
 ## everyday plans
 
-
-
-
 english 语法
 math
 中文 news reading  1 hr
@@ -21,21 +18,18 @@ vs code
 windows
 chrome
 
-
 ## 待办
 
 整理
 temp 000 - 003
 news
 wik 1 - 2
-CHROME收藏夹 
-
+CHROME收藏夹
 
 新条目
 xmind 下载，以下文件的转换
 personal interest
 3dmax
-
 
 ## 总结
 
@@ -50,12 +44,3 @@ personal interest
 保护视力，在电脑每两小时，休息一下
 
 留意吃的蔬菜，第一次吃的日期是在公历的每年几月几号，从而推算收获日期，
-
-
-
-
-
-
-
-
-
