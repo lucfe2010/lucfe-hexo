@@ -1,4 +1,6 @@
-# 英文论文中“such as, for example, e.g., i.e., etc., et al. ”的用法分析
+# english
+
+## 英文论文中“such as, for example, e.g., i.e., etc., et al. ”的用法分析
 
 在英文论文的编辑加工中,常会遇到such as, for example, e. g. , i. e. , etc. 和et al. 的错误及混淆使用。这里,举例分析这几个词的意义,并阐述其正确用法。
 
@@ -39,3 +41,15 @@
 5) etc.。是et cetera的缩写,意思是“等等”,相当于“and so on”。可用来列举事物,若要列举人,则需用et al. 或用and others。
 
 6) et al.。是拉丁文简写。其一为et alibi (以及其他地方) ,相当于and elsewhere;其二为et alii (以及其他人) ,相当于and others。
+
+
+
+## organization组织 institution机构
+
+
+organization组织
+An organization is an assemblage of people who unite to undertake a common goal, led by a person or a group thereon.
+
+
+institution机构
+An institution is described a form of organization, which is set up for an educational, religious, social or professional cause.

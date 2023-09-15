@@ -1214,7 +1214,7 @@ An arcade game or coin-op game is a coin-operated entertainment machine typicall
   
 2.5D (two-and-a-half dimensional, alternatively pseudo-3D or three-quarter) perspective  
   
-Windows Display Driver Model [WDDM](0001_temp) is the graphic driver architecture for video card drivers running Microsoft Windows versions beginning with Windows Vista.  
+Windows Display Driver Model [WDDM](../0001_temp) is the graphic driver architecture for video card drivers running Microsoft Windows versions beginning with Windows Vista.  
   
 A system on a chip (SoC; /ˌɛsˌoʊˈsiː/ es-oh-SEE or /sɒk/ sock[nb 1]) is an integrated circuit (also known as a "chip") that integrates all or most components of a computer or other electronic system. These components almost always include a central processing unit (CPU), memory, input/output ports and secondary storage, often alongside other components such as radio modems and a graphics processing unit (GPU) – all on a single substrate or microchip  
 

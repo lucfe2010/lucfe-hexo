@@ -141,7 +141,7 @@ Ctrl+K Ctrl+F Format selection
 | Ctrl + Left / Right | 一个单词一个单词的移动光标 |
 | Shift + Left / Right | 一个字母一个字母的加入选择 |
 | Ctrl + Shift + Left / Right | 一个单词一个单词的加入选择 |
-| Ctrl + Shift + Up / Down | 一行行的加入选择 |
+| Shift + Up / Down | 一行行的加入选择 |
 | Shift + Alt + Left / Right | Shrink/expand selection（光标所在单词，文档高亮显示相同的） |
 
 ### multi cursor

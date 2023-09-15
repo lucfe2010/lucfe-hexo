@@ -1,6 +1,3 @@
----
-title: 20230912 news
----
 
 ## psychology
 
@@ -57,39 +54,3 @@ lasting for a long time; difficult to cure or get rid of
 > psychotic 精神病患者
 a person suffering from severe mental illness
 
-
-
-
-## search engine usage
-
-google 
-baidu
-\
-精确 模糊
-
-## ebook
-
-### amazon book
-
-set browser vpn -> usa
-the **book** product category can show up
-
-
-
-
-### science fiction
-
-末日之旅
-加斯汀 . 柯羅寧
-Justin Cronin
-zlibrary
-
-## english
-
-
-organization组织
-An organization is an assemblage of people who unite to undertake a common goal, led by a person or a group thereon.
-
-
-institution机构
-An institution is described a form of organization, which is set up for an educational, religious, social or professional cause.

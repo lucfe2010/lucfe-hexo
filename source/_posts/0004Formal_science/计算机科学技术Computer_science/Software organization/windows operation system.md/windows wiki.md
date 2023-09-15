@@ -724,3 +724,52 @@ added backslashes and broke the lines for readability, and you can do the same i
 .reg files.
 ● Line spacing. You can add blank lines for readability. Registry Editor ignores them.
 ● Comments. To add a comment line to a .reg file, begin the line with a semicolon.
+
+## ## 如何卸载windows的服务？卸载服务？
+
+找到一个需要卸载的服务
+
+双击打开
+
+![Alt text](</assets/images/Computer Science/image.png>)
+
+如何我们需要复制下来这个服务的名称
+
+![Alt text](</assets/images/Computer Science/image-1.png>)
+
+然后再cmd下输入 sc delete 服务名称来卸载服务
+
+输入完成之后回车即可
+
+卸载完成
+
+![Alt text](</assets/images/Computer Science/image-2.png>)
+
+安装到服务器的Windows Service卸载的时候出错了，结果在服务列表中就一直驻留，并且系统进程一直在运行，怎么都杀不掉。
+
+最后终于找到办法了：
+
+1.常规做法，批处理命令卸载
+
+Net Stop ServiceName
+sc delete ServiceName
+pause
+
+2.如果还是没办法，那就继续尝试
+
+a.找到系统注册表，删掉服务的注册表信息，通常路径在：HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services 找到你的Service服务的名字，然后把整个文件夹删掉
+
+b.如果还是在继续运行，service列表中还显示的话，用管理员权限打开cmd 命令 sc delete serviceName,如果提示 “the specified service is marked as deletion”。
+
+导致windows service不能部署，也不能被删除，使用 SC 命令也不奏效。确实冒了一把冷汗。经过10几分钟的折腾，终于弄明白了：原来是windows service database缓存的原因，reboot server可以完美解决问题。但实际上我们可以尝试:
+
+1. 关闭所有windows service控制面板。
+
+2. 查找windows service的PID：SC queryex service_name
+
+3. 杀掉进程：taskkill /PID service_pid /f
+
+这样就再也不用担心windows service部署了。
+
+至此就可以完全卸载掉了。
+
