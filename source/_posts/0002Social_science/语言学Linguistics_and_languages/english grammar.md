@@ -151,6 +151,67 @@ complement）。宾语和宾语补足语合起来叫做复合宾语。
 
 在例句1）中，在宾语John的后面添上一个is，即John is our chairman.这说得通，所以例句1）中的our chairman是宾语补足语。相反，在例句2）中，在宾语John的后面添上一个is，即John is a cake.*（约翰是一块蛋糕。）这显然讲不通，所以例句2）是一个双宾语结构，a cake是一个直接宾语。
 
+## 英语句子的主要成分
+
+英语句子的基本成分与一般句子结构类似，以下是英语句子的主要成分：
+
+1. 主语（Subject）：主语是句子中执行动作或被描述的主要对象或主体。主语通常是一个名词、代词或名词短语，它执行动词所表示的动作或状态。例如：She (她) is reading a book (正在读一本书)。
+
+2. 谓语（Predicate）：谓语是句子中描述主语动作、状态或属性的部分。它通常由一个动词或动词短语构成。例如：is reading (正在读)。
+
+3. 宾语（Object）：宾语是动作的接受者或受影响的对象，它通常是一个名词、代词或名词短语。有时也有间接宾语，它是谓语动作的间接受益者。例如：a book (一本书)。
+
+4. 补语（Complement）：补语是用来补充或描述主语或宾语的成分，它通常出现在动词之后，有时也可以出现在名词之后。例如：happy (高兴)。
+
+5. 状语（Adverbial）：状语是用来修饰动词、形容词、副词或整个句子的成分，它提供关于时间、地点、方式、原因等方面的信息。例如：yesterday (昨天)、quickly (快速地)、because of the rain (因为下雨)。
+
+6. 定语（Modifier）：定语是用来修饰名词或代词的成分，它提供关于名词或代词的额外信息。定语可以是形容词、限定性从句、不定式短语等。例如：the red car (红色的汽车)、the man who is standing (站着的那个人)。
+
+7. 连词（Conjunction）：连词是用来连接句子中不同部分的词语，使句子更加连贯。常见的连词包括"and"（和）、"but"（但是）、"because"（因为）等。
+
+8. 标点符号：标点符号如句号、问号、感叹号、逗号等在句子中起到分隔和标记的作用，帮助读者理解句子的结构和含义。
+
+这些成分构成了英语句子的基本结构，根据不同的句子类型和句子复杂程度，这些成分可以组合和变化。
+
+## 补语
+
+补语是一种用来补充或描述主语或宾语的成分，它可以分为以下几种分类，每种分类都有不同的类型和例子：
+
+1. 表语（Predicative Complement）：
+   - 表语是一种补语，通常出现在系动词（linking verb）后面，用来描述主语的状态、性质或身份。
+   - 例如：
+     - She is happy.（她很开心。）
+     - The flowers smell lovely.（这些花闻起来很可爱。）
+     - He became a doctor.（他成为了一名医生。）
+
+2. 宾补（Object Complement）：
+   - 宾补是一种补语，通常出现在及物动词后，用来进一步描述宾语。
+   - 例如：
+     - They painted the wall white.（他们把墙刷成了白色。）
+     - I find her behavior rude.（我认为她的行为粗鲁。）
+     - He considers the book his favorite.（他把这本书视为自己的最爱。）
+
+3. 主补（Subject Complement）：
+   - 主补是一种补语，出现在系动词后，描述主语的性质或状态。
+   - 例如：
+     - She seems tired.（她看起来很疲倦。）
+     - The cake smells delicious.（这个蛋糕闻起来很美味。）
+     - He is a good friend.（他是个好朋友。）
+
+4. 地点补语（Locative Complement）：
+   - 地点补语用来指示动作发生的地点或位置。
+   - 例如：
+     - They found the treasure buried underground.（他们找到了埋在地下的宝藏。）
+     - The cat sat on the roof.（猫坐在屋顶上。）
+
+5. 时间补语（Temporal Complement）：
+   - 时间补语用来指示动作发生的时间或时期。
+   - 例如：
+     - She will meet you tomorrow.（她明天会见你。）
+     - They finished the project in a week.（他们在一周内完成了这个项目。）
+
+这些是补语的一些常见分类，每种类型都有不同的例子，帮助描述句子中的不同方面。注意，具体的例子可能会因句子结构和动词选择的不同而有所变化。
+
 ## 从句
 
 一个句子除了有主语和谓语之外，其他可能包含的成分
@@ -170,6 +231,79 @@ complement）。宾语和宾语补足语合起来叫做复合宾语。
 
 an interesting little red French oil painting
 
+定语是一种用来修饰名词或代词的成分，它提供了有关名词或代词的额外信息。定语可以根据其性质和功能进行分类，以下是一些定语的常见分类和相应的例子：
+
+1. 形容词性定语（Adjective Modifiers）：
+   - 形容词性定语是形容词或形容词短语，用来描述名词的性质或特征。
+   - 例如：
+     - A **beautiful** sunset (一个美丽的日落)
+     - The **blue** sky (蓝色的天空)
+     - An **expensive** car (一辆昂贵的汽车)
+
+2. 限定性定语从句（Restrictive Relative Clauses）：
+   - 限定性定语从句是由关系词引导的从句，用来限定或修饰名词，它通常不带逗号。
+   - 例如：
+     - The book **that** I bought is interesting. (我买的那本书很有趣。)
+     - The person **who** called you is my friend. (给你打电话的那个人是我的朋友。)
+
+3. 非限定性定语从句（Non-Restrictive Relative Clauses）：
+   - 非限定性定语从句也是由关系词引导的从句，但它用来提供附加信息，通常用逗号将其与主句分开。
+   - 例如：
+     - My sister, **who** is a doctor, lives in New York. (我妹妹，她是一名医生，住在纽约。)
+     - The Eiffel Tower, **which** is in Paris, is famous. (埃菲尔铁塔，它位于巴黎，很有名。)
+
+4. 不定式定语（Infinitive Modifiers）：
+   - 不定式定语是由不定式短语（to + 动词原形）构成的，用来修饰名词或代词，通常表达目的、目标或用途。
+   - 例如：
+     - I need a pen **to write** a letter. (我需要一支笔来写信。)
+     - She has a plan **to start** a business. (她有一个开办业务的计划。)
+
+5. 名词性定语（Noun Modifiers）：
+   - 名词性定语是一个名词或名词短语，用来修饰另一个名词，通常表示名词之间的关系。
+   - 例如：
+     - The **book** cover (书的封面)
+     - A **student** union (学生会)
+     - The **car** keys (汽车钥匙)
+
+这些是一些常见的定语分类和相应的例子。定语在句子中起到非常重要的作用，帮助我们更清晰地理解名词或代词所表示的事物或概念。
+
+## 词语
+
+词语在语法和语义上可以分为多种类别，以下是一些常见的词语类别以及相应的例子：
+
+1. **名词（Noun）**：名词是用来表示人、事物、地点或概念的词语。
+   - 例如：**dog** (狗)、**book** (书)、**city** (城市)、**love** (爱)
+
+2. **动词（Verb）**：动词是表示动作、状态或事件的词语。
+   - 例如：**run** (跑)、**eat** (吃)、**think** (思考)、**sing** (唱)
+
+3. **形容词（Adjective）**：形容词用来描述名词的性质或特征。
+   - 例如：**happy** (快乐的)、**big** (大的)、**beautiful** (美丽的)、**red** (红色的)
+
+4. **副词（Adverb）**：副词用来修饰动词、形容词、副词或整个句子，提供关于时间、地点、方式、程度等信息。
+   - 例如：**quickly** (迅速地)、**very** (非常)、**here** (这里)、**now** (现在)
+
+5. **代词（Pronoun）**：代词用来替代名词，以避免重复使用名词。
+   - 例如：**he** (他)、**she** (她)、**it** (它)、**they** (他们)
+
+6. **介词（Preposition）**：介词用来表示名词与其他词语之间的关系，通常表达时间、地点、方向等。
+   - 例如：**in** (在)、**on** (在...上)、**under** (在...下面)、**between** (在...之间)
+
+7. **连词（Conjunction）**：连词用来连接词语、短语或句子，使句子更加连贯。
+   - 例如：**and** (和)、**but** (但是)、**because** (因为)、**or** (或者)
+
+8. **感叹词（Interjection）**：感叹词用来表示情感或强调，通常独立出现并用感叹号标记。
+   - 例如：**Oh**! (哦)、**Wow**! (哇)、**Alas**! (唉)
+
+9. **冠词（Article）**：冠词是一种特殊的限定词，包括定冠词 "the"（定冠词）和不定冠词 "a" 或 "an"（不定冠词），用来限定名词的特定性或泛指性。
+   - 例如：**the** (这)、**a** (一个)、**an** (一个)
+
+10. **助动词（Auxiliary Verb）**：助动词用来辅助主要动词，例如表示时态、语态、情态等。
+    - 例如：**be** (是)、**have** (有)、**can** (能)、**will** (将)
+
+这些是一些常见的词语类别，不同类别的词语在句子中扮演不同的角色和功能，帮助构建和传达语言信息。请注意，有些词语可能属于多个类别，具体分类可能根据语法规则和上下文而有所不同。
+
+
 ### 限定词
 
 限定词是在名词词组中对名词中心词起特指、类指以及表示确定数量和非确定数量等限定作用的词类。
@@ -179,6 +313,31 @@ an interesting little red French oil painting
 特指、定量或不定量等限定修饰作用。
 
 限定词的选择决定于随后的名词的类别，是单数名词、复数名词，还是不可数名词。
+
+
+限定词（Determiners）是英语语法中的一类词汇，通常出现在名词前，用来限定名词或指示名词的数量、特定性、所属关系等。限定词在句子中的作用是帮助我们更清晰地理解名词的含义，而且它们与名词的搭配方式也常常受到语法规则的约束。
+
+以下是一些常见的限定词以及它们的作用：
+
+1. **冠词（Articles）**：冠词包括"the"（定冠词）和"a"或"an"（不定冠词）。它们用来指示名词的特定性或泛指性。
+   - 例如：**The** cat (这只猫)、**A** book (一本书)、**An** apple (一个苹果)
+
+2. **指示代词（Demonstratives）**：指示代词包括"this"（这）, "that"（那）, "these"（这些）和"those"（那些），用来指示名词的位置或特定对象。
+   - 例如：**This** car (这辆车)、**Those** people (那些人)
+
+3. **数量词（Quantifiers）**：数量词用来表示名词的数量或程度，包括"some"（一些）, "many"（许多）, "few"（少数）, "several"（若干）等。
+   - 例如：**Many** students (许多学生)、**Few** books (少数书籍)、**Some** water (一些水)
+
+4. **所有格（Possessives）**：所有格词表示名词所属的关系，包括名词的所有者，常见的有"my"（我的）, "his"（他的）, "their"（他们的）等。
+   - 例如：**My** car (我的车)、**Her** house (她的房子)、**Their** dog (他们的狗)
+
+5. **疑问词（Interrogatives）**：疑问词用于构成疑问句，包括"who"（谁）, "which"（哪个）, "what"（什么）等。
+   - 例如：**Who** is coming? (谁来了？)、**Which** book do you want? (你想要哪本书？)
+
+6. **不定代词（Indefinites）**：不定代词用于泛指或表示不确定性，包括"some"（一些）, "any"（任何），"none"（没有）等。
+   - 例如：**Some** people (一些人)、**Any** information (任何信息)、**None** of them (他们中没有一个)
+
+限定词是构建句子时非常重要的一部分，它们有助于明确名词的含义、数量、所属关系等，从而使句子更加清晰和具体。
 
 #### 冠词（ARTICLE）是最典型的限定词
 
@@ -263,48 +422,33 @@ an，这一名词再次出现时则要用定冠词the”。请看下面的例句
 
 复数可数名词和不可数名词前不用冠词，也表泛指，有些语法专家称之为“零冠词”。
 
-#### 物主限定词（POSSESSIVE PRONOUN DETERMINATOR）
 
-my，your，his，her，our，their，its.
 
-#### 名词属格（POSSESSIVE NOUN）
+### 副词
 
-John's，my friend's.
+副词（Adverbs）是英语中的一类词汇，用来修饰动词、形容词、副词或整个句子，以提供更多信息，如时间、地点、方式、程度、原因等。副词在句子中的作用是丰富描述，并帮助读者或听者更好地理解动作、状态或事件。
 
-#### 指示限定词（DEMONSTRATIVE DETERMINATOR）
+以下是一些常见副词的用法和例子：
 
-this，that，these，those，such.
+1. **时间副词（Adverbs of Time）**：这些副词用来描述动作发生的时间。
+   - 例如：**now** (现在)、**today** (今天)、**soon** (很快)、**yesterday** (昨天)
 
-##### 关系限定词（RELATIVE DETERMINATOR)
+2. **地点副词（Adverbs of Place）**：这些副词用来描述动作发生的地点或位置。
+   - 例如：**here** (这里)、**there** (那里)、**everywhere** (到处)、**below** (在下面)
 
-whose，which.
+3. **方式副词（Adverbs of Manner）**：这些副词用来描述动作的方式或方式。
+   - 例如：**quickly** (迅速地)、**carefully** (仔细地)、**loudly** (大声地)、**happily** (高兴地)
 
-##### 疑问限定词（INTERROGATIVE DETERMINATOR）
+4. **程度副词（Adverbs of Degree）**：这些副词用来表示动作或状态的程度。
+   - 例如：**very** (非常)、**extremely** (极其)、**quite** (相当)、**too** (太)
 
-what，which，whose.
+5. **频率副词（Adverbs of Frequency）**：这些副词用来描述动作发生的频率。
+   - 例如：**always** (总是)、**often** (经常)、**rarely** (很少)、**never** (从不)
 
-#### 不定限定词（INDEFINITE DETERMINATOR）
+6. **原因副词（Adverbs of Reason）**：这些副词用来表示原因或解释为什么发生某事。
+   - 例如：**because** (因为)、**therefore** (因此)、**so** (所以)、**thus** (因此)
 
-no，some，any，each，every，enough，either，neither，all，both，half，several，many，much，(a) few，(a) little，other，another.
+7. **连接副词（Conjunctive Adverbs）**：这些副词用来连接句子或句子成分，通常出现在句子中，前后需要逗号分隔。
+   - 例如：**however** (然而)、**therefore** (因此)、**meanwhile** (与此同时)、**consequently** (因此)
 
-##### 个体限定词
-
-each, every, either, neither和both等
-
-#### 数词（numeral）
-
- 基数词（CARDINAL NUMBER)
-基数词表示数目，如：one,two,three,four……；
-
- 序数词（ORDINAL NUMBER)
-
-序数词表示顺序，如：first,second,third,fourth……序数词前一般要加the。
-
- 倍数词（MULTIPLICATIVE NUMBER)
- 分数词（FRACTIONAL NUMBER)
-
-#### 数量限定词(量词quantififier)
-
-量词，数理科学术语，通常用来表示人、事物或动作的数量单位的词，叫做量词。如头、匹、条等。
-
-a lot of，lots of，plenty of，a great deal of，a good deal of，a large amountof，a small amount of，a quantity of，a great number of，a good number of 等。
+副词的使用可以丰富语言表达，使句子更加准确和生动。它们可以用来回答各种问题，例如何时、在哪里、如何、为什么等等。

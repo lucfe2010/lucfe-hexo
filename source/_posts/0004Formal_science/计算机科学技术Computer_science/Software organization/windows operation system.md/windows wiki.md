@@ -1,7 +1,7 @@
 # windows wiki
 
+## clean and backup windows
 
-## clean
 settings--system--about--(right)advan_system_setting  
   
 Click the Windows menu and type 'Disk Cleanup' in the search bar to get started.  
@@ -24,8 +24,7 @@ Click the Troubleshoot option.
 The downside is that personal files and desktop apps won’t come along for the ride, but you should already be backing up your personal files separately. At the very least, a recovery drive wil bring Windows 10 back to a bootable and working state.
 However, if preserving your personal files is absolutely necessary, a System Image Backup is another recovery option. This method allows you to create an image of your entire Windows environment, including your personal files and applications.  
 
-
-## 
+## windows desktop management
 
 multiple desktops
 
@@ -33,6 +32,8 @@ The idea of virtual desktops is straightforward: Instead of just a single deskto
 you switch to the virtual desktop and get right to work.
 
 ---
+
+### windows snap
 
 Drag the top window border (not the title bar) to the top edge of the screen, or drag the
 bottom border to the bottom edge of the screen. With either action, when you reach the
@@ -65,15 +66,13 @@ Keyboard shortcuts and gestures for resizing and moving windows
 
 ---
 
-disk management
+## disk management
 
 Windows key+X Open the Quick Link menu
 right click windows start icon
 
 extend/shrink volumes
 adjust the sizes of your partitions. increase or reduce the size of the seleted partition
-
-
 
 扩展/压缩 卷
 
@@ -82,19 +81,16 @@ library is colletion of certain kinds of files based on a theme. they work in vi
 
 ---
 
- task scheduler 
-
-with this you can create automated tasks that come into effect at a time chosen by yourself.
-
-
 ---
+
+## taskbar jump lists
 
 taskbar jump lists for quick access to documents and folders
 
 a jump list is the official name of the menu that appears when you right-click to a taskbar button.
 Each Jump List includes commands to open the program, to pin the program to the taskbar (or unpin it), and to close all open windows represented by the button.
 
-In addition, for programs developed to take advantage of this feature, Jump Lists can include shortcuts to common tasks that can be performed with that program, 
+In addition, for programs developed to take advantage of this feature, Jump Lists can include shortcuts to common tasks that can be performed with that program,
 
 such as New Window or New InPrivate Window on a Microsoft Edge Jump List.
 
@@ -103,13 +99,15 @@ to recently opened files.
 
 ---
 
+## font smoothing
+
 using font smoothing to make text easier on the eyes
 
 to check or change your font-somoothing settings, type cleartype in the search box and then click Ajust ClearType Text
 
 ---
 
-performance
+## performance
 
 On modern hardware with even a moderate graphics processor, these options make little or
 no difference in actual performance. The loss of animation can be disconcerting, in fact, as you
@@ -119,7 +117,7 @@ wonder where a particular item went when you minimized it. These options offer t
 
 ---
 
-file explore
+## file explore
 
 Use the date navigator to zoom through time
 If you click a date heading, the filter options display a date navigator like the one shown
@@ -141,7 +139,7 @@ Home > Properties > Remove Properties.
 
 ---
 
-explore search
+## explore search
 
 Whatever text you type as a search term must appear at the beginning of a word, not in
 the middle. Thus, entering des returns items containing the words desire, destination, and
@@ -156,7 +154,6 @@ of the words individually.
 
 ![Alt text](</assets/images/windows wiki/image-2.png>)
 
-
 Advanced queries support the following types of search parameters, which can be combined
 using search operators:
 ● File contents. Keywords, phrases, numbers, and text strings
@@ -164,8 +161,8 @@ using search operators:
 ● Data stores. Specific locations in the Windows file system containing indexed items
 ● File properties. Size, date, tags, and so on
 
+### Searching by item type or kind
 
-Searching by item type or kind
 To search for files with a particular file name extension, you can simply enter the extension in
 the search box, like this:
 *.ext
@@ -190,12 +187,13 @@ kind:=value. Enter **kind:=doc**, for example, to return text files, Microsoft O
 Adobe Acrobat documents, HTML and XML files, and other document formats. This search term
 also accepts **folder**, **pic**, **picture**, **music**, **song**, **program**, and **video** as values to search for.
 
-Changing the scope of a search
+### Changing the scope of a search
+
 You can specify a folder or library location by using **folder:**, **under:**, **in:**, or **path:**. Thus,
 **folder:documents** restricts the scope of the search to your Documents library, and **in:videos mackie** finds all files in the Videos library that contain Mackie in the file name or any property.
 
+### Searching for item properties
 
-Searching for item properties
 You can search on the basis of any property recognized by the file system. (The list of available
 properties for files is identical to the ones we discuss in “Layouts, previews, and other ways to
 arrange files” in Chapter 9.) To see the whole list of available properties, switch to Detail view in
@@ -227,8 +225,8 @@ You can specify an exact size range—using operators such as >, >=, <, and <=. 
 the “..” operator.) For example, **size:0 MB..1 MB** is the same as **size:<=1 MB**. You can specify
 values using bytes, KB, MB, or GB.
 
+### Using multiple criteria for complex searches
 
-Using multiple criteria for complex searches
 You can use the Boolean operators AND, OR, and NOT to combine or negate criteria in the
 search box. These operators need to be spelled in capital letters (or they will be treated as ordinary text). In place of the AND operator, you can use a plus sign (+), and in place of the NOT
 operator, you can use a minus sign (–). You can also use parentheses to group criteria; items
@@ -248,9 +246,7 @@ When you use multiple criteria based on different properties, an AND conjunction
 assumed unless you specify otherwise. The search value **tag:Ed Author:Carl** is equivalent
 to the search value **tag:Ed AND Author:Carl**.
 
-
-
-Using wildcards and character-mode searches
+### Using wildcards and character-mode searches
 
 File-search wildcards can be traced back to the dawn of Microsoft operating systems, well
 before the Windows era. In Windows 10, two of these venerable operators are alive and well:
@@ -276,13 +272,12 @@ Documents library and type **~??v** in the search box, you’ll find any documen
 contains any word that has a v in the third position, such as saved, level, and, of course, invoice.
 This technique does not match on file contents.
 
-
 ---
 
-Sharing files, printers, and other resources over a
-local network
+## Sharing files, printers, and other resources over a local network
 
-Understanding sharing and security models in Windows
+### Understanding sharing and security models in Windows
+
 Much like Windows 7, Windows 10 offers two ways to share file resources, whether you’re doing
 so locally or over the network:
 ● Public folder sharing. When you place files and folders in your Public folder or its subfolders, those files are available to anyone who has a user account on your computer.
@@ -318,12 +313,13 @@ others—or if you want to grant different levels of access to different users
 ● Public folder sharing provides a convenient, logical way to segregate your personal documents, pictures, music, and so on from those you want to share with everyone who uses your
 computer or your network.
 
-Configuring your network for sharing
+### Configuring your network for sharing
 
 If you plan to share folders and files with other users on your network, you need to take a few preparatory steps. (If you plan to share only with others who use your computer by signing in locally,
 you can skip these steps. And if your computer is part of a domain, some of these steps—or their
 equivalent in the domain world—must be done by an administrator on the domain controller. We
 don’t cover those details in this book.)
+
 1. Be sure that all computers use the same workgroup name. With modern versions of
 Windows, this step isn’t absolutely necessary, although it does improve network discovery
 performance.
@@ -340,7 +336,7 @@ Sharing Settings, go to Settings > Network & Internet; on the Status page, click
 Figure 13-18 After you review settings for the Private profile, click the arrow by All Networks
 (below Guest Or Public) to see additional options.
 
-4.Select your sharing options. In Advanced Sharing Settings, make a selection for each of
+4. Select your sharing options. In Advanced Sharing Settings, make a selection for each of
 the following network options. You’ll find the first option under the Private profile; to view
 the remaining settings, expand All Networks.
 ■ File And Printer Sharing. Turn on this option if you want to share specific files or
@@ -376,14 +372,15 @@ name and password from network visitors. Instead, network access is provided by
 using the Guest account. As we explain in Chapter 11, “Managing user accounts,
 passwords, and credentials,” this account isn’t available for interactive use but can
 handle these tasks in the background.
-5.Configure user accounts. If you use password-protected sharing, each person
+5. Configure user accounts. If you use password-protected sharing, each person
 who accesses a shared resource on your computer must have a user account on your
 computer. Use a Microsoft account or, for a local account, use the same user name as
 that person uses on his or her own computer and the same password as well. If you do
 that, network users will be able to access shared resources without having to enter their
 credentials after they’ve signed in to their own computer.
 
-Sharing files and folders from any folder
+### Sharing files and folders from any folder
+
 Whether you plan to share files and folders with other people who share your computer or
 those who connect to your computer over the network (or both), the process for setting up
 shared resources is the same as long as the Sharing Wizard is enabled. We recommend you use
@@ -400,6 +397,7 @@ list, see that Use Sharing Wizard (Recommended) is selected:
 ![Alt text](</assets/images/windows wiki/image-4.png>)
 
 With the Sharing Wizard at the ready, follow these steps to share a folder or files:
+
 1. In File Explorer, select the folders or files you want to share. (You can select multiple
 objects.)
 2. Right-click and choose Give Access To > Specific People. (In versions before 1709, the
@@ -417,7 +415,7 @@ names; then click Add. Repeat this step for each person you want to add.
 The list includes all users who have an account on your computer, plus Everyone. Guest
 is included if password-protected sharing is turned off. If you want to grant access to
 someone who doesn’t appear in the list, click Create A New User, which takes you to User
-Accounts in Control Panel. 
+Accounts in Control Panel.
 
 NOTE
 If you select Everyone and you have password-protected sharing enabled, the user
@@ -425,18 +423,11 @@ must still have a valid account on your computer. However, if you turned off pas
 Everyone or to Guest.
 
 4. For each user, select a permission level. Your choices are
-■ Read. Users with this permission level can view shared files and run shared programs, but they cannot change or delete files. Selecting Read in the Sharing Wizard
-is equivalent to setting NTFS permissions to Read & Execute.
-■ Read/Write. Users assigned the Read/Write permission have the same privileges
-you do as owner: they can view, change, add, and delete files in a shared folder.
-Selecting Read/Write sets NTFS permissions to Full Control for this user.
+    ■ Read. Users with this permission level can view shared files and run shared programs, but they cannot change or delete files. Selecting Read in the Sharing Wizard is equivalent to setting NTFS permissions to Read & Execute.
+    ■ Read/Write. Users assigned the Read/Write permission have the same privileges you do as owner: they can view, change, add, and delete files in a shared folder. Selecting Read/Write sets NTFS permissions to Full Control for this user.
 
-NOTE
-You might see other permission levels if you return to the Sharing Wizard after you set
-up sharing. Contribute indicates Modify permission. Custom indicates NTFS permissions
-other than Read & Execute, Modify, or Full Control. Mixed appears if you select multiple
-items and they have different sharing settings. Owner, of course, identifies the owner of
-the item.
+    NOTE
+    You might see other permission levels if you return to the Sharing Wizard after you set up sharing. Contribute indicates Modify permission. Custom indicates NTFS permissions other than Read & Execute, Modify, or Full Control. Mixed appears if you select multiple items and they have different sharing settings. Owner, of course, identifies the owner of the item.
 
 5. Click Share. After a few moments, the wizard displays a page like the one shown in Figure
 13-20.
@@ -477,7 +468,8 @@ Wizard to set up permissions.) And while you’re doing that, be sure the share 
 create doesn’t have spaces. Eliminating them makes it easier to type a share path that
 works as a link.
 
-Stopping or changing sharing of a file or folder
+### Stopping or changing sharing of a file or folder
+
 If you want to stop sharing a particular shared file or folder, select it in File Explorer and on the
 Share tab, click Remove Access (Stop Sharing in versions before 1709). Or right-click and choose
 Give Access To > Remove Access. Doing so removes access control entries that are not inherited.
@@ -488,17 +480,19 @@ File Sharing dialog box (shown earlier in Figure 13-15), you can add users, chan
 or remove users. (To stop sharing with a user, click the permission level by the user’s name and
 choose Remove.)
 
-Working with mapped network folders
+### Working with mapped network folders
+
 Mapping a network folder makes it appear to applications as though the folder is part of your
 own computer. Windows assigns a drive letter to the mapped folder, making the folder appear
 like an additional hard drive. You can still access a mapped folder in the conventional manner by navigating to it through the Network folder. But mapping gives the folder an alias—the
 assigned drive letter—that provides an alternative means of access.
 To map a network folder to a drive letter, follow these steps:
+
 1. Open This PC in File Explorer, and on the ribbon’s Computer tab, click Map Network Drive.
 (Alternatively, after you open a computer in the Network folder, right-click a network
 share and choose Map Network Drive.)
 
-![Alt text](</assets/images/windows wiki/image-7.png>)
+    ![Alt text](</assets/images/windows wiki/image-7.png>)
 
 2. Select a drive letter from the Drive list. You can choose any letter that’s not already in use.
 3. In the Folder box, type the path to the folder you want or, more easily, click Browse and
@@ -514,7 +508,8 @@ If you change your mind about mapping a network folder, right-click the folder�
 This PC folder. Choose Disconnect on the resulting shortcut menu, and the connection will be
 severed.
 
-Connecting to a network printer
+### Connecting to a network printer
+
 To use a printer that has been shared, open the Network folder in File Explorer and double-click
 the name of the server to which the printer is attached. If the shared printers on that server
 are not visible, return to the Network folder, click to select the server, and then, on the ribbon’s
@@ -523,10 +518,10 @@ the Devices And Printers folder, click Add A Printer and use the Add Printer Wiz
 
 ---
 
-disk part
+## disk part
 
+### UNDERSTANDING DISK-MANAGEMENT TERMINOLOGY
 
-UNDERSTANDING DISK-MANAGEMENT TERMINOLOGY
 The current version of Disk Management has simplified somewhat the arcane language of
 disk administration. Nevertheless, it’s still important to have a bit of the vocabulary under
 your belt. The following terms and concepts are the most important:
@@ -574,13 +569,14 @@ stretching and forcing the application to be scaled by Windows:
 Windows 10 supports scaling factors from 100 percent all the way to 450 percent, with most elements of the user interface looking crystal-clear even at the highest scaling levels. That includes
 Start, Cortana, File Explorer, and the Windows taskbar.
 
-### Windows registry
+## Windows registry
 
 The Windows registry is the central storage location that contains configuration details for
 hardware, system settings, services, user customizations, applications, and every detail—large
 and small—that makes Windows work.
 
-Understanding the Registry Editor hierarchy
+### Understanding the Registry Editor hierarchy
+
 Registry Editor (Regedit.exe) offers a unified view of the registry’s contents as well as tools for
 modifying its contents. You’ll find this important utility on the All Apps list, under the Windows
 Administrative Tools category. It also shows up when you use the search box. Alternatively, you
@@ -633,7 +629,7 @@ in HKLM\SYSTEM\CurrentControlSet\Hardware Profiles.
 Any changes you make to keys and values in these virtual keys have the same effect as if you
 had edited the actual locations. The HKCR and HKCU keys are generally more convenient to use.
 
-Registry values and data types
+### Registry values and data types
 
 Every key contains at least one value. In Registry Editor, that obligatory value is known as the
 default value. Many keys have additional values. The names, data types, and data associated
@@ -673,8 +669,7 @@ Internally, the registry also uses REG_LINK, REG_FULL_RESOURCE_DESCRIPTOR, REG_
 RESOURCE_LIST, REG_RESOURCE_REQUIREMENTS_LIST, and REG_NONE data types. Although you might occasionally see references in technical documentation to these data types, they’re
 not visible or accessible in Registry Editor
 
-
-Identifying the elements of a .reg file
+### Identifying the elements of a .reg file
 
 As you review the examples shown in the two figures, note the following characteristics of .reg
 files:
@@ -725,7 +720,7 @@ added backslashes and broke the lines for readability, and you can do the same i
 ● Line spacing. You can add blank lines for readability. Registry Editor ignores them.
 ● Comments. To add a comment line to a .reg file, begin the line with a semicolon.
 
-## ## 如何卸载windows的服务？卸载服务？
+## 如何卸载windows的服务？卸载服务？
 
 找到一个需要卸载的服务
 
@@ -779,6 +774,5 @@ b.如果还是在继续运行，service列表中还显示的话，用管理员�
 (Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey
 
 ## 输入法
-
 
 半角状态就是说输入法状态条中，那半月形变为圆形时为全角这时输入的英文字母及数字与汉字等大，半角当然是输入法状态条中为半月形时的状态了，这时输入的英文字母及数字不与汉字等大为汉字一半(全角占用两个字节)。
