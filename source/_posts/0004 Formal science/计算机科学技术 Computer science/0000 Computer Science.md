@@ -1,6 +1,9 @@
-# Computer science
+---
+title: computer science
+categories: [0004 Formal science, 计算机科学技术 Computer science]
+---
 
-## The 2012 ACM Computing Classification System
+## The 2012 ACM Computing Classification System on wikipedia
 
 Hardware
 Printed circuit board
