@@ -143,6 +143,7 @@ Ctrl+K Ctrl+F Format selection
 | Ctrl + Shift + Left / Right | 一个单词一个单词的加入选择 |
 | Shift + Up / Down | 一行行的加入选择 |
 | Shift + Alt + Left / Right | Shrink/expand selection（光标所在单词，文档高亮显示相同的） |
+| Ctrl + Alt + Left / Right | *不常用*移动窗口到右侧
 
 ### multi cursor
 

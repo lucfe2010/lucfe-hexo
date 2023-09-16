@@ -46,3 +46,18 @@ personal interest
 保护视力，在电脑每两小时，休息一下
 
 留意吃的蔬菜，第一次吃的日期是在公历的每年几月几号，从而推算收获日期，
+
+
+## 
+- have done
+
+  - fail
+  - success
+  - anylis why and how to impove
+
+- will do
+
+  - when
+  - what
+  - how
+  - goal can be measured

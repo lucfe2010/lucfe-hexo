@@ -1,4 +1,7 @@
-# 1
+---
+title: 地理
+categories: [0003Natural_science, 地球科学Earth_science]
+---
 
 ![Alt text](/assets/images/地理wiki/image-23.png)
 

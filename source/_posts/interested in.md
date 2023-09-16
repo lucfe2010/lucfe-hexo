@@ -265,18 +265,7 @@
 
 ### diary
 
-- have done
 
-  - fail
-  - success
-  - anylis why and how to impove
-
-- will do
-
-  - when
-  - what
-  - how
-  - goal can be measured
 
 ### 3d print cnc
 
