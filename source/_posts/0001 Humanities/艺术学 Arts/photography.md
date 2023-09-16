@@ -1,4 +1,4 @@
 ---
 title: phhotography
-categories: [0001Humanities, 艺术学Arts]
+categories: [0001 Humanities, 艺术学 Arts]
 ---

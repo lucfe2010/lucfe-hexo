@@ -1,6 +1,6 @@
 ---
 title: 地理
-categories: [0003Natural_science, 地球科学Earth_science]
+categories: [0003 Natural science, 地球科学 Earth science]
 ---
 
 ![Alt text](/assets/images/地理wiki/image-23.png)

@@ -1,6 +1,6 @@
 ---
 title: english grammar
-categories: ["0002Social_science", "语言学Linguistics_and_languages"]
+categories: ["0002 Social science", "语言学 Linguistics and languages"]
 ---
 
 Nouns
