@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lucfe Knowledge Documentation</title>
+  <icon>http://lucfe2010.github.io/lucfe-hexo/assets/images/rss_icon_l.png</icon>
+  
+  <link href="http://lucfe2010.github.io/lucfe-hexo/atom.xml" rel="self"/>
+  
+  <link href="http://lucfe2010.github.io/lucfe-hexo/"/>
+  <updated>2023-09-18T07:57:06.709Z</updated>
+  <id>http://lucfe2010.github.io/lucfe-hexo/</id>
+  
+  <author>
+    <name>lucfe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>math in primary school</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E6%95%B0%E5%AD%A6%20Mathematics/math_primary/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E6%95%B0%E5%AD%A6%20Mathematics/math_primary/</id>
+    <published>2023-09-18T06:55:16.185Z</published>
+    <updated>2023-09-18T07:57:06.709Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Numbers-and-Place-Value&quot;&gt;&lt;a href=&quot;#Numbers-and-Place-Value&quot; class=&quot;headerlink&quot; title=&quot;Numbers and Place Value&quot;&gt;&lt;/a&gt;Numbers and</summary>
+        
+      
+    
+    
+    
+    <category term="0004 Formal science" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0004-Formal-science/"/>
+    
+    <category term="数学 Mathematics" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0004-Formal-science/%E6%95%B0%E5%AD%A6-Mathematics/"/>
+    
+    
+    <category term="math" scheme="http://lucfe2010.github.io/lucfe-hexo/tags/math/"/>
+    
+    <category term="primary school" scheme="http://lucfe2010.github.io/lucfe-hexo/tags/primary-school/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/ssg/hexo-icarus-theme-develop/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/ssg/hexo-icarus-theme-develop/</id>
+    <published>2023-09-16T08:16:41.268Z</published>
+    <updated>2023-09-16T08:26:09.370Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;更改icarus主题文件&quot;&gt;&lt;a href=&quot;#更改icarus主题文件&quot; class=&quot;headerlink&quot; title=&quot;更改icarus主题文件&quot;&gt;&lt;/a&gt;更改icarus主题文件&lt;/h2&gt;&lt;h3 id=&quot;使网站页面在大屏幕上显示的更宽&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python crash course</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/python%20crash%20course/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/python%20crash%20course/</id>
+    <published>2023-09-16T00:52:00.554Z</published>
+    <updated>2023-09-18T05:37:01.003Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Getting-Started&quot;&gt;&lt;a href=&quot;#Getting-Started&quot; class=&quot;headerlink&quot; title=&quot;Getting Started&quot;&gt;&lt;/a&gt;Getting Started&lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="0004 Formal science" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0004-Formal-science/"/>
+    
+    <category term="计算机科学技术 Computer science" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/"/>
+    
+    
+    <category term="python" scheme="http://lucfe2010.github.io/lucfe-hexo/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>web developer</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/web%20developer/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/web%20developer/</id>
+    <published>2023-09-16T00:44:42.355Z</published>
+    <updated>2023-09-16T00:50:10.906Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/lucfe-hexo/assets/images/web%20developer/image.png&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="0004 Formal science" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0004-Formal-science/"/>
+    
+    <category term="计算机科学技术 Computer science" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>diy cnc</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0005%20Applied%20science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6%20Engineering%20and%20technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B%20Mechanical%20engineering/DIY%20CNC/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0005%20Applied%20science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6%20Engineering%20and%20technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B%20Mechanical%20engineering/DIY%20CNC/</id>
+    <published>2023-09-16T00:28:58.617Z</published>
+    <updated>2023-09-16T00:29:07.942Z</updated>
+    
+    
+    
+    
+    <category term="0005 Applied science" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0005-Applied-science/"/>
+    
+    <category term="工程与技术科学 Engineering and technology" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/"/>
+    
+    <category term="机械工程 Mechanical engineering" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B-Mechanical-engineering/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>3d print</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0005%20Applied%20science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6%20Engineering%20and%20technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B%20Mechanical%20engineering/3d%20print/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0005%20Applied%20science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6%20Engineering%20and%20technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B%20Mechanical%20engineering/3d%20print/</id>
+    <published>2023-09-15T23:48:24.551Z</published>
+    <updated>2023-09-16T00:28:33.408Z</updated>
+    
+    
+    
+    
+    <category term="0005 Applied science" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0005-Applied-science/"/>
+    
+    <category term="工程与技术科学 Engineering and technology" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/"/>
+    
+    <category term="机械工程 Mechanical engineering" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B-Mechanical-engineering/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>drawing</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E8%89%BA%E6%9C%AF%E5%AD%A6%20Arts/drawing/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E8%89%BA%E6%9C%AF%E5%AD%A6%20Arts/drawing/</id>
+    <published>2023-09-15T23:36:41.970Z</published>
+    <updated>2023-09-16T00:21:44.518Z</updated>
+    
+    
+    
+    
+    <category term="0001 Humanities" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0001-Humanities/"/>
+    
+    <category term="艺术学 Arts" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0001-Humanities/%E8%89%BA%E6%9C%AF%E5%AD%A6-Arts/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>phhotography</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E8%89%BA%E6%9C%AF%E5%AD%A6%20Arts/photography/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E8%89%BA%E6%9C%AF%E5%AD%A6%20Arts/photography/</id>
+    <published>2023-09-15T23:36:09.914Z</published>
+    <updated>2023-09-16T00:21:44.519Z</updated>
+    
+    
+    
+    
+    <category term="0001 Humanities" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0001-Humanities/"/>
+    
+    <category term="艺术学 Arts" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0001-Humanities/%E8%89%BA%E6%9C%AF%E5%AD%A6-Arts/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E6%95%B0%E5%AD%A6%20Mathematics/math%20wiki/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E6%95%B0%E5%AD%A6%20Mathematics/math%20wiki/</id>
+    <published>2023-09-15T05:57:16.943Z</published>
+    <updated>2023-09-15T05:58:00.562Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;美国数学知识点&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;小学数学&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;基本数学操作：加法、减法、乘法、除法。&lt;/li&gt;
+&lt;li&gt;数字系统：整数、分数、小数、百分数。&lt;/li&gt;
+&lt;li&gt;几何：形状、线、角、面积、周长、体积。&lt;/li&gt;
+&lt;li&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Applied%20computing/streaming/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Applied%20computing/streaming/</id>
+    <published>2023-09-15T03:57:38.831Z</published>
+    <updated>2023-09-15T04:02:14.865Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;live-streaming-settings&quot;&gt;&lt;a href=&quot;#live-streaming-settings&quot; class=&quot;headerlink&quot; title=&quot;live streaming settings&quot;&gt;&lt;/a&gt;live streaming</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0002%20Social%20science/%E8%AF%AD%E8%A8%80%E5%AD%A6%20Linguistics%20and%20languages/english%20words/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0002%20Social%20science/%E8%AF%AD%E8%A8%80%E5%AD%A6%20Linguistics%20and%20languages/english%20words/</id>
+    <published>2023-09-15T02:18:12.389Z</published>
+    <updated>2023-09-15T02:18:31.106Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;农业&lt;br&gt;agriculture&lt;br&gt;the science or practice of farming。&lt;br&gt;Agriculture is farming and the methods that are used to raise and look after</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0002%20Social%20science/%E7%BB%8F%E6%B5%8E%E7%AE%A1%E7%90%86%E5%AD%A6%20Business%20and%20Economics/company/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0002%20Social%20science/%E7%BB%8F%E6%B5%8E%E7%AE%A1%E7%90%86%E5%AD%A6%20Business%20and%20Economics/company/</id>
+    <published>2023-09-15T02:13:59.058Z</published>
+    <updated>2023-09-15T02:14:47.435Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;company&quot;&gt;&lt;a href=&quot;#company&quot; class=&quot;headerlink&quot; title=&quot;company&quot;&gt;&lt;/a&gt;company&lt;/h1&gt;&lt;h2 id=&quot;公司1&quot;&gt;&lt;a href=&quot;#公司1&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E5%93%B2%E5%AD%A6%20Philosophy/self%20help/problem%20solve/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E5%93%B2%E5%AD%A6%20Philosophy/self%20help/problem%20solve/</id>
+    <published>2023-09-15T00:11:49.027Z</published>
+    <updated>2023-09-15T00:12:44.926Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;问题分析&quot;&gt;&lt;a href=&quot;#问题分析&quot; class=&quot;headerlink&quot; title=&quot;问题分析&quot;&gt;&lt;/a&gt;问题分析&lt;/h2&gt;&lt;p&gt;问题是什么 what&lt;br&gt;事情不是按预定的行为进行&lt;br&gt;物体的状态不是预期的&lt;/p&gt;
+&lt;p&gt;原因</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0002%20Social%20science/%E5%BF%83%E7%90%86%E5%AD%A6%20Psychology/psychology/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0002%20Social%20science/%E5%BF%83%E7%90%86%E5%AD%A6%20Psychology/psychology/</id>
+    <published>2023-09-15T00:07:19.249Z</published>
+    <updated>2023-09-15T00:07:36.504Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;psychology&quot;&gt;&lt;a href=&quot;#psychology&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E6%96%87%E5%AD%A6%20Literature/book%20to%20read/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E6%96%87%E5%AD%A6%20Literature/book%20to%20read/</id>
+    <published>2023-09-15T00:06:09.315Z</published>
+    <updated>2023-09-15T00:06:32.532Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;science-fiction&quot;&gt;&lt;a href=&quot;#science-fiction&quot; class=&quot;headerlink&quot; title=&quot;science fiction&quot;&gt;&lt;/a&gt;science fiction&lt;/h3&gt;&lt;p&gt;末日之旅&lt;br&gt;加斯汀 .</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0005%20Applied%20science/%E5%9B%BE%E4%B9%A6%E9%A6%86%20%E6%83%85%E6%8A%A5%E4%B8%8E%E6%96%87%E7%8C%AE%E5%AD%A6%20Library%20and%20museum%20studies/amazon%20ebook/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0005%20Applied%20science/%E5%9B%BE%E4%B9%A6%E9%A6%86%20%E6%83%85%E6%8A%A5%E4%B8%8E%E6%96%87%E7%8C%AE%E5%AD%A6%20Library%20and%20museum%20studies/amazon%20ebook/</id>
+    <published>2023-09-15T00:05:31.922Z</published>
+    <updated>2023-09-15T00:06:32.530Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;ebook&quot;&gt;&lt;a href=&quot;#ebook&quot; class=&quot;headerlink&quot; title=&quot;ebook&quot;&gt;&lt;/a&gt;ebook&lt;/h2&gt;&lt;h3 id=&quot;amazon-book&quot;&gt;&lt;a href=&quot;#amazon-book&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Hardware/phone/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Hardware/phone/</id>
+    <published>2023-09-15T00:02:41.506Z</published>
+    <updated>2023-09-15T04:02:14.865Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;摄像头&quot;&gt;&lt;a href=&quot;#摄像头&quot; class=&quot;headerlink&quot; title=&quot;摄像头&quot;&gt;&lt;/a&gt;摄像头&lt;/h3&gt;&lt;p&gt;計算攝影（Computational</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E5%93%B2%E5%AD%A6%20Philosophy/self%20help/time%20management/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E5%93%B2%E5%AD%A6%20Philosophy/self%20help/time%20management/</id>
+    <published>2023-09-15T00:01:31.584Z</published>
+    <updated>2023-09-15T05:49:15.971Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;make-a-plan&quot;&gt;&lt;a href=&quot;#make-a-plan&quot; class=&quot;headerlink&quot; title=&quot;make a plan&quot;&gt;&lt;/a&gt;make a plan&lt;/h1&gt;&lt;h2 id=&quot;time-management&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/cs%20wiki/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/cs%20wiki/</id>
+    <published>2023-09-14T23:58:20.306Z</published>
+    <updated>2023-09-18T00:29:16.617Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;html&quot;&gt;&lt;a href=&quot;#html&quot; class=&quot;headerlink&quot; title=&quot;html&quot;&gt;&lt;/a&gt;html&lt;/h2&gt;&lt;p&gt;A markup language is a text-encoding system consisting of a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Hardware/home%20assistant/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Hardware/home%20assistant/</id>
+    <published>2023-09-14T23:22:17.245Z</published>
+    <updated>2023-09-14T23:22:31.925Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;降噪耳机&quot;&gt;&lt;a href=&quot;#降噪耳机&quot; class=&quot;headerlink&quot; title=&quot;降噪耳机&quot;&gt;&lt;/a&gt;降噪耳机&lt;/h3&gt;&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

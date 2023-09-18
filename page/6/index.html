@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><meta name="baidu-site-verification" content="codeva-07TW7qEHGg"><title>Lucfe Knowledge Documentation</title><link rel="manifest" href="/lucfe-hexo/manifest.json"><meta name="application-name" content="Lucfe Knowledge Documentation"><meta name="msapplication-TileImage" content="/assets/images/favicon_l.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lucfe Knowledge Documentation"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="Lucfe Knowledge Documentation"><meta property="og:url" content="http://lucfe2010.github.io/lucfe-hexo"><meta property="og:site_name" content="Lucfe Knowledge Documentation"><meta property="og:locale" content="en_US"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/img/og_image.png"><meta property="article:author" content="lucfe"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="http://lucfe2010.github.io/lucfe-hexo/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://lucfe2010.github.io/lucfe-hexo"},"headline":"Lucfe Knowledge Documentation","image":["http://lucfe2010.github.io/lucfe-hexo/img/og_image.png"],"author":{"@type":"Person","name":"lucfe"},"publisher":{"@type":"Organization","name":"Lucfe Knowledge Documentation","logo":{"@type":"ImageObject","url":{"text":"Lucfe Knowledges"}}},"description":""}</script><link rel="alternate" href="https://lucfe2010.github.io/lucfe-hexo/atom.xml" title="Lucfe Knowledge Documentation" type="application/atom+xml"><link rel="icon" href="/lucfe-hexo/assets/images/favicon_l.png"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/6.0.0/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/lucfe-hexo/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js"></script><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/lucfe-hexo/">Lucfe Knowledges</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/lucfe-hexo/">Home</a><a class="navbar-item" href="/lucfe-hexo/archives">Archives</a><a class="navbar-item" href="/lucfe-hexo/categories">Categories</a><a class="navbar-item" href="/lucfe-hexo/tags">Tags</a><a class="navbar-item" href="/lucfe-hexo/about">About</a></div><div class="navbar-end"><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-12T01:46:53.289Z" title="2023/9/12 09:46:53">2023-09-12</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-15T22:23:07.320Z" title="2023/9/16 06:23:07">2023-09-16</time></span><span class="level-item">7 minutes read (About 1100 words)</span></div></div><div class="content"><h1 id="vs-code-shortcut"><a href="#vs-code-shortcut" class="headerlink" title="vs code shortcut"></a>vs code shortcut</h1><h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><p>查找替换<br>Ctrl+F | 查找<br>Ctrl+H | 查找替换</p>
+<p>F3 &#x2F; Shift+F3 | Find next&#x2F;previous<br>Alt+Enter | Select all occurences of Find match</p>
+<p>Ctrl+D | Add selection to next Find match下一个匹配的也被选中</p>
+<p>Ctrl+Shift+L | Select all occurrences of current selection同时选中所有匹配的<br>Ctrl+F2 | Select all occurrences of current word</p>
+<p>Ctrl+K Ctrl+D | Move last selection to next Find match将光标移动到，搜索结果中的下一个</p>
+<p>Ctrl+Shift+F | 整个文件夹中查找</p>
+<p>file to include or exclude<br>path segment匹配符：<br> <code>*</code> to match one or more characters in a path segment<br>? to match on one character in a path segment<br> ** to match any number of path segments ,including none {} to group conditions<br> e.g. <code>&#123;**/*.html,**/*.txt&#125;</code> matches all html and txt files<br> [] to declare a range of characters to match<br> e.g., example.[0-9] to match on example.0,example.1, …</p>
+<h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p>显示相关<br> 全屏：F11<br> zoomIn&#x2F;zoomOut：Ctrl + &#x3D;&#x2F;Ctrl + -<br> 侧边栏显&#x2F;隐：Ctrl+B</p>
+<p>侧边栏4大功能显示：<br>  Show Explorer Ctrl+Shift+E<br>  Show Search Ctrl+Shift+F<br>  Show Git Ctrl+Shift+G<br>  Show Debug Ctrl+Shift+D</p>
+<p>Ctrl+Shift+M Show Problems panel</p>
+<p>Ctrl+&#96; Show integrated terminal</p>
+<p>  输出Show Output Ctrl+Shift+U<br>  预览markdown Ctrl+Shift+V</p>
+<p>  Alt+Z Toggle word wrap</p>
+<p>  Shift+Alt+0 Toggle editor layout (horizontal&#x2F;vertical)</p>
+<p>ctrl k + ctrl s &#x3D; 打开快捷键一览表。</p>
+<p>ctrl + , user settting</p>
+<p>Ctrl+M Toggle Tab moves focus</p>
+<h2 id="6"><a href="#6" class="headerlink" title="6"></a>6</h2><p>编辑器与窗口管理</p>
+<p>新建文件 Ctrl+N<br>Ctrl+F4, Ctrl+W Close editor<br>Ctrl+Shift+T Reopen closed editor<br>历史打开文件之间切换 Ctrl+Tab，Alt+Left，Alt+Right</p>
+<p>Ctrl+Shift+PgUp &#x2F; PgDn Move editor left&#x2F;right</p>
+<p>Ctrl+K P Copy path of active file</p>
+<h3 id="show-command-palette"><a href="#show-command-palette" class="headerlink" title="show command palette"></a>show command palette</h3><p>主命令框 Ctrl+Shift+P模式。或 F1</p>
+<p>在Ctrl+P下输入&gt;又可以回到主命令框 Ctrl+Shift+P模式。</p>
+<h4 id="quick-open-go-to-file"><a href="#quick-open-go-to-file" class="headerlink" title="quick open, go to file"></a>quick open, go to file</h4><dl><dt>直接输入文件名，快速打开文件<br>? 列出当前可执行的动作<br>! 显示Errors或Warnings，也可以Ctrl+Shift+M</dt><dd>跳转到行数，也可以Ctrl+G直接进入</dd></dl><p> @ 跳转到symbol（搜索变量或者函数），也可以Ctrl+Shift+O直接进入<br>  <code>#</code> Show all Symbols，也可以Ctrl+T</p>
+<h2 id="Rich-languages-editing"><a href="#Rich-languages-editing" class="headerlink" title="Rich languages editing"></a>Rich languages editing</h2><p>重命名：比如要修改一个方法名，可以选中后按F2，输入新的名字，回车，会发现所有的文件都修改过了。</p>
+<p>跳转到下一个Error或Warning：当有多个错误时可以按F8逐个跳转</p>
+<p>查看diff 在explorer里选择文件右键 Set file to compare，然后需要对比的文件上右键选择Compare with ‘file_name_you_chose’.</p>
+<p>Ctrl+Space 或 Ctrl+I Trigger suggestion</p>
+<p>Ctrl+. Quick Fix</p>
+<p>代码格式化：Shift+Alt+F，或Ctrl+Shift+P后输入format code</p>
+<p>Ctrl+K Ctrl+F Format selection</p>
+<h3 id="重构代码"><a href="#重构代码" class="headerlink" title="重构代码"></a>重构代码</h3><p>跳转到定义处：F12<br>定义处缩略图：只看一眼而不跳转过去Alt+F12</p>
+<p>列出所有的引用：Shift+F12<br>同时修改本文件中所有匹配的：Ctrl+F12</p>
+<h2 id="editing"><a href="#editing" class="headerlink" title="editing"></a>editing</h2><table>
+<thead>
+<tr>
+<th>KEYS</th>
+<th>ACTION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ctrl + [ &#x2F; ]</td>
+<td>代码行缩进</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + [ &#x2F; ]</td>
+<td>折叠打开代码块</td>
+</tr>
+<tr>
+<td>Ctrl+K Ctrl+0</td>
+<td>Fold (collapse) all regions</td>
+</tr>
+<tr>
+<td>Ctrl+K Ctrl+J</td>
+<td>Unfold (uncollapse) all regions</td>
+</tr>
+<tr>
+<td>Ctrl + X</td>
+<td>如果不选中，默认复制或剪切一整行</td>
+</tr>
+<tr>
+<td>Ctrl + C</td>
+<td>如果不选中，默认复制或剪切一整行</td>
+</tr>
+<tr>
+<td>Alt + Up &#x2F; Down</td>
+<td>上下移动一行</td>
+</tr>
+<tr>
+<td>Shift+Alt+Up 或 Shift+Alt+Down</td>
+<td>向上向下复制一行</td>
+</tr>
+<tr>
+<td>Ctrl+Enter</td>
+<td>在当前行下边插入一行</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+Enter</td>
+<td>在当前行上方插入一行</td>
+</tr>
+</tbody></table>
+<h2 id="光标相关"><a href="#光标相关" class="headerlink" title="光标相关"></a>光标相关</h2><table>
+<thead>
+<tr>
+<th>KEYS</th>
+<th>ACTION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Home</td>
+<td>移动到行首：</td>
+</tr>
+<tr>
+<td>End</td>
+<td>移动到行尾：</td>
+</tr>
+<tr>
+<td>Ctrl+End</td>
+<td>移动到文件结尾：</td>
+</tr>
+<tr>
+<td>Ctrl+Home</td>
+<td>移动到文件开头：</td>
+</tr>
+<tr>
+<td>Ctrl+Shift+\</td>
+<td>移动到后半个括号</td>
+</tr>
+<tr>
+<td>Ctrl+L</td>
+<td>Select current line 选中当前行</td>
+</tr>
+<tr>
+<td>Shift+End</td>
+<td>选择从光标到行尾</td>
+</tr>
+<tr>
+<td>Shift+Home</td>
+<td>选择从行首到光标处</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + K</td>
+<td>删除光标所在行</td>
+</tr>
+<tr>
+<td>Ctrl + Left &#x2F; Right</td>
+<td>一个单词一个单词的移动光标</td>
+</tr>
+<tr>
+<td>Shift + Left &#x2F; Right</td>
+<td>一个字母一个字母的加入选择</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + Left &#x2F; Right</td>
+<td>一个单词一个单词的加入选择</td>
+</tr>
+<tr>
+<td>Shift + Up &#x2F; Down</td>
+<td>一行行的加入选择</td>
+</tr>
+<tr>
+<td>Shift + Alt + Left &#x2F; Right</td>
+<td>Shrink&#x2F;expand selection（光标所在单词，文档高亮显示相同的）</td>
+</tr>
+<tr>
+<td>Ctrl + Alt + Left &#x2F; Right</td>
+<td><em>不常用</em>移动窗口到右侧</td>
+</tr>
+</tbody></table>
+<h3 id="multi-cursor"><a href="#multi-cursor" class="headerlink" title="multi cursor"></a>multi cursor</h3><table>
+<thead>
+<tr>
+<th>KEYS</th>
+<th>ACTION</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Alt+Click</td>
+<td>Multi-Cursor：可以连续选择多处，然后一起修改，添加cursor</td>
+</tr>
+<tr>
+<td>Ctrl+Alt+Down 或 Ctrl+Alt+Up</td>
+<td>Insert cursor above &#x2F; below</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + Alt + (arrow key)</td>
+<td>Column (box) selection</td>
+</tr>
+<tr>
+<td>Shift+Alt+I</td>
+<td>Insert cursor at end of each line selected</td>
+</tr>
+<tr>
+<td>Ctrl+U</td>
+<td>回退上一个光标操作</td>
+</tr>
+<tr>
+<td>Ctrl+↑ &#x2F; ↓</td>
+<td>Scroll line up&#x2F;down</td>
+</tr>
+<tr>
+<td>Alt+PgUp &#x2F; PgDn</td>
+<td>Scroll page up&#x2F;down, not change the cusor location</td>
+</tr>
+</tbody></table>
+<h2 id="comment"><a href="#comment" class="headerlink" title="comment"></a>comment</h2><p>Ctrl+K Ctrl+C Add line comment<br>Ctrl+K Ctrl+U Remove line comment<br>Ctrl+&#x2F; Toggle line comment<br>Shift+Alt+A Toggle block comment</p>
+<h2 id="8"><a href="#8" class="headerlink" title="8"></a>8</h2></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-12T01:46:53.289Z" title="2023/9/12 09:46:53">2023-09-12</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-08-30T10:10:45.779Z" title="2023/8/30 18:10:45">2023-08-30</time></span><span class="level-item">4 minutes read (About 541 words)</span></div></div><div class="content"><h1 id="windows-shortcut"><a href="#windows-shortcut" class="headerlink" title="windows shortcut"></a>windows shortcut</h1><p>Shift + 单击任务栏按钮 打开应用或快速打开另一个应用实例。<br>Windows 徽标键  + D 显示和隐藏桌面。<br>Windows 徽标键  + E 打开文件资源管理器。<br>Windows 徽标键  + I 打开设置。<br>Windows 徽标键  + L 锁定你的电脑或切换帐户。</p>
+<hr>
+<p>Windows 徽标键  + R 打开“运行”对话框。<br>Windows 徽标键  + S 打开搜素。<br>Windows 徽标键  + Shift + S 获取部分屏幕的屏幕截图。<br>Windows 徽标键  + X 打开“快速链接”菜单。<br>Windows 徽标键  + 数字 打开桌面，然后启动固定到任务栏的应用（位于数字所指明的位置）。 如果应用已处于运行状态，则切换至该应用。</p>
+<hr>
+<p>Windows 徽标键  + Shift + 数字 打开桌面，然后启动固定到任务栏的应用新实例（位于数字所指明的位置）。<br>Windows 徽标键  + 向上键 最大化窗口。<br>Windows 徽标键  + 向下键 删除屏幕上的当前应用并最小化桌面窗口。<br>Windows 徽标键  + 向左键 最大化屏幕左侧的应用或桌面窗口。<br>Windows 徽标键  + 向右键 最大化屏幕右侧的应用或桌面窗口。<br>Windows 徽标键  + M 最小化所有窗口。<br>Windows 徽标键  + Shift + M 还原桌面上的最小化窗口。<br>Windows 徽标键  + Home 最小化活动桌面窗口之外的所有窗口（在第二个笔划时还原所有窗口）。<br>Windows 徽标键  + Shift + 向左键或向右键 将桌面上的应用或窗口从一台显示器移动至另一台显示器。<br>Ctrl + X 剪切选定项。<br>Ctrl + C（或 Ctrl + Insert） 复制选定项。<br>Ctrl + V（或 Shift + Insert） 粘贴选定项。<br>Ctrl + Z 撤消操作。<br>Ctrl + Y 恢复操作。<br>Alt + Tab 在打开的应用之间切换。<br>Alt + F4 关闭活动项，或者退出活动应用。<br>Ctrl + F4 关闭活动文档（在可全屏显示并允许你同时 打开多个文档 的应用 中）。</p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-12T01:46:53.274Z" title="2023/9/12 09:46:53">2023-09-12</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-12T01:57:12.880Z" title="2023/9/12 09:57:12">2023-09-12</time></span><span class="level-item">18 minutes read (About 2710 words)</span></div></div><div class="content"><h1 id="Regex-正则表达式"><a href="#Regex-正则表达式" class="headerlink" title="Regex 正则表达式"></a>Regex 正则表达式</h1><p>正则表达式（Regular Expression简写为Regex），又称为规则表达式，它是一种强大的文本匹配模式，其用于在字符串中查找匹配符合特定规则的子串。</p>
+<p>正则表达式由一些普通字符（比如英文字母，数字）和元字符（代表特定含义）组成。</p>
+<p>正则表达式作为一个字符模板，在字符串中匹配一个或多个符合特定规则的子串。</p>
+<h2 id="基本匹配"><a href="#基本匹配" class="headerlink" title="基本匹配"></a>基本匹配</h2><p>正则表达式其实就是在执⾏搜索时的格式，它由⼀些字⺟和数字组合⽽成。 例如：⼀个正则表达式 the ，它表示⼀个规则：由字⺟t 开始，接着是h ，再接着是e 。<br> “the” &#x3D;&gt; The fat cat sat on <strong>the</strong> mat.<br> 正则表达式123匹配字符串123。它逐个字符的与输⼊的正则表达式做⽐较。<br>  正则表达式是⼤⼩写敏感的，所以The不会匹配the。<br>   “The” &#x3D;&gt; The fat cat sat on the mat.</p>
+<h2 id="转义字符，常用于转义元字符"><a href="#转义字符，常用于转义元字符" class="headerlink" title="\ 转义字符，常用于转义元字符"></a>\ 转义字符，常用于转义元字符</h2><p>反斜线 \ 在表达式中⽤于转义紧跟其后的字符。⽤于指定 { } [ ] &#x2F; \ + * . $ ^ | ? 这些特殊字符。</p>
+<p>\s搜索空格，这个小写的s有“空格”之意。此模式不仅匹配空格，还包括回车符、制表符、换页符和换行符等字符。你可以将其看做与字符集[\r\t\f\n\v]类似。</p>
+<p>\S搜索非空格。使用它将不再匹配回车符、制表符、换页符和换行符等字符，也可用否定字符集[^\r\t\f\n\v]表示。</p>
+<p>空白字符有：空格(‘ ’)、换页(‘\f’)、换行(‘\n’)、回车(‘\r’)、水平制表符(‘\t’)、垂直制表符(‘\v’)六个。</p>
+<p>\f 匹配换页符</p>
+<p>换页: \f &#x3D; U+000c<br>在打印机上,加载下一页.在某些终端模拟器中,它会清除屏幕.</p>
+<p>\n 匹配换行符<br>\r 匹配回车符</p>
+<p>终端中，回车效果是输出回到本行行首，结果可能会将这一行之前的输出覆盖掉</p>
+<p>在文本文件中<br>在Windows平台上，换行符是回车符（CR，Carriage Return）和换行符（LF，Line Feed）的组合（即CRLF）；在Unix&#x2F;Linux平台上，换行符只是一个LF字符；在MacOS上，换行符是一个CR字符。</p>
+<p>setting -&gt; eol -&gt; \n (LF)</p>
+<p>\t 匹配制表符<br>\v 匹配垂直制表符</p>
+<p>垂直制表: \v &#x3D; U+000b<br>将表单放在下一行标签位置.</p>
+<p>一般文本编辑器对\r \v \f 的显示是没有控制效果的。</p>
+<h3 id="元字符"><a href="#元字符" class="headerlink" title="元字符"></a>元字符</h3><p>元字符. 可匹配任意(除了换行符\n)的单字符，意思就是. 可以代表任意（除了换行符\n）的单字符。</p>
+<h2 id="定位符"><a href="#定位符" class="headerlink" title="定位符"></a>定位符</h2><h3 id="单词边界-b与-B"><a href="#单词边界-b与-B" class="headerlink" title="单词边界\b与\B"></a>单词边界\b与\B</h3><p>符号\b 是指一个单词边界，比如空白字符和标点符号、其他符号（如-）、换行符等。<br>符号\B 表示非单词边界。</p>
+<h3 id="开始位置-与结束位置"><a href="#开始位置-与结束位置" class="headerlink" title="开始位置^与结束位置$"></a>开始位置^与结束位置$</h3><p>符号^ 表示匹配的子串在行首，符号$ 表示匹配的子串在行尾。</p>
+<h2 id="限定符用于限定一个子表达式出现的次数，一共6-种"><a href="#限定符用于限定一个子表达式出现的次数，一共6-种" class="headerlink" title="限定符用于限定一个子表达式出现的次数，一共6 种"></a>限定符用于限定一个子表达式出现的次数，一共6 种</h2><table>
+<thead>
+<tr>
+<th align="center">字符</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">*</td>
+<td>匹配前面的子表达式零次或多次</td>
+</tr>
+<tr>
+<td align="center">+</td>
+<td>匹配前面的子表达式一次或多次</td>
+</tr>
+<tr>
+<td align="center">?</td>
+<td>匹配前面的子表达式零次或一次</td>
+</tr>
+<tr>
+<td align="center">{n}</td>
+<td>匹配前面的子表达式n次</td>
+</tr>
+<tr>
+<td align="center">{n,}</td>
+<td>匹配前面的子表达式至少n次</td>
+</tr>
+<tr>
+<td align="center">{n,m}</td>
+<td>匹配前面的子表达式n 到m 次</td>
+</tr>
+</tbody></table>
+<p>符号*</p>
+<p>模式串ab*c，表示字符a和c 之间需要出现0 次或多次字符b。</p>
+<p>符号+</p>
+<p>模式串ab+c，表示字符a和c 之间需要出现1 次或多次字符b，即至少出现1次字符b。</p>
+<p>符号?</p>
+<p>模式串ab?c，表示字符a和c 之间需要出现0 次或1次字符b。</p>
+<p>符号{n}和{n,}和{n,m}<br>ab{3}c：符号b 出现的次数必须是3<br>ab{3,}c：符号b 出现的次数必须大于等于3<br>ab{3,5}c：符号b 出现的次数必须在3 和5之间，包括3 和 5</p>
+<h3 id="不常用"><a href="#不常用" class="headerlink" title="不常用"></a>不常用</h3><h4 id="贪婪匹配和懒惰匹配"><a href="#贪婪匹配和懒惰匹配" class="headerlink" title="贪婪匹配和懒惰匹配"></a>贪婪匹配和懒惰匹配</h4><p>*和 + 限定符都是贪婪的，因为它们会尽可能多的匹配文字，只有在它们的后面加上一个 ? 就可以实现非贪婪或最小匹配。</p>
+<p> 在正则表达式中，可用贪婪（greedy）匹配查找符合正则表达式的字符串的最长的可能字符串，并将其作为匹配结果返回。而懒惰（lazy）匹配是查找符合正则表达式的字符串的最短的可能字符串。</p>
+<p> 正则表达式默认采⽤贪婪匹配模式，在该模式下意味着会匹配尽可能⻓的⼦串。<br> 我们可以使⽤ ? 将贪婪匹配模式转化为惰性匹配模式。 “&#x2F;(.<em>at)&#x2F;” &#x3D;&gt; The fat cat sat on the mat.<br> “&#x2F;(.</em>?at)&#x2F;” &#x3D;&gt; The fat cat sat on the mat.</p>
+<h2 id="逻辑或"><a href="#逻辑或" class="headerlink" title="逻辑或|"></a>逻辑或|</h2><p>符号 | 写在两个子表达式之间表示逻辑或的意思。</p>
+<h2 id="字符簇"><a href="#字符簇" class="headerlink" title="字符簇[]"></a>字符簇[]</h2><p>写在中括号[] 内的多个字符代表逻辑或的意思。</p>
+<p>模式串a[bef]c，表示a和c中间的字符必须是b或e或f。</p>
+<p>当符号^ 写在中括号[] 内时，表示逻辑非的意思。</p>
+<p>模式串a[^bef]c，表示a和c中间的字符不能是b或e或f。</p>
+<p>符号- 写在中括号[]，表示范围的意思：</p>
+<table>
+<thead>
+<tr>
+<th align="center">示例</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">[a-z]</td>
+<td>表示a 到z 之间的任意字符</td>
+</tr>
+<tr>
+<td align="center">[A-Z]</td>
+<td>表示A 到Z 之间的任意字符</td>
+</tr>
+<tr>
+<td align="center">[0-9]</td>
+<td>表示0 到9 之间的任意数字，含义同\d</td>
+</tr>
+<tr>
+<td align="center">[^0-9]</td>
+<td>表示任意非数字，含义同\D</td>
+</tr>
+<tr>
+<td align="center">[A-Za-z0-9_]</td>
+<td>表示任意字母，数字或下划线，含义同\w</td>
+</tr>
+<tr>
+<td align="center">[^A-Za-z0-9_]</td>
+<td>表示任意非字母，非数字，非下划线，含义同\W</td>
+</tr>
+<tr>
+<td align="center">[ \f\r\t\n]</td>
+<td>表示任意的空白字符，含义同\s</td>
+</tr>
+<tr>
+<td align="center">[^ \f\r\t\n]</td>
+<td>表示任意的非空白字符，含义同\S</td>
+</tr>
+</tbody></table>
+<h2 id="字符组合"><a href="#字符组合" class="headerlink" title="字符组合()"></a>字符组合()</h2><p>写在小括号()中的多个字符，会被看成一个整体。</p>
+<p>(…) 中包含的内容将会被看成⼀个整体，和数学中⼩括号 () 的作⽤相同。<br>例如, 表达式 (ab)<em>匹配连续出现 0 或更多个 ab 的字符串 。 如果<br>没有使⽤ (…) ，那么表达式 ab</em> 将匹配连续出现 0 或更多个 b 。</p>
+<p>再⽐如之前说的 {} 是⽤来表示前⾯⼀个字符出现指定次数。<br> 但如果在 {} 前加上特征标群(…) 则表示整个标群内的字符重复 n 次。</p>
+<p>  我们还可以在 () 中⽤ 或字符 | 表示或。 例如， (c|g|p)ar 匹配 car 或 gar 或 par</p>
+<p>  “(c|g|p)ar” &#x3D;&gt; The car is parked in the garage.</p>
+<p>(abc){2,}<br>abc出现的次数必须大于等于2</p>
+<p><img src="/lucfe-hexo/assets/images/Regex%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/image.png" alt="Alt text"></p>
+<h2 id="捕获组"><a href="#捕获组" class="headerlink" title="捕获组"></a>捕获组</h2><h3 id="使用捕获组复用模式"><a href="#使用捕获组复用模式" class="headerlink" title="使用捕获组复用模式"></a>使用捕获组复用模式</h3><p>  正则表达式中的字符串模式多次出现，手动重复输入这些正则表达式是浪费时间的。有一个更好的方法可以用于你的字符串中有多个重复子串时进行指定，这个方法就是捕获组。</p>
+<p>  用括号”()”可以定义捕获组，用于查找重复的子串，即把会重复的字符串模式的正则表达式放在括号内。</p>
+<p>  要指定重复字符串出现的位置，可以使用反斜线”&quot; + 数字的形式。该数字从1开始，并随着用括号定义的捕获组数量而增加。比如\1匹配正则表达式中通过括号定义的第一个捕获组。</p>
+<p>   使用捕获组来匹配字符串中连续出现3次的数字，每个数字由空格分隔，正则表达式为</p>
+<p>  (\d+)\s\1\s\1</p>
+<p>  \1代表捕获组(\d+)内正则表达式匹配的结果，而不是正则表达式\d+。因此，这个正则表示可以匹配123 123 123，但是不能匹配120 210 220。</p>
+<p>  （注意：是先捕获后复用，即先执行表达式得到结果之后再复用）</p>
+<h3 id="在替换中使用捕获组复用模式"><a href="#在替换中使用捕获组复用模式" class="headerlink" title="在替换中使用捕获组复用模式"></a>在替换中使用捕获组复用模式</h3><p>如果我们在搜索替换中希望保留搜索字符串中的某些字符串作为替换字符串的一部分，可以使用”$”符号访问搜索字符串中的捕获组。</p>
+<p>比如，在搜索正则表达式中的捕获组为capture groups，则替换的正则表达式中可以直接使用$1复用搜索正则表达式中的捕获组capture groups。</p>
+<p> 在VSCode中，如果想要把项目中所有的HTML标签中的h改为H，搜索正则表达式<code>&lt;h(\d)&gt;</code>就可以查找出所有标签，如<code>&lt;h1&gt;、&lt;h2&gt;、&lt;h3&gt;、&lt;h4&gt;</code>等，其中还定义了捕获组(\d)。 替换的正则表达式<code>&lt;H$1&gt;</code>使用$1复用了搜索正则表达式中定义的捕获组(\d)，如下图所示。</p>
+<p><img src="/lucfe-hexo/assets/images/Regex%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/image-1.png" alt="Alt text"></p>
+<h3 id="pattern"><a href="#pattern" class="headerlink" title="(pattern)"></a>(pattern)</h3><p>匹配 pattern 并获取这一匹配。所获取的匹配可以从产生的 Matches 集合得到，在VBScript 中使用 SubMatches 集合，在JScript 中则使用 $0…$9 属性。要匹配圆括号字符，请使用 ‘(‘ 或 ‘)‘。</p>
+<h3 id="pattern-1"><a href="#pattern-1" class="headerlink" title="(?:pattern)"></a>(?:pattern)</h3><p>匹配 pattern 但不获取匹配结果，也就是说这是一个非获取匹配，不进行存储供以后使用。</p>
+<p>这在使用 “或” 字符 (|) 来组合一个模式的各个部分是很有用。例如， ‘industr(?:y|ies) 就是一个比 ‘industry|industries’ 更简略的表达式。</p>
+<h3 id="pattern-2"><a href="#pattern-2" class="headerlink" title="(?&#x3D;pattern)"></a>(?&#x3D;pattern)</h3><p>正向肯定预查（look ahead positive assert），在任何匹配pattern的字符串开始处匹配查找字符串。</p>
+<p>这是一个非获取匹配，也就是说，该匹配不需要获取供以后使用。</p>
+<p>例如，”Windows(?&#x3D;95|98|NT|2000)”能匹配”Windows2000”中的”Windows”，但不能匹配”Windows3.1”中的”Windows”。</p>
+<p>预查不消耗字符，也就是说，在一个匹配发生后，在最后一次匹配之后立即开始下一次匹配的搜索，而不是从包含预查的字符之后开始。</p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-12T01:46:53.274Z" title="2023/9/12 09:46:53">2023-09-12</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-03T10:25:41.868Z" title="2023/9/3 18:25:41">2023-09-03</time></span><span class="level-item">5 minutes read (About 690 words)</span></div></div><div class="content"><h1 id="vbs操作txt文本文件常用方法"><a href="#vbs操作txt文本文件常用方法" class="headerlink" title="vbs操作txt文本文件常用方法"></a>vbs操作txt文本文件常用方法</h1><p>创建文件</p>
+<p>dim fso, f<br>set fso &#x3D; server.CreateObject(“Scripting.FileSystemObject”)<br>set f &#x3D; fso.CreateTextFile(“C:\test.txt”, true) ‘第二个参数表示目标文件存在时是否覆盖<br>f.Write(“写入内容”)<br>f.WriteLine(“写入内容并换行”)<br>f.WriteBlankLines(3) ‘写入三个空白行（相当于在文本编辑器中按三次回车）<br>f.Close()<br>set f &#x3D; nothing<br>set fso &#x3D; nothing</p>
+<hr>
+<p>打开并读文件</p>
+<p>dim fso, f<br>set fso &#x3D; server.CreateObject(“Scripting.FileSystemObject”)<br>set f &#x3D; fso.OpenTextFile(“C:\test.txt”, 1, false) ‘第二个参数 1 表示只读打开，第三个参数表示目标文件不存在时是否创建<br>f.Skip(3) ‘将当前位置向后移三个字符<br>f.SkipLine() ‘将当前位置移动到下一行的第一个字符，注意：无参数<br>response.Write f.Read(3) ‘从当前位置向后读取三个字符，并将当前位置向后移三个字符<br>response.Write f.ReadLine() ‘从当前位置向后读取直到遇到换行符（不读取换行符），并将当前位置移动到下一行的第一个字符，注意：无参数<br>response.Write f.ReadAll() ‘从当前位置向后读取，直到文件结束，并将当前位置移动到文件的最后<br>if f.atEndOfLine then<br>    response.Write(“一行的结尾！”)<br>end if<br>if f.atEndOfStream then<br>    response.Write(“文件的结尾！”)<br>end if<br>f.Close()<br>set f &#x3D; nothing<br>set fso &#x3D; nothing</p>
+<hr>
+<p>打开并写文件</p>
+<p>dim fso, f<br>set fso &#x3D; server.CreateObject(“Scripting.FileSystemObject”)<br>set f &#x3D; fso.OpenTextFile(“C:\test.txt”, 2, false) ‘第二个参数 2 表示重写，如果是 8 表示追加<br>f.Write(“写入内容”)<br>f.WriteLine(“写入内容并换行”)<br>f.WriteBlankLines(3) ‘写入三个空白行（相当于在文本编辑器中按三次回车）<br>f.Close()<br>set f &#x3D; nothing<br>set fso &#x3D; nothing</p>
+<hr>
+<p>判断文件是否存在</p>
+<p>dim fso<br>set fso &#x3D; server.CreateObject(“Scripting.FileSystemObject”)<br>if fso.FileExists(“C:\test.txt”) then<br>    response.Write(“目标文件存在”)<br>else<br>    response.Write(“目标文件不存在”)<br>end if<br>set fso &#x3D; nothing</p>
+<hr>
+<p>移动文件</p>
+<p>dim fso<br>set fso &#x3D; server.CreateObject(“Scripting.FileSystemObject”)<br>call fso.MoveFile(“C:\test.txt”, “D:\test111.txt”) ‘两个参数的文件名部分可以不同<br>set fso &#x3D; nothing</p>
+<hr>
+<p>复制文件</p>
+<p>dim fso<br>set fso &#x3D; server.CreateObject(“Scripting.FileSystemObject”)<br>call fso.CopyFile(“C:\test.txt”, “D:\test111.txt”) ‘两个参数的文件名部分可以不同<br>set fso &#x3D; nothing</p>
+<hr>
+<p>删除文件</p>
+<p>dim fso<br>set fso &#x3D; server.CreateObject(“Scripting.FileSystemObject”)<br>fso.DeleteFile(“C:\test.txt”)<br>set fso &#x3D; nothing</p>
+<hr>
+<p>创建文件夹</p>
+<p>dim fso<br>set fso &#x3D; server.CreateObject(“Scripting.FileSystemObject”)<br>fso.CreateFolder(“C:\test”) ‘目标文件夹的父文件夹必须存在<br>set fso &#x3D; nothing</p>
+<hr>
+<p>判断文件夹是否存在</p>
+<p>dim fso<br>set fso &#x3D; server.CreateObject(“Scripting.FileSystemObject”)<br>if fso.FolderExists(“C:\Windows”) then<br>    response.Write(“目标文件夹存在”)<br>else<br>    response.Write(“目标文件夹不存在”)<br>end if<br>set fso &#x3D; nothing</p>
+<hr>
+<p>删除文件夹</p>
+<p>dim fso<br>set fso &#x3D; server.CreateObject(“Scripting.FileSystemObject”)<br>fso.DeleteFolder(“C:\test”) ‘文件夹不必为空<br>set fso &#x3D; nothing</p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-12T01:46:53.274Z" title="2023/9/12 09:46:53">2023-09-12</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-12T01:57:12.891Z" title="2023/9/12 09:57:12">2023-09-12</time></span><span class="level-item">3 minutes read (About 443 words)</span></div></div><div class="content"><h1 id="VMWare-window-server修改密码"><a href="#VMWare-window-server修改密码" class="headerlink" title="VMWare window server修改密码"></a>VMWare window server修改密码</h1><p>VMWare——window server 2008&#x2F;2012 administrator 密码忘记，设置重置密码<br>用VMWare安装window server 2008或者2012忘记密码后，想要修改密码满麻烦的。</p>
+<p>以下过程是我成功修改密码的过程：</p>
+<p>1.首先需要需要链接一个ISO文件</p>
+<p><img src="/lucfe-hexo/assets/images/VMWare%20window%20server%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81/image.png" alt="Alt text"></p>
+<p>需要特别注意把“启用连接”勾上，这个地方坑了我好长时间。不勾上，系统启动没办法CD-ROM Drive进入的。</p>
+<p>2.关闭虚拟机。以下面的方式打开虚拟机：</p>
+<p><img src="/lucfe-hexo/assets/images/VMWare%20window%20server%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81/image-1.png" alt="Alt text"></p>
+<p>3进入BIOS界面—&gt;选择Boot:确保启动方式是以CD-ROM Driver</p>
+<p><img src="/lucfe-hexo/assets/images/VMWare%20window%20server%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81/image-2.png" alt="Alt text"></p>
+<p>4.然后重新启动。重新启动后，会进入到安装系统界面。</p>
+<p><img src="/lucfe-hexo/assets/images/VMWare%20window%20server%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81/image-3.png" alt="Alt text"></p>
+<p>5.点击下一步，在下一个界面左下面，第一行：Repair your computer（修复你的计算机），点击这个；</p>
+<p><img src="/lucfe-hexo/assets/images/VMWare%20window%20server%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81/image-4.png" alt="Alt text"></p>
+<p>6.之后会进入到选择界面，选择Troubleshoot（故障排除）：</p>
+<p><img src="/lucfe-hexo/assets/images/VMWare%20window%20server%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81/image-5.png" alt="Alt text"></p>
+<p>7.之后新的界面Advanced options（高级选项）,选择Command Prompt（命令提示）选项：</p>
+<p><img src="/lucfe-hexo/assets/images/VMWare%20window%20server%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81/image-6.png" alt="Alt text"></p>
+<p>8.这个时候会出现一个命令提示框，需要输入以下命令：</p>
+<p>d:（注：根据实际情况，系统盘文件放置的位置）<br>cd windows\system32<br>ren Utilman.exe Utilman.exe.old<br>copy cmd.exe Utilman.exe</p>
+<p><img src="/lucfe-hexo/assets/images/VMWare%20window%20server%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81/image-7.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/VMWare%20window%20server%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81/image-8.png" alt="Alt text"></p>
+<p>8.关闭命令提示框，点击Continue(继续)；当出现欢迎界面，点击Windows key +U：</p>
+<p><img src="/lucfe-hexo/assets/images/VMWare%20window%20server%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81/image-9.png" alt="Alt text"></p>
+<p>9.出现命令，输入以下命令：net user administrator “new password”,关闭提示框，这个时候就可以使用你新设的密码登录了。</p>
+<p><img src="/lucfe-hexo/assets/images/VMWare%20window%20server%E4%BF%AE%E6%94%B9%E5%AF%86%E7%A0%81/image-10.png" alt="Alt text"></p>
+<p>以上步骤成功修改了vmware虚拟机window server 2008&#x2F;2012的密码。</p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-12T01:46:53.274Z" title="2023/9/12 09:46:53">2023-09-12</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-12T01:57:12.929Z" title="2023/9/12 09:57:12">2023-09-12</time></span><span class="level-item">13 minutes read (About 1996 words)</span></div></div><div class="content"><h1 id="VMware网络连接模式"><a href="#VMware网络连接模式" class="headerlink" title="VMware网络连接模式"></a>VMware网络连接模式</h1><p>VMware网络连接模式——桥接模式、NAT模式以及仅主机模式的介绍和区别<br>　　在使用VMware Workstation(以下简称：VMware)创建虚拟机的过程中，配置虚拟机的网络连接是非常重要的一环，当我们为虚拟机配置网络连接时，我们可以看到如下图所示的几种网络连接模式：桥接模式、NAT模式、仅主机模式、自定义网络连接模式。那么这几种网络连接模式都各自有什么主要用途，它们之间又有哪些区别呢？</p>
+<p><img src="/lucfe-hexo/assets/images/VMware%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E6%A8%A1%E5%BC%8F/image.png" alt="Alt text"></p>
+<p>　　磨刀不误砍柴工，为了更好地使用虚拟机，了解这几种连接模式的主要用途以及它们之间的区别是非常有必要的。在这里，我们就以下面的网络连接示意图为例来进行相关介绍。</p>
+<p><img src="/lucfe-hexo/assets/images/VMware%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E6%A8%A1%E5%BC%8F/image-1.png" alt="Alt text"></p>
+<p>　　在VMware中，虚拟机的网络连接主要是由VMware创建的虚拟交换机(也叫做虚拟网络)负责实现的，VMware可以根据需要创建多个虚拟网络。在Windows系统的主机上，VMware最多可以创建20个虚拟网络，每个虚拟网络可以连接任意数量的虚拟机网络设备；<br>　　在Linux系统的主机上，VMware最多可以创建255个虚拟网络，但每个虚拟网络仅能连接32个虚拟机网络设备。<br>VMware的虚拟网络都是以”VMnet+数字”的形式来命名的，例如 VMnet0、VMnet1、VMnet2……以此类推(在Linux系统的主机上，虚拟网络的名称均采用小写形式，例如 vmnet0 )。<br>　　当我们安装VMware时，VMware会自动为3种网络连接模式各自创建1个虚拟机网络：VMnet0(桥接模式)、VMnet8(NAT模式)、VMnet1(仅主机模式)。此外，我们也可以根据需要自行创建更多的虚拟网络。</p>
+<p>VMware 桥接模式<br>　　VMware桥接模式，也就是将虚拟机的虚拟网络适配器与主机的物理网络适配器进行交接，虚拟机中的虚拟网络适配器可通过主机中的物理网络适配器直接访问到外部网络(例如图中所示的局域网和Internet，下同)。简而言之，这就好像在上图所示的局域网中添加了一台新的、独立的计算机一样。因此，虚拟机也会占用局域网中的一个IP地址，并且可以和其他终端进行相互访问。桥接模式网络连接支持有线和无线主机网络适配器。如果你想把虚拟机当做一台完全独立的计算机看待，并且允许它和其他终端一样的进行网络通信，那么桥接模式通常是虚拟机访问网络的最简单途径。</p>
+<p>VMware NAT模式<br>　　NAT，是Network Address Translation的缩写，意即网络地址转换。NAT模式也是VMware创建虚拟机的默认网络连接模式。使用NAT模式网络连接时，VMware会在主机上建立单独的专用网络，用以在主机和虚拟机之间相互通信。虚拟机向外部网络发送的请求数据”包裹”，都会交由NAT网络适配器加上”特殊标记”并以主机的名义转发出去，外部网络返回的响应数据”包裹”，也是先由主机接收，然后交由NAT网络适配器根据”特殊标记”进行识别并转发给对应的虚拟机，因此，虚拟机在外部网络中不必具有自己的IP地址。从外部网络来看，虚拟机和主机在共享一个IP地址，默认情况下，外部网络终端也无法访问到虚拟机。</p>
+<p>　　此外，在一台主机上只允许有一个NAT模式的虚拟网络。因此，同一台主机上的多个采用NAT模式网络连接的虚拟机也是可以相互访问的。</p>
+<p>　　前面我们已经提到，默认情况下，外部网络无法访问到虚拟机，不过我们也可以通过手动修改NAT设置实现端口转发功能，将外部网络发送到主机指定端口的数据转发到指定的虚拟机上。比如，我们在虚拟机的80端口上”建立”了一个站点，只要我们设置端口转发，将主机88端口上的数据转发给虚拟机的80端口，就可以让外部网络通过主机的88端口访问到虚拟机80端口上的站点。</p>
+<p>VMware 仅主机模式<br>　　仅主机模式，是一种比NAT模式更加封闭的的网络连接模式，它将创建完全包含在主机中的专用网络。仅主机模式的虚拟网络适配器仅对主机可见，并在虚拟机和主机系统之间提供网络连接。相对于NAT模式而言，仅主机模式不具备NAT功能，因此在默认情况下，使用仅主机模式网络连接的虚拟机无法连接到Internet(在主机上安装合适的路由或代理软件，或者在Windows系统的主机上使用Internet连接共享功能，仍然可以让虚拟机连接到Internet或其他网络)。</p>
+<p>　　在同一台主机上可以创建多个仅主机模式的虚拟网络，如果多个虚拟机处于同一个仅主机模式网络中，那么它们之间是可以相互通信的；如果它们处于不同的仅主机模式网络，则默认情况下无法进行相互通信(可通过在它们之间设置路由器来实现相互通信)。</p>
+<p>自定义网络连接配置<br>　　利用 WMware 提供的虚拟网络连接组件，你还可以创建复杂的虚拟网络。在这里我们不对其进行详细介绍，你可以参考官方文档，然后通过VMware提供的虚拟网络编辑器来创建虚拟网络。</p>
+<p>形象的说：<br>　　桥接模式的虚拟机，就像一个在路由器”民政局”那里”上过户口”的成年人，有自己单独的居住地址，虽然和主机住在同一个大院里，但好歹是有户口的人，可以大摇大摆地直接和外面通信。<br>　　NAT模式的虚拟机，纯粹就是一个没上过户口的黑户，路由器”民政局”根本不知道有这么个人，自然也不会主动和它通信。即使虚拟机偶尔要向外面发送点的信件，都得交给主机以主机的名义转发出去，主机还专门请了一位叫做NAT的老大爷来专门负责这些虚拟机的发信、收信事宜。<br>仅主机模式的虚拟机，纯粹是一个彻彻底底的黑奴，不仅没有户口、路由器”民政局”不知道这么号人，还被主机关在小黑屋里，连信件也不准往外发。</p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-12T01:46:53.274Z" title="2023/9/12 09:46:53">2023-09-12</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-03T09:44:17.182Z" title="2023/9/3 17:44:17">2023-09-03</time></span><span class="level-item">4 minutes read (About 651 words)</span></div></div><div class="content"><h1 id="Ubuntu-18-04修改默认源为国内源"><a href="#Ubuntu-18-04修改默认源为国内源" class="headerlink" title="Ubuntu 18.04修改默认源为国内源"></a>Ubuntu 18.04修改默认源为国内源</h1><p>安装Ubuntu 18.04后，使用国外源太慢了，修改为国内源会快很多。</p>
+<p>修改阿里源为Ubuntu 18.04默认的源</p>
+<p>备份&#x2F;etc&#x2F;apt&#x2F;sources.list</p>
+<h2 id="备份"><a href="#备份" class="headerlink" title="备份"></a>备份</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cp</span> /etc/apt/sources.list /etc/apt/sources.list.bak</span><br></pre></td></tr></table></figure>
+
+<p>在&#x2F;etc&#x2F;apt&#x2F;sources.list文件前面添加如下条目</p>
+<h2 id="添加阿里源"><a href="#添加阿里源" class="headerlink" title="添加阿里源"></a>添加阿里源</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse</span><br><span class="line">deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse</span><br><span class="line">deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse</span><br><span class="line">deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse</span><br><span class="line">deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse</span><br><span class="line">deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse</span><br><span class="line">deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse</span><br><span class="line">deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse</span><br><span class="line">deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse</span><br><span class="line">deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse</span><br></pre></td></tr></table></figure>
+
+<p>最后执行如下命令更新源</p>
+<h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get upgrade</span><br></pre></td></tr></table></figure>
+
+<p>另外其他几个国内源如下：<br>中科大源</p>
+<h2 id="中科大源"><a href="#中科大源" class="headerlink" title="中科大源"></a>中科大源</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">deb https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse</span><br><span class="line">deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse</span><br><span class="line">deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse</span><br><span class="line">deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse</span><br><span class="line">deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse</span><br><span class="line">deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse</span><br><span class="line">deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-security main restricted universe multiverse</span><br><span class="line">deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-security main restricted universe multiverse</span><br><span class="line">deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse</span><br><span class="line">deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse</span><br></pre></td></tr></table></figure>
+
+<p>163源</p>
+<h2 id="163源"><a href="#163源" class="headerlink" title="163源"></a>163源</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">deb http://mirrors.163.com/ubuntu/ bionic main restricted universe multiverse</span><br><span class="line">deb http://mirrors.163.com/ubuntu/ bionic-security main restricted universe multiverse</span><br><span class="line">deb http://mirrors.163.com/ubuntu/ bionic-updates main restricted universe multiverse</span><br><span class="line">deb http://mirrors.163.com/ubuntu/ bionic-proposed main restricted universe multiverse</span><br><span class="line">deb http://mirrors.163.com/ubuntu/ bionic-backports main restricted universe multiverse</span><br><span class="line">deb-src http://mirrors.163.com/ubuntu/ bionic main restricted universe multiverse</span><br><span class="line">deb-src http://mirrors.163.com/ubuntu/ bionic-security main restricted universe multiverse</span><br><span class="line">deb-src http://mirrors.163.com/ubuntu/ bionic-updates main restricted universe multiverse</span><br><span class="line">deb-src http://mirrors.163.com/ubuntu/ bionic-proposed main restricted universe multiverse</span><br><span class="line">deb-src http://mirrors.163.com/ubuntu/ bionic-backports main restricted universe multiverse</span><br></pre></td></tr></table></figure>
+
+<p>清华源</p>
+<h2 id="清华源"><a href="#清华源" class="headerlink" title="清华源"></a>清华源</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse</span><br><span class="line">deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse</span><br><span class="line">deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse</span><br><span class="line">deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse</span><br><span class="line">deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse</span><br><span class="line">deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse</span><br></pre></td></tr></table></figure>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-12T01:46:53.269Z" title="2023/9/12 09:46:53">2023-09-12</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-12T01:57:12.842Z" title="2023/9/12 09:57:12">2023-09-12</time></span><span class="level-item">4 minutes read (About 548 words)</span></div></div><div class="content"><h1 id="oracle安装教程"><a href="#oracle安装教程" class="headerlink" title="oracle安装教程"></a>oracle安装教程</h1><p>网格安装选项。选择“单实例数据库安装”，如下图所示，单击下一步。</p>
+<p> <img src="/lucfe-hexo/assets/images/oracle%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image.png" alt="Alt text"></p>
+<p> 安装类型。选择“高级安装”，如下图所示，单击下一步。<br> <img src="/lucfe-hexo/assets/images/oracle%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-1.png" alt="Alt text"></p>
+<p> 产品语言。直接默认即可（简体中文、英语），如下图所示，单击下一步。</p>
+<p> <img src="/lucfe-hexo/assets/images/oracle%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-2.png" alt="Alt text"></p>
+<p> 数据库版本。选择“企业版”，如下图所示，单击下一步。</p>
+<p> <img src="/lucfe-hexo/assets/images/oracle%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-3.png" alt="Alt text"></p>
+<p> 安装位置。填入安装路径（只需要填“Oracle基目录”即可，“软件位置”会自动生成），如下图所示，单击下一步。<br> <img src="/lucfe-hexo/assets/images/oracle%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-4.png" alt="Alt text"></p>
+<p> 配置类型。选择“一般用途&#x2F;事务处理”，如下图所示，单击下一步。</p>
+<p> <img src="/lucfe-hexo/assets/images/oracle%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-5.png" alt="Alt text"></p>
+<p> 数据库标识符。填入全局数据库名和SID，如下图所示，单击下一步。</p>
+<p> <img src="/lucfe-hexo/assets/images/oracle%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-6.png" alt="Alt text"></p>
+<p>配置选项。切换到“字符集”选项卡，选择“使用Unicode（AL32UTF8）”，如下图所示，单击下一步。</p>
+<p><img src="/lucfe-hexo/assets/images/oracle%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-7.png" alt="Alt text"></p>
+<p>管理选项。直接单击下一步，即选择“Database Control”如下图所示。</p>
+<p><img src="/lucfe-hexo/assets/images/oracle%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-8.png" alt="Alt text"></p>
+<p>数据库存储。直接单击下一步，即选择“文件系统”如下图所示。</p>
+<p><img src="/lucfe-hexo/assets/images/oracle%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-9.png" alt="Alt text"></p>
+<p>  方案口令。为了便于测试，这里使用了相同的密码，实际部署时可根据实际情况自行决定。</p>
+<p><img src="/lucfe-hexo/assets/images/oracle%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-10.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/oracle%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/image-11.png" alt="Alt text"></p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-12T01:46:53.258Z" title="2023/9/12 09:46:53">2023-09-12</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-14T23:36:42.507Z" title="2023/9/15 07:36:42">2023-09-15</time></span><span class="level-item">3 minutes read (About 459 words)</span></div></div><div class="content"><h1 id="系统集成"><a href="#系统集成" class="headerlink" title="系统集成"></a>系统集成</h1><p>系统集成( system integration)通常是指将软件、硬件与通信技术组合起来为用户解决信息处理问题的业务，集成的各个分离部分原本就是一个个独立的系统，集成后的整体的各部分之间能彼此有机地和协调地工作，以发挥整体效益，达到整体优化的目的。  </p>
+<p>传统 IT 基础架构由通常的硬件和软件组件组成：设施、数据中心、服务器、网络硬件台式计算机和企业应用软件解决方案。  </p>
+<p>virtualization+server+storage+networking</p>
+<p>IaaS — Infrastructure as a Service<br>IaaS —基础架构即服务<br>cloud-based services, pay-as-you-go for services such as storage, networking, and virtualization.  </p>
+<p>runtime+middleware+operatingSystem</p>
+<p>PaaS — Platform as a Service<br>PaaS —平台即服务<br>hardware and software tools available over the internet.  </p>
+<p>data+applications</p>
+<p>SaaS — Software as a Service<br>software that is available via a third-party over the internet.<br>SaaS —软件即服务  </p>
+<p>互联网的域名注册及虚拟主机等都是基本服务<br>游戏、语音聊天、可视电话、短信、股票、投资信息、培训等等都是互联网增值服务。<br>互联网增值服务是通过互联网的除域名注册及虚拟主机等基本服务以外的服务。<br>主要以网络社区为基础平台，通过用户之间的沟通和互动，激发用户自我表现和娱乐的需求，从而给个人用户提供各类通过付费才可获得的个性化增值服务和虚拟物品消费服务，主要服务包括会员特权、网络虚拟形象、道具、个人空间装饰、个人交友服务等。  </p>
+<p>ICT<br>Information and communications technology  </p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-12T01:46:53.258Z" title="2023/9/12 09:46:53">2023-09-12</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-03T10:02:04.484Z" title="2023/9/3 18:02:04">2023-09-03</time></span><span class="level-item">6 minutes read (About 839 words)</span></div></div><div class="content"><h1 id="intall-Appache-PHP-and-MySQL-on-ubuntu"><a href="#intall-Appache-PHP-and-MySQL-on-ubuntu" class="headerlink" title="intall Appache,PHP and MySQL on ubuntu"></a>intall Appache,PHP and MySQL on ubuntu</h1><p>In this tutorial we are going to learn how to configure Ubuntu 18.04 server as a web server using the Ubuntu LAMP stack, which includes the Apache web server, PHP programming Language and MySQL&#x2F;MariaDB Database Server.</p>
+<p>We will start by installing and configuring Apache web server, then we will install PHP, MySQL  Server and phpMyAdmin web interface.</p>
+<p>Install and Configure Apache web server on Ubuntu 18.04<br>Apache is the most popular and stable web server for Ubuntu Linux. The Apache HTTP server for Ubuntu 18 provided by the apache2 package. To install apache2 on Ubuntu, open the terminal and execute:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install apache2</span><br></pre></td></tr></table></figure>
+
+<p>That is all you need to do. Now, open a web browser from a remote computer and type the IP address of your Ubuntu server in the address bar.</p>
+<p>You will get the Apache2 Ubuntu Default Page.</p>
+<p>Install and Configure Apache web server on Ubuntu 18.04<br>The apache2.conf file is the main configuration file which you can find under the &#x2F;etc&#x2F;apache2&#x2F; directory.<br>The <em><strong>&#x2F;var&#x2F;www&#x2F;html</strong></em> is the default DocumentRoot, You can immediately serve static HTML website by putting the contents (e.g. HTML, images, CSS, JavaScript and etc.) into the &#x2F;var&#x2F;www&#x2F;html directory.<br>Creating Apache Virtual Hosts<br>Virtual Hosting are a way of serving multiple websites from a single server. Every website will have their own configuration and separate Document Root to host website contents.</p>
+<p>Creating an Apache Virtual Host is a simple task. For this demonstration, I am going to create a new virtual host for the example.com domain. The &#x2F;var&#x2F;www&#x2F;example.com directory going to be the DocumentRoot.</p>
+<p>First create the DocumentRoot:</p>
+<p><code>sudo mkdir /var/www/example.com</code></p>
+<p>Create the Virtual Host configuration file inside the &#x2F;etc&#x2F;apache2&#x2F;sites-available&#x2F; folder (Filename must end with ‘.conf’ extension).</p>
+<p><code>sudo vim /etc/apache2/sites-available/example.com.conf</code></p>
+<p>Add following VirtualHost configuration:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;VirtualHost *:80&gt;</span><br><span class="line">  ServerName www.example.com</span><br><span class="line">  ServerAlias example.com</span><br><span class="line">  DocumentRoot /var/www/example.com</span><br><span class="line">  ErrorLog <span class="variable">$&#123;APACHE_LOG_DIR&#125;</span>/error.log</span><br><span class="line">  CustomLog <span class="variable">$&#123;APACHE_LOG_DIR&#125;</span>/access.log combined</span><br><span class="line">&lt;/VirtualHost&gt;</span><br></pre></td></tr></table></figure>
+
+<p>Save the file, enable the new site and reload the Apache web server:</p>
+<p><code>sudo a2ensite example.com.conf</code><br><code>sudo systemctl reload apache2</code><br>And now our web server is ready to serve &lt;<a href="http://www.example.com>">www.example.com&gt;</a> website. Of Course we still don’t have anything in our DocumentRoot and you also need to configure DNS records to point your domain name to the server IP address.</p>
+<p>To test virtual host without DNS, create an index.html file inside the DocumentRoot and entry to the hosts file on your local computer, pointing &lt;<a href="http://www.example.com>">www.example.com&gt;</a> to your Ubuntu server IP address.</p>
+<p>Install PHP programming Language<br>PHP is a programming language for developing web applications and essential part of the Ubuntu LAMP Stack. To install PHP on Ubuntu 18.04, Run:</p>
+<p><code>sudo apt-get update</code><br><code>sudo apt-get install php</code></p>
+<p>The php package will install the “php7.2” as well as “libapache2-mod-php7.2” module that required to work with Ubuntu Apache web server.</p>
+<p>After the installation is complete, we need to restart the apache server:</p>
+<p><code>sudo systemctl restart apache2.service</code><br>To test the PHP installation, create an index.php file under the &#x2F;var&#x2F;www&#x2F;html folder and add the phpinfo() function:</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">  <span class="title function_ invoke__">phpinfo</span>();</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>Then access the index.php by typing <code>http://your-server-ip/index.php</code> in the web browser (e.g. 192.168.1.100&#x2F;index.php). You should get information page that displays PHP configuration settings on your Ubuntu 18.04 Server.</p>
+<p>Install MySQL Server on Ubuntu 18.04<br>Next, we are going to install MySQL Server as our Database server. Installing MySQL Server on Ubuntu 18.04 is straightforward. Open the terminal update the package list and install the mysql-server package:</p>
+<p><code>sudo apt-get install mysql-server</code><br>(If you want to Install MariaDB, install the mariadb-server package instead of mysql-server package).</p>
+<p>After the installation has finished, Log in to the MySQL console with the following command:</p>
+<p><code>sudo mysql</code><br>Note that the MySQL server on Ubuntu use auth_socket plugin to authenticate mysql root and does not need a password for connecting as a root user. If you want to enable password authentication, click on the following link to learn how to set the MySQL root password on Ubuntu 18.04.</p>
+<p>Install phpMyAdmin on Ubuntu 18.04<br>phpMyAdmin is a web based graphical user interface to manage MySQL&#x2F;MariaDB Database server. To install phpMyAdmin on Ubuntu 18.04 Server, Run:</p>
+<p><code>sudo apt-get update</code><br><code>sudo apt-get install phpmyadmin</code><br>When asked to choose web server that should be automatically configured to run phpMyAdmin, select apache2 by pressing the space bar on the keyboard.</p>
+<p>Install phpMyAdmin on Ubuntu 18.04<br>After the installation completes, you can access phpMyAdmin at <code>http://server-ip/phpmyadmin</code> or <code>http://domain-name/phpmyadmin</code>.</p>
+<p>Now you have a fully functional web server up and running with Apache, MySQL and PHP programming language.</p>
+<p>Summary<br>In this tutorial we learned how to install Lamp stack on Ubuntu 18.04 server. The LAMP stack stands for Linux Apache MySQL and PHP, it is a web hosting platform for Linux to server web pages using http protocol.</p>
+</div></article></div><nav class="pagination" role="navigation" aria-label="pagination"><div class="pagination-previous"><a href="/lucfe-hexo/page/5/">Previous</a></div><div class="pagination-next"><a href="/lucfe-hexo/page/7/">Next</a></div><ul class="pagination-list is-hidden-mobile"><li><a class="pagination-link" href="/lucfe-hexo/">1</a></li><li><span class="pagination-ellipsis">&hellip;</span></li><li><a class="pagination-link" href="/lucfe-hexo/page/5/">5</a></li><li><a class="pagination-link is-current" href="/lucfe-hexo/page/6/">6</a></li><li><a class="pagination-link" href="/lucfe-hexo/page/7/">7</a></li><li><a class="pagination-link" href="/lucfe-hexo/page/8/">8</a></li><li><a class="pagination-link" href="/lucfe-hexo/page/9/">9</a></li></ul></nav></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/lucfe-hexo/assets/images/avatar_l.png" alt="lucfe"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">lucfe</p><p class="is-size-6 is-block">no title, but free!</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>China</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/lucfe-hexo/archives"><p class="title">85</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/lucfe-hexo/categories"><p class="title">15</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/lucfe-hexo/tags"><p class="title">5</p></a></div></div></nav><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/lucfe2010"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/lucfe2010"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Twitter" href="https://twitter.com/lucfe2010"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/lucfe-hexo/atom.xml"><i class="fas fa-rss"></i></a></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/"><span class="level-start"><span class="level-item">0001 Humanities</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/%E8%89%BA%E6%9C%AF%E5%AD%A6-Arts/"><span class="level-start"><span class="level-item">艺术学 Arts</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/"><span class="level-start"><span class="level-item">0002 Social science</span></span><span class="level-end"><span class="level-item tag">1</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/%E8%AF%AD%E8%A8%80%E5%AD%A6-Linguistics-and-languages/"><span class="level-start"><span class="level-item">语言学 Linguistics and languages</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0003-Natural-science/"><span class="level-start"><span class="level-item">0003 Natural science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0003-Natural-science/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6-Earth-science/"><span class="level-start"><span class="level-item">地球科学 Earth science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/"><span class="level-start"><span class="level-item">0004 Formal science</span></span><span class="level-end"><span class="level-item tag">5</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/%E6%95%B0%E5%AD%A6-Mathematics/"><span class="level-start"><span class="level-item">数学 Mathematics</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/"><span class="level-start"><span class="level-item">计算机科学技术 Computer science</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/"><span class="level-start"><span class="level-item">0005 Applied science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/"><span class="level-start"><span class="level-item">工程与技术科学 Engineering and technology</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B-Mechanical-engineering/"><span class="level-start"><span class="level-item">机械工程 Mechanical engineering</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/category1-level1/"><span class="level-start"><span class="level-item">category1 level1</span></span><span class="level-end"><span class="level-item tag">3</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/category1-level1/category1-level2/"><span class="level-start"><span class="level-item">category1 level2</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/jekyll-update/"><span class="level-start"><span class="level-item">jekyll update</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">Tags</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/html/"><span class="tag">html</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/math/"><span class="tag">math</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/primary-school/"><span class="tag">primary school</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/python/"><span class="tag">python</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/web-development/"><span class="tag">web development</span><span class="tag">1</span></a></div></div></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-18T06:55:16.185Z">2023-09-18</time></p><p class="title"><a href="/lucfe-hexo/0004%20Formal%20science/%E6%95%B0%E5%AD%A6%20Mathematics/math_primary/">math in primary school</a></p><p class="categories"><a href="/lucfe-hexo/categories/0004-Formal-science/">0004 Formal science</a> / <a href="/lucfe-hexo/categories/0004-Formal-science/%E6%95%B0%E5%AD%A6-Mathematics/">数学 Mathematics</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-16T08:16:41.268Z">2023-09-16</time></p><p class="title"><a href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/ssg/hexo-icarus-theme-develop/"> </a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-16T00:52:00.554Z">2023-09-16</time></p><p class="title"><a href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/python%20crash%20course/">python crash course</a></p><p class="categories"><a href="/lucfe-hexo/categories/0004-Formal-science/">0004 Formal science</a> / <a href="/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/">计算机科学技术 Computer science</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-16T00:44:42.355Z">2023-09-16</time></p><p class="title"><a href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/web%20developer/">web developer</a></p><p class="categories"><a href="/lucfe-hexo/categories/0004-Formal-science/">0004 Formal science</a> / <a href="/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/">计算机科学技术 Computer science</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-16T00:28:58.617Z">2023-09-16</time></p><p class="title"><a href="/lucfe-hexo/0005%20Applied%20science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6%20Engineering%20and%20technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B%20Mechanical%20engineering/DIY%20CNC/">diy cnc</a></p><p class="categories"><a href="/lucfe-hexo/categories/0005-Applied-science/">0005 Applied science</a> / <a href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/">工程与技术科学 Engineering and technology</a> / <a href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B-Mechanical-engineering/">机械工程 Mechanical engineering</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile" href="/lucfe-hexo/archives/2023/"><span class="level-start"><span class="level-item">2023</span></span><span class="level-end"><span class="level-item tag">85</span></span></a></li></ul></div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/lucfe-hexo/">Lucfe Knowledges</a><p class="is-size-7"><span>&copy; 2023 lucfe</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2019</p></div><div class="level-end"></div></div></div></footer><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/lucfe-hexo/js/column.js"></script><script src="/lucfe-hexo/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/lucfe-hexo/js/back_to_top.js" defer></script><!--!--><script src="/lucfe-hexo/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/lucfe-hexo/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/lucfe-hexo/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>

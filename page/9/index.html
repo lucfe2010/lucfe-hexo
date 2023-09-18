@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><meta name="baidu-site-verification" content="codeva-07TW7qEHGg"><title>Lucfe Knowledge Documentation</title><link rel="manifest" href="/lucfe-hexo/manifest.json"><meta name="application-name" content="Lucfe Knowledge Documentation"><meta name="msapplication-TileImage" content="/assets/images/favicon_l.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lucfe Knowledge Documentation"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="Lucfe Knowledge Documentation"><meta property="og:url" content="http://lucfe2010.github.io/lucfe-hexo"><meta property="og:site_name" content="Lucfe Knowledge Documentation"><meta property="og:locale" content="en_US"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/img/og_image.png"><meta property="article:author" content="lucfe"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="http://lucfe2010.github.io/lucfe-hexo/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://lucfe2010.github.io/lucfe-hexo"},"headline":"Lucfe Knowledge Documentation","image":["http://lucfe2010.github.io/lucfe-hexo/img/og_image.png"],"author":{"@type":"Person","name":"lucfe"},"publisher":{"@type":"Organization","name":"Lucfe Knowledge Documentation","logo":{"@type":"ImageObject","url":{"text":"Lucfe Knowledges"}}},"description":""}</script><link rel="alternate" href="https://lucfe2010.github.io/lucfe-hexo/atom.xml" title="Lucfe Knowledge Documentation" type="application/atom+xml"><link rel="icon" href="/lucfe-hexo/assets/images/favicon_l.png"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/6.0.0/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/lucfe-hexo/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js"></script><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/lucfe-hexo/">Lucfe Knowledges</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/lucfe-hexo/">Home</a><a class="navbar-item" href="/lucfe-hexo/archives">Archives</a><a class="navbar-item" href="/lucfe-hexo/categories">Categories</a><a class="navbar-item" href="/lucfe-hexo/tags">Tags</a><a class="navbar-item" href="/lucfe-hexo/about">About</a></div><div class="navbar-end"><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-09T00:08:59.496Z" title="2023/9/9 08:08:59">2023-09-09</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-10T23:19:30.500Z" title="2023/9/11 07:19:30">2023-09-11</time></span><span class="level-item"><a class="link-muted" href="/lucfe-hexo/categories/category1-level1/">category1 level1</a><span> / </span><a class="link-muted" href="/lucfe-hexo/categories/category1-level1/category1-level2/">category1 level2</a></span><span class="level-item">a minute read (About 168 words)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/html%20css%20js/javascript%20problems/">javascript problems 1</a></p><div class="content"><h2 id="0-function-arg1-agr2"><a href="#0-function-arg1-agr2" class="headerlink" title="(0,function)(arg1,agr2,)"></a><code>(0,function)(arg1,agr2,)</code></h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">(<span class="number">0</span>, <span class="keyword">function</span> (<span class="params">arg</span>) &#123; <span class="variable language_">console</span>.<span class="title function_">log</span>(arg) &#125;)(<span class="number">2</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>((<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>));</span><br><span class="line">(<span class="number">0</span>, <span class="keyword">function</span> <span class="title function_">plus1</span> (arg) &#123; <span class="variable language_">console</span>.<span class="title function_">log</span>(arg + <span class="number">1</span>) &#125;, <span class="keyword">function</span> <span class="title function_">plus2</span> (arg) &#123; <span class="variable language_">console</span>.<span class="title function_">log</span>(arg + <span class="number">2</span>) &#125;)(<span class="number">5</span>);</span><br></pre></td></tr></table></figure>
+
+<h2 id="example-one"><a href="#example-one" class="headerlink" title="example one"></a>example one</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">  (<span class="number">0</span>,<span class="built_in">eval</span>)(<span class="string">&quot;var foo = 123&quot;</span>); <span class="comment">// indirect call to eval, creates global variable</span></span><br><span class="line">&#125;)();</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(foo);            <span class="comment">// 123</span></span><br><span class="line">(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="built_in">eval</span>(<span class="string">&quot;var bar = 123&quot;</span>);     <span class="comment">// direct call to eval, creates local variable</span></span><br><span class="line">&#125;)();</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(bar);            <span class="comment">// ReferenceError</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="example-two"><a href="#example-two" class="headerlink" title="example two"></a>example two</h2><p>when you want to call a method without passing the object as the this value:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> obj = &#123;</span><br><span class="line">  <span class="attr">method</span>: <span class="keyword">function</span>(<span class="params"></span>) &#123; <span class="keyword">return</span> <span class="variable language_">this</span>; &#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(obj.<span class="title function_">method</span>() === obj);     <span class="comment">// true</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>((<span class="number">0</span>,obj.<span class="property">method</span>)() === obj); <span class="comment">// false</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="example-three"><a href="#example-three" class="headerlink" title="example three"></a>example three</h2><p>depending on the context, it might be the arguments separator instead of a comma operator:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(</span><br><span class="line">  <span class="keyword">function</span>(<span class="params">a, b</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">function</span>(<span class="params"></span>) &#123; <span class="keyword">return</span> a; &#125;;</span><br><span class="line">  &#125;</span><br><span class="line">  (<span class="number">0</span>, <span class="keyword">function</span> (<span class="params">arg</span>) &#123; <span class="comment">/* ... */</span> &#125;)(<span class="variable language_">this</span>)</span><br><span class="line">); <span class="comment">// 0</span></span><br></pre></td></tr></table></figure>
+
+<p>In this scenario, <code>(0, function (arg) &#123; /* ... */ &#125;)</code> are the arguments <code>(a=0, b=function (arg) &#123; /* ... */ &#125;)</code> to the function</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span>(<span class="params">a, b</span>) &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">function</span>(<span class="params"></span>) &#123; <span class="keyword">return</span> a; &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>rather than the comma operator. Then, the <code>(this)</code> at the end is function call with argument this to the returned function <code>function() &#123; return a; &#125;</code>.</p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-08T01:54:30.700Z" title="2023/9/8 09:54:30">2023-09-08</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-11T01:13:20.703Z" title="2023/9/11 09:13:20">2023-09-11</time></span><span class="level-item"><a class="link-muted" href="/lucfe-hexo/categories/category1-level1/">category1 level1</a><span> / </span><a class="link-muted" href="/lucfe-hexo/categories/category1-level1/category1-level2/">category1 level2</a></span><span class="level-item">24 minutes read (About 3540 words)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/ssg/hexo-icarus-setup/">hexo icarus setup</a></p><div class="content"><h2 id="hexo-command"><a href="#hexo-command" class="headerlink" title="hexo command"></a>hexo command</h2><p>Usage: <code>hexo &lt;command&gt;</code></p>
+<p>Commands:<br>  clean     Remove generated files and cache.<br>  config    Get or set configurations.<br>  deploy    Deploy your website.<br>  generate  Generate static files.<br>  help      Get help on a command.<br>  init      Create a new Hexo folder.<br>  list      List the information of the site<br>  migrate   Migrate your site from other system to Hexo.<br>  new       Create a new post.<br>  publish   Moves a draft post from <code>_drafts</code> to <code>_posts</code> folder.<br>  <strong>render</strong>    Render files with renderer plugins.<br>  server    Start the server.<br>  version   Display version information.</p>
+<p>Global Options:<br>  –config  Specify config file instead of using _config.yml<br>  –cwd     Specify the CWD(change working diretory)<br>  –debug   Display all verbose messages in the terminal<br>  –draft   Display draft posts<br>  –safe    Disable all plugins and scripts<br>  –silent  Hide output on console</p>
+<h2 id="hexo-install-and-setup"><a href="#hexo-install-and-setup" class="headerlink" title="hexo install and setup"></a>hexo install and setup</h2><h3 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h3><p>Once all the requirements are installed, you can install Hexo with npm:</p>
+<p><code>$ npm install -g hexo-cli</code></p>
+<h3 id="setup"><a href="#setup" class="headerlink" title="setup"></a>setup</h3><p>Once Hexo is installed, run the following commands to initialize Hexo in the target <code>&lt;folder&gt;</code>.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line"><span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<p>eg:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init .</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<h2 id="icarus-install-and-setup"><a href="#icarus-install-and-setup" class="headerlink" title="icarus install and setup"></a>icarus install and setup</h2><h3 id="INSTALL-from-source"><a href="#INSTALL-from-source" class="headerlink" title="INSTALL from source"></a>INSTALL from source</h3><p>Download the source code tarball from the GitHub and extract it to your Hexo site’s theme directory. Alternatively, you can use Git to clone the Icarus repository to the themes directory:</p>
+<p>Git Bash&#x2F;Shell</p>
+<p><code>git clone https://github.com/ppoffice/hexo-theme-icarus.git themes/icarus -b &lt;version number&gt; --depth 1</code></p>
+<p>You can omit <code>-b &lt;version number&gt;</code> to get the latest development version of Icarus. Leave –depth 1 out if you want to download full Git commit history of Icarus as well.</p>
+<p>eg:</p>
+<p><code>git clone https://github.com/ppoffice/hexo-theme-icarus.git themes/icarus --depth 1</code></p>
+<h3 id="icarus-setup"><a href="#icarus-setup" class="headerlink" title="icarus setup"></a>icarus setup</h3><ol>
+<li><p>要将themes&#x2F;icarus文件夹中的 package.json 中的 dependencies 内容拷贝并添加到主目录的package.json 中</p>
+</li>
+<li><p>Next, activate Icarus in your site’s _config.yml file:</p>
+<p>_config.yml</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">icarus</span></span><br></pre></td></tr></table></figure>
+
+<p>or use the hexo command to change the theme to Icarus:<br>Shell command:<br><code>hexo config theme icarus</code></p>
+</li>
+<li><p>然后</p>
+<p><code>npm install</code></p>
+</li>
+<li><p>再</p>
+<p>use the hexo command to change the theme to Icarus:</p>
+<p>Shell<br><code>hexo config theme icarus</code></p>
+</li>
+<li><p>这时根据提示</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ERROR Package hexo-renderer-stylus&#x27;s version (3.0.0) does not satisfy the required version (^2.0.0).</span><br><span class="line">ERROR Please install the missing dependencies your Hexo site root directory:</span><br><span class="line">ERROR npm install --save hexo-renderer-stylus@^2.0.0</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="git-setup"><a href="#git-setup" class="headerlink" title="git setup"></a>git setup</h2><p>create a new repository on the command line</p>
+<p>eg:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span></span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/lucfe2010/lucfe-hexo-private-1.git</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure>
+
+<p>注意提示</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hint: You<span class="string">&#x27;ve added another git repository inside your current repository.</span></span><br><span class="line"><span class="string">hint: Clones of the outer repository will not contain the contents of</span></span><br><span class="line"><span class="string">hint: the embedded repository and will not know how to obtain it.</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="清除icarus主题文件夹的-GIT-和-GITHUB"><a href="#清除icarus主题文件夹的-GIT-和-GITHUB" class="headerlink" title="清除icarus主题文件夹的 GIT 和 GITHUB"></a>清除icarus主题文件夹的 GIT 和 GITHUB</h3><p>使用 windows file explore删除 icarus主题文件夹 中的<code>.git</code>文件夹</p>
+<p>然后</p>
+<p>git rm -r –cached .<br>git add .</p>
+<h4 id="git-用法"><a href="#git-用法" class="headerlink" title="git 用法"></a>git 用法</h4><p>git init<br>git add .<br>git commit -m “first commit”<br>git branch -M main<br>git push -u origin main</p>
+<h5 id="git-remote"><a href="#git-remote" class="headerlink" title="git remote"></a>git remote</h5><p>git remote -v：列出当前仓库中已配置的远程仓库，并显示它们的 URL。</p>
+<ul>
+<li><p>git remote add<br><code>git remote add &lt;remote_name&gt; &lt;remote_url&gt;</code><br>添加一个新的远程仓库。指定一个远程仓库的名称和 URL，将其添加到当前仓库中。如<br><code>git remote add lucfe-clone https://github.com/lucfe2010/lucfe-hexo-61.git</code><br><code>git remote add origin https://github.com/lucfe2010/lucfe-private-91.git</code></p>
+</li>
+<li><p>git remote remove<br><code>git remote remove &lt;remote_name&gt;</code><br><code>git remote remove origin</code></p>
+</li>
+</ul>
+<h2 id="hexo-config"><a href="#hexo-config" class="headerlink" title="hexo config"></a>hexo config</h2><h3 id="basic-config"><a href="#basic-config" class="headerlink" title="basic config"></a>basic config</h3><h4 id="language"><a href="#language" class="headerlink" title="language"></a>language</h4><p>language 是与主题相关的</p>
+<h4 id="site-url"><a href="#site-url" class="headerlink" title="site url"></a>site url</h4><p>change the <code>url</code> to the website url of your own<br><code>url: http://lucfe2010.github.io/lucfe-hexo</code></p>
+<h3 id="permalink"><a href="#permalink" class="headerlink" title="permalink"></a>permalink</h3><p>Permalinks<br>You can specify the permalinks for your site in _config.yml or in the front-matter for each post.</p>
+<p>Variables<br>Besides the following variables, you can use any attributes in the permalink.</p>
+<p>:category -&gt; Categories. If the post is uncategorized, it will use the default_category value.</p>
+<p>eg</p>
+<p>Change<br><code>permalink: &#39;:year/:month/:day/:title/&#39;</code><br>to<br><code>permalink: &#39;:title/&#39;</code></p>
+<h3 id="Global-Asset-Folder"><a href="#Global-Asset-Folder" class="headerlink" title="Global Asset Folder"></a>Global Asset Folder</h3><p>Global Asset Folder<br>Assets are non-post files in the source folder, such as images, CSS or JavaScript files. For instance, If you are only going to have a few images in the Hexo project, then the easiest way is to keep them in a source&#x2F;images directory. Then, you can access them using something like <code>![](/images/image.jpg)</code>.</p>
+<h4 id="For-vscode-copy-images"><a href="#For-vscode-copy-images" class="headerlink" title="For vscode copy images"></a>For vscode copy images</h4><p>Use vscode open the <code>source</code> folder as project folder to create and edit the posts</p>
+<p>change the the image relative path link<br><code>assets/images/&lt;post title&gt;/*.jpg</code><br>or<br><code>../../assets/images/&lt;post title&gt;/*.jpg</code><br>to the project directory absolute path link<br><code>/assets/images/&lt;post title&gt;/*.jpg</code></p>
+<h4 id="dont-use-Post-Asset-Folder"><a href="#dont-use-Post-Asset-Folder" class="headerlink" title="dont use Post Asset Folder"></a>dont use Post Asset Folder</h4><p>or any kind of post asset image link plugin, there are lots of bugs!</p>
+<h2 id="hexo-server"><a href="#hexo-server" class="headerlink" title="hexo server"></a>hexo server</h2><p>With the release of Hexo 3, the server has been separated from the main module. To start using the server, you will first have to install hexo-server.</p>
+<p><code>$ npm install hexo-server --save</code></p>
+<p>Once the server has been installed, run the following command to start the server. Your website will run at <code>http://localhost:4000</code> by default. When the server is running, Hexo will watch for file changes and update automatically so it’s not necessary to manually restart the server.</p>
+<p><code>$ hexo server</code></p>
+<h3 id="Static-Mode"><a href="#Static-Mode" class="headerlink" title="Static Mode"></a>Static Mode</h3><p>In static mode, only files in the public folder will be served and file watching is disabled. You have to run hexo generate before starting the server. Usually used in production.</p>
+<p><code>$ hexo server -s</code></p>
+<h2 id="Git-deploy"><a href="#Git-deploy" class="headerlink" title="Git deploy"></a>Git deploy</h2><ol>
+<li><p>Install hexo-deployer-git.<br><code>$ npm install hexo-deployer-git --save</code></p>
+</li>
+<li><p>Edit _config.yml (with example values shown below as comments):</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment"># https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io</span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>]</span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>repo</td>
+<td>URL of the target repository</td>
+<td></td>
+</tr>
+<tr>
+<td>branch</td>
+<td>Branch name.</td>
+<td>gh-pages (GitHub)</td>
+</tr>
+<tr>
+<td>message</td>
+<td>Customize commit message.</td>
+<td>Site updated: <code>&#123;&#123; now('YYYY-MM-DD HH:mm:ss') &#125;&#125;</code></td>
+</tr>
+<tr>
+<td>token</td>
+<td>Optional token value to authenticate with the repo. Prefix with $ to read token from environment variable</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>eg</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/lucfe2010/lucfe-hexo.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br><span class="line">  <span class="attr">message:</span> </span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Deploy your site <code>hexo clean &amp;&amp; hexo deploy</code>.</p>
+<ul>
+<li>You will be prompted with username and password of the target repository, unless you authenticate with a token or ssh key.</li>
+<li><code>hexo-deployer-git</code> does not store your username and password. Use <code>git-credential-cache</code> to store them temporarily.</li>
+</ul>
+</li>
+<li><p>Navigate to your repository settings and change the “Pages” branch to gh-pages (or the branch specified in your config). The deployed site should be live on the link shown on the “Pages” setting.</p>
+</li>
+<li><p>注意在部署的REPOSITORY主目录下加入.jekyll文件</p>
+</li>
+</ol>
+<ul>
+<li><p>部署步骤<br>每次部署的步骤，可按以下三步来进行。</p>
+<p>  hexo clean</p>
+<p>  hexo generate</p>
+<p>  hexo deploy</p>
+</li>
+</ul>
+<h2 id="icarus-config"><a href="#icarus-config" class="headerlink" title="icarus config"></a>icarus config</h2><h3 id="Logo"><a href="#Logo" class="headerlink" title="Logo"></a>Logo</h3><p>设置你站点的logo。 此logo会显示在导航栏和页脚。 logo配置的值既可以是你的logo图片的路径或URL地址：</p>
+<p>_config.icarus.yml<br><code>logo: /img/logo.svg</code><br>也可以像下面这样设置成文字：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">logo:</span></span><br><span class="line">    <span class="attr">text:</span> <span class="string">My</span> <span class="string">Beautiful</span> <span class="string">Site</span></span><br></pre></td></tr></table></figure>
+
+<p>本站设为</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">logo:</span></span><br><span class="line">    <span class="attr">text:</span> <span class="string">Lucfe</span> <span class="string">Knowledges</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Favicon"><a href="#Favicon" class="headerlink" title="Favicon"></a>Favicon</h3><p>你可以在head配置中指定你的网站favicon的路径或URL地址。</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">head:</span></span><br><span class="line">    <span class="attr">favicon:</span> <span class="string">/img/favicon.svg</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="RSS"><a href="#RSS" class="headerlink" title="RSS"></a>RSS</h3><p>你可以通过head部分的rss设置来添加RSS链接信息。</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">head:</span></span><br><span class="line">    <span class="attr">rss:</span> <span class="string">/path/to/atom.xml</span></span><br></pre></td></tr></table></figure>
+
+<p>本站设为</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">head:</span></span><br><span class="line">    <span class="attr">rss:</span> <span class="string">/atom.xml</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="导航栏"><a href="#导航栏" class="headerlink" title="导航栏"></a>导航栏</h3><p>navbar部分定义了导航栏中的菜单与链接。 你可以通过向menu设置项中添加<code>&lt;链接名&gt;: &lt;链接URL&gt;</code>的方式添加任意导航栏菜单链接。 如要向导航栏右侧添加链接，请向links设置项中添加<code>&lt;链接名&gt;: &lt;链接URL&gt;</code>。</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">navbar:</span></span><br><span class="line">    <span class="comment"># 导航栏菜单项</span></span><br><span class="line">    <span class="attr">menu:</span></span><br><span class="line">        <span class="attr">Home:</span> <span class="string">/</span></span><br><span class="line">        <span class="attr">Archives:</span> <span class="string">/archives</span></span><br><span class="line">        <span class="attr">Categories:</span> <span class="string">/categories</span></span><br><span class="line">        <span class="attr">Tags:</span> <span class="string">/tags</span></span><br><span class="line">        <span class="attr">About:</span> <span class="string">/about</span></span><br><span class="line">    <span class="comment"># 导航栏右侧的链接</span></span><br><span class="line">    <span class="attr">links:</span></span><br><span class="line">        <span class="attr">GitHub:</span> <span class="string">&#x27;https://github.com&#x27;</span></span><br><span class="line">        <span class="attr">Download on GitHub:</span></span><br><span class="line">            <span class="attr">icon:</span> <span class="string">fab</span> <span class="string">fa-github</span></span><br><span class="line">            <span class="comment"># url: &#x27;https://github.com/ppoffice/hexo-theme-icarus&#x27;</span></span><br><span class="line">            <span class="attr">url:</span> <span class="string">&#x27;https://github.com/lucfe2010/lucfe-hexo&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>你也可以使用FontAwesome图标来作为纯文字链接的替换，格式如下：</p>
+<p>链接格式</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&lt;链接名&gt;:</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">&lt;FontAwesome图标的class名&gt;</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">&lt;链接URL&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="页脚"><a href="#页脚" class="headerlink" title="页脚"></a>页脚</h4><p>footer部分定义了页脚右侧的链接。 链接的配置格式与navbar中links的配置格式完全一致。</p>
+<p>你也可以在页脚展示自定义版权文字：\</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">footer:</span></span><br><span class="line">    <span class="attr">copyright:</span> <span class="string">用💖发电</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h3><h4 id="封面-缩略图"><a href="#封面-缩略图" class="headerlink" title="封面 &amp; 缩略图"></a>封面 &amp; 缩略图</h4><p>若要为文章添加封面图，请在文章的front-matter中添加cover选项：</p>
+<p>post.md</p>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: Icarus快速上手</span><br><span class="line"><span class="section">cover: /gallery/covers/cover.jpg</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line">Post content...</span><br></pre></td></tr></table></figure>
+
+<p>类似地，你也可以在文章的front-matter中为文章设置缩略图：</p>
+<p>post.md</p>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">title: Icarus快速上手</span><br><span class="line">thumbnail: /gallery/thumbnails/thumbnail.jpg</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">Post content...</span><br></pre></td></tr></table></figure>
+
+<p>文章的缩略图会显示在归档页面和最新文章挂件中。</p>
+<p>如果你在front-matter中使用的是图片的路径，你需要确保它是绝对或者相对于你的source目录的路径。 例如，为使用<code>&lt;your blog&gt;/source/gallery/image.jpg</code>作为缩略图，你需要在front-matter中使用<code>/gallery/image.jpg</code>作为图片路径。</p>
+<h4 id="文章许可协议"><a href="#文章许可协议" class="headerlink" title="文章许可协议"></a>文章许可协议</h4><p>你可以在你的文章&#x2F;页面的底部展示你的作品的使用许可，许可链接可以是文字或者图标。 这里的配置与导航栏或者页脚的links配置一致：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">article:</span></span><br><span class="line">    <span class="comment"># 文章许可协议</span></span><br><span class="line">    <span class="attr">licenses:</span></span><br><span class="line">        <span class="attr">Creative Commons:</span></span><br><span class="line">            <span class="attr">icon:</span> <span class="string">fab</span> <span class="string">fa-creative-commons</span></span><br><span class="line">            <span class="attr">url:</span> <span class="string">&#x27;https://creativecommons.org/&#x27;</span></span><br><span class="line">        <span class="attr">&#x27;CC BY-NC-SA 4.0&#x27;:</span> <span class="string">&#x27;https://creativecommons.org/licenses/by-nc-sa/4.0/&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="一些元数据"><a href="#一些元数据" class="headerlink" title="一些元数据"></a>一些元数据</h4><ul>
+<li><p>文章阅读时间<br>你可以将article部分的readtime设置为true来显示文章字数统计以及预计阅读时间。</p>
+</li>
+<li><p>文章更新时间<br>若要显示文章的更新时间，请在文章的front_matter中设置updated时间：</p>
+</li>
+</ul>
+<p>post.md</p>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">title: Icarus快速上手</span><br><span class="line">updated: 2020-04-01 00:00:00</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">Post content...</span><br></pre></td></tr></table></figure>
+
+<p>然后，将主题配置文件的article部分的update_time设置为true：</p>
+<p>你也可以将update_time设置为false来隐藏所有文章的更新时间，或设置为auto而在文章的更新时间 与发布时间相同时隐藏更新时间。</p>
+<ul>
+<li>文章许可协议<br>你可以在你的文章&#x2F;页面的底部展示你的作品的使用许可，许可链接可以是文字或者图标。 这里的配置与导航栏或者页脚的links配置一致：</li>
+</ul>
+<h3 id="wiget挂件"><a href="#wiget挂件" class="headerlink" title="wiget挂件"></a>wiget挂件</h3><p>页面挂件的安装配置。 若要同时展示多个挂件，只需在主题配置的widgets数组中添加多个挂件配置。 它们会按照定义的顺序出现。 每个挂件必须包含type(挂件类型)与position(挂件展示位置)设置项。 示例如下：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">widgets:</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">        <span class="attr">type:</span> <span class="string">...</span> <span class="comment"># 挂件1</span></span><br><span class="line">        <span class="attr">position:</span> <span class="string">left</span></span><br><span class="line">        <span class="string">...</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">        <span class="attr">type:</span> <span class="string">...</span> <span class="comment"># 挂件2</span></span><br><span class="line">        <span class="attr">position:</span> <span class="string">right</span></span><br><span class="line">        <span class="string">...</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="布局配置文件"><a href="#布局配置文件" class="headerlink" title="布局配置文件"></a>布局配置文件</h4><p>布局配置文件遵循着与主题配置文件相同的格式和定义。 <code>_config.post.yml</code>中的配置对所有文章生效，而<code>_config.page.yml</code>中的配置对所有自定义页面生效。 这两个文件将覆盖主题配置文件中的配置。</p>
+<p>例如，你可以在_config.post.yml中把所有文章变为两栏布局：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">widgets:</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">        <span class="attr">type:</span> <span class="string">recent_posts</span></span><br><span class="line">        <span class="attr">position:</span> <span class="string">left</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">        <span class="attr">type:</span> <span class="string">categories</span></span><br><span class="line">        <span class="attr">position:</span> <span class="string">left</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">        <span class="attr">type:</span> <span class="string">tags</span></span><br><span class="line">        <span class="attr">position:</span> <span class="string">left</span></span><br></pre></td></tr></table></figure>
+
+<p>同时所有其他页面仍保持三栏布局：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">widgets:</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">        <span class="attr">type:</span> <span class="string">recent_posts</span></span><br><span class="line">        <span class="attr">position:</span> <span class="string">left</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">        <span class="attr">type:</span> <span class="string">categories</span></span><br><span class="line">        <span class="attr">position:</span> <span class="string">right</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">        <span class="attr">type:</span> <span class="string">tags</span></span><br><span class="line">        <span class="attr">position:</span> <span class="string">right</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="作者资料卡profile"><a href="#作者资料卡profile" class="headerlink" title="作者资料卡profile"></a>作者资料卡profile</h4><ul>
+<li>你可以启用作者资料卡挂件来展示文章作者&#x2F;网站站长的信息。 资料卡的配置如下所示：</li>
+</ul>
+<p>如果你希望使用Gravatar而不是avatar配置项作为头像图片，请在gravatar项填入 你的Gravatar邮箱地址并在avatar一项中留空；</p>
+<p>本站使用的如下</p>
+<p><img src="/lucfe-hexo/assets/images/avatar_l.png" alt="Alt text"></p>
+<ul>
+<li>social_links可以采用如下两种格式：</li>
+</ul>
+<p>图标形式：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&lt;链接名称&gt;:</span></span><br><span class="line">    <span class="attr">icon:</span> <span class="string">&lt;FontAwesome5_图标的_HTML_class名称&gt;</span></span><br><span class="line">    <span class="attr">url:</span> <span class="string">&lt;链接的URL地址&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>文字形式：</p>
+<p><code>&lt;链接名称&gt;: &lt;链接的URL地址&gt;</code></p>
+<h4 id="文章目录-toc"><a href="#文章目录-toc" class="headerlink" title="文章目录 toc"></a>文章目录 toc</h4><p>需要开启目录的文章头部加入toc: true：</p>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: 一篇有目录的文章</span><br><span class="line"><span class="section">toc: true</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line">文章内容...</span><br></pre></td></tr></table></figure>
+
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><h5 id="最新文章-recent-posts"><a href="#最新文章-recent-posts" class="headerlink" title="最新文章 recent posts"></a>最新文章 recent posts</h5><h5 id="文章归档-archives"><a href="#文章归档-archives" class="headerlink" title="文章归档 archives"></a>文章归档 archives</h5><h5 id="文章分类-categories"><a href="#文章分类-categories" class="headerlink" title="文章分类 categories"></a>文章分类 categories</h5><h5 id="文章标签-tags"><a href="#文章标签-tags" class="headerlink" title="文章标签 tags"></a>文章标签 tags</h5><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">widgets:</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">        <span class="attr">position:</span> <span class="string">right</span></span><br><span class="line">        <span class="attr">type:</span> <span class="string">tags</span></span><br><span class="line">        <span class="attr">order_by:</span> <span class="string">name</span>      <span class="comment"># 可选项。按名称(name)或长度(length)来排序。加上`-`前缀来倒序排列。</span></span><br><span class="line">        <span class="attr">amount:</span> <span class="number">20</span>          <span class="comment"># 可选项。最多显示的标签数量。留空以显示所有标签。</span></span><br><span class="line">        <span class="attr">show_count:</span> <span class="literal">true</span>    <span class="comment"># 可选项。是否显示标签名称右侧的文章数量。</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="友站链接-links"><a href="#友站链接-links" class="headerlink" title="友站链接 links"></a>友站链接 links</h5><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">widgets:</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">        <span class="attr">position:</span> <span class="string">left</span></span><br><span class="line">        <span class="attr">type:</span> <span class="string">links</span></span><br><span class="line">        <span class="comment"># 友站名称与链接</span></span><br><span class="line">        <span class="attr">links:</span></span><br><span class="line">            <span class="attr">Hexo:</span> <span class="string">&#x27;https://hexo.io&#x27;</span></span><br><span class="line">            <span class="attr">Bulma:</span> <span class="string">&#x27;https://bulma.io&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="plugin-widgets"><a href="#plugin-widgets" class="headerlink" title="plugin widgets"></a>plugin widgets</h5><h6 id="Google-Feedburner"><a href="#Google-Feedburner" class="headerlink" title="Google Feedburner"></a>Google Feedburner</h6><p>Google即将关闭Feedburner的邮件订阅功能。 你可以切换到follow.it挂件或者其他邮件订阅服务。</p>
+<h6 id="Google-AdSense"><a href="#Google-AdSense" class="headerlink" title="Google AdSense"></a>Google AdSense</h6><p>在Google AdSense上新建广告。 然后，复制广告HTML代码中的data-ad-client和data-ad-slot值分别填入到挂件配置的client_id和slot_id项中。 示例如下：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">widgets:</span></span><br><span class="line">    <span class="bullet">-</span></span><br><span class="line">        <span class="attr">position:</span> <span class="string">left</span></span><br><span class="line">        <span class="attr">type:</span> <span class="string">adsense</span></span><br><span class="line">        <span class="attr">client_id:</span> <span class="string">ca-pub-xxxxxxxx</span></span><br><span class="line">        <span class="attr">slot_id:</span> <span class="string">xxxxxxx</span></span><br></pre></td></tr></table></figure>
+
+<h6 id="install-and-set-hexo-generator-feed"><a href="#install-and-set-hexo-generator-feed" class="headerlink" title="install and set hexo-generator-feed"></a>install and set hexo-generator-feed</h6><p>install</p>
+<p><code>$ npm install hexo-generator-feed --save</code></p>
+<p>You can configure this plugin in _config.yml.</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">20</span></span><br><span class="line">  <span class="attr">hub:</span></span><br><span class="line">  <span class="attr">content:</span></span><br><span class="line">  <span class="attr">content_limit:</span> <span class="number">140</span></span><br><span class="line">  <span class="attr">content_limit_delim:</span> <span class="string">&#x27; &#x27;</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br><span class="line">  <span class="attr">icon:</span> <span class="string">/assets/images/rss_icon_l.png</span></span><br><span class="line">  <span class="attr">autodiscovery:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">template:</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="/lucfe-hexo/assets/images/rss_icon_l.png" alt="Alt text"></p>
+<h6 id="follow-it"><a href="#follow-it" class="headerlink" title="follow.it"></a>follow.it</h6><ol>
+<li><p>使用诸如hexo-generator-feed此类的Hexo插件生成 你的Hexo网站的RSS源。</p>
+<p><code>https://lucfe2010.github.io/lucfe-hexo/atom.xml</code></p>
+</li>
+<li><p>在FOLLOW.IT 网站一步步<br>“定义关注表单设计”(Define the follow form’s design)页面上<code>already have a form</code></p>
+<p>复制action&#x3D;后双引号中的链接。 把你复制的action链接粘贴到挂件配置中的action_url设置项。</p>
+</li>
+<li><p>在”连接你的源到follow.it账户“(Connect your feed to a follow.it account)页面上，在输入框中填入你将要用来注册follow.it账户 和管理订阅者的邮箱地址。</p>
+</li>
+<li><p>你会收到一封来自follow.it的邮件。 在那封邮件中搜索<code>&lt;meta name=&quot;follow_it-verification-code&quot; content=&quot;******&quot;/&gt;</code>并复制content&#x3D;后双引号中的content的值。 将你复制的值粘贴到挂件设置中的verification_code设置项。</p>
+<p><img src="/lucfe-hexo/assets/images/hexo-wiki-new/image-3.png" alt="Alt text"></p>
+</li>
+<li><p>回到你收到的第一封邮件并点击”点击这里来认领“(Click here to claim it)链接来认领你的订阅源。</p>
+</li>
+</ol>
+<p><img src="/lucfe-hexo/assets/images/hexo-wiki-new/image-4.png" alt="Alt text"></p>
+<h3 id="icarus-plugin-seting"><a href="#icarus-plugin-seting" class="headerlink" title="icarus plugin seting"></a>icarus plugin seting</h3><h4 id="Google-Analytics"><a href="#Google-Analytics" class="headerlink" title="Google Analytics"></a>Google Analytics</h4><p>在<code>追踪代码(Tracking Code)</code>界面上找到<code>Tracking ID</code>的值，例如”UA-12345678-0”. 将其填写到主题配置的<code>plugins &gt; google_analytics &gt; tracking_id</code>即可开启Google Analytics插件。</p>
+<h4 id="用户评论"><a href="#用户评论" class="headerlink" title="用户评论"></a>用户评论</h4><h5 id="disqus"><a href="#disqus" class="headerlink" title="disqus"></a>disqus</h5><p>在评论服务首页的右上角点击“编辑配置”(Edit Settings)按钮。</p>
+<p><img src="/lucfe-hexo/assets/images/hexo-wiki-new/image.png" alt="Alt text"></p>
+<p>在“为你的站点配置Disqus”(Configure Disqus for Your Site)页面上找到“Shortname”的值， 复制到主题配置的评论配置项中。 例如，下面截图中的“Shortname”为my-hexo-blog-1：</p>
+<p><img src="/lucfe-hexo/assets/images/hexo-wiki-new/image-1.png" alt="Alt text"></p>
+<h5 id="畅言"><a href="#畅言" class="headerlink" title="畅言"></a>畅言</h5><p><img src="/lucfe-hexo/assets/images/hexo-wiki-new/image-5.png" alt="Alt text"></p>
+<p>复制appid与conf的值到主题配置的对应配置项中。 例如，如下的HTML代码：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--PC版--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;SOHUCS&quot;</span> <span class="attr">sid</span>=<span class="string">&quot;...&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://cy-cdn.kuaizhan.com/upload/changyan.js&quot;</span> &gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="variable language_">window</span>.<span class="property">changyan</span>.<span class="property">api</span>.<span class="title function_">config</span>(&#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">appid</span>: <span class="string">&#x27;????appid????&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">conf</span>: <span class="string">&#x27;prod_xxxxxxxxxxxxxxxxxxxxxxx&#x27;</span></span></span><br><span class="line"><span class="language-javascript">&#125;);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>对应到主题配置为：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">comment:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">changyan</span></span><br><span class="line">    <span class="attr">app_id:</span> <span class="string">appid</span></span><br><span class="line">    <span class="attr">conf:</span> <span class="string">prod_xxxxxxxxxxxxxxxxxxxxxxx</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="分享按钮"><a href="#分享按钮" class="headerlink" title="分享按钮"></a>分享按钮</h4><h5 id="share-this"><a href="#share-this" class="headerlink" title="share this"></a>share this</h5><p>copy the src URL from the HTML code fragment to the share button configuration.</p>
+<p><img src="/lucfe-hexo/assets/images/hexo-wiki-new/image-2.png" alt="Alt text"></p>
+<p>For example, the following ShareThis code:</p>
+<p><code>&lt;script type=&quot;text/javascript&quot; src=&quot;https://platform-api.sharethis.com/js/sharethis.js#property=xxxxxxxxxxxxx&amp;product=inline-share-buttons&quot; async=&quot;async&quot;&gt;&lt;/script&gt;</code></p>
+<p>maps to the following theme configuration:</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">share:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">sharethis</span></span><br><span class="line">    <span class="attr">install_url:</span> <span class="string">https://platform-api.sharethis.com/js/sharethis.js#property=xxxxxxxxxxxxx&amp;product=inline-share-buttons</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="for-china-web-connecting"><a href="#for-china-web-connecting" class="headerlink" title="for china web connecting"></a>for china web connecting</h2><h3 id="disable-these-plugins"><a href="#disable-these-plugins" class="headerlink" title="disable these plugins"></a>disable these plugins</h3><p>business or payment<br>feedburn<br>google ad sense<br>google analytics<br>sharethis<br>changyan comments<br>disqus commnets<br>cookie consent<br>follow.it</p>
+<h3 id="disable-these-links-and-font-icons"><a href="#disable-these-links-and-font-icons" class="headerlink" title="disable these links and font icons"></a>disable these links and font icons</h3><p>article licsence links<br>footer links<br>navbar links</p>
+<h3 id="CDN提供商-change-cdn-provider"><a href="#CDN提供商-change-cdn-provider" class="headerlink" title="CDN提供商 change cdn provider"></a>CDN提供商 change cdn provider</h3><p>内置CDN提供商<br>目前，Icarus提供如下的内置CDN服务提供商：</p>
+<p>JavaScript库CDN<br>cdnjs.com (cdnjs)<br>jsDelivr (jsdelivr)<br>UNPKG (unpkg)<br>loli.net (loli)<br>Web字体CDN<br>Google Fonts (google)<br>loli.net (loli)<br>font.im (fontim)<br>中国科学技术大学 (ustc)<br>FontAwesome图标CDN<br>FontAwesome 5 (fontawesome)<br>loli.net (loli)</p>
+<p>默认的CDN服务提供商配置为：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">providers:</span></span><br><span class="line">    <span class="attr">cdn:</span> <span class="string">jsdelivr</span></span><br><span class="line">    <span class="attr">fontcdn:</span> <span class="string">google</span></span><br><span class="line">    <span class="attr">iconcdn:</span> <span class="string">fontawesome</span></span><br></pre></td></tr></table></figure>
+
+<p>修改为：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">providers:</span></span><br><span class="line">    <span class="attr">cdn:</span> <span class="string">cdnjs</span></span><br><span class="line">    <span class="attr">fontcdn:</span> <span class="string">loli</span></span><br><span class="line">    <span class="attr">iconcdn:</span> <span class="string">loli</span></span><br></pre></td></tr></table></figure>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-07T06:52:11.541Z" title="2023/9/7 14:52:11">2023-09-07</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-11T02:39:13.232Z" title="2023/9/11 10:39:13">2023-09-11</time></span><span class="level-item">17 minutes read (About 2538 words)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/ssg/hexo-wiki-1/">helowo</a></p><div class="content"><h2 id="nodejs-重新安装问题"><a href="#nodejs-重新安装问题" class="headerlink" title="nodejs 重新安装问题"></a>nodejs 重新安装问题</h2><p><img src="/lucfe-hexo/assets/images/hexo-wiki-new/image-6.png" alt="Alt text"></p>
+<p>在windows下删除C:\Users\Sam\AppData\Roaming\npm 以及C:\Users\Sam\AppData\Roaming\npm-cache.</p>
+<p>2.刷新环境变量 关于刷新环境，二选一就可以 方法一：重启电脑（耗时</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">PS C:\Users\lcf\Documents\lucfe_website&gt; hexo init lucfe-hexo</span><br><span class="line">hexo : 无法加载文件 C:\Users\lcf\AppData\Roaming\npm\hexo.ps1，因为在此系统上禁止运行脚本。有关详细信息，请参阅 https:/go.microsoft.com/fwlink/?</span><br><span class="line">LinkID=135170 中的 about_Execution_Policies。</span><br><span class="line">所在位置 行:1 字符: 1</span><br><span class="line">+ hexo init lucfe-hexo</span><br><span class="line">+ ~~~~</span><br><span class="line">    + CategoryInfo          : SecurityError: (:) []，PSSecurityException</span><br><span class="line">    + FullyQualifiedErrorId : UnauthorizedAccess</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>powershell执行命令时出错，提示权限问题，请更换为git bash</p>
+<h3 id="Git中只克隆一个特定分支"><a href="#Git中只克隆一个特定分支" class="headerlink" title="Git中只克隆一个特定分支"></a>Git中只克隆一个特定分支</h3><p>git clone -b 分支名 –single-branch <repository url></p>
+<p>要在Git中只克隆一个特定分支，可以使用以下命令： 其中，“-b”选项指定要克隆的分支名称，“–single-branch”选项告诉Git只克隆指定的分支，而不是整个代码库。请将“<repository URL>”替换为要克隆的Git存储库的URL。</p>
+<p>clone<br>https<br><a target="_blank" rel="noopener" href="https://github.com/lucfe2010/lucfe-hexo-private.git">https://github.com/lucfe2010/lucfe-hexo-private.git</a></p>
+<p>like:<br>git clone -b gh-pages –single-branch <a target="_blank" rel="noopener" href="https://github.com/lucfe2010/lucfe-hexo-private.git">https://github.com/lucfe2010/lucfe-hexo-private.git</a></p>
+<h3 id="git-fetch"><a href="#git-fetch" class="headerlink" title="git fetch"></a>git fetch</h3><p>在远程分支上窥视，无需在本地存储库中配置远程<br>$ git fetch git:&#x2F;&#x2F;git.kernel.org&#x2F;pub&#x2F;scm&#x2F;git&#x2F;git.git maint</p>
+<p>Shell<br>第一个命令从 git:&#x2F;&#x2F;git.kernel.org&#x2F;pub&#x2F;scm&#x2F;git&#x2F;git.git 从存储库中获取maint分支</p>
+<p>如<br>git fetch <a target="_blank" rel="noopener" href="https://github.com/lucfe2010/lucfe-hexo-private.git">https://github.com/lucfe2010/lucfe-hexo-private.git</a> gh-pages</p>
+<h3 id="git-push"><a href="#git-push" class="headerlink" title="git push"></a>git push</h3><p>最后</p>
+<p>添加远程仓库<br>先在github上创建一个仓库，复制仓库的HTTP地址，然后回到本地</p>
+<p>origin_learn_git是给这个远程仓库取的别名，随便取</p>
+<p>git remote add origin_learn_git <a target="_blank" rel="noopener" href="https://github.com/DejaVuyan/learn_git.git">https://github.com/DejaVuyan/learn_git.git</a></p>
+<p>push到远程仓库<br>git push -u origin_learn_git main 将当前所在的分支推送到远端的main分支，</p>
+<p>git push -u <a target="_blank" rel="noopener" href="https://github.com/lucfe2010/lucfe-hexo.git">https://github.com/lucfe2010/lucfe-hexo.git</a> gh-pages</p>
+<h2 id="使用-git-subtree-如何将现有-git-仓库中的子目录分离为独立仓库并保留其提交历史"><a href="#使用-git-subtree-如何将现有-git-仓库中的子目录分离为独立仓库并保留其提交历史" class="headerlink" title="使用 git subtree 如何将现有 git 仓库中的子目录分离为独立仓库并保留其提交历史"></a>使用 git subtree 如何将现有 git 仓库中的子目录分离为独立仓库并保留其提交历史</h2><p>看来上述需求还是比较普遍的，自从 1.8 版本之后 git 就添加了 subtree 子命令，使用这个新命令我们可以很简单高效地解决这个问题。</p>
+<p>首先，进入 big-repo 所在的目录，运行：</p>
+<p>git subtree split -P <name-of-folder> -b <name-of-new-branch></p>
+<p>1.在主原仓库下执行 ---@!!!注意，要在主原仓库commit变动后才有变化update(主仓库有变动时 要刷新才能COMMIT)<br>git subtree split -P public -b hexo-public-folder</p>
+<p>运行后，git 会遍历原仓库中所有的历史提交，挑选出与指定路径相关的 commit 并存入名为 name-of-new-branch 的临时分支中。另外需要注意的是，如果你在使用 Windows，且该文件夹深度 &gt; 1，你必须使用斜杠 &#x2F; 作为目录分隔符而不是默认的反斜杠 \。</p>
+<p>然后，我们创建一个新的 git 仓库：</p>
+<p>mkdir <new-repo><br>git init</p>
+<p>接着把原仓库中的临时分支拉到新仓库中：</p>
+<p>git pull &lt;&#x2F;path&#x2F;to&#x2F;big-repo&gt; <name-of-new-branch></p>
+<ol start="2">
+<li>在lucfe-hexo-public&#x2F;lucfe-hexo新仓库目录下<br>git pull ..&#x2F; hexo-public-folder</li>
+</ol>
+<p>好了，完成。现在看看你的新仓库，是不是已经包含了原子文件夹中的所有文件和你之前在原仓库中的所有提交历史呢？</p>
+<ol start="3">
+<li>手动添加.nojekyll文件</li>
+</ol>
+<h3 id="gitignore不生效问题解决方法"><a href="#gitignore不生效问题解决方法" class="headerlink" title=".gitignore不生效问题解决方法"></a>.gitignore不生效问题解决方法</h3><p>第一种方法 .gitignore中已经标明忽略的文件目录下的文件，git push的时候还会出现在push的目录中，或者用git status查看状态，想要忽略的文件还是显示被追踪状态。 </p>
+<p>原因是因为在git忽略目录中，新建的文件在git中会有缓存，如果某些文件已经被纳入了版本管理中，就算是在.gitignore中已经声明了忽略路径也是不起作用的，</p>
+<p> 这时候我们就应该先把本地缓存删除，然后再进行git的提交，这样就不会出现忽略的文件了。 解决方法: git清除本地缓存（改变成未track状态），然后再提交: </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">rm</span> -r --cached .</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&#x27;update .gitignore&#x27;</span></span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
+
+<p>需要特别注意的是：<br> 1）.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。<br> 2）想要.gitignore起作用，必须要在这些文件不在暂存区中才可以，.gitignore文件只是忽略没有被staged(cached)文件， 对于已经被staged文件，加入ignore文件时一定要先从staged移除，才可以忽略。</p>
+<h3 id="folers"><a href="#folers" class="headerlink" title="folers"></a>folers</h3><p>Once initialized, here’s what your project folder will look like:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>scaffolds</p>
+<p>脚手架;建筑架;鹰架<br>A scaffold is a temporary raised platform on which workers stand to paint, repair, or build high parts of a building.</p>
+<p>Scaffold folder. When you create a new post, Hexo bases the new file on the scaffold.</p>
+<p>source<br>Source folder. This is where you put your site’s content. Hexo ignores hidden files and files or folders whose names are prefixed with</p>
+<p>_ (underscore)<br><code>- except the _posts folder.</code></p>
+<p>Renderable files (e.g. Markdown, HTML) will be processed and put into the public folder, while other files will simply be copied.</p>
+<p>themes<br>Theme folder. Hexo generates a static website by combining the site contents with the theme.</p>
+<h2 id="writing"><a href="#writing" class="headerlink" title="writing"></a>writing</h2><p>To create a new post or a new page, you can run the following command:</p>
+<p><code>$ hexo new [layout] &lt;title&gt;</code><br>post is the default layout, but you can supply your own.</p>
+<h3 id="Layout"><a href="#Layout" class="headerlink" title="Layout"></a>Layout</h3><p>There are three default layouts in Hexo: post, page and draft. Files created by each of them is saved to a different path. Newly created posts are saved to the source&#x2F;_posts folder.</p>
+<h3 id="Filename"><a href="#Filename" class="headerlink" title="Filename"></a>Filename</h3><p>By default, Hexo uses the post title as its filename. You can edit the new_post_name setting in _config.yml to change the default filename. </p>
+<h3 id="Drafts"><a href="#Drafts" class="headerlink" title="Drafts"></a>Drafts</h3><p>Previously, we mentioned a special layout in Hexo: draft. Posts initialized with this layout are saved to the source&#x2F;_drafts folder.<br>Drafts are not displayed by default. You can add the –draft option when running Hexo or enable the render_drafts setting in _config.yml to render drafts.</p>
+<p>You can use the publish command to move drafts to the source&#x2F;_posts folder. publish works in a similar way to the new command.</p>
+<p><code>$ hexo publish [layout] &lt;title&gt;</code></p>
+<p>You can use the publish command to move drafts to the source&#x2F;_posts folder. publish works in a similar way to the new command.</p>
+<h3 id="Supported-Formats"><a href="#Supported-Formats" class="headerlink" title="Supported Formats"></a>Supported Formats</h3><p>Hexo support posts written in any format, as long as the corresponding renderer plugin is installed.</p>
+<p>For example, Hexo has hexo-renderer-marked and hexo-renderer-ejs installed by default, so you can write your posts in markdown or in ejs. </p>
+<p><code>$ hexo publish [layout] &lt;title&gt;</code></p>
+<h2 id="front-matter"><a href="#front-matter" class="headerlink" title="front matter"></a>front matter</h2><p>Front-matter is a block of YAML or JSON at the beginning of the file that is used to configure settings for your writings. Front-matter is terminated by three dashes when written in YAML or three semicolons when written in JSON.</p>
+<p>YAML</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">Hello</span> <span class="string">World</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2013</span><span class="string">/7/13</span> <span class="number">20</span><span class="string">:46:25</span></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="meta"></span></span><br></pre></td></tr></table></figure>
+<p>JSON</p>
+<p>“title”: “Hello World”,<br>“date”: “2013&#x2F;7&#x2F;13 20:46:25”<br>;;;</p>
+<p>Setting	Description	Default<br>layout	Layout	config.default_layout<br>title	Title	Filename (posts only)<br>date	Published date	File created date<br>tags	Tags (Not available for pages)	<br>categories	Categories (Not available for pages)	<br>permalink	Overrides the default permalink of the post. Permalink should end with &#x2F; or .html	null</p>
+<p>Categories &amp; Tags<br>Only posts support the use of categories and tags. Categories apply to posts in order, resulting in a hierarchy of classifications and sub-classifications. Tags are all defined on the same hierarchical level so the order in which they appear is not important.</p>
+<p>Example</p>
+<p>categories:</p>
+<ul>
+<li>Sports</li>
+<li>Baseball<br>tags:</li>
+<li>Injury</li>
+<li>Fight</li>
+<li>Shocking</li>
+</ul>
+<p>If you want to apply multiple category hierarchies, use a list of names instead of a single name. If Hexo sees any categories defined this way on a post, it will treat each category for that post as its own independent hierarchy.</p>
+<p>Example</p>
+<p>categories:</p>
+<ul>
+<li>[Sports, Baseball]</li>
+<li>[MLB, American League, Boston Red Sox]</li>
+<li>[MLB, American League, New York Yankees]</li>
+<li>Rivalries</li>
+</ul>
+<h2 id="Tag-Plugins"><a href="#Tag-Plugins" class="headerlink" title="Tag Plugins"></a>Tag Plugins</h2><p>Tag plugins are different from post tags. They are ported from Octopress and provide a useful way for you to quickly add specific content to your posts.</p>
+<p>Although you can write your posts in any formats, but the tag plugins will always be available and syntax remains the same.</p>
+<h3 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h3><p>Inserts a link with target&#x3D;”_blank” attribute.</p>
+{% link text url [external] [title] %}
+
+<h3 id="Include-Code"><a href="#Include-Code" class="headerlink" title="Include Code"></a>Include Code</h3><p>Inserts code snippets in source&#x2F;downloads&#x2F;code folder. The folder location can be specified through the code_dir option in the config.</p>
+
+{% include_code [title] [lang:language] [from:line] [to:line] path/to/file %}
+
+
+<h3 id="Include-Posts"><a href="#Include-Posts" class="headerlink" title="Include Posts"></a>Include Posts</h3><p>Include links to other posts.</p>
+
+{% post_path filename %}
+
+
+
+<h4 id="jiesi"><a href="#jiesi" class="headerlink" title="jiesi"></a>jiesi</h4><p>You can ignore permalink and folder information, like languages and dates, when using this tag.</p>
+<p>For instance: .</p>
+<p>This will work as long as the filename of the post is how-to-bake-a-cake.md, even if the post is located at source&#x2F;posts&#x2F;2015-02-my-family-holiday and has permalink 2018&#x2F;en&#x2F;how-to-bake-a-cake.</p>
+<p>You can customize the text to display, instead of displaying the post’s title.</p>
+<p>Post’s title and custom text are escaped by default. You can use the escape option to disable escaping.</p>
+<h4 id="For-instance"><a href="#For-instance" class="headerlink" title="For instance:"></a>For instance:</h4><p>Display title of the post.</p>
+
+{% post_link hexo-3-8-released %}
+
+
+
+<p>Hexo 3.8.0 Released<br>Display custom text.</p>
+
+{% post_link hexo-3-8-released 'Link to a post' %}
+
+
+<p>Link to a post<br>Escape title.</p>
+
+{% post_link hexo-4-released 'How to use <b> tag in title' %}
+
+
+
+<h3 id="Raw"><a href="#Raw" class="headerlink" title="Raw"></a>Raw</h3><p>If certain content is causing processing issues in your posts, wrap it with the raw tag to avoid rendering errors.</p>
+
+content
+
+
+<h2 id="Asset-Folders"><a href="#Asset-Folders" class="headerlink" title="Asset Folders"></a>Asset Folders</h2><h3 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h3><p>Inserts an image with specified size.</p>
+
+{% img [class names] /path/to/image [width] [height] '"title text" "alt text"' %}
+
+
+<h4 id="Embedding-an-image-using-markdown"><a href="#Embedding-an-image-using-markdown" class="headerlink" title="Embedding an image using markdown"></a>Embedding an image using markdown</h4><p>hexo-renderer-marked 3.1.0 introduced a new option that allows you to embed an image in markdown without using asset_img tag plugin.</p>
+<p>To enable:</p>
+<p>_config.yml<br>post_asset_folder: true<br>marked:<br>  prependRoot: true<br>  postAsset: true</p>
+<p>&#x2F;2020&#x2F;01&#x2F;02&#x2F;foo&#x2F;image.jpg<br>&#x2F;2020&#x2F;01&#x2F;02&#x2F;foo.md<br>Once enabled, an asset image will be automatically resolved to its corresponding post’s path. For example, “image.jpg” is located at “&#x2F;2020&#x2F;01&#x2F;02&#x2F;foo&#x2F;image.jpg”, meaning it is an asset image of “&#x2F;2020&#x2F;01&#x2F;02&#x2F;foo&#x2F;“ post, <code>![](image.jpg)</code> will be rendered as </p>
+<p><code>&lt;img src=&quot;/2020/01/02/foo/image.jpg&quot;&gt;</code>.</p>
+<h4 id="embed-image"><a href="#embed-image" class="headerlink" title="embed image"></a>embed image</h4><p>“foo.jpg” is located at <code>http://example.com/2020/01/02/hello/foo.jpg</code>.</p>
+<p>Default (no option)</p>
+
+{% asset_img foo.jpg %}
+
+
+<p><code>&lt;img src=&quot;/2020/01/02/hello/foo.jpg&quot;&gt;</code></p>
+<h3 id="Global-Asset-Folder"><a href="#Global-Asset-Folder" class="headerlink" title="Global Asset Folder"></a>Global Asset Folder</h3><p>Global Asset Folder<br>Assets are non-post files in the source folder, such as images, CSS or JavaScript files. For instance, If you are only going to have a few images in the Hexo project, then the easiest way is to keep them in a source&#x2F;images directory. Then, you can access them using something like </p>
+<p><code>![](/images/image.jpg)</code>.</p>
+<p>for vscode edit the md file as open the source directory as project file</p>
+<h3 id="dont-use-Post-Asset-Folder"><a href="#dont-use-Post-Asset-Folder" class="headerlink" title="dont use Post Asset Folder"></a>dont use Post Asset Folder</h3><p>For users who expect to regularly serve images and&#x2F;or other assets, and for those who prefer to separate their assets on a post-per-post basis, Hexo also provides a more organized way to manage assets. This slightly more involved, but very convenient approach to asset management can be turned on by setting the post_asset_folder setting in _config.yml to true.</p>
+<p>_config.yml<br>post_asset_folder: true</p>
+<p>With asset folder management enabled, Hexo will create a folder every time you make a new post with the hexo new <code>[layout] &lt;title&gt;</code> command. This asset folder will have the same name as the markdown file associated with the post.</p>
+<p>Place all assets related to your post into the associated folder, and you will be able to reference them using a relative path, making for an easier and more convenient workflow.</p>
+<h4 id="dont-use-this-method"><a href="#dont-use-this-method" class="headerlink" title="dont use this method"></a>dont use this method</h4><p>Relative Image Path<br>The build-in way to include images in your posts works fine, but it is a little aside the normal way to declare images in Markdown. The plugin [Hexo Asset Link] corrects that. After installing via npm install hexo-asset-link –save you can write this:</p>
+<p><code>![Test Image](hello-world/image-1.png)</code><br>The best is, that VS Code’s Markdown can now show the image.</p>
+<p> hexo and vscode img path problem</p>
+<p><code>$ npm i -s hexo-asset-link</code></p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-05T23:07:43.758Z" title="2023/9/6 07:07:43">2023-09-06</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-11T02:34:28.801Z" title="2023/9/11 10:34:28">2023-09-11</time></span><span class="level-item">10 minutes read (About 1505 words)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/ssg/11ty_wiki/">11ty wiki</a></p><div class="content"><ol>
+<li><p>查看当前地址<br><code>npm config get registry</code><br>复制</p>
+</li>
+<li><p>设置当前地址（设置为淘宝镜像）<br>不要用这个<code>npm config set registry http://registry.npm.taobao.org/</code><br><code>npm config set registry https://registry.npmmirror.com</code><br>复制</p>
+</li>
+<li><p>设置当前地址（设置为默认地址）<br><code>npm config set registry https://registry.npmjs.org/</code></p>
+</li>
+</ol>
+<p>MAKE A PROJECT DIRECTORY<br>Create a directory for your project using the mkdir command (short for make directory):</p>
+<p><code>mkdir eleventy-sample</code><br>Now move into that directory with the cd command (short for change directory):</p>
+<p><code>cd eleventy-sample</code></p>
+<h2 id="INSTALL-ELEVENTY"><a href="#INSTALL-ELEVENTY" class="headerlink" title="INSTALL ELEVENTY"></a>INSTALL ELEVENTY</h2><h3 id="CREATE-A-package-json"><a href="#CREATE-A-package-json" class="headerlink" title="CREATE A package.json"></a>CREATE A package.json</h3><p>Installing Eleventy into a project requires a package.json file. The npm command (provided by Node.js) will create one for you with npm init -y. -y tells npm to use default values and skips the command line questionnaire.</p>
+<p><code>npm init -y</code></p>
+<h3 id="INSTALL-ELEVENTY-1"><a href="#INSTALL-ELEVENTY-1" class="headerlink" title="INSTALL ELEVENTY"></a>INSTALL ELEVENTY</h3><p>@11ty&#x2F;eleventy is published on npm and we can install and save it into our project’s package.json by running:</p>
+<p><code>npm install @11ty/eleventy --save-dev</code><br>You may also install Eleventy globally but the package.json installation method above is recommended.</p>
+<h2 id="RUN-ELEVENTY"><a href="#RUN-ELEVENTY" class="headerlink" title="RUN ELEVENTY"></a>RUN ELEVENTY</h2><p>We can use the npx command (also provided by Node.js) to run our local project’s version of Eleventy. Let’s make sure our installation went okay and try to run Eleventy:</p>
+<p>npx @11ty&#x2F;eleventy</p>
+<h2 id="CREATE-SOME-TEMPLATES"><a href="#CREATE-SOME-TEMPLATES" class="headerlink" title="CREATE SOME TEMPLATES"></a>CREATE SOME TEMPLATES</h2><p>A template is a content file written in a format such as Markdown, HTML, Liquid, Nunjucks, and more, which Eleventy transforms into a page (or pages) when building our site.</p>
+<p>Let’s run two commands to create two new template files.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;&lt;!doctype html&gt;&lt;title&gt;Page title&lt;/title&gt;&lt;p&gt;Hi&lt;/p&gt;&#x27;</span> &gt; index.html</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;# Page header&#x27;</span> &gt; README.md</span><br></pre></td></tr></table></figure>
+
+<p>Alternatively, you can create these using any text editor—just make sure you save them into your project folder and they have the correct file extensions.</p>
+<h3 id="After-you’ve-created-an-HTML-template-and-a-Markdown-template-let’s-run-Eleventy-again-with-the-following-command"><a href="#After-you’ve-created-an-HTML-template-and-a-Markdown-template-let’s-run-Eleventy-again-with-the-following-command" class="headerlink" title="After you’ve created an HTML template and a Markdown template, let’s run Eleventy again with the following command:"></a>After you’ve created an HTML template and a Markdown template, let’s run Eleventy again with the following command:</h3><p>npx @11ty&#x2F;eleventy<br>The output might look like this:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npx @11ty/eleventy</span><br><span class="line">[11ty] Writing _site/README/index.html from ./README.md (liquid)</span><br><span class="line">[11ty] Writing _site/index.html from ./index.html (liquid)</span><br><span class="line">[11ty] Wrote 2 files <span class="keyword">in</span> 0.04 seconds (v2.0.1)</span><br><span class="line">We’ve compiled our two content templates <span class="keyword">in</span> the current directory into the output folder (_site is the default).</span><br></pre></td></tr></table></figure>
+
+<h2 id="GAZE-UPON-YOUR-TEMPLATES"><a href="#GAZE-UPON-YOUR-TEMPLATES" class="headerlink" title="GAZE UPON YOUR TEMPLATES"></a>GAZE UPON YOUR TEMPLATES</h2><p>Use –serve to start up a hot-reloading local web server.</p>
+<p>npx @11ty&#x2F;eleventy –serve<br>Your command line might look something like:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">npx @11ty/eleventy --serve</span><br><span class="line">[11ty] Writing _site/index.html from ./index.html (liquid)</span><br><span class="line">[11ty] Writing _site/README/index.html from ./README.md (liquid)</span><br><span class="line">[11ty] Wrote 2 files <span class="keyword">in</span> 0.04 seconds (v2.0.0)</span><br><span class="line">[11ty] Watching…</span><br><span class="line">[11ty] Server at http://localhost:8080/</span><br><span class="line">Open http://localhost:8080/ or http://localhost:8080/README/ <span class="keyword">in</span> your favorite web browser to see your Eleventy site live! When you save your template files—Eleventy will refresh the browser with your new changes automatically!</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="USE-A-BUILD-SCRIPT"><a href="#USE-A-BUILD-SCRIPT" class="headerlink" title="USE A BUILD SCRIPT"></a>USE A BUILD SCRIPT</h2><p>When deploying your Eleventy site, the goal is to provide your chosen host with your project’s build output (the _site folder by default). The command you run is usually configured via a build script in your package.json file. It might look like this:</p>
+<h2 id="DEPOLY-ON-GITHUB-PAGES-0B"><a href="#DEPOLY-ON-GITHUB-PAGES-0B" class="headerlink" title="DEPOLY ON GITHUB PAGES.0B"></a>DEPOLY ON GITHUB PAGES.0B</h2><p>FILENAME package.json</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;build&quot;</span><span class="punctuation">:</span> <span class="string">&quot;npx @11ty/eleventy&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="New-files-in-your-GitHub-repo"><a href="#New-files-in-your-GitHub-repo" class="headerlink" title="New files in your GitHub repo"></a>New files in your GitHub repo</h3><p>.nojekyll file: Open a plain-text editor and save an empty file in the root of your repo (where you have the .eleventy.js) with the filename .nojekyll. This will stop GitHub from trying to build your site as a Jekyll site.</p>
+<p>.github directory: Create a new directory in the root of your repo and name it .github (yes, starting with a period). Inside that directory, make a directory named workflows. Open a plain-text editor and save a file inside the workflows directory called build.yml. Copy the contents from my build.yml file here.<br>Note: my build.yml file was updated 6&#x2F;14&#x2F;23 with Node version improvements thanks to Simon Wiles</p>
+
+
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">name:</span> <span class="string">Build</span> <span class="string">Eleventy</span></span><br><span class="line"><span class="attr">on:</span></span><br><span class="line">  <span class="attr">push:</span></span><br><span class="line">    <span class="attr">branches:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">main</span></span><br><span class="line"></span><br><span class="line"><span class="attr">jobs:</span></span><br><span class="line">  <span class="attr">build:</span></span><br><span class="line">    <span class="attr">runs-on:</span> <span class="string">ubuntu-latest</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">steps:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">uses:</span> <span class="string">actions/checkout@v3</span></span><br><span class="line"></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Use</span> <span class="string">Node.js</span> <span class="string">current</span></span><br><span class="line">        <span class="attr">uses:</span> <span class="string">actions/setup-node@v3</span></span><br><span class="line">        <span class="attr">with:</span></span><br><span class="line">          <span class="attr">node-version:</span> <span class="string">current</span></span><br><span class="line"></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Install</span> <span class="string">dependencies</span> <span class="string">&amp;</span> <span class="string">build</span></span><br><span class="line">        <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">          npm ci</span></span><br><span class="line"><span class="string">          npm run build</span></span><br><span class="line"><span class="string"></span></span><br><span class="line">          </span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Deploy</span></span><br><span class="line">        <span class="attr">uses:</span> <span class="string">peaceiris/actions-gh-pages@v3.8.0</span></span><br><span class="line">        <span class="attr">with:</span></span><br><span class="line">          <span class="attr">github_token:</span> <span class="string">$&#123;&#123;</span> <span class="string">secrets.GITHUB_TOKEN</span> <span class="string">&#125;&#125;</span></span><br><span class="line">          <span class="comment">#publish_dir is the folder on the docker instance which eleventy builds the pages to.</span></span><br><span class="line">          <span class="comment">#it is not the docs folder in the repository</span></span><br><span class="line">          <span class="attr">publish_dir:</span> <span class="string">_site</span></span><br><span class="line">          <span class="comment">#publish_branch is the branch in the repository.</span></span><br><span class="line">          <span class="comment">#this is where you need to point GitHub pages</span></span><br><span class="line">          <span class="attr">publish_branch:</span> <span class="string">gh-pages</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>Depending on your Eleventy setup, you may need to change publish_dir in your build.yml file. My Eleventy site builds to a folder called dist. If yours builds to a folder with a different name, change it in this file.</p>
+<h3 id="GitHub-configuration"><a href="#GitHub-configuration" class="headerlink" title="GitHub configuration"></a>GitHub configuration</h3><h4 id="Creating-a-gh-pages-branch"><a href="#Creating-a-gh-pages-branch" class="headerlink" title="Creating a gh-pages branch"></a>Creating a gh-pages branch</h4><p>Using the GitHub interface, you’ll need to create a new branch of your repo called gh-pages where the built version of your site will be hosted from. If you’re looking at your repo on GitHub, you should see a little button that says main towards the upper left, under the &lt;&gt; Code tab. Click that button, then type gh-pages into the field that says Find or create a branch. This will create a new branch called gh-pages</p>
+<p><em><strong>important!!!!<br>the gh-pages branch will be update by the github page action definded up right in the workflow. so dont use the gh-pages branch for editing content</strong></em></p>
+<h4 id="Actions-configuration"><a href="#Actions-configuration" class="headerlink" title="Actions configuration"></a>Actions configuration</h4><p>Go into the settings for your repo, click on Actions in the set of tabs on the left, then General.<br> Make sure that “Allow all actions and reusable workflows” is selected,<br> and at the bottom of that page, under Workflow permissions make sure that you have “Read and write permissions” selected.</p>
+<h4 id="GitHub-Pages-configuration"><a href="#GitHub-Pages-configuration" class="headerlink" title="GitHub Pages configuration"></a>GitHub Pages configuration</h4><p>Go into the settings for your repo, and click on “Pages” in the set of tabs on the left. Use the dropdown under Source to choose the gh-pages branch.</p>
+<h3 id="Building-the-sitePermalink"><a href="#Building-the-sitePermalink" class="headerlink" title="Building the sitePermalink"></a>Building the sitePermalink</h3><p>In theory, if you’ve set up all these things, anytime you push changes to GitHub, it will trigger an action that will build the site and move those files to the GitHub Pages hosting environment.</p>
+<p>If everything isn’t set up just right, you’ll get an email that an action failed. Click the “View workflow run” link in the email, which will take you to a page with information on the failed workflow. Click on the text in the middle panel where you see a red circle with an x – what the text says depends on where exactly it failed. Eventually you’ll see text reflecting where exactly the process failed, and you can search parts of that error message to figure out what’s going wrong.</p>
+<h2 id="layout"><a href="#layout" class="headerlink" title="layout"></a>layout</h2><p>Eleventy Layouts are special templates that can be used to wrap other content.</p>
+<h3 id="first"><a href="#first" class="headerlink" title="first"></a>first</h3><p>To denote that a piece of content should be wrapped in a template, use the layout key in your front matter, like so:</p>
+<p>content-using-layout.md</p>
+
+
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line"></span><br><span class="line">layout: &quot;layouts/mylayout.njk&quot;</span><br><span class="line">title: My Rad Markdown Blog Post</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"><span class="code">`# &#123;&#123; title &#125;&#125;`</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p>This will look for a mylayout.njk Nunjucks file in your includes folder at _includes&#x2F;layouts&#x2F;mylayout.njk.</p>
+<h3 id="Next-we-need-to-create-a-mylayout-njk-file-It-can-contain-any-type-of-text-but-here-we’re-using-HTML"><a href="#Next-we-need-to-create-a-mylayout-njk-file-It-can-contain-any-type-of-text-but-here-we’re-using-HTML" class="headerlink" title="Next, we need to create a mylayout.njk file. It can contain any type of text, but here we’re using HTML:"></a>Next, we need to create a mylayout.njk file. It can contain any type of text, but here we’re using HTML:</h3><p>FILENAME _includes&#x2F;mylayout.njk</p>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&#123;% raw %&#125;</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">title: My Rad Blog</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">&lt;!doctype html&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span></span><br><span class="line">  <span class="language-xml"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span></span><br><span class="line"><span class="code">    &lt;meta charset=&quot;utf-8&quot;&gt;</span></span><br><span class="line"><span class="code">    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</span></span><br><span class="line"><span class="code">    &lt;title&gt;&#123;&#123; title &#125;&#125;&lt;/title&gt;</span></span><br><span class="line"><span class="code">  &lt;/head&gt;</span></span><br><span class="line"><span class="code">  &lt;body&gt;&#123;% raw %&#125;</span></span><br><span class="line"><span class="code">    &#123;&#123; content | safe &#125;&#125;&#123;% endraw %&#125;</span></span><br><span class="line"><span class="code">  &lt;/body&gt;</span></span><br><span class="line"><span class="code">&lt;/html&gt;</span></span><br><span class="line"><span class="code">&#123;% endraw %&#125;</span></span><br><span class="line"><span class="code"></span></span><br></pre></td></tr></table></figure>
+
+<p>If you are using a language that contains curly braces, you will likely need to place  and  tags around your code. Since Jekyll 4.0 , you can add render_with_liquid: false in your front matter to disable Liquid entirely for a particular document.</p>
+<p>Note that the layout template will populate the content data with the child template’s content.</p>
+<p> Also note that we don’t want to double-escape the output, so we’re using the provided Nunjucks safe filter here (see more language double-escaping syntax below).</p>
+<h3 id="FRONT-MATTER-DATA-IN-LAYOUTS"><a href="#FRONT-MATTER-DATA-IN-LAYOUTS" class="headerlink" title="FRONT MATTER DATA IN LAYOUTS"></a>FRONT MATTER DATA IN LAYOUTS</h3><p>Layouts can contain their own front matter data! It’ll be merged with the content’s data on render. Content data takes precedence(优先), if conflicting keys arise.</p>
+<p>Front matter data set in a content template takes priority over layout front matter! Chained layouts have similar merge behavior. The closer to the content, the higher priority the data.</p>
+<p>SOURCES OF DATA<br>When the data is merged in the Eleventy Data Cascade, the order of priority for sources of data is (from highest priority to lowest):</p>
+<ol>
+<li>Computed Data</li>
+<li>Front Matter Data in a Template</li>
+<li>Template Data Files</li>
+<li>Directory Data Files (and ascending Parent Directories)</li>
+<li>Front Matter Data in Layouts (this moved in 1.0) ⬅</li>
+<li>Configuration API Global Data</li>
+<li>Global Data Files</li>
+</ol>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-04T11:46:08.158Z" title="2023/9/4 19:46:08">2023-09-04</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-14T23:26:35.714Z" title="2023/9/15 07:26:35">2023-09-15</time></span><span class="level-item"> lucfe </span><span class="level-item"><a class="link-muted" href="/lucfe-hexo/categories/jekyll-update/">jekyll update</a></span><span class="level-item">10 minutes read (About 1465 words)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/ssg/jekyll-wiki/">Jekyll wiki</a></p><div class="content"><h2 id="Creating-a-GitHub-Pages-site-with-Jekyll"><a href="#Creating-a-GitHub-Pages-site-with-Jekyll" class="headerlink" title="Creating a GitHub Pages site with Jekyll"></a>Creating a GitHub Pages site with Jekyll</h2><ol start="0">
+<li>Creating a repository for your site</li>
+</ol>
+<p><img src="/lucfe-hexo/assets/images/2023-09-05-jekyll-wiki/image-1.png" alt="Alt text"></p>
+<p>每个用户唯一的一个PAGE REPOSITORY<br>USERNAME.github.io<br>网站地址默认为<a target="_blank" rel="noopener" href="https://username.github.io/">https://USERNAME.github.io</a></p>
+<p><img src="/lucfe-hexo/assets/images/2023-09-05-jekyll-wiki/image-2.png" alt="Alt text"></p>
+<ol>
+<li>Open Git Bash.</li>
+</ol>
+<p>navigate to the location where you want to store your site’s source files, replacing PARENT-FOLDER with the folder you want to contain the folder for your repository.</p>
+<ol start="2">
+<li><p>cd PARENT-FOLDER<br><img src="/lucfe-hexo/assets/images/2023-09-05-jekyll-wiki/image-3.png" alt="Alt text"></p>
+</li>
+<li><p>initialize a local Git repository, replacing REPOSITORY-NAME with the name of your repository.</p>
+</li>
+</ol>
+<p>$ git init REPOSITORY-NAME</p>
+<ol start="4">
+<li>Change directories to the repository.</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> REPOSITORY-NAME</span><br><span class="line"><span class="comment"># Changes the working directory</span></span><br></pre></td></tr></table></figure>
+
+<ol start="5">
+<li></li>
+</ol>
+<ul>
+<li>5.1. chose to publish your site from the docs folder on the default branch, create and change directories to the docs folder.</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">mkdir</span> docs</span><br><span class="line"><span class="comment"># Creates a new folder called docs</span></span><br><span class="line">$ <span class="built_in">cd</span> docs</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>5.2. chose to publish your site from the gh-pages branch, create and checkout the gh-pages branch.</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout --orphan gh-pages</span><br><span class="line"><span class="comment"># Creates a new branch, with no history or contents, called gh-pages, and switches to the gh-pages branch</span></span><br><span class="line">$ git <span class="built_in">rm</span> -rf .</span><br><span class="line"><span class="comment"># Removes the contents from your default branch from the working directory</span></span><br></pre></td></tr></table></figure>
+
+<ol start="6">
+<li>To create a new Jekyll site, use the jekyll new command:</li>
+</ol>
+<p>$ jekyll new –skip-bundle .</p>
+<p>Creates a Jekyll site in the current directory</p>
+<ol start="7">
+<li>Open the Gemfile that Jekyll created.</li>
+</ol>
+<p>Add “#” to the beginning of the line that starts with gem “jekyll” to comment out this line.</p>
+<p>Add the github-pages gem by editing the line starting with # gem “github-pages”. Change this line to:</p>
+<p>gem “github-pages”, “~&gt; GITHUB-PAGES-VERSION”, group: :jekyll_plugins<br>Replace GITHUB-PAGES-VERSION with the latest supported version of the github-pages gem. You can find this version here: “Dependency versions.”</p>
+<p>The correct version Jekyll will be installed as a dependency of the github-pages gem.</p>
+<p>gem “github-pages”, “~&gt; 228”, group: :jekyll_plugins</p>
+<p>Save and close the Gemfile.</p>
+<ol start="8">
+<li>intall some dependecies</li>
+</ol>
+<p>Bundler<br>Conveniently, bundler has a feature to alias a Gem-server to another one. This way, you can leave your Gemfile source ‘<a target="_blank" rel="noopener" href="https://rubygems.org/">https://rubygems.org</a>‘ at the top of each Gemfile.<br>Run this command:<br>bundle config mirror.<a target="_blank" rel="noopener" href="https://rubygems.org/">https://rubygems.org</a> <a target="_blank" rel="noopener" href="https://gems.ruby-china.com/">https://gems.ruby-china.com</a><br>To remove the aliasing, just delete the appropriate line in ~&#x2F;.bundle&#x2F;config.</p>
+<p>bundle config mirror.<a target="_blank" rel="noopener" href="https://rubygems.org/">https://rubygems.org</a> <a target="_blank" rel="noopener" href="https://gems.ruby-china.com/">https://gems.ruby-china.com</a></p>
+<p>bundle config mirror.<a target="_blank" rel="noopener" href="https://rubygems.org/">https://rubygems.org</a> <a target="_blank" rel="noopener" href="https://rubygems.org/">https://rubygems.org</a></p>
+<p>From the command line, run <code>bundle install</code>.</p>
+<ol start="9">
+<li>make any necessary edits to the _config.yml file. This is required for relative paths when the repository is hosted in a subdirectory.</li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">baseurl:</span> <span class="string">&quot;/lucfe/&quot;</span> <span class="comment"># the subpath of your site, e.g. /blog</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">&quot;https://lucfe2010.github.io&quot;</span> <span class="comment"># the base hostname &amp; protocol for your site, e.g. http://example.com</span></span><br></pre></td></tr></table></figure>
+
+<p>10.Run your Jekyll site locally.<br>$ bundle add webrick<br>$ bundle exec jekyll serve</p>
+<ol start="10">
+<li>Add and commit your work.</li>
+</ol>
+<p>git add .<br>git commit -m ‘Initial GitHub pages site with Jekyll’</p>
+<p>11.Add your repository on GitHub.com as a remote, replacing USER with the account that owns the repository and REPOSITORY with the name of the repository.</p>
+<p>$ git remote add origin <a target="_blank" rel="noopener" href="https://github.com/USER/REPOSITORY.git">https://github.com/USER/REPOSITORY.git</a></p>
+<hr>
+<p>如果你clone下来一个别人的仓库，在此基础上完成你的代码，推送到自己的仓库可能遇到如下问题： error: remote origin already exists.表示远程仓库已存在。 因此你要进行以下操作： 1、先输入git remote rm origin 删除关联的origin的远程库</p>
+<hr>
+<p>12.Push the repository to GitHub, replacing BRANCH with the name of the branch you’re working on.</p>
+<p>git branch -M main<br>git push -u origin main</p>
+<p>git push -u origin BRANCH</p>
+<ol start="13">
+<li>Configure your publishing source</li>
+</ol>
+<p><img src="/lucfe-hexo/assets/images/2023-09-05-jekyll-wiki/image-4.png" alt="Alt text"></p>
+<p>main branch,doc&#x2F; folder<br><img src="/lucfe-hexo/assets/images/2023-09-05-jekyll-wiki/image-5.png" alt="Alt text"></p>
+<p>gh-pages, &#x2F; folder<br><img src="/lucfe-hexo/assets/images/2023-09-05-jekyll-wiki/image-6.png" alt="Alt text"></p>
+<ol>
+<li>optinal</li>
+</ol>
+<p>permalink</p>
+<p>_config.yml</p>
+<p><code># Outputting</code><br>permalink: none</p>
+<p>PERMALINK STYLE   URL TEMPLATE<br>date  &#x2F;:categories&#x2F;:year&#x2F;:month&#x2F;:day&#x2F;:title:output_ext<br>none  &#x2F;:categories&#x2F;:title:output_ext</p>
+<p>Markdown › Copy Files: Destination<br>Defines where files copied created by drop or paste should be created. This is a map from globs that match on the Markdown document to destinations.<br>item value</p>
+`"*"  /assets/images/${documentBaseName}/`
+
+<p>when copy image to vs code the <code>![]()</code>,is relative path like<br>..&#x2F;..&#x2F;..&#x2F;assets&#x2F;images&#x2F;2023-09-05-jekyll-wiki&#x2F;image-6.png</p>
+<h2 id="Directory-Structure"><a href="#Directory-Structure" class="headerlink" title="Directory Structure"></a>Directory Structure</h2><p>_includes</p>
+<p>These are the partials that can be mixed and matched by your layouts and posts to facilitate reuse. The liquid tag </p>
+<p> can be used to include the partial in _includes&#x2F;file.ext.</p>
+<p>_layouts</p>
+<p>These are the templates that wrap posts. Layouts are chosen on a post-by-post basis in the front matter, which is described in the next section. The liquid tag  {{ content }}  is used to inject content into the web page.</p>
+<p>_posts</p>
+<p>Your dynamic content, so to speak. The naming convention of these files is important, and must follow the format: YEAR-MONTH-DAY-title.MARKUP. The permalinks can be customized for each post, but the date and markup language are determined solely by the file name.</p>
+<p>_site</p>
+<p>This is where the generated site will be placed (by default) once Jekyll is done transforming it. It’s probably a good idea to add this to your .gitignore file.</p>
+<p>index.html or index.md and other HTML, Markdown files</p>
+<p>Provided that the file has a front matter section, it will be transformed by Jekyll. The same will happen for any .html, .markdown, .md, or .textile file in your site’s root directory or directories not listed above.</p>
+<p>The Gemfile and Gemfile.lock files are used by Bundler to keep track of the required gems and gem versions you need to build your Jekyll site.</p>
+<p>Assets<br>Any file in &#x2F;assets will be copied over to the user’s site upon build unless they have a file with the same relative path. You can ship any kind of asset here: SCSS, an image, a webfont, etc.</p>
+<p>All files in &#x2F;assets will be output into the compiled site in the &#x2F;assets folder just as you’d expect from using Jekyll on your sites.</p>
+<h2 id="theme"><a href="#theme" class="headerlink" title="theme"></a>theme</h2><p>To locate a theme’s files on your computer:</p>
+<p>Run bundle info –path followed by the name of the theme’s gem, e.g., bundle info –path minima for Jekyll’s default theme.</p>
+<p>This returns the location of the gem-based theme files.</p>
+<h3 id="Customization"><a href="#Customization" class="headerlink" title="Customization"></a>Customization</h3><p>To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file.<br>e.g., to override the <a href="../../../../category%20level1/category%20level2/_includes/head.html"><code>_includes/head.html </code></a> file to specify a custom style path, create an <code>_includes</code> directory, copy <code>_includes/head.html</code> from minima gem folder to <code>&lt;yoursite&gt;/_includes</code> and start editing that file.</p>
+<p>To modify any stylesheet you must take the extra step of also copying the main sass file (_sass&#x2F;minima.scss in the Minima theme) into the _sass directory in your site’s source.</p>
+<p>An alternative, to continue getting theme updates on all stylesheets, is to use higher specificity CSS selectors in your own additional, originally named CSS files.</p>
+<h3 id="Converting-gem-based-themes-to-regular-themesPermalink"><a href="#Converting-gem-based-themes-to-regular-themesPermalink" class="headerlink" title="Converting gem-based themes to regular themesPermalink"></a>Converting gem-based themes to regular themesPermalink</h3><p>Suppose you want to get rid of the gem-based theme and convert it to a regular theme, where all files are present in your Jekyll site directory, with nothing stored in the theme gem.</p>
+<p>To do this, copy the files from the theme gem’s directory into your Jekyll site directory. (For example, copy them to &#x2F;myblog if you created your Jekyll site at &#x2F;myblog. See the previous section for details.)</p>
+<p>Then you must tell Jekyll about the plugins that were referenced by the theme. You can find these plugins in the theme’s gemspec file as runtime dependencies. If you were converting the Minima theme, for example, you might see:</p>
+<p>spec.add_runtime_dependency “jekyll-feed”, “<del>&gt; 0.12”<br>spec.add_runtime_dependency “jekyll-seo-tag”, “</del>&gt; 2.6”</p>
+<p>You should include these references in the Gemfile.</p>
+<p>You could list them individually in both Gemfile and _config.yml.</p>
+<figure class="highlight gemspec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ./Gemfile</span></span><br><span class="line"></span><br><span class="line">gem <span class="string">&quot;jekyll-feed&quot;</span>, <span class="string">&quot;~&gt; 0.12&quot;</span></span><br><span class="line">gem <span class="string">&quot;jekyll-seo-tag&quot;</span>, <span class="string">&quot;~&gt; 2.6&quot;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ./_config.yml</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="attr">plugins:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">jekyll-feed</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">jekyll-seo-tag</span></span><br></pre></td></tr></table></figure>
+
+<p>If you’re publishing on GitHub Pages you should update only your _config.yml as GitHub Pages doesn’t load plugins via Bundler.</p>
+<p>Either way, don’t forget to bundle update.</p>
+<p>Finally, remove references to the theme gem in Gemfile and configuration. For example, to remove minima:</p>
+<p>Open Gemfile and remove gem “minima”, “~&gt; 2.5”.<br>Open _config.yml and remove theme: minima.<br>Now bundle update will no longer get updates for the theme gem.</p>
+</div></article></div><nav class="pagination" role="navigation" aria-label="pagination"><div class="pagination-previous"><a href="/lucfe-hexo/page/8/">Previous</a></div><div class="pagination-next is-invisible is-hidden-mobile"><a href="/lucfe-hexo/page/10/">Next</a></div><ul class="pagination-list is-hidden-mobile"><li><a class="pagination-link" href="/lucfe-hexo/">1</a></li><li><span class="pagination-ellipsis">&hellip;</span></li><li><a class="pagination-link" href="/lucfe-hexo/page/8/">8</a></li><li><a class="pagination-link is-current" href="/lucfe-hexo/page/9/">9</a></li></ul></nav></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/lucfe-hexo/assets/images/avatar_l.png" alt="lucfe"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">lucfe</p><p class="is-size-6 is-block">no title, but free!</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>China</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/lucfe-hexo/archives"><p class="title">85</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/lucfe-hexo/categories"><p class="title">15</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/lucfe-hexo/tags"><p class="title">5</p></a></div></div></nav><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/lucfe2010"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/lucfe2010"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Twitter" href="https://twitter.com/lucfe2010"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/lucfe-hexo/atom.xml"><i class="fas fa-rss"></i></a></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/"><span class="level-start"><span class="level-item">0001 Humanities</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/%E8%89%BA%E6%9C%AF%E5%AD%A6-Arts/"><span class="level-start"><span class="level-item">艺术学 Arts</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/"><span class="level-start"><span class="level-item">0002 Social science</span></span><span class="level-end"><span class="level-item tag">1</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/%E8%AF%AD%E8%A8%80%E5%AD%A6-Linguistics-and-languages/"><span class="level-start"><span class="level-item">语言学 Linguistics and languages</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0003-Natural-science/"><span class="level-start"><span class="level-item">0003 Natural science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0003-Natural-science/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6-Earth-science/"><span class="level-start"><span class="level-item">地球科学 Earth science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/"><span class="level-start"><span class="level-item">0004 Formal science</span></span><span class="level-end"><span class="level-item tag">5</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/%E6%95%B0%E5%AD%A6-Mathematics/"><span class="level-start"><span class="level-item">数学 Mathematics</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/"><span class="level-start"><span class="level-item">计算机科学技术 Computer science</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/"><span class="level-start"><span class="level-item">0005 Applied science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/"><span class="level-start"><span class="level-item">工程与技术科学 Engineering and technology</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B-Mechanical-engineering/"><span class="level-start"><span class="level-item">机械工程 Mechanical engineering</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/category1-level1/"><span class="level-start"><span class="level-item">category1 level1</span></span><span class="level-end"><span class="level-item tag">3</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/category1-level1/category1-level2/"><span class="level-start"><span class="level-item">category1 level2</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/jekyll-update/"><span class="level-start"><span class="level-item">jekyll update</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">Tags</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/html/"><span class="tag">html</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/math/"><span class="tag">math</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/primary-school/"><span class="tag">primary school</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/python/"><span class="tag">python</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/web-development/"><span class="tag">web development</span><span class="tag">1</span></a></div></div></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-18T06:55:16.185Z">2023-09-18</time></p><p class="title"><a href="/lucfe-hexo/0004%20Formal%20science/%E6%95%B0%E5%AD%A6%20Mathematics/math_primary/">math in primary school</a></p><p class="categories"><a href="/lucfe-hexo/categories/0004-Formal-science/">0004 Formal science</a> / <a href="/lucfe-hexo/categories/0004-Formal-science/%E6%95%B0%E5%AD%A6-Mathematics/">数学 Mathematics</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-16T08:16:41.268Z">2023-09-16</time></p><p class="title"><a href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/ssg/hexo-icarus-theme-develop/"> </a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-16T00:52:00.554Z">2023-09-16</time></p><p class="title"><a href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/python%20crash%20course/">python crash course</a></p><p class="categories"><a href="/lucfe-hexo/categories/0004-Formal-science/">0004 Formal science</a> / <a href="/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/">计算机科学技术 Computer science</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-16T00:44:42.355Z">2023-09-16</time></p><p class="title"><a href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/web%20developer/">web developer</a></p><p class="categories"><a href="/lucfe-hexo/categories/0004-Formal-science/">0004 Formal science</a> / <a href="/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/">计算机科学技术 Computer science</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-16T00:28:58.617Z">2023-09-16</time></p><p class="title"><a href="/lucfe-hexo/0005%20Applied%20science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6%20Engineering%20and%20technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B%20Mechanical%20engineering/DIY%20CNC/">diy cnc</a></p><p class="categories"><a href="/lucfe-hexo/categories/0005-Applied-science/">0005 Applied science</a> / <a href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/">工程与技术科学 Engineering and technology</a> / <a href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B-Mechanical-engineering/">机械工程 Mechanical engineering</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile" href="/lucfe-hexo/archives/2023/"><span class="level-start"><span class="level-item">2023</span></span><span class="level-end"><span class="level-item tag">85</span></span></a></li></ul></div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/lucfe-hexo/">Lucfe Knowledges</a><p class="is-size-7"><span>&copy; 2023 lucfe</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2019</p></div><div class="level-end"></div></div></div></footer><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/lucfe-hexo/js/column.js"></script><script src="/lucfe-hexo/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/lucfe-hexo/js/back_to_top.js" defer></script><!--!--><script src="/lucfe-hexo/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/lucfe-hexo/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/lucfe-hexo/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>

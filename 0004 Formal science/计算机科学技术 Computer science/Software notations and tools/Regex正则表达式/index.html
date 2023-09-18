@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><meta name="baidu-site-verification" content="codeva-07TW7qEHGg"><title>Lucfe Knowledge Documentation</title><link rel="manifest" href="/lucfe-hexo/manifest.json"><meta name="application-name" content="Lucfe Knowledge Documentation"><meta name="msapplication-TileImage" content="/assets/images/favicon_l.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lucfe Knowledge Documentation"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Regex 正则表达式正则表达式（Regular Expression简写为Regex），又称为规则表达式，它是一种强大的文本匹配模式，其用于在字符串中查找匹配符合特定规则的子串。 正则表达式由一些普通字符（比如英文字母，数字）和元字符（代表特定含义）组成。 正则表达式作为一个字符模板，在字符串中匹配一个或多个符合特定规则的子串。 基本匹配正则表达式其实就是在执⾏搜索时的格式，它由⼀些字⺟和数字组"><meta property="og:type" content="blog"><meta property="og:title" content="Lucfe Knowledge Documentation"><meta property="og:url" content="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/Regex%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"><meta property="og:site_name" content="Lucfe Knowledge Documentation"><meta property="og:description" content="Regex 正则表达式正则表达式（Regular Expression简写为Regex），又称为规则表达式，它是一种强大的文本匹配模式，其用于在字符串中查找匹配符合特定规则的子串。 正则表达式由一些普通字符（比如英文字母，数字）和元字符（代表特定含义）组成。 正则表达式作为一个字符模板，在字符串中匹配一个或多个符合特定规则的子串。 基本匹配正则表达式其实就是在执⾏搜索时的格式，它由⼀些字⺟和数字组"><meta property="og:locale" content="en_US"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/Regex%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/image.png"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/Regex%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/image-1.png"><meta property="article:published_time" content="2023-09-12T01:46:53.274Z"><meta property="article:modified_time" content="2023-09-12T01:57:12.880Z"><meta property="article:author" content="lucfe"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/Regex%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/Regex%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"},"headline":"Lucfe Knowledge Documentation","image":["http://lucfe2010.github.io/lucfe-hexo/assets/images/Regex%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/image.png","http://lucfe2010.github.io/lucfe-hexo/assets/images/Regex%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/image-1.png"],"datePublished":"2023-09-12T01:46:53.274Z","dateModified":"2023-09-12T01:57:12.880Z","author":{"@type":"Person","name":"lucfe"},"publisher":{"@type":"Organization","name":"Lucfe Knowledge Documentation","logo":{"@type":"ImageObject","url":{"text":"Lucfe Knowledges"}}},"description":"Regex 正则表达式正则表达式（Regular Expression简写为Regex），又称为规则表达式，它是一种强大的文本匹配模式，其用于在字符串中查找匹配符合特定规则的子串。 正则表达式由一些普通字符（比如英文字母，数字）和元字符（代表特定含义）组成。 正则表达式作为一个字符模板，在字符串中匹配一个或多个符合特定规则的子串。 基本匹配正则表达式其实就是在执⾏搜索时的格式，它由⼀些字⺟和数字组"}</script><link rel="canonical" href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/Regex%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"><link rel="alternate" href="https://lucfe2010.github.io/lucfe-hexo/atom.xml" title="Lucfe Knowledge Documentation" type="application/atom+xml"><link rel="icon" href="/lucfe-hexo/assets/images/favicon_l.png"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/6.0.0/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/lucfe-hexo/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js"></script><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/lucfe-hexo/">Lucfe Knowledges</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/lucfe-hexo/">Home</a><a class="navbar-item" href="/lucfe-hexo/archives">Archives</a><a class="navbar-item" href="/lucfe-hexo/categories">Categories</a><a class="navbar-item" href="/lucfe-hexo/tags">Tags</a><a class="navbar-item" href="/lucfe-hexo/about">About</a></div><div class="navbar-end"><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-12T01:46:53.274Z" title="2023/9/12 09:46:53">2023-09-12</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-12T01:57:12.880Z" title="2023/9/12 09:57:12">2023-09-12</time></span><span class="level-item">18 minutes read (About 2710 words)</span></div></div><div class="content"><h1 id="Regex-正则表达式"><a href="#Regex-正则表达式" class="headerlink" title="Regex 正则表达式"></a>Regex 正则表达式</h1><p>正则表达式（Regular Expression简写为Regex），又称为规则表达式，它是一种强大的文本匹配模式，其用于在字符串中查找匹配符合特定规则的子串。</p>
+<p>正则表达式由一些普通字符（比如英文字母，数字）和元字符（代表特定含义）组成。</p>
+<p>正则表达式作为一个字符模板，在字符串中匹配一个或多个符合特定规则的子串。</p>
+<h2 id="基本匹配"><a href="#基本匹配" class="headerlink" title="基本匹配"></a>基本匹配</h2><p>正则表达式其实就是在执⾏搜索时的格式，它由⼀些字⺟和数字组合⽽成。 例如：⼀个正则表达式 the ，它表示⼀个规则：由字⺟t 开始，接着是h ，再接着是e 。<br> “the” &#x3D;&gt; The fat cat sat on <strong>the</strong> mat.<br> 正则表达式123匹配字符串123。它逐个字符的与输⼊的正则表达式做⽐较。<br>  正则表达式是⼤⼩写敏感的，所以The不会匹配the。<br>   “The” &#x3D;&gt; The fat cat sat on the mat.</p>
+<h2 id="转义字符，常用于转义元字符"><a href="#转义字符，常用于转义元字符" class="headerlink" title="\ 转义字符，常用于转义元字符"></a>\ 转义字符，常用于转义元字符</h2><p>反斜线 \ 在表达式中⽤于转义紧跟其后的字符。⽤于指定 { } [ ] &#x2F; \ + * . $ ^ | ? 这些特殊字符。</p>
+<p>\s搜索空格，这个小写的s有“空格”之意。此模式不仅匹配空格，还包括回车符、制表符、换页符和换行符等字符。你可以将其看做与字符集[\r\t\f\n\v]类似。</p>
+<p>\S搜索非空格。使用它将不再匹配回车符、制表符、换页符和换行符等字符，也可用否定字符集[^\r\t\f\n\v]表示。</p>
+<p>空白字符有：空格(‘ ’)、换页(‘\f’)、换行(‘\n’)、回车(‘\r’)、水平制表符(‘\t’)、垂直制表符(‘\v’)六个。</p>
+<p>\f 匹配换页符</p>
+<p>换页: \f &#x3D; U+000c<br>在打印机上,加载下一页.在某些终端模拟器中,它会清除屏幕.</p>
+<p>\n 匹配换行符<br>\r 匹配回车符</p>
+<p>终端中，回车效果是输出回到本行行首，结果可能会将这一行之前的输出覆盖掉</p>
+<p>在文本文件中<br>在Windows平台上，换行符是回车符（CR，Carriage Return）和换行符（LF，Line Feed）的组合（即CRLF）；在Unix&#x2F;Linux平台上，换行符只是一个LF字符；在MacOS上，换行符是一个CR字符。</p>
+<p>setting -&gt; eol -&gt; \n (LF)</p>
+<p>\t 匹配制表符<br>\v 匹配垂直制表符</p>
+<p>垂直制表: \v &#x3D; U+000b<br>将表单放在下一行标签位置.</p>
+<p>一般文本编辑器对\r \v \f 的显示是没有控制效果的。</p>
+<h3 id="元字符"><a href="#元字符" class="headerlink" title="元字符"></a>元字符</h3><p>元字符. 可匹配任意(除了换行符\n)的单字符，意思就是. 可以代表任意（除了换行符\n）的单字符。</p>
+<h2 id="定位符"><a href="#定位符" class="headerlink" title="定位符"></a>定位符</h2><h3 id="单词边界-b与-B"><a href="#单词边界-b与-B" class="headerlink" title="单词边界\b与\B"></a>单词边界\b与\B</h3><p>符号\b 是指一个单词边界，比如空白字符和标点符号、其他符号（如-）、换行符等。<br>符号\B 表示非单词边界。</p>
+<h3 id="开始位置-与结束位置"><a href="#开始位置-与结束位置" class="headerlink" title="开始位置^与结束位置$"></a>开始位置^与结束位置$</h3><p>符号^ 表示匹配的子串在行首，符号$ 表示匹配的子串在行尾。</p>
+<h2 id="限定符用于限定一个子表达式出现的次数，一共6-种"><a href="#限定符用于限定一个子表达式出现的次数，一共6-种" class="headerlink" title="限定符用于限定一个子表达式出现的次数，一共6 种"></a>限定符用于限定一个子表达式出现的次数，一共6 种</h2><table>
+<thead>
+<tr>
+<th align="center">字符</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">*</td>
+<td>匹配前面的子表达式零次或多次</td>
+</tr>
+<tr>
+<td align="center">+</td>
+<td>匹配前面的子表达式一次或多次</td>
+</tr>
+<tr>
+<td align="center">?</td>
+<td>匹配前面的子表达式零次或一次</td>
+</tr>
+<tr>
+<td align="center">{n}</td>
+<td>匹配前面的子表达式n次</td>
+</tr>
+<tr>
+<td align="center">{n,}</td>
+<td>匹配前面的子表达式至少n次</td>
+</tr>
+<tr>
+<td align="center">{n,m}</td>
+<td>匹配前面的子表达式n 到m 次</td>
+</tr>
+</tbody></table>
+<p>符号*</p>
+<p>模式串ab*c，表示字符a和c 之间需要出现0 次或多次字符b。</p>
+<p>符号+</p>
+<p>模式串ab+c，表示字符a和c 之间需要出现1 次或多次字符b，即至少出现1次字符b。</p>
+<p>符号?</p>
+<p>模式串ab?c，表示字符a和c 之间需要出现0 次或1次字符b。</p>
+<p>符号{n}和{n,}和{n,m}<br>ab{3}c：符号b 出现的次数必须是3<br>ab{3,}c：符号b 出现的次数必须大于等于3<br>ab{3,5}c：符号b 出现的次数必须在3 和5之间，包括3 和 5</p>
+<h3 id="不常用"><a href="#不常用" class="headerlink" title="不常用"></a>不常用</h3><h4 id="贪婪匹配和懒惰匹配"><a href="#贪婪匹配和懒惰匹配" class="headerlink" title="贪婪匹配和懒惰匹配"></a>贪婪匹配和懒惰匹配</h4><p>*和 + 限定符都是贪婪的，因为它们会尽可能多的匹配文字，只有在它们的后面加上一个 ? 就可以实现非贪婪或最小匹配。</p>
+<p> 在正则表达式中，可用贪婪（greedy）匹配查找符合正则表达式的字符串的最长的可能字符串，并将其作为匹配结果返回。而懒惰（lazy）匹配是查找符合正则表达式的字符串的最短的可能字符串。</p>
+<p> 正则表达式默认采⽤贪婪匹配模式，在该模式下意味着会匹配尽可能⻓的⼦串。<br> 我们可以使⽤ ? 将贪婪匹配模式转化为惰性匹配模式。 “&#x2F;(.<em>at)&#x2F;” &#x3D;&gt; The fat cat sat on the mat.<br> “&#x2F;(.</em>?at)&#x2F;” &#x3D;&gt; The fat cat sat on the mat.</p>
+<h2 id="逻辑或"><a href="#逻辑或" class="headerlink" title="逻辑或|"></a>逻辑或|</h2><p>符号 | 写在两个子表达式之间表示逻辑或的意思。</p>
+<h2 id="字符簇"><a href="#字符簇" class="headerlink" title="字符簇[]"></a>字符簇[]</h2><p>写在中括号[] 内的多个字符代表逻辑或的意思。</p>
+<p>模式串a[bef]c，表示a和c中间的字符必须是b或e或f。</p>
+<p>当符号^ 写在中括号[] 内时，表示逻辑非的意思。</p>
+<p>模式串a[^bef]c，表示a和c中间的字符不能是b或e或f。</p>
+<p>符号- 写在中括号[]，表示范围的意思：</p>
+<table>
+<thead>
+<tr>
+<th align="center">示例</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">[a-z]</td>
+<td>表示a 到z 之间的任意字符</td>
+</tr>
+<tr>
+<td align="center">[A-Z]</td>
+<td>表示A 到Z 之间的任意字符</td>
+</tr>
+<tr>
+<td align="center">[0-9]</td>
+<td>表示0 到9 之间的任意数字，含义同\d</td>
+</tr>
+<tr>
+<td align="center">[^0-9]</td>
+<td>表示任意非数字，含义同\D</td>
+</tr>
+<tr>
+<td align="center">[A-Za-z0-9_]</td>
+<td>表示任意字母，数字或下划线，含义同\w</td>
+</tr>
+<tr>
+<td align="center">[^A-Za-z0-9_]</td>
+<td>表示任意非字母，非数字，非下划线，含义同\W</td>
+</tr>
+<tr>
+<td align="center">[ \f\r\t\n]</td>
+<td>表示任意的空白字符，含义同\s</td>
+</tr>
+<tr>
+<td align="center">[^ \f\r\t\n]</td>
+<td>表示任意的非空白字符，含义同\S</td>
+</tr>
+</tbody></table>
+<h2 id="字符组合"><a href="#字符组合" class="headerlink" title="字符组合()"></a>字符组合()</h2><p>写在小括号()中的多个字符，会被看成一个整体。</p>
+<p>(…) 中包含的内容将会被看成⼀个整体，和数学中⼩括号 () 的作⽤相同。<br>例如, 表达式 (ab)<em>匹配连续出现 0 或更多个 ab 的字符串 。 如果<br>没有使⽤ (…) ，那么表达式 ab</em> 将匹配连续出现 0 或更多个 b 。</p>
+<p>再⽐如之前说的 {} 是⽤来表示前⾯⼀个字符出现指定次数。<br> 但如果在 {} 前加上特征标群(…) 则表示整个标群内的字符重复 n 次。</p>
+<p>  我们还可以在 () 中⽤ 或字符 | 表示或。 例如， (c|g|p)ar 匹配 car 或 gar 或 par</p>
+<p>  “(c|g|p)ar” &#x3D;&gt; The car is parked in the garage.</p>
+<p>(abc){2,}<br>abc出现的次数必须大于等于2</p>
+<p><img src="/lucfe-hexo/assets/images/Regex%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/image.png" alt="Alt text"></p>
+<h2 id="捕获组"><a href="#捕获组" class="headerlink" title="捕获组"></a>捕获组</h2><h3 id="使用捕获组复用模式"><a href="#使用捕获组复用模式" class="headerlink" title="使用捕获组复用模式"></a>使用捕获组复用模式</h3><p>  正则表达式中的字符串模式多次出现，手动重复输入这些正则表达式是浪费时间的。有一个更好的方法可以用于你的字符串中有多个重复子串时进行指定，这个方法就是捕获组。</p>
+<p>  用括号”()”可以定义捕获组，用于查找重复的子串，即把会重复的字符串模式的正则表达式放在括号内。</p>
+<p>  要指定重复字符串出现的位置，可以使用反斜线”&quot; + 数字的形式。该数字从1开始，并随着用括号定义的捕获组数量而增加。比如\1匹配正则表达式中通过括号定义的第一个捕获组。</p>
+<p>   使用捕获组来匹配字符串中连续出现3次的数字，每个数字由空格分隔，正则表达式为</p>
+<p>  (\d+)\s\1\s\1</p>
+<p>  \1代表捕获组(\d+)内正则表达式匹配的结果，而不是正则表达式\d+。因此，这个正则表示可以匹配123 123 123，但是不能匹配120 210 220。</p>
+<p>  （注意：是先捕获后复用，即先执行表达式得到结果之后再复用）</p>
+<h3 id="在替换中使用捕获组复用模式"><a href="#在替换中使用捕获组复用模式" class="headerlink" title="在替换中使用捕获组复用模式"></a>在替换中使用捕获组复用模式</h3><p>如果我们在搜索替换中希望保留搜索字符串中的某些字符串作为替换字符串的一部分，可以使用”$”符号访问搜索字符串中的捕获组。</p>
+<p>比如，在搜索正则表达式中的捕获组为capture groups，则替换的正则表达式中可以直接使用$1复用搜索正则表达式中的捕获组capture groups。</p>
+<p> 在VSCode中，如果想要把项目中所有的HTML标签中的h改为H，搜索正则表达式<code>&lt;h(\d)&gt;</code>就可以查找出所有标签，如<code>&lt;h1&gt;、&lt;h2&gt;、&lt;h3&gt;、&lt;h4&gt;</code>等，其中还定义了捕获组(\d)。 替换的正则表达式<code>&lt;H$1&gt;</code>使用$1复用了搜索正则表达式中定义的捕获组(\d)，如下图所示。</p>
+<p><img src="/lucfe-hexo/assets/images/Regex%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/image-1.png" alt="Alt text"></p>
+<h3 id="pattern"><a href="#pattern" class="headerlink" title="(pattern)"></a>(pattern)</h3><p>匹配 pattern 并获取这一匹配。所获取的匹配可以从产生的 Matches 集合得到，在VBScript 中使用 SubMatches 集合，在JScript 中则使用 $0…$9 属性。要匹配圆括号字符，请使用 ‘(‘ 或 ‘)‘。</p>
+<h3 id="pattern-1"><a href="#pattern-1" class="headerlink" title="(?:pattern)"></a>(?:pattern)</h3><p>匹配 pattern 但不获取匹配结果，也就是说这是一个非获取匹配，不进行存储供以后使用。</p>
+<p>这在使用 “或” 字符 (|) 来组合一个模式的各个部分是很有用。例如， ‘industr(?:y|ies) 就是一个比 ‘industry|industries’ 更简略的表达式。</p>
+<h3 id="pattern-2"><a href="#pattern-2" class="headerlink" title="(?&#x3D;pattern)"></a>(?&#x3D;pattern)</h3><p>正向肯定预查（look ahead positive assert），在任何匹配pattern的字符串开始处匹配查找字符串。</p>
+<p>这是一个非获取匹配，也就是说，该匹配不需要获取供以后使用。</p>
+<p>例如，”Windows(?&#x3D;95|98|NT|2000)”能匹配”Windows2000”中的”Windows”，但不能匹配”Windows3.1”中的”Windows”。</p>
+<p>预查不消耗字符，也就是说，在一个匹配发生后，在最后一次匹配之后立即开始下一次匹配的搜索，而不是从包含预查的字符之后开始。</p>
+</div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20organization/windows%20operation%20system.md/windows_shortcut/"><i class="level-item fas fa-chevron-left"></i><span class="level-item"> </span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/vbs%E6%93%8D%E4%BD%9Ctxt%E6%96%87%E6%9C%AC%E6%96%87%E4%BB%B6%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/"><span class="level-item"> </span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1 is-sticky"><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/"><span class="level-start"><span class="level-item">0001 Humanities</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/%E8%89%BA%E6%9C%AF%E5%AD%A6-Arts/"><span class="level-start"><span class="level-item">艺术学 Arts</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/"><span class="level-start"><span class="level-item">0002 Social science</span></span><span class="level-end"><span class="level-item tag">1</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/%E8%AF%AD%E8%A8%80%E5%AD%A6-Linguistics-and-languages/"><span class="level-start"><span class="level-item">语言学 Linguistics and languages</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0003-Natural-science/"><span class="level-start"><span class="level-item">0003 Natural science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0003-Natural-science/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6-Earth-science/"><span class="level-start"><span class="level-item">地球科学 Earth science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/"><span class="level-start"><span class="level-item">0004 Formal science</span></span><span class="level-end"><span class="level-item tag">5</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/%E6%95%B0%E5%AD%A6-Mathematics/"><span class="level-start"><span class="level-item">数学 Mathematics</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/"><span class="level-start"><span class="level-item">计算机科学技术 Computer science</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/"><span class="level-start"><span class="level-item">0005 Applied science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/"><span class="level-start"><span class="level-item">工程与技术科学 Engineering and technology</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B-Mechanical-engineering/"><span class="level-start"><span class="level-item">机械工程 Mechanical engineering</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/category1-level1/"><span class="level-start"><span class="level-item">category1 level1</span></span><span class="level-end"><span class="level-item tag">3</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/category1-level1/category1-level2/"><span class="level-start"><span class="level-item">category1 level2</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/jekyll-update/"><span class="level-start"><span class="level-item">jekyll update</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><!--!--></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/lucfe-hexo/">Lucfe Knowledges</a><p class="is-size-7"><span>&copy; 2023 lucfe</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2019</p></div><div class="level-end"></div></div></div></footer><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/lucfe-hexo/js/column.js"></script><script src="/lucfe-hexo/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/lucfe-hexo/js/back_to_top.js" defer></script><!--!--><script src="/lucfe-hexo/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/lucfe-hexo/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/lucfe-hexo/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>
