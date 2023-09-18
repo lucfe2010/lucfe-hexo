@@ -63,7 +63,7 @@ theme: icarus
 deploy:
   type: git
   repo: https://github.com/lucfe2010/lucfe-hexo.git
-  branch: main
+  branch: gh-pages
   message: 
 feed:
   enable: true
