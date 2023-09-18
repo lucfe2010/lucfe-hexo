@@ -1,3 +1,8 @@
+---
+title: html learning
+categories: [0004 Formal science, 计算机科学技术 Computer science]
+tags: [html, web development]
+---
 ## 转义字符
 
 HTML中<，>，&等有特殊含义（<，>，用于链接签，&用于转义），不能直接使用。这些符号是不显示在我们最终看到的网页里的，那如果我们希望在网页中显示这些符号，就要用到HTML转义字符串（Escape Sequence）
@@ -483,3 +488,224 @@ The manifest file can prevent an unwieldy header full of `<link>` and `<meta>` t
   </body>
 </html>
 ```
+
+## Semantic HTML
+
+Semantic means "relating to meaning". Writing semantic HTML means using HTML elements to structure your content based on each element's meaning, not its appearance.
+
+The first code snippet uses <div> and <span>, two elements with no semantic value.
+
+```html
+<div>
+  <span>Three words</span>
+  <div>
+    <a>one word</a>
+    <a>one word</a>
+    <a>one word</a>
+    <a>one word</a>
+  </div>
+</div>
+<div>
+  <div>
+    <div>five words</div>
+  </div>
+  <div>
+    <div>three words</div>
+    <div>forty-six words</div>
+    <div>forty-four words</div>
+  </div>
+  <div>
+    <div>seven words</h2>
+    <div>sixty-eight words</div>
+    <div>forty-four words</div>
+  </div>
+</div>
+<div>
+   <span>five words</span>
+</div>
+```
+
+Let's rewrite this code with semantic elements:
+
+```html
+<header>
+  <h1>Three words</h1>
+  <nav>
+    <a>one word</a>
+    <a>one word</a>
+    <a>one word</a>
+    <a>one word</a>
+  </nav>
+</header>
+<main>
+  <header>
+    <h1>five words</h1>
+  </header>
+  <section>
+    <h2>three words</h2>
+    <p>forty-six words</p>
+    <p>forty-four words</p>
+  </section>
+  <section>
+    <h2>seven words</h2>
+    <p>sixty-eight words</p>
+    <p>forty-four words</p>
+  </section>
+</main>
+<footer>
+  <p>five words</p>
+</footer>
+```
+
+Semantic markup isn't just about making markup easier for developers to read; it's mostly about making markup easy for automated tools to decipher. 
+
+### Accessibility object model (AOM)
+
+As the browser parses the content received, it builds the document object model (DOM) and the CSS object model (CSSOM). It then also builds an accessibility tree. Assistive devices, such as screen readers, use the AOM to parse and interpret content. The DOM is a tree of all the nodes in the document. The AOM is like a semantic version of the DOM.
+
+#### The role attribute
+The role attribute describes the role an element has in the context of the document. The role attribute is a global attribute—meaning it is valid on all elements—defined by the ARIA specification rather than the WHATWG HTML specification, where almost everything else in this series is defined.
+
+### Semantic elements
+
+Asking yourself, "Which element best represents the function of this section of markup?" will generally result in you picking the best element for the job. The element you choose, and therefore the tags you use, should be appropriate for the content you are displaying, as tags have semantic meaning.
+
+## Headings and sections
+
+### Site `<header>`
+
+```html
+<!-- start header -->
+<div id="pageHeader">
+  <div id="title">Machine Learning Workshop</div>
+  <!-- navigation -->
+  <div id="navigation">
+    <a href="#reg">Register</a>
+    <a href="#about">About</a>
+    <a href="#teachers">Instructors</a>
+    <a href="#feedback">Testimonials</a>
+  </div>
+  <!-- end navigation bar -->
+</div>
+<!-- end of header -->
+```
+
+While the `id` and `class` attributes provide hooks for styling and JavaScript, they add no semantic value for the screen reader and (for the most part) the search engines.
+
+---
+
+```html
+<!-- start header -->
+<div role="banner">
+  <div role="heading" aria-level="1">Machine Learning Workshop</div>
+  <div role="navigation">
+    <a href="#reg">Register</a>
+    <a href="#about">About</a>
+    <a href="#teachers">Instructors</a>
+    <a href="#feedback">Testimonials</a>
+  </div>
+  <!-- end navigation bar -->
+<div>
+<!-- end of header -->
+```
+
+This at least provides semantics and enables using attribute selectors in the CSS, but it still adds comments to identify which `<div>` each `</div>` ***closes***.
+
+---
+
+```html
+<header>
+  <h1>Machine Learning Workshop</h1>
+  <nav>
+    <a href="#reg">Register</a>
+    <a href="#about">About</a>
+    <a href="#teachers">Instructors</a>
+    <a href="#feedback">Testimonials</a>
+  </nav>
+</header>
+```
+
+
+This code uses two semantic landmarks: `<header>` and `<nav>`.
+
+The `<header>` element isn't always a landmark. It has different semantics depending on where it is nested. When the `<header>` is top level, it is the site banner, a landmark role, which you may have noted in the role code block. When a `<header>` is nested in `<main>`, `<article>`, or `<section>`, it just identifies it as the header for that section and isn't a landmark.
+
+The `<nav>` element identifies content as navigation. As this `<nav>` is nested in the site heading, it is the main navigation for the site. If it was nested in an `<article>` or `<section>`, it would be internal navigation for that section only.
+
+Using `</nav>` and `</header>` closing tags removes the need for comments to identify which element each end tag closed. In addition, using different tags for different elements removes the need for id and class hooks. The CSS selectors can have low specificity; you can probably target the links with header nav a without worrying about conflict.
+
+### Site `<footer>`
+
+```html
+<footer>
+  <p>&copy;2022 Machine Learning Workshop, LLC. All rights reserved.</p>
+</footer>
+```
+
+Similar to `<header>`, whether the footer is a landmark depends on where the footer is nested. 
+
+
+When it is the site footer, it is a landmark, and should contain the site footer information you want on every page, such as a copyright statement, contact information, and links to your privacy and cookie policies. The implicit role for the site footer is `contentinfo`. 
+
+
+Otherwise, the footer has no implicit role and is not a landmark, When a `<footer>` is a descendant of an `<article>, <aside>, <main>`, `<nav>`, or `<section>`, it's not a landmark.
+
+### Document structure
+
+A layout with a header, two sidebars, and a footer, is known as the holy grail layout.
+
+![Alt text](/assets/images/html/image-4.png)
+
+```html
+<body>
+  <header>Header</header>
+  <nav>Nav</nav>
+  <main>Content</main>
+  <aside>Aside</aside>
+  <footer>Footer</footer>
+</body>
+```
+
+a blog, you might have a series of articles in <main>:
+
+```html
+<body>
+  <header>Header</header>
+  <nav>Nav</nav>
+  <main>
+    <article>First post</article>
+    <article>Second post</article>
+  </main>
+  <aside>Aside</aside>
+  <footer>Footer</footer>
+</body>
+```
+
+#### `<main>`
+
+There's a single `<main>` landmark element. The `<main>` element identifies the main content of the document. There should be only one `<main>` per page.
+
+#### `<aside>`
+
+The `<aside>` is for content that is indirectly or tangentially related to the document's main content.
+like most, the `<aside>` would likely be presented in a sidebar or a call-out box. The `<aside>` is also a landmark, with the implicit role of `complementary`.
+
+#### `<article>`
+
+An `<article>` represents a complete, or self-contained, section of content that is, in principle, independently reusable. 
+
+Think of an article as you would an article in a newspaper.
+
+#### `<section>`
+
+The `<section>` element is used to encompass generic standalone sections of a document when there is no more specific semantic element to use. Sections should have a heading, with very few exceptions.
+
+A `<section>` isn't a landmark unless it has an accessible name; if it has an accessible name, the implicit role is `region`.
+
+Landmark roles should be used sparingly, to identify larger overall sections of the document. Using too many landmark roles can create "noise" in screen readers, making it difficult to understand the overall layout of the page.
+
+### Headings: `<h1>-<h6>`
+
+When a heading is nested in a document banner `<header>`, it is the heading for the application or site. When nested in `<main>`, whether or not it is nested within a `<header>` in `<main>`, it is the header for that page, not the whole site. When nested in an `<article>` or `<section>`, it is the header for that subsection of the page.
+
+It is recommended to use heading levels similarly to heading levels in a text editor: starting with a `<h1>` as the main heading, with `<h2>` as headings for sub-sections, and `<h3>` if those sub-sections have sections; avoid skipping heading levels.

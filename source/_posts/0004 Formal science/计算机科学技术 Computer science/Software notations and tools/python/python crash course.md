@@ -1,6 +1,7 @@
 ---
 title: python crash course
 categories: [0004 Formal science, 计算机科学技术 Computer science]
+tags: [python]
 ---
 
 ## Getting Started
@@ -43,7 +44,6 @@ vscode -> run -> Run Without Debugging or press CTRL-F5
 
 #### Running Python Programs from a Terminal
 
-
 terminal to run hello_world.py:
 
 ```bash
@@ -54,7 +54,7 @@ C:\Desktop\python_work> python hello_world.py
 Hello Python world!
 ```
 
-First, use the `cd` command to navigate to the python_work folder, which is in the Desktop folder. 
+First, use the `cd` command to navigate to the python_work folder, which is in the Desktop folder.
 
 Next, use the `dir` command to make sure hello_world.py is in this folder.
 
@@ -63,7 +63,6 @@ Then run the file using the command `python hello_world.py`.
 ## Variables and Simple Data Types
 
 ### variable
-
 
 ```py
 message = "Hello Python world!"
@@ -74,14 +73,12 @@ output
 
 `Hello Python world!`
 
-We’ve added a *variable* named *message*. 
+We’ve added a *variable* named *message*.
 
 Every variable is connected to a
 *value*, which is the information associated with that variable.
 
-
 ---
-
 
 ```py
 message = "Hello Python world!"
@@ -124,8 +121,6 @@ because they could be confused with the numbers 1 and 0.
 
 #### Avoiding Name Errors When Using Variables
 
-
-
 ```py
 message = "Hello Python Crash Course reader!"
 print(mesage)
@@ -148,7 +143,7 @@ NameError: name 'mesage' is not defined. Did you mean: 'message'? # 3
 
 The output reports that an error occurs in **line 2** of the file **hello_world.py** and tells us **what kind of error** it found 3.
 In this case it found a name error
-and reports that the variable being printed, mesage, has not been defined. 
+and reports that the variable being printed, mesage, has not been defined.
 
 A name error usually means we either forgot to set a variable’s value before using it, or we made a spelling mistake when entering the variable’s name.
 
@@ -161,9 +156,7 @@ also say that a variable references a certain value.
 
 ### Strings
 
-
-
-A string is a series of characters. 
+A string is a series of characters.
 Anything inside quotes is considered a string in Python, and you can use single or double quotes around your
 
 strings like this:
@@ -184,7 +177,6 @@ string.title()
 Return a version of the string where each word is titlecased.
 More specifically, words start with uppercased characters and all remaining cased characters have lower case.
 
-
 ```py
 name = "ada lovelace"
 print(name.title())
@@ -192,8 +184,6 @@ print(name.title())
 
 output:
 `Ada Lovelace`
-
-
 
 A `method` is an action that Python can perform on a piece of data. The dot (.) after name in `name.title()` tells Python to make the `title()` method act on the variable `name`.
 
@@ -250,6 +240,7 @@ last_name = "lovelace"
 full_name = f"{first_name} {last_name}"
 print(f"Hello, {full_name.title()}!") # 1 
 ```
+
 output:
 
 Hello, Ada Lovelace!
@@ -312,7 +303,6 @@ the `rstrip()` method:
 'python '
 ```
 
-
 ---
 
 However, it is only removed temporarily. If you ask for the value
@@ -327,7 +317,6 @@ associate the stripped value with the variable name:
 >>> favorite_language
 'python'
 ```
-
 
 ---
 strip whitespace from the left side of a string using the `lstrip()` method
@@ -350,7 +339,6 @@ user input before it’s stored in a program.
 
 remove a prefix.
 
-
 ```bash
 >>> nostarch_url = 'https://nostarch.com'
 >>> nostarch_url.removeprefix('https://')
@@ -364,7 +352,8 @@ from the original string.
 Like the methods for removing whitespace, removeprefix() leaves the
 original string unchanged. If you want to keep the new value with the prefix removed, either reassign it to the original variable or assign it to a new
 variable:
->>> simple_url = nostarch_url.removeprefix('https://')
+
+`>>> simple_url = nostarch_url.removeprefix('https://')`
 
 #### Avoiding Syntax Errors with Strings
 
@@ -386,8 +375,6 @@ message = 'One of Python's strengths is its diverse community.'
 SyntaxError: unterminated string literal (detected at line 1)
 ```
 
-
-
 > Your editor’s *syntax highlighting feature* should help you spot some syntax errors quickly as you write your programs. If you see Python code highlighted as if it’s English or English highlighted as if it’s Python code, you probably have a mismatched quotation mark somewhere in your file.
 
 ### Numbers
@@ -406,7 +393,6 @@ You can add (+), subtract (-), multiply (*), and divide (/) integers in Python.
 >>> 3 / 2
 1.5
 ```
-
 
 uses two multiplication symbols to represent **exponents**:
 
@@ -479,6 +465,7 @@ whole number, you’ll always get a float:
 
 If you mix an integer and a float in any other operation, you’ll get a
 float as well:
+
 ```bash
 >>> 1 + 2.0
 3.0
@@ -487,6 +474,7 @@ float as well:
 >>> 3.0 ** 2
 9.0
 ```
+
 Python defaults to a float in any operation that uses a float, even if the
 output is a whole number.
 
@@ -494,11 +482,13 @@ output is a whole number.
 
 When you’re writing long numbers, you can group digits using underscores
 to make large numbers more readable:
+
 ```bash
 >>> universe_age = 14_000_000_000
 >>> print(universe_age)
 14000000000
 ```
+
 Python ignores the underscores when storing these kinds of values.
 
 Even if you don’t group the digits in threes, the value will still be unaffected. To Python, 1000 is the same as 1_000, which is the same as 10_00. This
@@ -528,8 +518,6 @@ Python doesn’t have built-in constant types, but Python programmers use all ca
 
 MAX_CONNECTIONS = 5000
 
-
-
 ### Comments
 
 u should add notes within your programs that describe your overall approach to the
@@ -553,7 +541,525 @@ Hello Python people!
 
 ## Introducing Lists
 
+### what is a list
+
+A list is a collection of items in a particular order
+
+Because a list usually contains more than one element, it’s a good idea to make the name of your list plural, such as `letters`, `digits`, or `names`
+
+In Python, square brackets ([]) indicate a list, and individual elements in the list are separated by commas.example
+
+```python
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles)
+```
+
+output:
+`['trek', 'cannondale', 'redline', 'specialized']`
+
+#### Accessing Elements in a List
+
+Lists are ordered collections, so you can access any element in a list by
+telling Python the position, or index, of the item desired. To access an element in a list, write the name of the list followed by the index of the item
+enclosed in square brackets.
+
+```py
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles[0])
+```
+
+output
+`trek`
+
+#### Index Positions Start at 0, Not 1
+
+Python has a special syntax for accessing the last element in a list. If you
+ask for the item at index -1, Python always returns the last item in the list:
+
+```py
+bicy
+cles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles[-1])
+```
+
+The index -2 returns the second item from the end of the list, the index -3 returns the third item from the end, and so forth.
+
+#### Using Individual Values from a List
+
+You can use individual values from a list just as you would any other variable.
+
+```py
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+message = f"My first bicycle was a {bicycles[0].title()}."
+print(message)
+```
+
+### Modifying, Adding, and Removing Elements
+
+Most lists you create will be dynamic, meaning you’ll build a list and then
+add and remove elements from it as your program runs its course.
+
+#### Modifying Elements in a List
+
+To change an element, use the name of the list followed
+by the index of the element you want to change, and then provide the new
+value you want that item to have.
+
+```py
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+motorcycles[0] = 'ducati'
+print(motorcycles)
+```
+
+output
+['honda', 'yamaha', 'suzuki']
+['ducati', 'yamaha', 'suzuki']
+
+#### Adding Elements to a List
+
+##### Appending Elements to the End of a List
+
+`append` the item to the
+list. When you `append` an item to a list, the new element is added to the end
+of the list
+
+```py
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+motorcycles.append('ducati')
+print(motorcycles)
+```
+
+---
+
+To put your users in control, start by defining an empty list that
+will hold the users’ values. Then append each new value provided to the list
+you just created.
+
+For example,
+
+```python
+motorcycles = []
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+motorcycles.append('suzuki')
+print(motorcycles)
+```
+
+output
+['honda', 'yamaha', 'suzuki']
+
+##### Inserting Elements into a List
+
+You can add a new element at any position in your list by using the insert()
+method. You do this by specifying the index of the new element and the
+value of the new item:
+This operation shifts every other value in the list one position to the
+right.
+
+```py
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles.insert(0, 'ducati')
+print(motorcycles)
+```
+
+output
+[ducati', 'honda', 'yamaha', 'suzuki']
+
+#### Removing Elements from a List
+
+##### Removing an Item Using the del Statement
+
+know the position of the item you want to remove from a list, you can
+use the del statement:
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+del motorcycles[0]
+print(motorcycles)
+
+##### Removing an Item Using the pop() Method
+
+The pop() method removes the last item in a list, but it lets you work
+with that item after removing it. The term pop comes from thinking of a
+list as a stack of items and popping one item off the top of the stack. In this
+analogy, the top of a stack corresponds to the end of a list.
+
+```py
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
+```
+
+['honda', 'yamaha', 'suzuki']
+['honda', 'yamaha']
+suzuki
+
+##### Popping Items from Any Position in a List
+
+```py
+motorcycles = ['honda', 'yamaha', 'suzuki']
+first_owned = motorcycles.pop(0)
+print(f"The first motorcycle I owned was a {first_owned.title()}.")
+```
+
+The first motorcycle I owned was a Honda.
+
+Remember that each time you use pop(), the item you work with is no
+longer stored in the list.
+
+> when you want to delete an item from a list and not use that item in any way, use the del statement; if you want to use an item as you remove it, use the pop() method.
+
+##### Removing an Item by Value
+
+If you only know the value of the item you want to remove, you
+can use the remove() method
+
+```py
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+motorcycles.remove('ducati')
+print(motorcycles)
+```
+
+['honda', 'yamaha', 'suzuki', 'ducati']
+['honda', 'yamaha', 'suzuki']
+
+> The remove() method deletes only the first occurrence of the value you specify. If there’s a possibility the value appears more than once in the list, you’ll need to use a loop to make sure all occurrences of the value are removed.
+
+### Organizing a List
+
+Sometimes you’ll want
+to preserve the original order of your list, and other times you’ll want to
+change the original order.
+
+#### Sorting a List Permanently with the sort() Method
+
+The sort() method changes the order of the list permanently. The cars
+are now in alphabetical order, and we can never revert to the original order:
+
+```py
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
+```
+
+['audi', 'bmw', 'subaru', 'toyota']
+
+o sort this list in reverse-alphabetical order
+
+```py
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort(reverse=True)
+print(cars)
+```
+
+['toyota', 'subaru', 'bmw', 'audi']
+
+#### Sorting a List Temporarily with the sorted() Function
+
+The sorted() function lets you display your list
+in a particular order, but doesn’t affect the actual order of the list.
+
+```py
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:")
+print(sorted(cars))
+print("\nHere is the original list again:")
+print(cars)
+```
+
+output:
+
+Here is the original list:
+['bmw', 'audi', 'toyota', 'subaru']
+Here is the sorted list:
+['audi', 'bmw', 'subaru', 'toyota']
+1 Here is the original list again:
+['bmw', 'audi', 'toyota', 'subaru']
+
+The sorted() function can also accept a reverse=True
+argument if you want to display a list in reverse-alphabetical order.
+
+> Sorting a list alphabetically is a bit more complicated when all the values are not in lowercase
+
+#### Printing a List in Reverse Order
+
+If we originally stored the list of cars in chronological order according to when
+we owned them, we could easily rearrange the list into reverse-chronological
+order:
+
+```py
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+cars.reverse()
+print(cars)
+```
+
+['bmw', 'audi', 'toyota', 'subaru']
+['subaru', 'toyota', 'audi', 'bmw']
+
+#### Finding the Length of a List
+
+>>> cars = ['bmw', 'audi', 'toyota', 'subaru']
+>>> len(cars)
+
+### Avoiding Index Errors When Working with Lists
+
+```py
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles[3])
+```
+
+This example results in an index error:
+
+```bash
+Traceback (most recent call last):
+ File "motorcycles.py", line 2, in <module>
+ print(motorcycles[3])
+ ~~~~~~~~~~~^^^
+IndexError: list index out of range
+```
+
+Keep in mind that whenever you want to access the last item in a list,
+you should use the index -1. This will always work, even if your list has
+changed size since the last time you accessed it:
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles[-1])
+
+output:
+
+suzuki
+
+---
+
+The only time this approach will cause an error is when you request the
+last item from an empty list:
+
+```py
+motorcycles = []
+print(motorcycles[-1])
+```
+
+No items are in motorcycles, so Python returns another index error:
+
+```bash
+Traceback (most recent call last):
+ File "motorcyles.py", line 3, in <module>
+ print(motorcycles[-1])
+ ~~~~~~~~~~~^^^^
+IndexError: list index out of range
+
+```
+
+> If an index error occurs and you can’t figure out how to resolve it, try
+printing your list or just printing the length of your list. Your list might look
+much different than you thought it did, especially if it has been managed
+dynamically by your program. Seeing the actual list, or the exact number of
+items in your list, can help you sort out such logical errors.
+
 ## Working with Lists
+
+Looping allows you to take the same action, or set
+of actions, with every item in a list
+
+### Looping Through an Entire List
+
+Say we have a list of magicians’ names, and we want to print out each name in the list.
+
+We could do this by retrieving each name from the list individually, but this approach could cause several problems. For one, it would
+be repetitive to do this with a long list of names. Also, we’d have to change
+our code each time the list’s length changed. Using a for loop avoids both of
+these issues by letting Python manage these issues internally.
+
+```py
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(magician)
+```
+
+alice
+david
+carolina
+
+#### A Closer Look at Looping
+
+`for magician in magicians:`
+
+This line tells Python to retrieve the *first value* from the list *magicians* and associate it with the variable *magician*. 
+
+the set of steps is repeated once for each item in the list, no matter how many items
+are in the list.
+
+you can choose
+any name you want for the temporary variable that will be associated with
+each value in the list. However, it’s helpful to choose a meaningful name
+that represents a single item from the list.
+
+Using singular and plural names can help
+you identify whether a section of code is working with a single element from
+the list or the entire list.
+
+#### Doing More Work Within a for Loop
+
+```py
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+    print(f"I can't wait to see your next trick, {magician.title()}.\n")
+```
+
+Alice, that was a great trick!
+I can't wait to see your next trick, Alice.
+
+David, that was a great trick!
+I can't wait to see your next trick, David.
+
+Carolina, that was a great trick!
+I can't wait to see your next trick, Carolina.
+
+#### Doing Something After a for Loop
+
+Any lines of code after the for loop that are not indented are executed
+once without repetition.
+
+```py
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+ print(f"{magician.title()}, that was a great trick!")
+ print(f"I can't wait to see your next trick, {magician.title()}.\n")
+print("Thank you, everyone. That was a great magic show!")
+```
+
+Alice, that was a great trick!
+I can't wait to see your next trick, Alice.
+
+David, that was a great trick!
+Working with Lists   53
+I can't wait to see your next trick, David.
+
+Carolina, that was a great trick!
+I can't wait to see your next trick, Carolina.
+
+Thank you, everyone. That was a great magic show!
+
+### Avoiding Indentation Errors
+
+Python uses indentation to determine how a line, or group of lines, is related
+to the rest of the program.
+
+common indentation errors. For example, people
+sometimes indent lines of code that don’t need to be indented or forget
+to indent lines that need to be indented.
+
+#### Forgetting to Indent
+
+```py
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+print(magician)
+```
+
+```bash
+File "magicians.py", line 3
+ print(magician)
+ ^
+IndentationError: expected an indented block after 'for' statement on line 2
+```
+
+
+#### Forgetting to Indent Additional Lines
+
+This is a logical error. The syntax is valid Python code, but the code does
+not produce the desired result because a problem occurs in its logic. If you
+expect to see a certain action repeated once for each item in a list and it’s
+executed only once, determine whether you need to simply indent a line or
+a group of lines.
+
+
+```py
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+print(f"I can't wait to see your next trick, {magician.title()}.\n")
+```
+output:
+
+Alice, that was a great trick!
+David, that was a great trick!
+Carolina, that was a great trick!
+I can't wait to see your next trick, Carolina.
+
+
+#### Indenting Unnecessarily
+
+```py
+message = "Hello Python world!"
+    print(message)
+```
+
+
+File "hello_world.py", line 2
+ print(message)
+ ^
+IndentationError: unexpected indent
+
+You can avoid unexpected indentation errors by indenting only when you have a specific reason to do so.
+
+#### Indenting Unnecessarily After the Loop
+
+```py
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+    print(f"I can't wait to see your next trick, {magician.title()}.\n")
+    print("Thank you everyone, that was a great magic show!")
+```
+
+```bash
+Alice, that was a great trick!
+I can't wait to see your next trick, Alice.
+
+Thank you everyone, that was a great magic show!
+David, that was a great trick!
+I can't wait to see your next trick, David.
+
+Thank you everyone, that was a great magic show!
+Carolina, that was a great trick!
+I can't wait to see your next trick, Carolina.
+
+Thank you everyone, that was a great magic show!
+```
+
+
+This is another ***logical error***, similar to the one in “Forgetting to Indent
+Additional Lines” on page 54. Because Python doesn’t know what you’re
+trying to accomplish with your code, it will run all code that is written in
+valid syntax. If an action is repeated many times when it should be executed
+only once, you probably need to unindent the code for that action.
+
+
+#### Forgetting the Colon
+
+```py
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians
+    print(magician)
+```
+
+```bash
+ File "magicians.py", line 2
+ for magician in magicians
+ ^
+SyntaxError: expected ':'
+```
+
 
 ## if Statements
 

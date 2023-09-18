@@ -2,6 +2,12 @@
 title: plans
 ---
 
+## plans
+
+math
+python
+html
+
 ## everyday plans
 
 english 语法
