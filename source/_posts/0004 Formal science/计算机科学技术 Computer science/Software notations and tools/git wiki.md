@@ -1,6 +1,5 @@
 ---
 title: git wiki
-excerpt: Commits are shown in green as 5-character IDs, and they point to their parents. Branches are shown in orange, and they point to particular commits. The current branch is identified by the special reference HEAD, which is "attached" to that branch. In this image, the five latest commits are shown, with ed4
 ---
 
 ![Alt text](</assets/images/git wiki/image-1.png>)
@@ -119,7 +118,7 @@ Then, if you run git rm, it stages the file’s removal:
 
 Another useful thing you may want to do is to keep the file in your working tree but remove it from your staging area. In other words, you may want to keep the file on your hard drive but not have Git track it anymore. This is particularly useful if you forgot to add something to your .gitignore file and accidentally staged it, like a large log file or a bunch of .a compiled files. To do this, use the --cached option:
 
-$ git rm --cached README
+`$ git rm --cached README`
 
 You can pass files, directories, and file-glob patterns to the git rm command. That means you can do things such as:
 
@@ -330,24 +329,26 @@ origin
 You can also specify -v, which shows you the URLs that Git has stored for the shortname to be used when reading and writing to that remote:
 
 `$ git remote -v`
-`origin	https://github.com/schacon/ticgit (fetch)`
-`origin	https://github.com/schacon/ticgit (push)`
+`origin  https://github.com/schacon/ticgit (fetch)`
+`origin  https://github.com/schacon/ticgit (push)`
 
 
 - Adding Remote Repositories
-We’ve mentioned and given some demonstrations of how the git clone command implicitly adds the origin remote for you. Here’s how to add a new remote explicitly. To add a new remote Git repository as a shortname you can reference easily, run git remote add <shortname> <url>:
+We’ve mentioned and given some demonstrations of how the git clone command implicitly adds the origin remote for you. Here’s how to add a new remote explicitly. To add a new remote Git repository as a shortname you can reference easily, run `git remote add <shortname> <url>`:
 
+```bash
 $ git remote
 origin
 $ git remote add pb https://github.com/paulboone/ticgit
 $ git remote -v
-origin	https://github.com/schacon/ticgit (fetch)
-origin	https://github.com/schacon/ticgit (push)
-pb	https://github.com/paulboone/ticgit (fetch)
-pb	https://github.com/paulboone/ticgit (push)
+origin  https://github.com/schacon/ticgit (fetch)
+origin  https://github.com/schacon/ticgit (push)
+pb  https://github.com/paulboone/ticgit (fetch)
+pb  https://github.com/paulboone/ticgit (push)
+```
 
  if you want to fetch all the information that Paul has but that you don’t yet have in your repository, you can run git fetch pb:
-
+```bash
  $ git fetch pb
 remote: Counting objects: 43, done.
 remote: Compressing objects: 100% (36/36), done.
@@ -356,6 +357,7 @@ Unpacking objects: 100% (43/43), done.
 From https://github.com/paulboone/ticgit
  * [new branch]      master     -> pb/master
  * [new branch]      ticgit     -> pb/ticgit
+```
 
 Paul’s master branch is now accessible locally as pb/master — you can merge it into one of your branches, or you can check out a local branch at that point if you want to inspect it.
 
@@ -393,7 +395,7 @@ If you clone a repository, the command automatically adds that remote repository
 
 by default, the git clone command automatically sets up your local master branch to track the remote master branch (or whatever the default branch is called)
 
-you can set up other tracking branches if you wish — ones that track branches on other remotes, or don’t track the master branch. The simple case is the example you just saw, running git checkout -b <branch> <remote>/<branch>.
+you can set up other tracking branches if you wish — ones that track branches on other remotes, or don’t track the master branch. The simple case is the example you just saw, running `git checkout -b <branch> <remote>/<branch>`.
 
 $ git checkout -b sf origin/serverfix
 Branch sf set up to track remote branch serverfix from origin.
@@ -408,6 +410,7 @@ Branch serverfix set up to track remote branch serverfix from origin.
 If you want to see what tracking branches you have set up, you can use the -vv option to git branch. This will list out your local branches with more information including what each branch is tracking and if your local branch is ahead, behind or both.
 
 
+```bash
 hint: If you are planning on basing your work on an upstream
 hint: branch that already exists at the remote, you may need to
 hint: run "git fetch" to retrieve it.
@@ -415,11 +418,14 @@ hint:
 hint: If you are planning to push out a new local branch that
 hint: will track its remote counterpart, you may want to use
 hint: "git push -u" to set the upstream config as you push.
+```
 
+```bash
 $ git push
 fatal: The current branch newbrachname has no upstream branch.
 To push the current branch and set the remote as upstream, use
     git push --set-upstream origin newbrachname
+```
 
 ```bash
 $ git branch -vv
@@ -436,7 +442,7 @@ Finally we can see that our testing branch is not tracking any remote branch.
 
 It’s important to note that these numbers are only since the last time you fetched from each server. This command does not reach out to the servers, it’s telling you about what it has cached from these servers locally. If you want totally up to date ahead and behind numbers, you’ll need to fetch from all your remotes right before running this. You could do that like this:
 
-$ git fetch --all; git branch -vv
+`$ git fetch --all; git branch -vv`
 
 ### git push
 
@@ -446,7 +452,7 @@ By default, all pushes must cause a fast-forward merge on the remote repository.
 
 If you have a branch named serverfix that you want to work on with others, you can push it up the same way you pushed your first branch. Run git push <remote> <branch>:
 
-$ git push origin serverfix
+`$ git push origin serverfix`
 
 You can also do `git push origin serverfix:serverfix`, which does the same thing — it says, “Take my serverfix and make it the remote’s serverfix.” You can use this format to push a local branch into a remote branch that is named differently. If you didn’t want it to be called serverfix on the remote, you could instead run `git push origin serverfix:awesomebranch` to push your local serverfix branch to the awesomebranch branch on the remote project.
 
@@ -461,7 +467,7 @@ If you do some work on your local master branch, and, in the meantime, someone e
 
 ![Alt text](</assets/images/git wiki/image-22.png>)
 
-To synchronize your work with a given remote, you run a git fetch <remote> command (in our case, git fetch origin). This command looks up which server “origin” is (in this case, it’s git.ourcompany.com), fetches any data from it that you don’t yet have, and updates your local database, moving your origin/master pointer to its new, more up-to-date position.
+To synchronize your work with a given remote, you run a `git fetch <remote>` command (in our case, git fetch origin). This command looks up which server “origin” is (in this case, it’s git.ourcompany.com), fetches any data from it that you don’t yet have, and updates your local database, moving your origin/master pointer to its new, more up-to-date position.
 
 ![Alt text](</assets/images/git wiki/image-23.png>)
 
@@ -491,7 +497,9 @@ This gives you a local branch that you can work on that starts where origin/serv
 
 Make a new repo on Github called SecondProject.
 Locally clone your MyfirstProject, either from disk or from Github. Then use git pull on the branches you need to move to the second repo.
-git remote set-url origin git@github.com:yourname/SecondProject.git
+
+`git remote set-url origin git@github.com:yourname/SecondProject.git`
+
 Push it.
 Note that the clone retains a shared history with MyfirstProject, which is useful if you change your mind about the "never merge" bit.
 
@@ -502,9 +510,11 @@ Delete .git folder
 git init
 Publish your new project
 
-
-2. lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test (newbrachname)
+```bash
+lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test (newbrachname)
 $ cd ../test1
+
+
 
 lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test1
 $ git clone git@github.com:lucfe2010/images-1.git
@@ -775,3 +785,4 @@ origin  git@github.com:lucfe2010/test.git (push)
 lcf@DESKTOP-LCF MINGW64 ~/Documents/lucfe_website_test/test_git_1/test1/test5/test (myb) 
 $ git pull
 Already up to date.
+```

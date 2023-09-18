@@ -117,6 +117,13 @@ System design is the process of defining the architecture, interfaces, and data 
 coherent连贯的
 If something is coherent, it is well planned, so that it is clear and sensible and all its parts go well with each other.
 
+## stable diffusion
+
+
+Stable Diffusion is a deep learning, text-to-image model released in 2022 based on diffusion techniques. It is primarily used to generate detailed images conditioned on text descriptions, though it can also be applied to other tasks such as inpainting, outpainting, and generating image-to-image translations guided by a text prompt.
+
+Inpainting is a conservation process where damaged, deteriorated, or missing parts of an artwork are filled in to present a complete image.[1] This process is commonly used in image restoration.
+
 ## prompt engineering
 
 One of the most exciting recent advancements is in the realm of artificial intelligence (AI), where machines are trained to think, learn, and even communicate like humans. Among the myriad of developments in areas such as generative AI, there's a subtle art that's gaining prominence: prompt engineering.
