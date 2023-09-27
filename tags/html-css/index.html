@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="robots" content="noindex"><meta><title>Tag: html, css - Lucfe Knowledge Documentation</title><link rel="manifest" href="/lucfe-hexo/manifest.json"><meta name="application-name" content="Lucfe Knowledge Documentation"><meta name="msapplication-TileImage" content="/assets/images/favicon_l.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lucfe Knowledge Documentation"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="Lucfe Knowledge Documentation"><meta property="og:url" content="http://lucfe2010.github.io/lucfe-hexo"><meta property="og:site_name" content="Lucfe Knowledge Documentation"><meta property="og:locale" content="en_US"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/img/og_image.png"><meta property="article:author" content="lucfe"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="http://lucfe2010.github.io/lucfe-hexo/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://lucfe2010.github.io/lucfe-hexo"},"headline":"Lucfe Knowledge Documentation","image":["http://lucfe2010.github.io/lucfe-hexo/img/og_image.png"],"author":{"@type":"Person","name":"lucfe"},"publisher":{"@type":"Organization","name":"Lucfe Knowledge Documentation","logo":{"@type":"ImageObject","url":{"text":"Lucfe Knowledges"}}},"description":""}</script><link rel="alternate" href="https://lucfe2010.github.io/lucfe-hexo/atom.xml" title="Lucfe Knowledge Documentation" type="application/atom+xml"><link rel="icon" href="/lucfe-hexo/assets/images/favicon_l.png"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/6.0.0/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/lucfe-hexo/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js"></script><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/lucfe-hexo/">Lucfe Knowledges</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/lucfe-hexo/">Home</a><a class="navbar-item" href="/lucfe-hexo/archives">Archives</a><a class="navbar-item" href="/lucfe-hexo/categories">Categories</a><a class="navbar-item" href="/lucfe-hexo/tags">Tags</a><a class="navbar-item" href="/lucfe-hexo/about">About</a></div><div class="navbar-end"><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/lucfe-hexo/tags">Tags</a></li><li class="is-active"><a href="#" aria-current="page">html, css</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-09-21T08:47:50.252Z" title="2023/9/21 16:47:50">2023-09-21</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-09-26T07:01:01.819Z" title="2023/9/26 15:01:01">2023-09-26</time></span><span class="level-item"><a class="link-muted" href="/lucfe-hexo/categories/0004-Formal-science/">0004 Formal science</a><span> / </span><a class="link-muted" href="/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/">计算机科学技术 Computer science</a></span><span class="level-item">31 minutes read (About 4629 words)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/html%20css%20js/Udemy%20HTML5%20CSS3/">udemy html5 css3</a></p><div class="content"><p>browser<br>request<br><a target="_blank" rel="noopener" href="https://omnifood.de/">https://omnifood.de</a></p>
+<p>web server<br>response<br>html css js</p>
+<p>static website: website where files are simply sent to browser as they are<br>front end development</p>
+<p>dynamic website: website files are assembled on the server<br>back end development<br>webserver app db<br>back-end languages that run on servers</p>
+<p>html -&gt; content -&gt; nouns<br>css -&gt; presentation -&gt; adjectives<br>js -&gt; programming language: dynamic effects and web applications -&gt; verbs</p>
+<h2 id="HTML-fundamentals"><a href="#HTML-fundamentals" class="headerlink" title="HTML fundamentals"></a>HTML fundamentals</h2><h3 id="introduction-to-html"><a href="#introduction-to-html" class="headerlink" title="introduction to html"></a>introduction to html</h3><p>html: hypertext markup language</p>
+<p>html is a markup language that web developers use to <strong>structure and descripe the content</strong> of a webpage(not a programming language)</p>
+<p>html consists of <strong>elements</strong> that describe different types of content: paragraphs, links, headings, images, video, etc.</p>
+<p>web browsers understand html and render Html code as websites</p>
+<p><code>&lt;p&gt;HTML is a markup language&lt;/p&gt;</code></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image.png" alt="Alt text"></p>
+<ul>
+<li><p><code>&lt;p&gt;</code>opening tag: name of the element, wrapped in &lt; and &gt;</p>
+</li>
+<li><p>content: content of the element, in this example text. but it might be another element(child element). some elements have no content(e.g. <code>&lt;img&gt;</code>)</p>
+</li>
+<li><p><code>&lt;/p&gt;</code>closing tag: same as opening tag, but with a &#x2F;. when element has no content, it’s omitted.</p>
+</li>
+</ul>
+<h3 id="HTML-document-structure"><a href="#HTML-document-structure" class="headerlink" title="HTML document structure"></a>HTML document structure</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>The Basic Language of the Web: HTML<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span>The Basic Language of the Web: HTML<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="text-elements"><a href="#text-elements" class="headerlink" title="text elements"></a>text elements</h3><p><code>&lt;em&gt;&lt;/em&gt;</code>emphersized</p>
+<h3 id="lists"><a href="#lists" class="headerlink" title="lists"></a>lists</h3><h3 id="images-and-attributes"><a href="#images-and-attributes" class="headerlink" title="images and attributes"></a>images and attributes</h3><h3 id="hyperlinks"><a href="#hyperlinks" class="headerlink" title="hyperlinks"></a>hyperlinks</h3><h3 id="Structure-our-page"><a href="#Structure-our-page" class="headerlink" title="Structure our page"></a>Structure our page</h3><h3 id="semantic-html"><a href="#semantic-html" class="headerlink" title="semantic html"></a>semantic html</h3><h2 id="css-fundamentals"><a href="#css-fundamentals" class="headerlink" title="css fundamentals"></a>css fundamentals</h2><p>cascading style sheets</p>
+<p>css describes the visual style and presentation of the content written in HTML</p>
+<p>css consists of countless properties that developers use to format the content: properties about font, text, spacing, layout, etc.</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-1.png" alt="Alt text"></p>
+<h3 id="inline-internal-and-external-css"><a href="#inline-internal-and-external-css" class="headerlink" title="inline, internal and external css"></a>inline, internal and external css</h3><h3 id="styling-text"><a href="#styling-text" class="headerlink" title="styling text"></a>styling text</h3><p>16px default</p>
+<h3 id="combining-selectors"><a href="#combining-selectors" class="headerlink" title="combining selectors"></a>combining selectors</h3><h3 id="working-with-colors"><a href="#working-with-colors" class="headerlink" title="working with colors"></a>working with colors</h3><p>rgb(12,125,255)</p>
+<p>rgba(0,255,255,0.3)</p>
+<p><code>#00ffff</code><br><code>#0ff</code>  when allcolors are identical pairs</p>
+<p>when colors in all 3 channels are the same, we get a <strong>gray color</strong></p>
+<h3 id="pseudo-class"><a href="#pseudo-class" class="headerlink" title="pseudo class"></a>pseudo class</h3><h3 id="using-chrome-devtools"><a href="#using-chrome-devtools" class="headerlink" title="using chrome devtools"></a>using chrome devtools</h3><h3 id="conflicts-between-rules"><a href="#conflicts-between-rules" class="headerlink" title="conflicts between rules"></a>conflicts between rules</h3><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-3.png" alt="Alt text"></p>
+<p>multiple -&gt; last selector in code applies</p>
+<p>marked !important</p>
+<p>inline style</p>
+<p>id selector  </p>
+<p>class or pseudo class selector</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-4.png" alt="Alt text"></p>
+<p>element selector</p>
+<p>universal selector (*)</p>
+<h3 id="inheritance-and-the-universal-selector"><a href="#inheritance-and-the-universal-selector" class="headerlink" title="inheritance and the universal selector"></a>inheritance and the universal selector</h3><h3 id="css-box-model"><a href="#css-box-model" class="headerlink" title="css box model"></a>css box model</h3><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-6.png" alt="Alt text"></p>
+<h3 id="margin-and-padding"><a href="#margin-and-padding" class="headerlink" title="margin and padding"></a>margin and padding</h3><p>clapping of margins</p>
+<h3 id="adding-dimention"><a href="#adding-dimention" class="headerlink" title="adding dimention"></a>adding dimention</h3><h3 id="centering-our-page"><a href="#centering-our-page" class="headerlink" title="centering our page"></a>centering our page</h3><p>class container</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.container</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">800px</span>;</span><br><span class="line">  <span class="attribute">margin-left</span>: auto;</span><br><span class="line">  <span class="attribute">margin-right</span>: auto;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="types-of-boxes"><a href="#types-of-boxes" class="headerlink" title="types of boxes"></a>types of boxes</h3><ul>
+<li>inline elements<br>occupies only the space necessary for its content<br>causes on line-break after or before the element<br>box model applies in a different way: heights and widths do not apply<br>paddings and margins are applied only horizontally(left and right)</li>
+</ul>
+<p>a<br>strong<br>em<br>button</p>
+<p>with css<br>display: inline</p>
+<ul>
+<li>block level elements<br>elements are formatted visually as blocks<br>elements occupy 100% of parent element’s width, no matter the content<br>elements are stacked vertically by default, one after another<br>the box-model applies as showed earlier</li>
+</ul>
+<p>with css<br>display: block</p>
+<ul>
+<li>inline block boxes<br>looks like inline from the outside, behaves like block-level on the inside<br>occupies only content’s space<br>causes no line-breaks<br>box-model applies as showed</li>
+</ul>
+<p>img</p>
+<p>with css<br>display: inliblock</p>
+<h3 id="absolute-positioning"><a href="#absolute-positioning" class="headerlink" title="absolute positioning"></a>absolute positioning</h3><p>normal flow<br>in flow: laid out according to their order in the html code</p>
+<p>absolute positioning<br>out of flow: no impact on surrounding elements, might overlap them<br>use top, bottom, left, or right to offset the element from its <strong>relatively positioned container</strong>(the first)</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-5.png" alt="Alt text"></p>
+<h3 id="pseudo-elements"><a href="#pseudo-elements" class="headerlink" title="pseudo elements"></a>pseudo elements</h3><p>+<br>adjacent sibling<br>sibling right after the element</p>
+<h3 id="googling-and-reading-documentation"><a href="#googling-and-reading-documentation" class="headerlink" title="googling and reading documentation"></a>googling and reading documentation</h3><h3 id="debugging-and-asking-questions"><a href="#debugging-and-asking-questions" class="headerlink" title="debugging and asking questions"></a>debugging and asking questions</h3><p>chrome dev tool<br>font-size<br>arrow<br>shift arrow</p>
+<h3 id="challenge-3"><a href="#challenge-3" class="headerlink" title="challenge #3"></a>challenge #3</h3><h3 id="the-3-ways-of-building-layouts"><a href="#the-3-ways-of-building-layouts" class="headerlink" title="the 3 ways of building layouts"></a>the 3 ways of building layouts</h3><p>layout is the way text, images and other content is placed and arranged on a webpage<br>layout gives the page a visual structure, into which we place our content</p>
+<p>building a layout: arranging page elements into a visual struture, instead of simply having them placed one after another(normal flow)</p>
+<p>page layout</p>
+<p>component layout</p>
+<ul>
+<li>float layouts<br>old way</li>
+</ul>
+<p>element is removed from the normal flow: “out of flow”<br>text and inline elements will wrap around the floated element<br>the container will not adjust its height to the element</p>
+<ul>
+<li><p>flexbox<br>laying out elements in a 1-dimensional row without using floats. perfect for componnet layouts</p>
+</li>
+<li><p>css grid<br>for laying out element in a fully-fledged 2-dimentional grid. perfect for page layouts and complex componnets.</p>
+</li>
+</ul>
+<h3 id="using-floats"><a href="#using-floats" class="headerlink" title="using floats"></a>using floats</h3><p>both children float<br>collapse of the elements</p>
+<h3 id="clearing-float"><a href="#clearing-float" class="headerlink" title="clearing float"></a>clearing float</h3><h3 id="box-sizing-border-box"><a href="#box-sizing-border-box" class="headerlink" title="box-sizing: border-box"></a>box-sizing: border-box</h3><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-7.png" alt="Alt text"></p>
+<h3 id="challenge-1"><a href="#challenge-1" class="headerlink" title="challenge #1"></a>challenge #1</h3><h3 id="introduction-to-flexbox"><a href="#introduction-to-flexbox" class="headerlink" title="introduction to flexbox"></a>introduction to flexbox</h3><p>tall as the tallest</p>
+<h3 id="a-flexbox-overview"><a href="#a-flexbox-overview" class="headerlink" title="a flexbox overview"></a>a flexbox overview</h3><p>flexbox is a set of related css properties for building 1 dimentional layout<br>the main idea behind flexbox is that empty space inside a container element can be automatically divided by its child elemennts<br>flexbox makes it easy to automatically align items to one another inside a parent container, both horizontally and vertically<br>flexbox solves common problems such as vertical centering and creating equal-height colums</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-8.png" alt="Alt text"></p>
+<h3 id="spacing-and-aligning-flex-items"><a href="#spacing-and-aligning-flex-items" class="headerlink" title="spacing and aligning flex items"></a>spacing and aligning flex items</h3><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-9.png" alt="Alt text"></p>
+<h3 id="the-flex-property"><a href="#the-flex-property" class="headerlink" title="the flex property"></a>the flex property</h3><h3 id="add-flexbox-to-our-project"><a href="#add-flexbox-to-our-project" class="headerlink" title="add flexbox to our project"></a>add flexbox to our project</h3><h3 id="building-a-simple-flexbox-layout"><a href="#building-a-simple-flexbox-layout" class="headerlink" title="building a simple flexbox layout"></a>building a simple flexbox layout</h3><h3 id="challenge-2"><a href="#challenge-2" class="headerlink" title="challenge #2"></a>challenge #2</h3><h3 id="introduction-to-css-grid"><a href="#introduction-to-css-grid" class="headerlink" title="introduction to css grid"></a>introduction to css grid</h3><h3 id="a-css-grid-overview"><a href="#a-css-grid-overview" class="headerlink" title="a css grid overview"></a>a css grid overview</h3><p>css gird is a set of css properties for building 2-dimentional layouts<br>the main idea behind css grid is that we divide a container element into rows and columns that can be filled with its child elements<br>in two-dimentional contexts, css grid allows us write less nested html and easier to read css<br>css grid is not meant to replace flexbox! instead, they work perfectly together. need a 1d layout? use flexbox. need 2D layout? use css gird</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-10.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-11.png" alt="Alt text"></p>
+<h3 id="sizing-grid-columns-and-rows"><a href="#sizing-grid-columns-and-rows" class="headerlink" title="sizing grid columns and rows"></a>sizing grid columns and rows</h3><p>fr fraction</p>
+<h3 id="placing-and-spanning-grid-items"><a href="#placing-and-spanning-grid-items" class="headerlink" title="placing and spanning grid items"></a>placing and spanning grid items</h3><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-12.png" alt="Alt text"></p>
+<h3 id="aligning-grid-items-and-tracks"><a href="#aligning-grid-items-and-tracks" class="headerlink" title="aligning grid items and tracks"></a>aligning grid items and tracks</h3><h3 id="building-a-simple-css-grid-layout"><a href="#building-a-simple-css-grid-layout" class="headerlink" title="building a simple css grid layout"></a>building a simple css grid layout</h3><h3 id="challenge-3-0"><a href="#challenge-3-0" class="headerlink" title="challenge #3.0"></a>challenge #3.0</h3><h2 id="web-design-rules-and-framework"><a href="#web-design-rules-and-framework" class="headerlink" title="web design rules and framework"></a>web design rules and framework</h2><h3 id="overview-of-web-design-and-website-personalities"><a href="#overview-of-web-design-and-website-personalities" class="headerlink" title="overview of web design and website personalities"></a>overview of web design and website personalities</h3><p>ingredients</p>
+<p>typography</p>
+<p>colors</p>
+<p>images&#x2F;illustrations</p>
+<p>icons</p>
+<p>shaows</p>
+<p>border-radius</p>
+<p>whitespace</p>
+<p>visual hierarchy</p>
+<p>user experience</p>
+<p>componnets&#x2F;layout</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-13.png" alt="Alt text"></p>
+<h3 id="rule-1-typography"><a href="#rule-1-typography" class="headerlink" title="rule #1 typography"></a>rule #1 typography</h3><p>serif</p>
+<p>sans-serif</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-14.png" alt="Alt text"></p>
+<p>use only good and popular typefaces and play it safe</p>
+<p>its okay to use just one typeface per page! if you want more, limit to typefaces.</p>
+<p>choose the right typefaced according to your website personality:</p>
+<p>choose the right personality for your website</p>
+<ul>
+<li>decide between a serif and sans-serif typeface</li>
+<li>experiment with all the “good” typefaces(and other typefaces from google fonts!) to see which ones best fits your websites message</li>
+<li>keep trying different typefaces as you design and build the page</li>
+</ul>
+<p>use good font sizes and weights</p>
+<ul>
+<li>when choosing font-sizes, limit choices! use a “type scale” tool or other pre-defined range</li>
+<li>use a font size between 16px and 32px for normal text</li>
+<li>for long text (like a blog post), try a size of 20px or even bigger</li>
+<li>for headlines, you can go really big (50px+) and bold (600+), depending on personality</li>
+<li>for any text, dont use a font weight under 400 (regular)</li>
+</ul>
+<p>create a good reading experience</p>
+<ul>
+<li>use less than 75 character per line</li>
+<li>for normal-sized text, use a line height between 1.5 and 2. for big text, go below 1.5<ul>
+<li>the smaller or longer the text, ther larger the line height needs to be!</li>
+</ul>
+</li>
+<li>decrease letter spcing in headlines, if it looks unnatural(this will come from experience, if the headline looks not nature)</li>
+<li>experiment with all caps for short titles. make them small and bold and decrease letter spacing</li>
+<li>usually, dont justify text(每行平铺)</li>
+<li>dont center long text blocks. small blocks are fine.</li>
+</ul>
+<h3 id="rule-colors"><a href="#rule-colors" class="headerlink" title="rule # colors"></a>rule # colors</h3><p>choose the right color</p>
+<ul>
+<li>make the main color match your website’s personality: colors covey meaning!<ul>
+<li>red drawing a lot of attention, and symbolizes power, passion, and excitment</li>
+<li>orange is less aggressive, and conveys hapiness, cheerfulness, and creativity</li>
+<li>yellow means joy, brightness and intelligece</li>
+<li>greens represents harmony, nature, growth, and health</li>
+<li>blue is associated with peach, trustworthiness and professionalism</li>
+<li>purple conveys wealth, wisdom, and masic</li>
+<li>pink represents romance, care and affection</li>
+<li>brown is associated with nature, durability and comfort</li>
+<li>black symbolizes power, elegence and minimalism, but also grief and sorrow<br>-use a good color tone! dont choose a random tone or css named colors.</li>
+</ul>
+</li>
+</ul>
+<p>establish a color system</p>
+<ul>
+<li>you need at least two types of colors in your color palette: a main color and a gray color</li>
+<li>with more experience, you can add more colors: accent(secondary)</li>
+<li>for diversity, create lighter and darker “version”(tints and shades)</li>
+</ul>
+<p>when and how to use colors</p>
+<ul>
+<li>use main color to draw attention to the most important elements on the page</li>
+<li>use colors to add interesting accents or make entire components or sectoin stand out</li>
+<li>you can try to use your color stategically in images and illustrations</li>
+</ul>
+<p>color and typograghy</p>
+<ul>
+<li><p>on dark colored backgrounds, try to use a tint of the background (“lighter version”) for text<br><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-15.png" alt="Alt text"></p>
+</li>
+<li><p>text should usually not be completely black. lighten it up it looks heavy and uninviting</p>
+</li>
+<li><p>dont make text too light! use a tool to check contrast between text and background colors (tool: coolors)</p>
+<ul>
+<li>contrast ratio needs to be at least 4.5:1 for normal text and 3 : 1 for large text(18px+)</li>
+</ul>
+</li>
+</ul>
+<h3 id="implenting-colors"><a href="#implenting-colors" class="headerlink" title="implenting colors"></a>implenting colors</h3><h3 id="images-and-illustations"><a href="#images-and-illustations" class="headerlink" title="images and illustations"></a>images and illustations</h3><ul>
+<li>different types of images: product photos, storytelling photos, illustrations, patterns<ul>
+<li>storytelling: using or related to the product</li>
+<li>abstract way of storytelling</li>
+<li>pattens -&gt; background</li>
+</ul>
+</li>
+<li>use images to support your websites message and story. so only use relevant images!</li>
+<li>perfer original images. if not possible, use orginal-looking stock images(not generic ones!)</li>
+<li>try to show real people to trigger users emtions</li>
+<li>if necessary, corp images to fit your message</li>
+<li>experiment combining photos, illustration and pattern</li>
+</ul>
+<p>handling text on images</p>
+<ul>
+<li>method #1 darker or brighten image(completely or partially, using a gradient)</li>
+<li>method #2 postion text into neutral image area</li>
+<li>method #3 put text in a box</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-16.png" alt="Alt text"></p>
+<p>some technical details</p>
+<ul>
+<li>to account for high-res screens, make image dimensions 2X as big as their displayed size</li>
+<li>compress imgaes for a lower file size and better perfomance</li>
+<li>when using multiple images side by side, make sure they have the exack same dimensions</li>
+</ul>
+<h3 id="rule-4-ICONS"><a href="#rule-4-ICONS" class="headerlink" title="rule #4: ICONS"></a>rule #4: ICONS</h3><ul>
+<li>use a good icon pack, there are tons of free and paid icons packs</li>
+<li>use only one icon pack. dont mix icons from different icon packs</li>
+<li>use svg icons or icon fonts. dont use bitmap image formats(.jpg and .png)!</li>
+<li>adjust to website personality! roundness, weight and filled&#x2F;outlined depend on typography</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-17.png" alt="Alt text"></p>
+<p>when to use icons</p>
+<ul>
+<li>use icons to provide visual assitance to text</li>
+<li>use icons for product feautre blocks</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-18.png" alt="Alt text"></p>
+<ul>
+<li>use icons associated with actions, and label them(unless no space or icon is 100% clear)</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-19.png" alt="Alt text"></p>
+<ul>
+<li>use icons as bullet points (list)</li>
+</ul>
+<p>use icons well</p>
+<ul>
+<li>to keep icons neutral, use same color as text. to draw more attention, use different color</li>
+<li>dont confuse your users: icons need to make sense and fit the text or action!</li>
+<li>dont make icons larger than what they were designed for. if needed, enclose them in a shape<ul>
+<li>icons were designed for big use:lots of details, thine lines</li>
+</ul>
+</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-20.png" alt="Alt text"></p>
+<h3 id="implementing-icons"><a href="#implementing-icons" class="headerlink" title="implementing icons"></a>implementing icons</h3><h3 id="rules-5-shadows"><a href="#rules-5-shadows" class="headerlink" title="rules #5: shadows"></a>rules #5: shadows</h3><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-21.png" alt="Alt text"></p>
+<p>shadow creates depth(3d): ther more shaow, the further away from the interface the element is</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-22.png" alt="Alt text"></p>
+<p>use shadows well</p>
+<ul>
+<li>you dont have to use shadows! only use them if it makes sense for the website personality<ul>
+<li>serious&#x2F;elegant -&gt; less shadows</li>
+<li>playfull&#x2F;fun -&gt; more shadows</li>
+</ul>
+</li>
+<li>use shadows in small doses: dont add shadows to every element!</li>
+<li>go light on shadows, dont make them too dark!</li>
+</ul>
+<p>use shadows in the right situation</p>
+<ul>
+<li>use small shadows for smaller elements that should stand out (to draw attention)</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-23.png" alt="Alt text"></p>
+<ul>
+<li>use medium-sized shadows for larger areas that should stand out a bit more</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-24.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-25.png" alt="Alt text"></p>
+<ul>
+<li>use large shadows for elements that should really float above the interface</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-26.png" alt="Alt text"></p>
+<ul>
+<li>experiment with changing shadows on mouse interaction (click and hover)</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-27.png" alt="Alt text"></p>
+<ul>
+<li>bonus: experiment with glows(colored shadows)</li>
+</ul>
+<h3 id="implementing-shadows"><a href="#implementing-shadows" class="headerlink" title="implementing shadows"></a>implementing shadows</h3><h3 id="rules-6-border-radius"><a href="#rules-6-border-radius" class="headerlink" title="rules #6: border-radius"></a>rules #6: border-radius</h3><ul>
+<li>use border-radius to increase the playfulness and fun of the design, to make it less serious</li>
+<li>typefaces have a certain roundness: make sure that border-radius matches that roundness!</li>
+<li>use border-radius on buttons, image, around icons, standout sections and other elements</li>
+</ul>
+<h3 id="implementing-border-radius"><a href="#implementing-border-radius" class="headerlink" title="implementing border-radius"></a>implementing border-radius</h3><h3 id="rules-7-whitespace"><a href="#rules-7-whitespace" class="headerlink" title="rules #7: whitespace"></a>rules #7: whitespace</h3><p>the right amount of whitespace make designs look clean, mordern and polished<br>whitespace communicates how different pieces of information are related to one another<br>whitespace implies invisible relationships between the elements of a layout</p>
+<p>where to use whitespace</p>
+<ul>
+<li>use tons of whitespace between sections</li>
+<li>use a lot of whitespace between groups of elements</li>
+<li>use whitespace between elements</li>
+<li>inside groups of elements, try to use whitespace instead of lines</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-28.png" alt="Alt text"></p>
+<p>how much whitespace</p>
+<ul>
+<li>the more some elements(or groups of elements) belong together, the closer they should be!</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-29.png" alt="Alt text"></p>
+<ul>
+<li>start with a lot of whitespace, maybe even too much! then remove whitespace from there<ul>
+<li>to much whitespace looks detached, too little looks too crammed</li>
+</ul>
+</li>
+<li>match other design choices.<ul>
+<li>if you have big text or big icons, you need more whitespace.</li>
+</ul>
+</li>
+<li>try a hard rule, such as using multiplesof 16px for all spacing</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-30.png" alt="Alt text"></p>
+<h3 id="rule-8-visual-hierarchy"><a href="#rule-8-visual-hierarchy" class="headerlink" title="rule #8: visual hierarchy"></a>rule #8: visual hierarchy</h3><p>establishing which elements of a design are the most important ones</p>
+<p>visual hierarchy is about drawing attention to these most important elements</p>
+<p>visual hierarchy is about defining a “path” for users, to guide them through the page</p>
+<p>we use a combination of position, size, colors, spacing, borders, and shadows to establish a meaningful visual hierarchy between elements&#x2F;components</p>
+<p>fundamentals</p>
+<ul>
+<li>position important elements closer to the top the page, where they get more attention</li>
+<li>use images mindfully, as they draw a lot of attention(larger images get more attention)</li>
+<li>whitespace create separation, so use whitespace strategically to emphasize elements</li>
+</ul>
+<p>hierarchy for text elements</p>
+<ul>
+<li>for text elements, use font size, font weight, color, and whitespace to convey importance.</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-31.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-32.png" alt="Alt text"></p>
+<ul>
+<li>what text elements to emphasize? titles, subtitles, links, buttons, data points, icons<ul>
+<li>you can de-emphasize less important text, like labels or secondary&#x2F;additional information</li>
+</ul>
+</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-33.png" alt="Alt text"></p>
+<p>hierarchy between components</p>
+<ul>
+<li>emphasize an important component using background color, shadows, or border(or multiple)</li>
+<li>try emphasizing some component a over component b by de-emphasizing component b</li>
+<li>what components to emphasize?<ul>
+<li>testimonials, call-to-action sections, highlight sections, preview cards, form, pricing tables, important rows&#x2F;columns in table, etc.</li>
+</ul>
+</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-35.png" alt="Alt text">testimonials, call-to-action sections, highlight sections</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-36.png" alt="Alt text">preview cards</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-34.png" alt="Alt text">form, pricing tables, important rows&#x2F;columns</p>
+<h3 id="implementing-whitespace-and-visual-hierarchy"><a href="#implementing-whitespace-and-visual-hierarchy" class="headerlink" title="implementing whitespace and visual hierarchy"></a>implementing whitespace and visual hierarchy</h3><h3 id="rules-9-user-experience-ux"><a href="#rules-9-user-experience-ux" class="headerlink" title="rules #9: user experience(ux)"></a>rules #9: user experience(ux)</h3><p>what is ux</p>
+<p>“design is not just what it looks like and feels like. design is how it works” –Steve Jobs</p>
+<p>user experience is the overall experience the user has while interacting with the product</p>
+<ul>
+<li>does the app feel logical and well thought out</li>
+<li>does the navigation work intuitively</li>
+<li>are users reaching their goals</li>
+</ul>
+<p>ux design guiding principle: goals</p>
+<ul>
+<li>a website or application exists for a reason: a user has a goal for visiting it, and a business has a goal for creating it.</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-37.png" alt="Alt text"></p>
+<p>ux rules for usability</p>
+<ul>
+<li>dont design complicated layouts. dont reinvent the wheel. use patterns that users know.</li>
+<li>make your call-to-action the most prominent element, and make the text descriptive.</li>
+<li>use blue text and underlined text only for links</li>
+<li>animations should have a purpose and be fast: between 200 and 500 ms</li>
+<li>in forms, align labels and fields in a single vertical line, to make the form easier to scan</li>
+<li>offer users good feedback for all actions: form errors, form success, etc.</li>
+<li>place action buttons where they will create an effect(law of locality)</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-38.png" alt="Alt text"></p>
+<p>ux rules for website content</p>
+<ul>
+<li>use a descriptive, keyword-focused headline on your main page. dont be vague or fancy!</li>
+<li>only include relevant information, efficiently! cut out fluff and make the content 100% clear</li>
+<li>use simple words! avoid technical jargon and “smart-sounding” words</li>
+<li>break up long text with sub-heading, images, block quotes, bullet points, etc.</li>
+</ul>
+<h3 id="the-website-personalities-framework"><a href="#the-website-personalities-framework" class="headerlink" title="the website-personalities-framework"></a>the website-personalities-framework</h3><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-13.png" alt="Alt text"></p>
+<ul>
+<li>serious&#x2F;elegant</li>
+</ul>
+<p>industries: real estate, high fashion, jewelry, luxury products or services</p>
+<p>typography: serif typefaces(especially in headings), light font weight, small body font size</p>
+<p>colors: gold, pastel colors, black, dark blue or grey</p>
+<p>image: big, high-quality images are used to feature elegant and expensive products</p>
+<p>icons: usually no icons, but thin icons and lines may be used</p>
+<p>shadows: usually no shadows</p>
+<p>boarder-radius: usally no border-radius</p>
+<p>layout: a creative and experimental layout is quite common</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-39.png" alt="Alt text"></p>
+<ul>
+<li>minimalist&#x2F;simple</li>
+</ul>
+<p>industries: fashion, porfolios, minimalism companies, software startups</p>
+<p>typography: boxy&#x2F;squered sans-serif typefaces, small body font size</p>
+<p>colors: usually black or dark grey, on pure white background. usually just one color throughout the design<br>images: few images, which can be uesed to add some color to the design. usually no illustrations, but if, then just black<br>icons: usally no icons, but small simple black icons may be used</p>
+<p>shadow: usually no shadows<br>border-radius: usually no border-redius</p>
+<p>layout: simple layout, a narrow one-column layout is quite common.</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-40.png" alt="Alt text"></p>
+<ul>
+<li>plain&#x2F;neutral</li>
+</ul>
+<p>industries: well-established corporations, companies that dont want to make an impact through design</p>
+<p>typography: neutral-looking sans-serif typefaces are used, and text is usually small and doesnt have visual impact</p>
+<p>colors: safe colors are employed, nothing too bright or to washed-out. bule and blacks are common</p>
+<p>images: images are frequently used, but usually in a small format</p>
+<p>icons: usally no icons, but simple icons may be used</p>
+<p>shadows: usually no shadows</p>
+<p>border-radius: usually no border-radius</p>
+<p>layout: structured and condensed layout, with lots of boxes and rows</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-41.png" alt="Alt text"></p>
+<ul>
+<li>bold&#x2F;confident</li>
+</ul>
+<p>industries: digital agencies, software starups, travel, “strong” companies</p>
+<p>typography: boxy&#x2F;squared sans-serif typefaces, big and bold typography, especially headings. uppercase headings are common</p>
+<p>color: usually multiple bright colors. big color blocks&#x2F;sections are used to draw attention</p>
+<p>images: lots of big images are usually displayed</p>
+<p>icons, shadows, border-radius: usually no</p>
+<p>layout: all kinds of layouts, no particular tendencies</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-42.png" alt="Alt text"></p>
+<ul>
+<li>calm&#x2F;peaceful</li>
+</ul>
+<p>industries: healthcare, all products with focus on consummer well-being</p>
+<p>typography: soft serif typefaces frequently used for headings, but sans-serif heading might be used too</p>
+<p>colors: pastel&#x2F;washed-out colors: light oranges, yellows, browns, greens, blues</p>
+<p>images: images and illustrations are usual, matching calm color palette</p>
+<p>icons: icons are quite frequent</p>
+<p>shadows: usually no shadows, but might be used sparingly</p>
+<p>border-radius: some border-radius is usual</p>
+<p>layout: all kinds of layout, no particular tendencies</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-43.png" alt="Alt text"></p>
+<ul>
+<li>startup&#x2F;upbeat</li>
+</ul>
+<p>industries: software starups, and other modern-looking companies</p>
+<p>typography: medium-sized headings(not too large), usually one sans-serif typeface in whole design. tendency for light text colors</p>
+<p>colors: blues, greens and purples are widely used. lots of light background(mainly gray), gradients are also common</p>
+<p>image: images or illustrations are always usesd. 3d illustartions are morden. sometimes patterns and shapes add visual details</p>
+<p>icons: icons are very frequent</p>
+<p>shadows: subtle shadows are frequent. glows are becoming modern</p>
+<p>border-radius: border-radius is very common</p>
+<p>layout: rows of cards and z-pattens are usual, as well as animations</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-44.png" alt="Alt text"></p>
+<ul>
+<li>playful&#x2F;fun</li>
+</ul>
+<p>industries: child products, animal products, food</p>
+<p>typography: round and creative(e.g. handwritten) sans-serif typefaces are ferquent. centered text is more common</p>
+<p>colors: multiple colors are frequently used to design a colorful layout, all over background and text</p>
+<p>images: images, hand-drawn(or 3d)illustrations, and geometric shapes and patterns are all very frequently used</p>
+<p>icons: icons are very frequent. many times in a hand-drawing style</p>
+<p>shadows: subtle shadows are quite common, but not always used</p>
+<p>border-radius: border-radius is very common</p>
+<p>layout: all kinds of layouts, no particular tendencies</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-45.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-46.png" alt="Alt text"></p>
+<h2 id="components-and-layout-patterns"><a href="#components-and-layout-patterns" class="headerlink" title="components and layout patterns"></a>components and layout patterns</h2><h3 id="rule-10-part-1-elements-and-components"><a href="#rule-10-part-1-elements-and-components" class="headerlink" title="rule #10 - part 1: elements and components"></a>rule #10 - part 1: elements and components</h3><p>elements -&gt; components -&gt;layouts -&gt; webpage</p>
+<p>use common elements and components to convey your websites information</p>
+<p>combine components into layout using common layout patterns</p>
+<p>assemble different layout areas into a complete, final page</p>
+<p>A elements</p>
+<p>text<br>buttons<br>images<br>input elements<br>tags</p>
+<p>B components</p>
+<p>breadcrumbs<br>pagination<br>alert and status bars<br>statistics<br>gallery<br>feature box<br>preview and profile cards<br>accordion<br>tabs<br>carousel<br>customer testimonials<br>customer logos<br>featured-in logos<br>steps<br>forms<br>tables<br>pricing tables<br>modal widows</p>
+<p>C section components</p>
+<p>navigaiton<br>herosection<br>footer<br>call to action section<br>feature row</p>
+<p>D layout patterns</p>
+<p>row of boxes or cards<br>grid of boxes or cards<br>z pattern<br>f pattern<br>single column<br>sidebar<br>multi-column&#x2F;magzine<br>asymmetry&#x2F;experimental</p>
+<h4 id="text"><a href="#text" class="headerlink" title="text"></a>text</h4><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-47.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-48.png" alt="Alt text"></p>
+<h4 id="button"><a href="#button" class="headerlink" title="button"></a>button</h4><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-49.png" alt="Alt text"></p>
+<h4 id="image"><a href="#image" class="headerlink" title="image"></a>image</h4><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-50.png" alt="Alt text"></p>
+<h4 id="input-elements"><a href="#input-elements" class="headerlink" title="input elements"></a>input elements</h4><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-51.png" alt="Alt text"></p>
+<h4 id="tag"><a href="#tag" class="headerlink" title="tag"></a>tag</h4><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-52.png" alt="Alt text"></p>
+<h4 id="components"><a href="#components" class="headerlink" title="components"></a>components</h4><p>breadcrumbs</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-53.png" alt="Alt text"></p>
+<p>pagination</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-54.png" alt="Alt text"></p>
+<p>alert and status bars</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-55.png" alt="Alt text"></p>
+<p>statistics</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-56.png" alt="Alt text"></p>
+<p>gallery</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-57.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-58.png" alt="Alt text"></p>
+<p>feature box</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-59.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-60.png" alt="Alt text"></p>
+<p>preview and profile cards</p>
+<p>have data<br>click to some action</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-61.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-62.png" alt="Alt text"></p>
+<ul>
+<li>profile card</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-63.png" alt="Alt text"></p>
+<p>accordion<br>hiding information</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-64.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-65.png" alt="Alt text"></p>
+<p>tab</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-66.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-67.png" alt="Alt text"></p>
+<p>carousel<br>slider</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-68.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-69.png" alt="Alt text"></p>
+<p>customer testimonials</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-70.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-71.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-72.png" alt="Alt text"></p>
+<p>customer logos</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-73.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-74.png" alt="Alt text"></p>
+<p>featured-in logo</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-75.png" alt="Alt text"></p>
+<p>steps</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-76.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-77.png" alt="Alt text"></p>
+<p>forms</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-78.png" alt="Alt text"></p>
+<ul>
+<li>login</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-79.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-80.png" alt="Alt text"></p>
+<p>table</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-81.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-82.png" alt="Alt text"></p>
+<p>pricing table</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-83.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-84.png" alt="Alt text"></p>
+<p>modal windows<br>弹窗</p>
+<p>function</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-85.png" alt="Alt text"></p>
+<p>marketing</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-86.png" alt="Alt text"></p>
+<h3 id="building-an-accordion-component-part-1"><a href="#building-an-accordion-component-part-1" class="headerlink" title="building an accordion component - part 1"></a>building an accordion component - part 1</h3><h3 id="building-an-accordion-component-part-2"><a href="#building-an-accordion-component-part-2" class="headerlink" title="building an accordion component - part 2"></a>building an accordion component - part 2</h3><h3 id="building-a-carousel-component-part-1"><a href="#building-a-carousel-component-part-1" class="headerlink" title="building a carousel component - part 1"></a>building a carousel component - part 1</h3><p>chrome dev tool<br>delete elements</p>
+<h3 id="building-a-carousel-component-part-2"><a href="#building-a-carousel-component-part-2" class="headerlink" title="building a carousel component - part 2"></a>building a carousel component - part 2</h3><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-87.png" alt="Alt text"></p>
+<h3 id="building-a-table-component-part-1"><a href="#building-a-table-component-part-1" class="headerlink" title="building a table component - part 1"></a>building a table component - part 1</h3><h3 id="building-a-table-component-part-2"><a href="#building-a-table-component-part-2" class="headerlink" title="building a table component - part 2"></a>building a table component - part 2</h3><h3 id="building-a-pagination-component-challenge-1"><a href="#building-a-pagination-component-challenge-1" class="headerlink" title="building a pagination component challenge # 1"></a>building a pagination component challenge # 1</h3><h3 id="rule-10-part-2-layout-patterns"><a href="#rule-10-part-2-layout-patterns" class="headerlink" title="rule #10 part 2: layout patterns"></a>rule #10 part 2: layout patterns</h3><h4 id="navigation"><a href="#navigation" class="headerlink" title="navigation"></a>navigation</h4><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-88.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-89.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-90.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-91.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-92.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-93.png" alt="Alt text"></p>
+<h4 id="hero-secttion"><a href="#hero-secttion" class="headerlink" title="hero secttion"></a>hero secttion</h4><ul>
+<li>type 1</li>
+</ul>
+<p>text + image</p>
+<p>text: header + description + botton</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-94.png" alt="Alt text"></p>
+<ul>
+<li>type 2</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-95.png" alt="Alt text"></p>
+<h4 id="footer"><a href="#footer" class="headerlink" title="footer"></a>footer</h4><ul>
+<li>sitemap</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-96.png" alt="Alt text"></p>
+<h4 id="call-to-action-section"><a href="#call-to-action-section" class="headerlink" title="call to action section"></a>call to action section</h4><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-97.png" alt="Alt text"></p>
+<p>contact us</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-98.png" alt="Alt text"></p>
+<h4 id="feature-row"><a href="#feature-row" class="headerlink" title="feature row"></a>feature row</h4><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-99.png" alt="Alt text"></p>
+<h4 id="layout-pattern"><a href="#layout-pattern" class="headerlink" title="layout pattern"></a>layout pattern</h4><p>row of boxes&#x2F;cards<br><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-100.png" alt="Alt text"></p>
+<p>grid of boxes&#x2F;cards</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-101.png" alt="Alt text"></p>
+<p>nesting patterns in components</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-102.png" alt="Alt text"></p>
+<p>z-pattern</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-103.png" alt="Alt text"></p>
+<p>f-pattern</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-104.png" alt="Alt text"></p>
+<p>single column</p>
+<p>web app</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-105.png" alt="Alt text"></p>
+<p>side bar</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-106.png" alt="Alt text"></p>
+<p>multi-column&#x2F;magazine</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-107.png" alt="Alt text"></p>
+<p>asymmetry&#x2F;experimental</p>
+<p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-108.png" alt="Alt text"></p>
+<h3 id="building-a-hero-section-part-1"><a href="#building-a-hero-section-part-1" class="headerlink" title="building a hero section - part 1"></a>building a hero section - part 1</h3><p>100vh viewport height</p>
+<h3 id="building-a-hero-section-part-2"><a href="#building-a-hero-section-part-2" class="headerlink" title="building a hero section - part 2"></a>building a hero section - part 2</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">background-image</span>: <span class="built_in">url</span>(<span class="string">hero.jpg</span>);</span><br><span class="line"><span class="attribute">background-size</span>: cover;</span><br></pre></td></tr></table></figure>
+
+<h3 id="building-a-web-application-layout-part-1"><a href="#building-a-web-application-layout-part-1" class="headerlink" title="building a web application layout - part 1"></a>building a web application layout - part 1</h3><h3 id="building-a-web-application-layout-part-2"><a href="#building-a-web-application-layout-part-2" class="headerlink" title="building a web application layout - part 2"></a>building a web application layout - part 2</h3><p><code>margin-left: auto;</code></p>
+<p>how elements that dont fit into container appear</p>
+<p><code>overflow: scroll;</code></p>
+<h2 id="omnifood-project-setup-and-desktop-version"><a href="#omnifood-project-setup-and-desktop-version" class="headerlink" title="omnifood project - setup and desktop version"></a>omnifood project - setup and desktop version</h2><h3 id="7-steps"><a href="#7-steps" class="headerlink" title="7 steps"></a>7 steps</h3><ol>
+<li>define the project</li>
+</ol>
+<ul>
+<li><p>define who the website is for. is it for yourself? for a client of your agency or your freelancing bussiness?</p>
+</li>
+<li><p>define what the website is for. in other words, define bussiness and user goals of your website project</p>
+</li>
+</ul>
+<p>bussiness goal examples: selling premium dog food<br>user goal example: finding high-quality dog food for good price</p>
+<ul>
+<li>define a target audience. Be really specific if possible and if it makes sense for your website</li>
+</ul>
+<p>example: “weomen, 20 to 40 years old, living in europe, earning over 2000$&#x2F;month, with a passion for dogs”</p>
+<ol start="2">
+<li>plan the project</li>
+</ol>
+<ul>
+<li><p>plan and gather website content: copy (text), images, videos etc.</p>
+</li>
+<li><p>content is usually provided by the client, but you also can help</p>
+</li>
+<li><p>for bigger sites, plan out the sitemap: what pages the site needs, and how they are related to one another(content hierachy)</p>
+</li>
+<li><p>based on the content, plan what sections each page needs in order to convey the contents message, and in which order</p>
+</li>
+<li><p>define the website personality</p>
+</li>
+</ul>
+<ol start="3">
+<li>sketch layout and component ideas</li>
+</ol>
+<ul>
+<li><p>think out what components you need, and how you can use them in layout pattens</p>
+</li>
+<li><p>get ideas out of your head: sketch them with pen and paper or with some design software(e.g. figma)</p>
+</li>
+<li><p>this is an iterative process: experiment with different components and layouts, until you arrive at a first good solution</p>
+</li>
+<li><p>you dont need to sktch everything, and dont make it perfect. at some point, youre ready to jump into html and css</p>
+</li>
+</ul>
+<ol start="4">
+<li>design and build</li>
+</ol>
+<ul>
+<li><p>use decisions, content and sketches from step 1, 2, 3</p>
+</li>
+<li><p>use layout and components to design the actual visul styles</p>
+</li>
+<li><p>create the design based on selected website personality, the design guidelines, and inspiration</p>
+</li>
+<li><p>use the client’s branding(if exists) for design decisions whenever possible: colors, typography, icons, etc.</p>
+</li>
+</ul>
+<ol start="5">
+<li>test and optimize</li>
+</ol>
+<ul>
+<li><p>make sure website works well in all major browsers</p>
+</li>
+<li><p>test the website on actual mobile devices, not just in dev tools</p>
+</li>
+<li><p>optimize all images, in term of dimension and file size</p>
+</li>
+<li><p>fix simple accessibility problems</p>
+</li>
+<li><p>run the lighthouse performance test in chrome devtools and try to fix reported issues</p>
+</li>
+<li><p>think about search engine optimization</p>
+</li>
+</ul>
+<ol start="6">
+<li>launch the masterpiece</li>
+</ol>
+<ul>
+<li><p>upload your website files to hosting platform.</p>
+</li>
+<li><p>choose and buy a great domain name, one that represents the brand well, is memorable and easy to write.</p>
+</li>
+</ul>
+<ol start="7">
+<li>maintain and keep updating website</li>
+</ol>
+<ul>
+<li><p>install analytic software(e.g. google analytics or fathom) to get statics about website users. this myy inform future changes in the site structure and content.</p>
+</li>
+<li><p>a blog that is updated regularly is a good way to keep users coming back, and is also good for seo.</p>
+</li>
+</ul>
+<h3 id="defining-and-planning-the-project"><a href="#defining-and-planning-the-project" class="headerlink" title="defining and planning the project"></a>defining and planning the project</h3><h4 id="step-1"><a href="#step-1" class="headerlink" title="step 1"></a>step 1</h4><p>whe the website is for</p>
+<p>for a client</p>
+<p>what the website is for</p>
+<p>business goal: selling monthly food subscrition<br>user goal: eating well effortlessly, without spending a lot of time and money</p>
+<p>define target audience</p>
+<p>busy people who like technology, are interesting in a health diet, and have a well-paying job.</p>
+<h4 id="step-2"><a href="#step-2" class="headerlink" title="step 2"></a>step 2</h4><p>sitemap: one page marketing website</p>
+<p>define website personality<br>startup&#x2F;upbeat<br>calm&#x2F;peaceful</p>
+<p>plan page sections</p>
+<ul>
+<li>logo + navigation</li>
+<li>hero</li>
+<li>featured in</li>
+<li>how it works</li>
+<li>meals(diets)</li>
+<li>testimonials + gallery</li>
+<li>pricing + feature</li>
+<li>call to action</li>
+<li>footer</li>
+</ul>
+<h3 id="sketching-initial-layout-ideas"><a href="#sketching-initial-layout-ideas" class="headerlink" title="sketching initial layout ideas"></a>sketching initial layout ideas</h3><p><img src="/lucfe-hexo/assets/images/Udemy%20HTML5%20CSS3/image-109.png" alt="Alt text"></p>
+<h3 id="first-design-and-development-steps"><a href="#first-design-and-development-steps" class="headerlink" title="first design and development steps"></a>first design and development steps</h3><h3 id="responsive-design-principles"><a href="#responsive-design-principles" class="headerlink" title="responsive design principles"></a>responsive design principles</h3><p>4 ingredients</p>
+<p>fluid layouts<br>to allow webpgae to adapt to the current viewport width(or even height)<br>use %(or vh&#x2F;vw) unit instead of px for elements that should adapt to viewport(usually layout)<br>use max-width instead of width</p>
+<p>responsive units<br>use rem unit instead of px for most lengths<br>to make it easy to scale the entire layout down (or up) automatically<br>helpfull trick: setting 1rem to 10px for easy calculations</p>
+<p>flexible images<br>by default, images dont scale automatically as we change the viewport, so we need to fix that<br>always use % for image dimensions, together with the max-width property</p>
+<p>media queries<br>bring responsive sites to life<br>to change css styles on certain viewport widths(called breakpoints)</p>
+<h3 id="how-rem-and-max-width-work"><a href="#how-rem-and-max-width-work" class="headerlink" title="how rem and max-width work"></a>how rem and max-width work</h3><p><code>max-width: 1000px</code></p>
+<p>container &gt; 1000px -&gt;elements width &#x3D; 1000px<br>container &lt; 1000px -&gt;elements width &#x3D; 100% container width</p>
+<p>可以和<code>width: 30%;</code> 合用</p>
+<p>rem -&gt; root element<br>default browser font size 16px</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">html</span> &#123;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">62.5%</span>;</span><br><span class="line">  <span class="comment">/* set to percent so the user can change the root font size*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="building-the-hero-part-1"><a href="#building-the-hero-part-1" class="headerlink" title="building the hero - part 1"></a>building the hero - part 1</h3><p>rarr: right arrow</p>
+<h3 id="building-the-hero-part-2"><a href="#building-the-hero-part-2" class="headerlink" title="building the hero - part 2"></a>building the hero - part 2</h3><p>css default line height: 1.2<br>Normal: The default line height. If you’re using a desktop browser, the default is 1.2. However, this varies based on the element font family. Length: The length you identify is used to calculate line box height.</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">  <span class="comment">/* trick to add border inside */</span></span><br><span class="line">  <span class="selector-tag">a</span> &#123;<span class="attribute">box-shadow</span>: inset <span class="number">0</span> <span class="number">0</span> <span class="number">0</span> <span class="number">3px</span> <span class="number">#fff</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  <span class="selector-tag">a</span><span class="selector-pseudo">:link</span>, <span class="selector-tag">a</span><span class="selector-pseudo">:visited</span> &#123;</span><br><span class="line">      <span class="comment">/* put transition on original &quot;state&quot; */</span></span><br><span class="line">  <span class="attribute">transition</span>: background-color <span class="number">1s</span>;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="comment">/* margin helper */</span></span><br><span class="line">  <span class="selector-class">.margin-right-sm</span> &#123;</span><br><span class="line">  <span class="attribute">margin-right</span>: <span class="number">1.6rem</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="building-the-hero-part-3"><a href="#building-the-hero-part-3" class="headerlink" title="building the hero - part 3"></a>building the hero - part 3</h3><h3 id="building-the-website-header"><a href="#building-the-website-header" class="headerlink" title="building the website header"></a>building the website header</h3><h3 id="building-the-navigation"><a href="#building-the-navigation" class="headerlink" title="building the navigation"></a>building the navigation</h3><h3 id="building-how-it-works-secton-part-1"><a href="#building-how-it-works-secton-part-1" class="headerlink" title="building how it works secton - part 1"></a>building how it works secton - part 1</h3><h3 id="building-how-it-works-secton-part-2"><a href="#building-how-it-works-secton-part-2" class="headerlink" title="building how it works secton - part 2"></a>building how it works secton - part 2</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.step-img-box</span><span class="selector-pseudo">::before</span> &#123;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">&quot;&quot;</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">60%</span>;</span><br><span class="line">  <span class="comment">/* height: 60%; */</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">/* 60% of parents width */</span></span><br><span class="line">  <span class="attribute">padding-bottom</span>: <span class="number">60%</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#fdf2e9</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>z-index: -1;</code></p>
+<h3 id="building-the-featured-in-section"><a href="#building-the-featured-in-section" class="headerlink" title="building the featured-in section"></a>building the featured-in section</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">img</span> &#123;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">60%</span>;</span><br><span class="line">  <span class="attribute">filter</span>: <span class="built_in">brightness</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="building-the-meals-section-part-1"><a href="#building-the-meals-section-part-1" class="headerlink" title="building the meals section - part 1"></a>building the meals section - part 1</h3><h3 id="building-the-meals-section-part-2"><a href="#building-the-meals-section-part-2" class="headerlink" title="building the meals section - part 2"></a>building the meals section - part 2</h3><p><code>overflow: hidden;</code></p>
+<h3 id="building-the-meals-section-part-3"><a href="#building-the-meals-section-part-3" class="headerlink" title="building the meals section - part 3"></a>building the meals section - part 3</h3><p>currentColor<br>the text color</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.link</span><span class="selector-pseudo">:link</span>, <span class="selector-class">.link</span><span class="selector-pseudo">:visited</span> &#123;</span><br><span class="line">  <span class="attribute">text-decoration</span>: none;</span><br><span class="line">  <span class="attribute">border-bottom</span>: <span class="number">1px</span> solid currentColor;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.link</span><span class="selector-pseudo">:hover</span>, <span class="selector-class">.link</span><span class="selector-pseudo">:active</span> &#123;</span><br><span class="line">  <span class="attribute">border-bottom</span>: <span class="number">1px</span> solid transparent;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="building-the-testimonials-section-part-1"><a href="#building-the-testimonials-section-part-1" class="headerlink" title="building the testimonials section - part 1"></a>building the testimonials section - part 1</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.section-testimonials</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: grid;</span><br><span class="line">  <span class="attribute">grid-template-columns</span>: <span class="number">1</span>fr <span class="number">1</span>fr;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="building-the-pricing-section-part-1"><a href="#building-the-pricing-section-part-1" class="headerlink" title="building the pricing section - part 1"></a>building the pricing section - part 1</h3><h3 id="building-the-pricing-section-part-2"><a href="#building-the-pricing-section-part-2" class="headerlink" title="building the pricing section - part 2"></a>building the pricing section - part 2</h3><h3 id="building-the-feature-part"><a href="#building-the-feature-part" class="headerlink" title="building the feature part"></a>building the feature part</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.feature-icon</span> &#123;</span><br><span class="line"></span><br><span class="line">  <span class="attribute">height</span>: <span class="number">3.2rem</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">3.2rem</span>;</span><br><span class="line"></span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#fdf2e9</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">1.6rem</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="building-the-call-to-action-section-part-1"><a href="#building-the-call-to-action-section-part-1" class="headerlink" title="building the call-to-action section - part 1"></a>building the call-to-action section - part 1</h3><p><code>background-image: linear-gradient(90deg #e67e22, #eb984e);</code></p>
+<p><code>background-image: url(../img/eating.jpg);</code><br><code>background-size: cover;</code><br><code>background-position: center;</code></p>
+<p><code>background-image: linear-gradient(to right bottom, rgba(50, 50, 49, 0.35), rgba(235, 150, 76, 0.35)), url(../img/eating.jpg);</code></p>
+<h3 id="building-the-call-to-action-section-part-2"><a href="#building-the-call-to-action-section-part-2" class="headerlink" title="building the call-to-action section - part 2"></a>building the call-to-action section - part 2</h3><p><code>font-family: inherit;</code></p>
+</div></article></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/lucfe-hexo/assets/images/avatar_l.png" alt="lucfe"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">lucfe</p><p class="is-size-6 is-block">no title, but free!</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>China</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/lucfe-hexo/archives"><p class="title">87</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/lucfe-hexo/categories"><p class="title">17</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/lucfe-hexo/tags"><p class="title">13</p></a></div></div></nav><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/lucfe2010"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/lucfe2010"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Twitter" href="https://twitter.com/lucfe2010"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/lucfe-hexo/atom.xml"><i class="fas fa-rss"></i></a></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/"><span class="level-start"><span class="level-item">0001 Humanities</span></span><span class="level-end"><span class="level-item tag">4</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/%E5%8E%86%E5%8F%B2%E5%AD%A6-History/"><span class="level-start"><span class="level-item">历史学 History</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/%E8%89%BA%E6%9C%AF%E5%AD%A6-Arts/"><span class="level-start"><span class="level-item">艺术学 Arts</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/"><span class="level-start"><span class="level-item">0002 Social science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/%E7%BB%8F%E6%B5%8E%E7%AE%A1%E7%90%86%E5%AD%A6-Business-and-Economics/"><span class="level-start"><span class="level-item">经济管理学 Business and Economics</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/%E8%AF%AD%E8%A8%80%E5%AD%A6-Linguistics-and-languages/"><span class="level-start"><span class="level-item">语言学 Linguistics and languages</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0003-Natural-science/"><span class="level-start"><span class="level-item">0003 Natural science</span></span><span class="level-end"><span class="level-item tag">3</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0003-Natural-science/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6-Earth-science/"><span class="level-start"><span class="level-item">地球科学 Earth science</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/"><span class="level-start"><span class="level-item">0004 Formal science</span></span><span class="level-end"><span class="level-item tag">6</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/%E6%95%B0%E5%AD%A6-Mathematics/"><span class="level-start"><span class="level-item">数学 Mathematics</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/"><span class="level-start"><span class="level-item">计算机科学技术 Computer science</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/"><span class="level-start"><span class="level-item">0005 Applied science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/"><span class="level-start"><span class="level-item">工程与技术科学 Engineering and technology</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B-Mechanical-engineering/"><span class="level-start"><span class="level-item">机械工程 Mechanical engineering</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/category1-level1/"><span class="level-start"><span class="level-item">category1 level1</span></span><span class="level-end"><span class="level-item tag">3</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/category1-level1/category1-level2/"><span class="level-start"><span class="level-item">category1 level2</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/jekyll-update/"><span class="level-start"><span class="level-item">jekyll update</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">Tags</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/History/"><span class="tag">History</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/business/"><span class="tag">business</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/economic/"><span class="tag">economic</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/financial/"><span class="tag">financial</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/html/"><span class="tag">html</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/html-css/"><span class="tag">html, css</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/math/"><span class="tag">math</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/primary-school/"><span class="tag">primary school</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/python/"><span class="tag">python</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/stock/"><span class="tag">stock</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/url-encoding/"><span class="tag">url, encoding</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/web-development/"><span class="tag">web development</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/lucfe-hexo/tags/%E5%8E%86%E5%8F%B2%E5%AD%A6/"><span class="tag">历史学</span><span class="tag">2</span></a></div></div></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-21T08:47:50.252Z">2023-09-21</time></p><p class="title"><a href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/html%20css%20js/Udemy%20HTML5%20CSS3/">udemy html5 css3</a></p><p class="categories"><a href="/lucfe-hexo/categories/0004-Formal-science/">0004 Formal science</a> / <a href="/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/">计算机科学技术 Computer science</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-21T00:45:21.530Z">2023-09-21</time></p><p class="title"><a href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/html%20css%20js/url%20encoding/">url encoding</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-20T02:47:20.070Z">2023-09-20</time></p><p class="title"><a href="/lucfe-hexo/0003%20Natural%20science/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6%20Earth%20science/time/">time</a></p><p class="categories"><a href="/lucfe-hexo/categories/0003-Natural-science/">0003 Natural science</a> / <a href="/lucfe-hexo/categories/0003-Natural-science/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6-Earth-science/">地球科学 Earth science</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-18T06:55:16.185Z">2023-09-18</time></p><p class="title"><a href="/lucfe-hexo/0004%20Formal%20science/%E6%95%B0%E5%AD%A6%20Mathematics/math_primary/">math in primary school</a></p><p class="categories"><a href="/lucfe-hexo/categories/0004-Formal-science/">0004 Formal science</a> / <a href="/lucfe-hexo/categories/0004-Formal-science/%E6%95%B0%E5%AD%A6-Mathematics/">数学 Mathematics</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-16T08:16:41.268Z">2023-09-16</time></p><p class="title"><a href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/ssg/hexo-icarus-theme-develop/"> </a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile" href="/lucfe-hexo/archives/2023/"><span class="level-start"><span class="level-item">2023</span></span><span class="level-end"><span class="level-item tag">87</span></span></a></li></ul></div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/lucfe-hexo/">Lucfe Knowledges</a><p class="is-size-7"><span>&copy; 2023 lucfe</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2019</p></div><div class="level-end"></div></div></div></footer><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/lucfe-hexo/js/column.js"></script><script src="/lucfe-hexo/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/lucfe-hexo/js/back_to_top.js" defer></script><!--!--><script src="/lucfe-hexo/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/lucfe-hexo/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/lucfe-hexo/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>

@@ -6,7 +6,7 @@
   <link href="http://lucfe2010.github.io/lucfe-hexo/atom.xml" rel="self"/>
   
   <link href="http://lucfe2010.github.io/lucfe-hexo/"/>
-  <updated>2023-09-20T02:28:08.366Z</updated>
+  <updated>2023-09-26T07:01:01.819Z</updated>
   <id>http://lucfe2010.github.io/lucfe-hexo/</id>
   
   <author>
@@ -17,11 +17,88 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>udemy html5 css3</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/html%20css%20js/Udemy%20HTML5%20CSS3/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/html%20css%20js/Udemy%20HTML5%20CSS3/</id>
+    <published>2023-09-21T08:47:50.252Z</published>
+    <updated>2023-09-26T07:01:01.819Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;browser&lt;br&gt;request&lt;br&gt;&lt;a href=&quot;https://omnifood.de/&quot;&gt;https://omnifood.de&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;web server&lt;br&gt;response&lt;br&gt;html css js&lt;/p&gt;
+&lt;p&gt;static</summary>
+        
+      
+    
+    
+    
+    <category term="0004 Formal science" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0004-Formal-science/"/>
+    
+    <category term="计算机科学技术 Computer science" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/"/>
+    
+    
+    <category term="html, css" scheme="http://lucfe2010.github.io/lucfe-hexo/tags/html-css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>url encoding</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/html%20css%20js/url%20encoding/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/html%20css%20js/url%20encoding/</id>
+    <published>2023-09-21T00:45:21.530Z</published>
+    <updated>2023-09-21T00:52:28.074Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;URL encoding is an encoding format used in URLs.&lt;br&gt;The standard allows the use of arbitrary data inside a Uniform Resource Identifier</summary>
+        
+      
+    
+    
+    
+    
+    <category term="url, encoding" scheme="http://lucfe2010.github.io/lucfe-hexo/tags/url-encoding/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>time</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0003%20Natural%20science/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6%20Earth%20science/time/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0003%20Natural%20science/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6%20Earth%20science/time/</id>
+    <published>2023-09-20T02:47:20.070Z</published>
+    <updated>2023-09-20T02:48:08.085Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Coordinated Universal Time or UTC is the primary time standard by which the world regulates clocks and</summary>
+        
+      
+    
+    
+    
+    <category term="0003 Natural science" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0003-Natural-science/"/>
+    
+    <category term="地球科学 Earth science" scheme="http://lucfe2010.github.io/lucfe-hexo/categories/0003-Natural-science/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6-Earth-science/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>math in primary school</title>
     <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E6%95%B0%E5%AD%A6%20Mathematics/math_primary/"/>
     <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E6%95%B0%E5%AD%A6%20Mathematics/math_primary/</id>
     <published>2023-09-18T06:55:16.185Z</published>
-    <updated>2023-09-20T02:28:08.366Z</updated>
+    <updated>2023-09-21T00:27:14.460Z</updated>
     
     
       
@@ -71,7 +148,7 @@
     <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/python%20crash%20course/"/>
     <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/python%20crash%20course/</id>
     <published>2023-09-16T00:52:00.554Z</published>
-    <updated>2023-09-20T02:28:26.629Z</updated>
+    <updated>2023-09-20T23:04:08.733Z</updated>
     
     
       
@@ -265,7 +342,7 @@
     <link href="http://lucfe2010.github.io/lucfe-hexo/0002%20Social%20science/%E7%BB%8F%E6%B5%8E%E7%AE%A1%E7%90%86%E5%AD%A6%20Business%20and%20Economics/company/"/>
     <id>http://lucfe2010.github.io/lucfe-hexo/0002%20Social%20science/%E7%BB%8F%E6%B5%8E%E7%AE%A1%E7%90%86%E5%AD%A6%20Business%20and%20Economics/company/</id>
     <published>2023-09-15T02:13:59.058Z</published>
-    <updated>2023-09-15T02:14:47.435Z</updated>
+    <updated>2023-09-20T03:19:22.180Z</updated>
     
     
       
@@ -379,69 +456,6 @@
         
         
     <summary type="html">&lt;h3 id=&quot;摄像头&quot;&gt;&lt;a href=&quot;#摄像头&quot; class=&quot;headerlink&quot; title=&quot;摄像头&quot;&gt;&lt;/a&gt;摄像头&lt;/h3&gt;&lt;p&gt;計算攝影（Computational</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E5%93%B2%E5%AD%A6%20Philosophy/self%20help/time%20management/"/>
-    <id>http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E5%93%B2%E5%AD%A6%20Philosophy/self%20help/time%20management/</id>
-    <published>2023-09-15T00:01:31.584Z</published>
-    <updated>2023-09-15T05:49:15.971Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;make-a-plan&quot;&gt;&lt;a href=&quot;#make-a-plan&quot; class=&quot;headerlink&quot; title=&quot;make a plan&quot;&gt;&lt;/a&gt;make a plan&lt;/h1&gt;&lt;h2 id=&quot;time-management&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/cs%20wiki/"/>
-    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/cs%20wiki/</id>
-    <published>2023-09-14T23:58:20.306Z</published>
-    <updated>2023-09-18T00:29:16.617Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;html&quot;&gt;&lt;a href=&quot;#html&quot; class=&quot;headerlink&quot; title=&quot;html&quot;&gt;&lt;/a&gt;html&lt;/h2&gt;&lt;p&gt;A markup language is a text-encoding system consisting of a</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Hardware/home%20assistant/"/>
-    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Hardware/home%20assistant/</id>
-    <published>2023-09-14T23:22:17.245Z</published>
-    <updated>2023-09-14T23:22:31.925Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;降噪耳机&quot;&gt;&lt;a href=&quot;#降噪耳机&quot; class=&quot;headerlink&quot; title=&quot;降噪耳机&quot;&gt;&lt;/a&gt;降噪耳机&lt;/h3&gt;&lt;p&gt;</summary>
         
       
     
