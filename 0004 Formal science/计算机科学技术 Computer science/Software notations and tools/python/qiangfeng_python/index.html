@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>qiangfeng python - Lucfe Knowledge Documentation</title><link rel="manifest" href="/lucfe-hexo/manifest.json"><meta name="application-name" content="Lucfe Knowledge Documentation"><meta name="msapplication-TileImage" content="/assets/images/favicon_l.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lucfe Knowledge Documentation"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="网络请求库 –&amp;gt; 浏览器客户端 网站服务器WSGI： The Web Server Gateway Interface is a simple calling convention for web servers to forward requests to web applications or frameworks written in the Python programming la"><meta property="og:type" content="blog"><meta property="og:title" content="qiangfeng python"><meta property="og:url" content="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/qiangfeng_python/"><meta property="og:site_name" content="Lucfe Knowledge Documentation"><meta property="og:description" content="网络请求库 –&amp;gt; 浏览器客户端 网站服务器WSGI： The Web Server Gateway Interface is a simple calling convention for web servers to forward requests to web applications or frameworks written in the Python programming la"><meta property="og:locale" content="en_US"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/qiangfeng_python/image.png"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/qiangfeng_python/image-1.png"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/qiangfeng_python/image-2.png"><meta property="article:published_time" content="2023-10-04T00:21:18.834Z"><meta property="article:modified_time" content="2023-10-04T01:19:01.889Z"><meta property="article:author" content="lucfe"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/qiangfeng_python/image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/qiangfeng_python/"},"headline":"qiangfeng python","image":["http://lucfe2010.github.io/lucfe-hexo/assets/images/qiangfeng_python/image.png","http://lucfe2010.github.io/lucfe-hexo/assets/images/qiangfeng_python/image-1.png","http://lucfe2010.github.io/lucfe-hexo/assets/images/qiangfeng_python/image-2.png"],"datePublished":"2023-10-04T00:21:18.834Z","dateModified":"2023-10-04T01:19:01.889Z","author":{"@type":"Person","name":"lucfe"},"publisher":{"@type":"Organization","name":"Lucfe Knowledge Documentation","logo":{"@type":"ImageObject","url":{"text":"Lucfe Knowledges"}}},"description":"网络请求库 –&gt; 浏览器客户端 网站服务器WSGI： The Web Server Gateway Interface is a simple calling convention for web servers to forward requests to web applications or frameworks written in the Python programming la"}</script><link rel="canonical" href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/qiangfeng_python/"><link rel="alternate" href="https://lucfe2010.github.io/lucfe-hexo/atom.xml" title="Lucfe Knowledge Documentation" type="application/atom+xml"><link rel="icon" href="/lucfe-hexo/assets/images/favicon_l.png"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/6.0.0/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/lucfe-hexo/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js"></script><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/lucfe-hexo/">Lucfe Knowledges</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/lucfe-hexo/">Home</a><a class="navbar-item" href="/lucfe-hexo/archives">Archives</a><a class="navbar-item" href="/lucfe-hexo/categories">Categories</a><a class="navbar-item" href="/lucfe-hexo/tags">Tags</a><a class="navbar-item" href="/lucfe-hexo/about">About</a></div><div class="navbar-end"><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-10-04T00:21:18.834Z" title="2023/10/4 08:21:18">2023-10-04</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-10-04T01:19:01.889Z" title="2023/10/4 09:19:01">2023-10-04</time></span><span class="level-item">7 minutes read (About 1031 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">qiangfeng python</h1><div class="content"><p>网络请求库 –&gt; 浏览器客户端</p>
+<p>网站服务器<br>WSGI： The Web Server Gateway Interface is a simple calling convention for web servers to forward requests to web applications or frameworks written in the Python programming language.</p>
+<p>浏览器客户端<br>WebKit is a browser engine developed by Apple and primarily used in its Safari web browser, as well as all web browsers on iOS and iPadOS.</p>
+<hr>
+<p>HTTP Requests<br>Start line<br>HTTP requests are messages sent by the client to initiate an action on the server. Their start-line contain three elements:</p>
+<ol>
+<li><p>An HTTP method, a verb (like GET, PUT or POST) or a noun (like HEAD or OPTIONS), that describes the action to be performed. For example, GET indicates that a resource should be fetched or POST means that data is pushed to the server (creating or modifying a resource, or generating a temporary document to send back).</p>
+</li>
+<li><p>The request target, usually a URL, or the absolute path of the protocol, port, and domain are usually characterized by the request context. The format of this request target varies between different HTTP methods.</p>
+</li>
+<li><p>The HTTP version, which defines the structure of the remaining message, acting as an indicator of the expected version to use for the response.</p>
+</li>
+</ol>
+<p>HTTP request header<br>The start-line and HTTP headers of the HTTP message are collectively known as the head of the requests, whereas its payload is known as the body.</p>
+<p><img src="/lucfe-hexo/assets/images/qiangfeng_python/image.png" alt="Alt text"></p>
+<p><img src="/lucfe-hexo/assets/images/qiangfeng_python/image-1.png" alt="Alt text"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">GET /home.html HTTP/1.1</span><br><span class="line">Host: developer.mozilla.org</span><br><span class="line">User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101 Firefox/50.0</span><br><span class="line">Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</span><br><span class="line">Accept-Language: en-US,en;q=0.5</span><br><span class="line">Accept-Encoding: gzip, deflate, br</span><br><span class="line">Referer: https://developer.mozilla.org/testpage.html</span><br><span class="line">Connection: keep-alive</span><br><span class="line">Upgrade-Insecure-Requests: 1</span><br><span class="line">If-Modified-Since: Mon, 18 Jul 2016 02:36:04 GMT</span><br><span class="line">If-None-Match: &quot;c561c68d0ba92bbeb8b0fff2a9199f722e3a621a&quot;</span><br><span class="line">Cache-Control: max-age=0</span><br></pre></td></tr></table></figure>
+
+<p>Body<br>The final part of the request is its body. Not all requests have one: requests fetching resources, like GET, HEAD, DELETE, or OPTIONS, usually don’t need one. Some requests send data to the server in order to update it: as often the case with POST requests (containing HTML form data).</p>
+<p>Bodies can be broadly divided into two categories:</p>
+<ul>
+<li>Single-resource bodies, consisting of one single file, defined by the two headers: Content-Type and Content-Length.</li>
+<li>Multiple-resource bodies, consisting of a multipart body, each containing a different bit of information. This is typically associated with HTML Forms.</li>
+</ul>
+<hr>
+<p>HTTP Responses</p>
+<p>Status line<br>The start line of an HTTP response, called the status line, contains the following information:</p>
+<p>The protocol version, usually HTTP&#x2F;1.1.</p>
+<ul>
+<li>A status code, indicating success or failure of the request. Common status codes are 200, 404, or 302</li>
+<li>A status text. A brief, purely informational, textual description of the status code to help a human understand the HTTP message.</li>
+<li>A typical status line looks like: HTTP&#x2F;1.1 404 Not Found.</li>
+</ul>
+<p><img src="/lucfe-hexo/assets/images/qiangfeng_python/image-2.png" alt="Alt text"></p>
+<hr>
+<p>网络请求：</p>
+<ul>
+<li>urllib<br>urllib is a package that collects several modules for working with URLs:</li>
+<li>requests<br>Requests is an HTTP client library for the Python programming language. Requests is one of the most, if not the most, popular Python libraries that is not included with Python due to its elegant mapping of the HTTP protocol onto Python’s object-oriented semantics<br>It is implemented as a wrapper for urllib3, another 3rd party Python HTTP library.</li>
+<li>selenium</li>
+<li>appium 手机app</li>
+</ul>
+<p>数据解析</p>
+<ul>
+<li>re<br>This module provides regular expression matching operations similar to those found in Perl.</li>
+<li>xpath<br>XPath (XML Path Language) is an expression language designed to support the query or transformation of XML documents.<br>The XPath language is based on a tree representation of the XML document, and provides the ability to navigate around the tree, selecting nodes by a variety of criteria.</li>
+<li>bs4</li>
+<li>json</li>
+</ul>
+<p>数据存储</p>
+<ul>
+<li>pymysql</li>
+<li>mongodb</li>
+<li>elasticsearch</li>
+</ul>
+<p>多任务</p>
+<ul>
+<li>多线程 threading&#x2F;queue<br>抢占式多任务处理（Preemptive multitasking）是计算机操作系统中，一种实现多任务处理（multi task）的方式。相对于协作式多任务处理而言。协作式环境下，下一个进程被调度的前提是当前进程主动放弃时间片；抢占式环境下，操作系统完全决定进程调度方案，操作系统可以剥夺耗时长的进程的时间片，提供给其它进程。</li>
+<li>协程 asynio | gevent&#x2F;eventlet<br>协程非常类似于线程。但是协程是协作式多任务的，而典型的线程是内核级抢占式多任务的。<br>协作式多任务（Cooperative Multitasking），是一种多任务处理方式，多任务是使电脑能同时处理多个程序的技术，相对于抢占式多任务（Preemptive multitasking）由操作系统决定任务切换时机。协作式多任务要求每一个运行中的程序，定时放弃(yield)自己的执行权利，告知操作系统可让下一个程序执行，因为需要程序之间合作达到调度，故称作协作式多任务。</li>
+</ul>
+<p>反爬虫</p>
+<ul>
+<li>UA(user-agent)</li>
+<li>登录cookie</li>
+<li>请求频次 -&gt; IP代理</li>
+<li>验证码</li>
+<li>动态js（splash&#x2F;api）</li>
+</ul>
+</div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/xiaoyuan_python/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">xiaoyuan python</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/danei_python/"><span class="level-item">达内 Python</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1 is-sticky"><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/"><span class="level-start"><span class="level-item">0001 Humanities</span></span><span class="level-end"><span class="level-item tag">4</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/%E5%8E%86%E5%8F%B2%E5%AD%A6-History/"><span class="level-start"><span class="level-item">历史学 History</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/%E8%89%BA%E6%9C%AF%E5%AD%A6-Arts/"><span class="level-start"><span class="level-item">艺术学 Arts</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/"><span class="level-start"><span class="level-item">0002 Social science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/%E7%BB%8F%E6%B5%8E%E7%AE%A1%E7%90%86%E5%AD%A6-Business-and-Economics/"><span class="level-start"><span class="level-item">经济管理学 Business and Economics</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/%E8%AF%AD%E8%A8%80%E5%AD%A6-Linguistics-and-languages/"><span class="level-start"><span class="level-item">语言学 Linguistics and languages</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0003-Natural-science/"><span class="level-start"><span class="level-item">0003 Natural science</span></span><span class="level-end"><span class="level-item tag">3</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0003-Natural-science/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6-Earth-science/"><span class="level-start"><span class="level-item">地球科学 Earth science</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/"><span class="level-start"><span class="level-item">0004 Formal science</span></span><span class="level-end"><span class="level-item tag">6</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/%E6%95%B0%E5%AD%A6-Mathematics/"><span class="level-start"><span class="level-item">数学 Mathematics</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/"><span class="level-start"><span class="level-item">计算机科学技术 Computer science</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/"><span class="level-start"><span class="level-item">0005 Applied science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/"><span class="level-start"><span class="level-item">工程与技术科学 Engineering and technology</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B-Mechanical-engineering/"><span class="level-start"><span class="level-item">机械工程 Mechanical engineering</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/category1-level1/"><span class="level-start"><span class="level-item">category1 level1</span></span><span class="level-end"><span class="level-item tag">3</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/category1-level1/category1-level2/"><span class="level-start"><span class="level-item">category1 level2</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/jekyll-update/"><span class="level-start"><span class="level-item">jekyll update</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><!--!--></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/lucfe-hexo/">Lucfe Knowledges</a><p class="is-size-7"><span>&copy; 2023 lucfe</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2019</p></div><div class="level-end"></div></div></div></footer><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/lucfe-hexo/js/column.js"></script><script src="/lucfe-hexo/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/lucfe-hexo/js/back_to_top.js" defer></script><!--!--><script src="/lucfe-hexo/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/lucfe-hexo/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/lucfe-hexo/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>

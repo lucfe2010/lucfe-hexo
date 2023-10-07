@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>xiaoyuan python - Lucfe Knowledge Documentation</title><link rel="manifest" href="/lucfe-hexo/manifest.json"><meta name="application-name" content="Lucfe Knowledge Documentation"><meta name="msapplication-TileImage" content="/assets/images/favicon_l.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lucfe Knowledge Documentation"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="12345678from urllib.request import urlopenurl &amp;#x3D; &amp;quot;http:&amp;#x2F;&amp;#x2F;www.baidu.com&amp;quot;resp &amp;#x3D; urlopen(url)html_body &amp;#x3D; resp.read().decode(&amp;quot;utf-8&amp;quot;)with open(&amp;quot;mybaidu.html&amp;quot;, mode&amp;#x3D;&amp;quot;w&amp;amp;quo"><meta property="og:type" content="blog"><meta property="og:title" content="xiaoyuan python"><meta property="og:url" content="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/xiaoyuan_python/"><meta property="og:site_name" content="Lucfe Knowledge Documentation"><meta property="og:description" content="12345678from urllib.request import urlopenurl &amp;#x3D; &amp;quot;http:&amp;#x2F;&amp;#x2F;www.baidu.com&amp;quot;resp &amp;#x3D; urlopen(url)html_body &amp;#x3D; resp.read().decode(&amp;quot;utf-8&amp;quot;)with open(&amp;quot;mybaidu.html&amp;quot;, mode&amp;#x3D;&amp;quot;w&amp;amp;quo"><meta property="og:locale" content="en_US"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image.png"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image-1.png"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image-2.png"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image-4.png"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image-6.png"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image-3.png"><meta property="og:image" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image-5.png"><meta property="article:published_time" content="2023-10-04T01:49:56.054Z"><meta property="article:modified_time" content="2023-10-07T04:41:09.434Z"><meta property="article:author" content="lucfe"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/xiaoyuan_python/"},"headline":"xiaoyuan python","image":["http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image.png","http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image-1.png","http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image-2.png","http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image-4.png","http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image-6.png","http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image-3.png","http://lucfe2010.github.io/lucfe-hexo/assets/images/xiaoyuan_python/image-5.png"],"datePublished":"2023-10-04T01:49:56.054Z","dateModified":"2023-10-07T04:41:09.434Z","author":{"@type":"Person","name":"lucfe"},"publisher":{"@type":"Organization","name":"Lucfe Knowledge Documentation","logo":{"@type":"ImageObject","url":{"text":"Lucfe Knowledges"}}},"description":"12345678from urllib.request import urlopenurl &#x3D; &quot;http:&#x2F;&#x2F;www.baidu.com&quot;resp &#x3D; urlopen(url)html_body &#x3D; resp.read().decode(&quot;utf-8&quot;)with open(&quot;mybaidu.html&quot;, mode&#x3D;&quot;w&amp;quo"}</script><link rel="canonical" href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/xiaoyuan_python/"><link rel="alternate" href="https://lucfe2010.github.io/lucfe-hexo/atom.xml" title="Lucfe Knowledge Documentation" type="application/atom+xml"><link rel="icon" href="/lucfe-hexo/assets/images/favicon_l.png"><link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/6.0.0/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-light.min.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/lucfe-hexo/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js"></script><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/lucfe-hexo/">Lucfe Knowledges</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/lucfe-hexo/">Home</a><a class="navbar-item" href="/lucfe-hexo/archives">Archives</a><a class="navbar-item" href="/lucfe-hexo/categories">Categories</a><a class="navbar-item" href="/lucfe-hexo/tags">Tags</a><a class="navbar-item" href="/lucfe-hexo/about">About</a></div><div class="navbar-end"><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2023-10-04T01:49:56.054Z" title="2023/10/4 09:49:56">2023-10-04</time></span><span class="level-item">Updated&nbsp;<time dateTime="2023-10-07T04:41:09.434Z" title="2023/10/7 12:41:09">2023-10-07</time></span><span class="level-item">35 minutes read (About 5185 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">xiaoyuan python</h1><div class="content"><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> urllib.request <span class="keyword">import</span> urlopen</span><br><span class="line"></span><br><span class="line">url = <span class="string">&quot;http://www.baidu.com&quot;</span></span><br><span class="line">resp = urlopen(url)</span><br><span class="line">html_body = resp.read().decode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;mybaidu.html&quot;</span>, mode=<span class="string">&quot;w&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(html_body)</span><br><span class="line"><span class="comment"># resp.close()</span></span><br></pre></td></tr></table></figure>
+
+<p>服务器渲染</p>
+<p>在没有AJAX的时候，也就是web1.0时代，几乎所有应用都是服务端渲染（此时服务器渲染非现在的服务器渲染），那个时候的页面渲染大概是这样的，浏览器请求页面URL，然后服务器接收到请求之后，到数据库查询数据，将数据丢到后端的组件模板（php、asp、jsp等）中，并渲染成HTML片段，接着服务器在组装这些HTML片段，组成一个完整的HTML，最后返回给浏览器，这个时候，浏览器已经拿到了一个完整的被服务器动态组装出来的HTML文本，然后将HTML渲染到页面中</p>
+<p><img src="/lucfe-hexo/assets/images/xiaoyuan_python/image.png" alt="Alt text"></p>
+<p>客户端渲染<br>前后端分离之后，网页开始被当成了独立的应用程序（SPA，Single Page Application），前端团队接管了所有页面渲染的事，后端团队只负责提供所有数据查询与处理的API，大体流程是这样的：首先浏览器请求URL，前端服务器直接返回一个空的静态HTML文件（不需要任何查数据库和模板组装），这个HTML文件中加载了很多渲染页面需要的 JavaScript 脚本和 CSS 样式表，浏览器拿到 HTML 文件后开始加载脚本和样式表，并且执行脚本，这个时候脚本请求后端服务提供的API，获取数据，获取完成后将数据通过JavaScript脚本动态的将数据渲染到页面中，完成页面显示。</p>
+<p><img src="/lucfe-hexo/assets/images/xiaoyuan_python/image-1.png" alt="Alt text"></p>
+<p>服务端渲染<br>服务端渲染。大体流程与客户端渲染有些相似，首先是浏览器请求URL，前端服务器接收到URL请求之后，根据不同的URL，前端服务器向后端服务器请求数据，请求完成后，前端服务器会组装一个携带了具体数据的HTML文本，并且返回给浏览器，浏览器得到HTML之后开始渲染页面，同时，浏览器加载并执行 JavaScript 脚本，给页面上的元素绑定事件，让页面变得可交互，当用户与浏览器页面进行交互，如跳转到下一个页面时，浏览器会执行 JavaScript 脚本，向后端服务器请求数据，获取完数据之后再次执行 JavaScript 代码动态渲染页面。</p>
+<p><img src="/lucfe-hexo/assets/images/xiaoyuan_python/image-2.png" alt="Alt text"></p>
+<p>响应头</p>
+<ul>
+<li>cookie</li>
+<li>token</li>
+</ul>
+<p>请求头</p>
+<ul>
+<li>user-agent</li>
+<li>referer请求从那一页面来的（即上一页面地址）</li>
+<li>cookie</li>
+</ul>
+<p>GET<br>POST</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line">url =<span class="string">&quot;https://sogou.com/web?query=周杰伦&quot;</span></span><br><span class="line"></span><br><span class="line">my_headers = &#123;</span><br><span class="line">    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36&quot;</span></span><br><span class="line">&#125;</span><br><span class="line">resp = requests.get(url, headers=my_headers)</span><br><span class="line"><span class="built_in">print</span>(resp)</span><br><span class="line">html_resp = resp.text</span><br><span class="line"><span class="built_in">print</span>(html_resp)</span><br><span class="line">resp.close()</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line">url = <span class="string">&quot;https://fanyi.baidu.com/sug&quot;</span></span><br><span class="line">word = <span class="built_in">input</span>(<span class="string">&quot;english world: &quot;</span>)</span><br><span class="line">dat = &#123;</span><br><span class="line">    <span class="string">&quot;kw&quot;</span>: word</span><br><span class="line">&#125;</span><br><span class="line">resp = requests.post(url, data=dat)</span><br><span class="line"><span class="built_in">print</span>(resp.json())</span><br><span class="line">resp.close()</span><br></pre></td></tr></table></figure>
+
+<h2 id="string"><a href="#string" class="headerlink" title="string"></a>string</h2><h3 id="the-most-common-string-methods"><a href="#the-most-common-string-methods" class="headerlink" title="the most common string methods"></a>the most common string methods</h3><ul>
+<li>s.lower(), s.upper() – returns the lowercase or uppercase version of the string</li>
+<li>s.strip() – returns a string with whitespace removed from the start and end</li>
+<li>s.isalpha()&#x2F;s.isdigit()&#x2F;s.isspace()… – tests if all the string chars are in the various character classes</li>
+<li>s.startswith(‘other’), s.endswith(‘other’) – tests if the string starts or ends with the given other string</li>
+<li>s.find(‘other’) – searches for the given other string (not a regular expression) within s, and returns the first index where it begins or -1 if not found</li>
+<li>s.replace(‘old’, ‘new’) – returns a string where all occurrences of ‘old’ have been replaced by ‘new’</li>
+<li>s.split(‘delim’) – returns a list of substrings separated by the given delimiter. The delimiter is not a regular expression, it’s just text. ‘aaa,bbb,ccc’.split(‘,’) -&gt; [‘aaa’, ‘bbb’, ‘ccc’]. As a convenient special case s.split() (with no arguments) splits on all whitespace chars.</li>
+<li>s.join(list) – opposite of split(), joins the elements in the given list together using the string as the delimiter. e.g. ‘—‘.join([‘aaa’, ‘bbb’, ‘ccc’]) -&gt; aaa—bbb—ccc</li>
+</ul>
+<p><code>str.rsplit(sep=None, maxsplit=-1)</code><br>Return a list of the words in the string, using sep as the delimiter string. If maxsplit is given, at most maxsplit splits are done, the rightmost ones. If sep is not specified or None, any whitespace string is a separator. Except for splitting from the right, rsplit() behaves like split() which is described in detail below.</p>
+<p><code>str.split(sep=None, maxsplit=- 1)</code><br>Return a list of the words in the string, using sep as the delimiter string. If maxsplit is given, at most maxsplit splits are done (thus, the list will have at most maxsplit+1 elements). If maxsplit is not specified or -1, then there is no limit on the number of splits (all possible splits are made).</p>
+<p>If sep is given, consecutive delimiters are not grouped together and are deemed to delimit empty strings (for example, <code>&#39;1,,2&#39;.split(&#39;,&#39;)</code> returns <code>[&#39;1&#39;, &#39;&#39;, &#39;2&#39;]</code>). The sep argument may consist of multiple characters (for example, <code>&#39;1&lt;&gt;2&lt;&gt;3&#39;.split(&#39;&lt;&gt;&#39;)</code> returns<code>[&#39;1&#39;, &#39;2&#39;, &#39;3&#39;]</code>). Splitting an empty string with a specified separator returns [‘’].</p>
+<h3 id="Strings-Unicode-vs-bytes"><a href="#Strings-Unicode-vs-bytes" class="headerlink" title="Strings (Unicode vs bytes)"></a>Strings (Unicode vs bytes)</h3><p>To convert a regular Python string to bytes, call the encode() method on the string. Going the other direction, the byte string decode() method converts encoded plain bytes to a unicode string:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&gt; ustring = <span class="string">&#x27;A unicode \u018e string \xf1&#x27;</span></span><br><span class="line">&gt; b = ustring.encode(<span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line">&gt; b</span><br><span class="line">b<span class="string">&#x27;A unicode \xc6\x8e string \xc3\xb1&#x27;</span>  <span class="comment">## bytes of utf-8 encoding. Note the b-prefix.</span></span><br><span class="line">&gt; t = b.decode(<span class="string">&#x27;utf-8&#x27;</span>)                <span class="comment">## Convert bytes back to a unicode string</span></span><br><span class="line">&gt; t == ustring                         <span class="comment">## It&#x27;s the same as the original, yay!</span></span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+
+<h2 id="解析"><a href="#解析" class="headerlink" title="解析"></a>解析</h2><h3 id="re"><a href="#re" class="headerlink" title="re"></a>re</h3><ul>
+<li>Method&#x2F;Attribute Purpose</li>
+</ul>
+<p>match()<br>Determine if the RE matches at the beginning of the string.</p>
+<p>search()<br>Scan through a string, looking for any location where this RE matches.</p>
+<p>findall()<br>Find all substrings where the RE matches, and returns them as a list.</p>
+<p>finditer()<br>Find all substrings where the RE matches, and returns them as an iterator.</p>
+<ul>
+<li>Match object instances</li>
+</ul>
+<p>group()<br>Return the string matched by the RE</p>
+<p>Method&#x2F;Attribute Purpose</p>
+<p>start()<br>Return the starting position of the match</p>
+<p>end()<br>Return the ending position of the match</p>
+<p>span()<br>Return a tuple containing the (start, end) positions of the match</p>
+<ul>
+<li>Compilation flags let you modify some aspects of how regular expressions work. Flags are available in the re module under two names, a long name such as IGNORECASE and a short, one-letter form such as I</li>
+</ul>
+<p>re.S<br>re.DOTALL<br>Makes the ‘.’ special character match any character at all, including a newline; without this flag, ‘.’ will match anything except a newline.</p>
+<ul>
+<li>named groups: instead of referring to them by numbers, groups can be referenced by a name.<br>The syntax for a named group is one of the Python-specific extensions: <code>(?P&lt;name&gt;...)</code>. name is, obviously, the name of the group.</li>
+</ul>
+<p>The match object methods that deal with capturing groups all accept either integers that refer to the group by number or strings that contain the desired group’s name.</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">p = re.<span class="built_in">compile</span>(<span class="string">r&#x27;(?P&lt;word&gt;\b\w+\b)&#x27;</span>)</span><br><span class="line">m = p.search( <span class="string">&#x27;(((( Lots of punctuation )))&#x27;</span> )</span><br><span class="line">m.group(<span class="string">&#x27;word&#x27;</span>)</span><br><span class="line"><span class="comment"># &#x27;Lots&#x27;</span></span><br><span class="line">m.group(<span class="number">1</span>)</span><br><span class="line"><span class="comment"># &#x27;Lots&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line">result_list = re.findall(<span class="string">r&quot;\d+&quot;</span>, <span class="string">&quot;我的电话号码是：10086&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(result_list)</span><br></pre></td></tr></table></figure>
+
+<p>效率不高</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#  iterator</span></span><br><span class="line">it = re.finditer(<span class="string">r&quot;\d+&quot;</span>, <span class="string">&quot;我的电话号码是：10086&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> it:</span><br><span class="line">    <span class="built_in">print</span>(i.group())</span><br></pre></td></tr></table></figure>
+
+<hr>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># match object group() return the first result</span></span><br><span class="line">s = re.search(<span class="string">r&quot;\d+&quot;</span>, <span class="string">&quot;我的电话号码是：10086，我女友的电话是：10010&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(s.group())</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>正则预加载</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">obj = re.<span class="built_in">compile</span>(<span class="string">r&quot;\d+&quot;</span>)</span><br><span class="line"></span><br><span class="line">it = obj.finditer(<span class="string">&quot;10086，我女友的电话是：10010&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> it:</span><br><span class="line">    <span class="built_in">print</span>(i.group())</span><br></pre></td></tr></table></figure>
+
+<p>提取字符段</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 提取字符段</span></span><br><span class="line">s = <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">&lt;div class=&#x27;jay&#x27;&gt;&lt;span id=&#x27;1&#x27;&gt;郭麒麟&lt;/span&gt;&lt;/div&gt;</span></span><br><span class="line"><span class="string">&lt;div class=&#x27;jj&#x27;&gt;&lt;span id=&#x27;2&#x27;&gt;宋铁&lt;/span&gt;&lt;/div&gt;</span></span><br><span class="line"><span class="string">&lt;div class=&#x27;jolin&#x27;&gt;&lt;span id=&#x27;3&#x27;&gt;大聪明&lt;/span&gt;&lt;/div&gt;</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="comment"># re.S 让.能匹配换行符</span></span><br><span class="line">obj = re.<span class="built_in">compile</span>(<span class="string">r&quot;&lt;div class=&#x27;.*?&#x27;&gt;&lt;span id=&#x27;(?P&lt;id&gt;\d+)&#x27;&gt;(?P&lt;name&gt;.*?)&lt;/span&gt;&lt;/div&gt;&quot;</span>, re.S)</span><br><span class="line"></span><br><span class="line">result = obj.finditer(s)</span><br><span class="line"><span class="keyword">for</span> it <span class="keyword">in</span> result:</span><br><span class="line">    <span class="built_in">print</span>(it.group(<span class="string">&quot;name&quot;</span>))</span><br><span class="line">    <span class="built_in">print</span>(it.group(<span class="string">&quot;id&quot;</span>))</span><br></pre></td></tr></table></figure>
+
+<p>Python 3 the file must be opened in untranslated text mode with the parameters <code>&#39;w&#39;, newline=&#39;&#39;</code>(empty string) or it will write \r\r\n on Windows, where the default text mode will translate each \n into \r\n.</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> csv</span><br><span class="line">it = obj.finditer(html_content)</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;data05.csv&quot;</span>, mode=<span class="string">&quot;w&quot;</span>, newline=<span class="string">&#x27;&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    csvwriter = csv.writer(f)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> it:</span><br><span class="line">        dic = i.groupdict()</span><br><span class="line">        dic[<span class="string">&quot;year&quot;</span>] = dic[<span class="string">&#x27;year&#x27;</span>].strip()</span><br><span class="line">        <span class="built_in">print</span>(dic.values())</span><br><span class="line">        csvwriter.writerow(dic.values())</span><br></pre></td></tr></table></figure>
+
+<h2 id="lxml-xpath"><a href="#lxml-xpath" class="headerlink" title="lxml   xpath"></a>lxml   xpath</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">title</span>&gt;</span>My page<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">h2</span>&gt;</span>Welcome to my page<span class="tag">&lt;<span class="name">h2</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;www.example.com&quot;</span>&gt;</span>page<span class="tag">&lt;/<span class="name">a</span>&gt;</span> </span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>This is the first paragraph<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">h2</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>For getting the text inside the <code>&lt;p&gt;</code> tag,</p>
+<p>XPath : <code>html/body/p/text()</code><br>Result : This is the first paragraph</p>
+<p>For getting a value inside the <code>&lt;href&gt;</code> attribute in the anchor or <code>&lt;a&gt;</code> tag,</p>
+<p>XPath : <code>html/body/a/@href</code><br>Result: <code>www.example.com</code></p>
+<p>For getting the value inside the second <code>&lt;h2&gt;</code> tag,</p>
+<p>XPath : <code>html/body/h2[2]/text()</code><br>Result: Hello World</p>
+<p>注意<code>//h1/text()</code>可能结果是个数组</p>
+<hr>
+<ul>
+<li>Specifying a complete path with <strong>&#x2F;</strong> as separator<br><code>title = root.xpath(&#39;/html/body/div/div/div[2]/h1&#39;)</code></li>
+</ul>
+<p>is the full path to my blog title. Notice how we request the 2nd element of the third set of div elements using <code>div[2]</code> – xpath arrays are one-based, not zero-based.</p>
+<ul>
+<li>Specifying a path with wildcards using <strong>&#x2F;&#x2F;</strong><br>This expression also finds the title but the preamble of &#x2F;html&#x2F;body&#x2F;div&#x2F;div is absorbed by the &#x2F;&#x2F; wildcard match:</li>
+</ul>
+<p><code>title = root.xpath(&#39;//div[2]/h1&#39;)</code></p>
+<ul>
+<li>Specifying an element by attribute<br>We can select elements which have particular attribute values:</li>
+</ul>
+<p><code>tagcloud = root.xpath(&#39;//*[@class=&quot;tagcloud&quot;]&#39;)</code></p>
+<p>this selects the tag cloud on my blog by selecting elements which having the class attribute “tagcloud”.</p>
+<ul>
+<li>Select via a parent or sibling relationship<br>Sometimes we want to select elements by their relationship to another element, for example:</li>
+</ul>
+<p>subtitle &#x3D; root.xpath(‘&#x2F;&#x2F;h1[contains(@class,”header_title”)]&#x2F;..&#x2F;h2’)</p>
+<p>this selects the h1 title of my blog (SomeBeans) then navigates to the parent with .. and selects the sibling h2 element (the subtitle “the makings of a small casserole”).</p>
+<p>The same effect can be achieved with the following-sibling keyword:</p>
+<p>subtitle &#x3D; root.xpath(‘&#x2F;&#x2F;h1[contains(@class,”header_title”)]&#x2F;following-sibling::h2’)</p>
+<hr>
+<p><img src="/lucfe-hexo/assets/images/xiaoyuan_python/image-4.png" alt="Alt text"></p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> lxml <span class="keyword">import</span> etree</span><br><span class="line"></span><br><span class="line">tree = etree.parse(<span class="string">&quot;data10.html&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># result = tree.xpath(&quot;/html/body/ul/li[1]/a/text()&quot;) # the first is &quot;1&quot;</span></span><br><span class="line"><span class="comment"># result = tree.xpath(&quot;/html/body/ol/li/a[@href=&#x27;dapao&#x27;]/text()&quot;) # the first is &quot;1&quot;</span></span><br><span class="line"><span class="comment"># result = tree.xpath(&quot;/book/author//nick/text()&quot;)</span></span><br><span class="line"><span class="comment"># result = tree.xpath(&quot;/book/author/*/nick/text()&quot;)</span></span><br><span class="line"><span class="built_in">print</span>(result)</span><br><span class="line"></span><br><span class="line">result = tree.xpath(<span class="string">&quot;/html/body/ol/li&quot;</span>) <span class="comment"># </span></span><br><span class="line">the first <span class="keyword">is</span> <span class="string">&quot;1&quot;</span></span><br><span class="line"><span class="keyword">for</span> li <span class="keyword">in</span> result:</span><br><span class="line">    <span class="built_in">print</span>(li.xpath(<span class="string">&quot;./a/text()&quot;</span>))</span><br><span class="line">    <span class="built_in">print</span>(li.xpath(<span class="string">&quot;./a/@href&quot;</span>))</span><br><span class="line"><span class="built_in">print</span>(result)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="css-selector"><a href="#css-selector" class="headerlink" title="css selector"></a>css selector</h2><p><img src="/lucfe-hexo/assets/images/xiaoyuan_python/image-6.png" alt="Alt text"></p>
+<p>xpath: &#x2F;html&#x2F;body&#x2F;p<br>CSS selector: html &gt; body &gt; p</p>
+<p>Basic CSS Selectors Cheatsheet</p>
+<table>
+<thead>
+<tr>
+<th>Selector</th>
+<th>Description</th>
+<th>Example</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Tag Selector</td>
+<td>Selects elements based on their tag name.</td>
+<td>p</td>
+<td>Selects all <code>&lt;p&gt;</code> elements.</td>
+</tr>
+<tr>
+<td>Class Selector</td>
+<td>Selects elements based on their class name.</td>
+<td>.example</td>
+<td>Selects all elements with the class name “example”.</td>
+</tr>
+<tr>
+<td>ID Selector</td>
+<td>Selects an element based on its ID.</td>
+<td>#example</td>
+<td>Selects the element with the ID “example”.</td>
+</tr>
+<tr>
+<td>Attribute Selector</td>
+<td>Selects elements based on their attribute and value.</td>
+<td>[type&#x3D;”text”]</td>
+<td>Selects all elements with the attribute “type” and</td>
+</tr>
+<tr>
+<td>Descendant Selector</td>
+<td>Selects elements that are descendants of another element.</td>
+<td>div p</td>
+<td>Selects all <code>&lt;p&gt;</code> elements that are descendants of a <code>&lt;div&gt;</code></td>
+</tr>
+<tr>
+<td>Child Selector</td>
+<td>Selects elements that are direct children of another element.</td>
+<td>ul &gt; li</td>
+<td>Selects all <code>&lt;li&gt;</code> elements that are direct children of a <code>&lt;ul&gt;</code> element.</td>
+</tr>
+<tr>
+<td>Pseudo-Class Selector</td>
+<td>Selects elements based on their state or position in the document.</td>
+<td>a:hover</td>
+<td>Selects all <code>&lt;a&gt;</code> elements when the mouse is</td>
+</tr>
+</tbody></table>
+<p>There are many pseudo-class selectors, some of which are described in this table.</p>
+<table>
+<thead>
+<tr>
+<th>Pseudo-class Selector</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>:hover</td>
+<td>Selects an element when the mouse pointer</td>
+</tr>
+<tr>
+<td>:active</td>
+<td>Selects an element when it is being</td>
+</tr>
+<tr>
+<td>:visited</td>
+<td>Selects a link that has been visited by</td>
+</tr>
+<tr>
+<td>:focus</td>
+<td>Selects an element when it has focus (e.g.</td>
+</tr>
+<tr>
+<td>:first-child</td>
+<td>Selects the first child element of its</td>
+</tr>
+<tr>
+<td>:last-child</td>
+<td>Selects the last child element of its</td>
+</tr>
+<tr>
+<td>:nth-child(n)</td>
+<td>Selects the nth child element of its</td>
+</tr>
+<tr>
+<td>:nth-of-type(n)</td>
+<td>Selects the nth element of its type</td>
+</tr>
+<tr>
+<td>:last-of-type</td>
+<td>Selects the last occurrence of an</td>
+</tr>
+</tbody></table>
+<p>The CSS expression below shows how to select the first div of the body element.</p>
+<p>html &gt; body &gt; div:nth-of-type(1)</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span>&gt;</span>This one<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span>&gt;</span>not This one<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span>&gt;</span>not This one<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>The next-sibling combinator (+) separates two selectors and matches the second element only if it immediately follows the first element, and both are children of the same parent element.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>One<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>Two!<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>Three<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>select the <code>&lt;li&gt;Two!&lt;/li&gt;</code></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">li</span><span class="selector-pseudo">:first</span>-of-type + <span class="selector-tag">li</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: red;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>Select by attribute value containing<br><code>input[class*=&quot;example&quot;]</code></p>
+<p>Select by attribute value starting with<br><code>input[id^=&quot;example&quot;]</code></p>
+<p>Select by attribute value ending with<br><code>a[href$=&quot;example&quot;]</code></p>
+<hr>
+<p>XPath to CSS Selector Conversion</p>
+<table>
+<thead>
+<tr>
+<th>Equivalency</th>
+<th>XPath Notation</th>
+<th>CSS Selector</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Select by element type</td>
+<td>&#x2F;&#x2F;div</td>
+<td>div</td>
+</tr>
+<tr>
+<td>Select by class name</td>
+<td><code>//div[@class=”example”]</code></td>
+<td>div.</td>
+</tr>
+<tr>
+<td>Select by ID</td>
+<td><code>//*[@id=”example”]</code></td>
+<td>#example</td>
+</tr>
+<tr>
+<td>Select by attribute</td>
+<td><code>//input[@name=”example”]</code></td>
+<td><code>input[name=”example”]</code></td>
+</tr>
+<tr>
+<td>Select by attribute value containing</td>
+<td><code>//input[contains(@class, “example”)]</code></td>
+<td>&#96;input[class*&#x3D;”</td>
+</tr>
+<tr>
+<td>Select by attribute value starting with</td>
+<td>&#96;&#x2F;&#x2F;input</td>
+<td>[starts-with(@id, “example”)]&#96;</td>
+</tr>
+<tr>
+<td>Select by attribute value ending with</td>
+<td>&#96;&#x2F;&#x2F;a[ends-with</td>
+<td>(@href, “example”)]&#96;</td>
+</tr>
+<tr>
+<td>Select by sibling</td>
+<td>&#x2F;&#x2F;div&#x2F;following-sibling::p</td>
+<td>div</td>
+</tr>
+<tr>
+<td>Select by descendant</td>
+<td>&#x2F;&#x2F;div&#x2F;&#x2F;p</td>
+<td>div p</td>
+</tr>
+<tr>
+<td>Select by first child</td>
+<td><code>//div/p[1]</code></td>
+<td>div &gt;</td>
+</tr>
+<tr>
+<td>Select by last child</td>
+<td><code>//div/p[last()]</code></td>
+<td>div &gt;</td>
+</tr>
+</tbody></table>
+<h3 id="parsel-Selector"><a href="#parsel-Selector" class="headerlink" title="parsel.Selector"></a>parsel.Selector</h3><p>.xpath() and .css() methods return a SelectorList instance, which is a list of new selectors.</p>
+<p>If you want to extract only the first matched element, you can call the selector .get()</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> parsel <span class="keyword">import</span> Selector</span><br><span class="line">html_text = <span class="string">&quot;&lt;html&gt;&lt;body&gt;&lt;h1&gt;Hello, Parsel!&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;&quot;</span></span><br><span class="line">html_selector = Selector(text=html_text)</span><br><span class="line">html_selector.css(<span class="string">&#x27;h1&#x27;</span>)</span><br><span class="line"><span class="comment"># [&lt;Selector query=&#x27;descendant-or-self::h1&#x27; data=&#x27;&lt;h1&gt;Hello, Parsel!&lt;/h1&gt;&#x27;&gt;]</span></span><br><span class="line">html_selector.xpath(<span class="string">&#x27;//h1&#x27;</span>)  <span class="comment"># the same, but now with XPath</span></span><br><span class="line"><span class="comment"># [&lt;Selector query=&#x27;//h1&#x27; data=&#x27;&lt;h1&gt;Hello, Parsel!&lt;/h1&gt;&#x27;&gt;]</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>selecting the text inside the title tag:</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">selector.xpath(<span class="string">&#x27;//title/text()&#x27;</span>)</span><br><span class="line"><span class="comment"># [&lt;Selector query=&#x27;//title/text()&#x27; data=&#x27;Example website&#x27;&gt;]</span></span><br><span class="line"></span><br><span class="line">selector.css(<span class="string">&#x27;title::text&#x27;</span>)</span><br><span class="line"><span class="comment"># [&lt;Selector query=&#x27;descendant-or-self::title/text()&#x27; data=&#x27;Example website&#x27;&gt;]</span></span><br></pre></td></tr></table></figure>
+
+<p>To actually extract the textual data, you must call the selector .get() or .getall() methods, as follows:</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">selector.xpath(<span class="string">&#x27;//title/text()&#x27;</span>).getall()</span><br><span class="line"><span class="comment"># [&#x27;Example website&#x27;]</span></span><br><span class="line">selector.xpath(<span class="string">&#x27;//title/text()&#x27;</span>).get()</span><br><span class="line"><span class="comment"># &#x27;Example website&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>query for attributes using .attrib property of a Selector:</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[img.attrib[<span class="string">&#x27;src&#x27;</span>] <span class="keyword">for</span> img <span class="keyword">in</span> selector.css(<span class="string">&#x27;img&#x27;</span>)]</span><br><span class="line"><span class="comment"># [&#x27;image1_thumb.jpg&#x27;, &#x27;image2_thumb.jpg&#x27;, &#x27;image3_thumb.jpg&#x27;, &#x27;image4_thumb.jpg&#x27;, &#x27;image5_thumb.jpg&#x27;]</span></span><br></pre></td></tr></table></figure>
+
+<p>As a shortcut, .attrib is also available on SelectorList directly; it returns attributes for the first matching element:</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">selector.css(<span class="string">&#x27;img&#x27;</span>).attrib[<span class="string">&#x27;src&#x27;</span>]</span><br><span class="line"><span class="comment"># &#x27;image1_thumb.jpg&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> parsel <span class="keyword">import</span> Selector</span><br><span class="line">selector_1 = Selector(resp.text)</span><br><span class="line">text_1 = selector_1.css(<span class="string">&quot;//div[@class=&quot;</span>example<span class="string">&quot;]&quot;</span>).get()</span><br></pre></td></tr></table></figure>
+
+<h3 id="bs4"><a href="#bs4" class="headerlink" title="bs4"></a>bs4</h3><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">page = BeautifulSoup(content, <span class="string">&quot;html.parser&quot;</span>)</span><br><span class="line"><span class="comment"># div_item = page.find(&quot;div&quot;, class_=&quot;item&quot;)</span></span><br><span class="line">ol = page.find(<span class="string">&quot;ol&quot;</span>, attrs=&#123;<span class="string">&quot;class&quot;</span>: <span class="string">&quot;grid_view&quot;</span>&#125;)</span><br><span class="line"><span class="comment"># print(div_item)</span></span><br><span class="line">lis = ol.find_all(<span class="string">&quot;li&quot;</span>)</span><br><span class="line"></span><br><span class="line">a = li.find(<span class="string">&quot;a&quot;</span>)</span><br><span class="line">a.get(<span class="string">&quot;href&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">img = article.find_all(<span class="string">&quot;img&quot;</span>)[<span class="number">0</span>]</span><br><span class="line">    img_src = img.get(<span class="string">&quot;src&quot;</span>)</span><br><span class="line">    img_resp = requests.get(img_src, headers=my_headers)</span><br><span class="line">    img_resp.close()</span><br><span class="line">    img_name = img_src.split(<span class="string">&quot;/&quot;</span>)[-<span class="number">1</span>]</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">f&quot;data08/<span class="subst">&#123;img_name&#125;</span>&quot;</span>, mode=<span class="string">&quot;wb&quot;</span>) <span class="keyword">as</span> f1:</span><br><span class="line">        f1.write(img_resp.content)</span><br></pre></td></tr></table></figure>
+
+<p><img src="/lucfe-hexo/assets/images/xiaoyuan_python/image-3.png" alt="Alt text"></p>
+<h4 id="bs4-lxml"><a href="#bs4-lxml" class="headerlink" title="bs4 lxml"></a>bs4 lxml</h4><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">html = requests.get(<span class="string">&quot;https://www.google.com/search?q=minecraft&quot;</span>, headers=headers)</span><br><span class="line">soup = BeautifulSoup(html.text, <span class="string">&quot;lxml&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> result <span class="keyword">in</span> soup.select(<span class="string">&quot;.tF2Cxc&quot;</span>):</span><br><span class="line">    title = result.select_one(<span class="string">&quot;.DKV0Md&quot;</span>).text</span><br><span class="line">    link = result.select_one(<span class="string">&quot;.yuRUbf a&quot;</span>)[<span class="string">&quot;href&quot;</span>]</span><br><span class="line">    displayed_link = result.select_one(<span class="string">&quot;.lEBKkf span&quot;</span>).text</span><br><span class="line">    snippet = result.select_one(<span class="string">&quot;.lEBKkf span&quot;</span>).text</span><br><span class="line"></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;title&#125;</span>\n<span class="subst">&#123;link&#125;</span>\n<span class="subst">&#123;displayed_link&#125;</span>\n<span class="subst">&#123;snippet&#125;</span>\n&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="session"><a href="#session" class="headerlink" title="session"></a>session</h2><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line">url = <span class="string">&quot;https://passport.17k.com/ck/user/login&quot;</span></span><br><span class="line">session = requests.session()</span><br><span class="line">data = &#123;</span><br><span class="line">    <span class="string">&quot;loginName&quot;</span>: <span class="string">&quot;some username&quot;</span>,</span><br><span class="line">    <span class="string">&quot;password&quot;</span>: <span class="string">&quot;some password&quot;</span>,</span><br><span class="line">&#125;</span><br><span class="line">login_resp = session.post(url, data=data)</span><br><span class="line"><span class="built_in">print</span>(login_resp.cookies)</span><br><span class="line"></span><br><span class="line">shelf_resp = session.get(<span class="string">&quot;https://user.17k.com/ck/author2/shelf?page=1&amp;appKey=2406394919&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(shelf_resp.json())</span><br><span class="line"></span><br><span class="line">login_resp.close()</span><br><span class="line">shelf_resp.close()</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">my_header = &#123;</span><br><span class="line">    <span class="string">&quot;Cookie&quot;</span>: <span class="string">&quot;some cookie from web browser&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">shelf_d_resp = requests.get(<span class="string">&quot;https://user.17k.com/ck/author2/shelf?page=1&amp;appKey=2406394919&quot;</span>, headers=my_header)</span><br><span class="line"><span class="built_in">print</span>(shelf_d_resp.json())</span><br><span class="line">shelf_d_resp.close()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="referer"><a href="#referer" class="headerlink" title="referer"></a>referer</h3><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">my_headers = &#123;</span><br><span class="line">    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36&quot;</span>,</span><br><span class="line">    <span class="string">&quot;Referer&quot;</span>: url,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="pycrypto-安装"><a href="#pycrypto-安装" class="headerlink" title="pycrypto 安装"></a>pycrypto 安装</h4><p>The Visual C++ Redistributable installs Microsoft C and C++ (MSVC) runtime libraries. These libraries are required by many applications built by using Microsoft C and C++ tools. If your app uses those libraries, a Microsoft Visual C++ Redistributable package must be installed on the target system before you install your app.</p>
+<p>Microsoft C++ 生成工具通过可编写脚本的独立安装程序提供 MSVC 工具集，无需使用 Visual Studio。 如果从命令行界面（例如，持续集成工作流中）生成面向 Windows 的 C++ 库和应用程序， 则推荐使用此工具。</p>
+<p>Win7安装pycrypto报错ucrt\inttypes.h(26): error C2061: syntax error: identifier ‘intmax_t‘<br>1.将C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include下的stdint.h复制到C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt2.编辑C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt下的inttypes.h将#include &lt;stdint.h&gt;改为#include “stdint.h”, 目的是让它使用上面第一点复制的头文件stdint.h</p>
+<p>pycrypto is no longer maintained: see pycrypto.org <strong>pycryptodome</strong> is the modern maintained replacement for pycrypto</p>
+<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><p>m3u8</p>
+<p><img src="/lucfe-hexo/assets/images/xiaoyuan_python/image-5.png" alt="Alt text"></p>
+<p>https%3A%2F%2Fnew.1080pzy.co%2F20230116%2F34sxZOJQ%2Findex.m3u8</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">https://new.1080pzy.co/20230116/34sxZOJQ/index.m3u8</span><br><span class="line">#EXTM3U</span><br><span class="line">#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1100000,RESOLUTION=960x540</span><br><span class="line">/20230116/34sxZOJQ/1100kb/hls/index.m3u8</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">https://new.1080pzy.co/20230116/34sxZOJQ/1100kb/hls/index.m3u8</span><br><span class="line">#EXTM3U</span><br><span class="line">#EXT-X-VERSION:3</span><br><span class="line">#EXT-X-TARGETDURATION:4</span><br><span class="line">#EXT-X-PLAYLIST-TYPE:VOD</span><br><span class="line">#EXT-X-MEDIA-SEQUENCE:0</span><br><span class="line">#EXTINF:3.086,</span><br><span class="line">https://hey05.cjkypo.com/20230116/34sxZOJQ/1100kb/hls/c16ZdUp5.ts</span><br><span class="line">#EXTINF:2.085,</span><br><span class="line">https://hey05.cjkypo.com/20230116/34sxZOJQ/1100kb/hls/zAiBKR1T.ts</span><br><span class="line">#EXTINF:2.085,</span><br><span class="line">https://hey05.cjkypo.com/20230116/34sxZOJQ/1100kb/hls/na7WHAiK.ts</span><br></pre></td></tr></table></figure>
+
+<p>The data is UTF-8 encoded bytes escaped with URL quoting, so you want to decode, with urllib.parse.unquote(), which handles decoding from percent-encoded data to UTF-8 bytes and then to text, transparently:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; from urllib.parse import unquote</span><br><span class="line">&gt;&gt;&gt; url = <span class="string">&#x27;example.com?title=%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D0%B2%D0%B0%D1%8F+%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0&#x27;</span></span><br><span class="line">&gt;&gt;&gt; unquote(url)</span><br><span class="line"><span class="string">&#x27;example.com?title=правовая+защита&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>ffmpeg使用语法:</p>
+<p>具体一点来说：</p>
+<ol>
+<li><p>-f concat，-f 一般设置输出文件的格式，如-f psp（输出psp专用格式），但是如果跟concat，则表示采用concat协议，对文件进行连接合并。</p>
+</li>
+<li><p>-safe 0，用于忽略一些文件名错误，如长路径、空格、非ANSIC字符</p>
+</li>
+<li><p>-i D:\ProgramData\study\mov\order.m3u8，-i后面加输入文件名，当然也可以加输入文件名组成的文件名，即order.m3u8，但是要满足文件格式，即类似于下面这种:</p>
+<p>file ‘D:\ProgramData\study\mov\tsfiles\MQJ9iKoM.ts’<br>file ‘D:\ProgramData\study\mov\tsfiles\8LeDe7Wu.ts’</p>
+</li>
+<li><p>-c copy D:\ProgramData\study\mov\hello.mp4，-c表示输出文件采用的编码器，后面跟copy，表示直接复制，不重新编码。</p>
+</li>
+</ol>
+<h2 id="并发"><a href="#并发" class="headerlink" title="并发"></a>并发</h2><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> threading <span class="keyword">import</span> Thread</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">func</span>():</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1000</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;func&quot;</span>, i)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    thread_1 = Thread(target=func)</span><br><span class="line">    thread_1.start()</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1000</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;main&quot;</span>, i)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> threading <span class="keyword">import</span> Thread</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">MyThread</span>(<span class="title class_ inherited__">Thread</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1000</span>):</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;child thread&quot;</span>, i)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    thread_1 = MyThread()</span><br><span class="line">    thread_1.start()</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1000</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;main&quot;</span>, i)</span><br></pre></td></tr></table></figure>
+
+<h3 id="池"><a href="#池" class="headerlink" title="池"></a>池</h3><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> concurrent.futures <span class="keyword">import</span> ThreadPoolExecutor, ProcessPoolExecutor</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">fn</span>(<span class="params">name</span>):</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1000</span>):</span><br><span class="line">        <span class="built_in">print</span>(name, i)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    <span class="keyword">with</span> ThreadPoolExecutor(<span class="number">8</span>) <span class="keyword">as</span> t_pool:</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">100</span>):</span><br><span class="line">            t_pool.submit(fn, name=<span class="string">f&quot;thread<span class="subst">&#123;i&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 等待进程池中的任务全部完成是才向下执行</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;finished!&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h3 id="协程coroutine"><a href="#协程coroutine" class="headerlink" title="协程coroutine"></a>协程coroutine</h3><p>阻塞<br><code>requests.get(url)</code><br>网络请求返回数据之前，处于阻塞状态。</p>
+<p>协程：<br>当程序遇见IO操作时，选择性的切换到其他任务<br>微观上，单线程下，一个任务一个任务的进行切换，切换条件即IO操作<br>宏观上，多个任务同时执行，即多任务异步操作。</p>
+<p>DeprecationWarning: The explicit passing of coroutine objects to asyncio.wait() is deprecated since Python 3.8, and scheduled for removal in Python 3.11.</p>
+<p>The asyncio.wait() documentation obviously says nothing about this or what you’re supposed to do instead, but as far as I can figure out you replace asyncio.wait([a, b]) with asyncio.gather(a, b).</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> asyncio</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">func1</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;hello world 1&quot;</span>)</span><br><span class="line">    <span class="comment"># time.sleep(4)</span></span><br><span class="line">    <span class="keyword">await</span> asyncio.sleep(<span class="number">4</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;hello world 1&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">func2</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;hello world 2&quot;</span>)</span><br><span class="line">    <span class="comment"># time.sleep(3)</span></span><br><span class="line">    <span class="keyword">await</span> asyncio.sleep(<span class="number">3</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;hello world 2&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">func3</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;hello world 3&quot;</span>)</span><br><span class="line">    <span class="comment"># time.sleep(2)</span></span><br><span class="line">    <span class="keyword">await</span> asyncio.sleep(<span class="number">2</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;hello world 3&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">main</span>():</span><br><span class="line">    <span class="comment"># # Schedule three calls *concurrently*:</span></span><br><span class="line">    <span class="comment"># L = await asyncio.gather(</span></span><br><span class="line">    <span class="comment">#     func1(),</span></span><br><span class="line">    <span class="comment">#     func2(),</span></span><br><span class="line">    <span class="comment">#     func3(),</span></span><br><span class="line">    <span class="comment"># )</span></span><br><span class="line">    <span class="comment"># print(L)</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">await</span> asyncio.wait([</span><br><span class="line">        asyncio.create_task(func1()),</span><br><span class="line">        asyncio.create_task(func2()),</span><br><span class="line">        asyncio.create_task(func3()),</span><br><span class="line">    ])</span><br><span class="line">t1 = time.time()</span><br><span class="line">asyncio.run(main())</span><br><span class="line">t2 = time.time()</span><br><span class="line"><span class="built_in">print</span>(t2 - t1)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> aiohttp</span><br><span class="line"><span class="keyword">import</span> asyncio</span><br><span class="line"></span><br><span class="line">urls = [</span><br><span class="line">    <span class="string">&quot;https://p.qqan.com/up/2023-9/16951819146781660.jpg&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://p.qqan.com/up/2023-9/16950082886215315.jpg&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://p.qqan.com/up/2023-9/16957095513204923.jpg&quot;</span></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">aio_download</span>(<span class="params">url</span>):</span><br><span class="line">    <span class="comment"># &quot;sdfa&quot;.rsplit()</span></span><br><span class="line">    name = url.rsplit(<span class="string">&quot;/&quot;</span>, <span class="number">1</span>)[<span class="number">1</span>]</span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">with</span> aiohttp.ClientSession() <span class="keyword">as</span> session:</span><br><span class="line">        <span class="keyword">async</span> <span class="keyword">with</span> session.get(url) <span class="keyword">as</span> resp:</span><br><span class="line">            <span class="comment"># resp.text()</span></span><br><span class="line">            <span class="comment"># resp.json()</span></span><br><span class="line">            <span class="comment"># await resp.content.read()</span></span><br><span class="line">            <span class="comment">## aiofiles 异步读写文件</span></span><br><span class="line">            <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">f&quot;data21/<span class="subst">&#123;name&#125;</span>&quot;</span>, mode=<span class="string">&quot;wb&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">                f.write(<span class="keyword">await</span> resp.content.read())</span><br><span class="line"></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;name&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">main</span>():</span><br><span class="line">    tasks = []</span><br><span class="line">    <span class="keyword">for</span> url <span class="keyword">in</span> urls:</span><br><span class="line">        task = asyncio.create_task(aio_download(url))</span><br><span class="line">        tasks.append(task)</span><br><span class="line">    <span class="keyword">await</span> asyncio.wait(tasks)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    asyncio.run(main())</span><br></pre></td></tr></table></figure>
+
+<h3 id="aes-解密-TS"><a href="#aes-解密-TS" class="headerlink" title="aes 解密 TS"></a>aes 解密 TS</h3><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">dec_ts</span>(<span class="params">name, key</span>):</span><br><span class="line">    aes =AES.new(key=key, IV=<span class="string">b&#x27;0000000000000000&#x27;</span>, mode=AES.MODE_CBC)</span><br><span class="line">    <span class="keyword">async</span> <span class="keyword">with</span> aiofiles.<span class="built_in">open</span>(<span class="string">f&quot;data23/<span class="subst">&#123;name&#125;</span>&quot;</span>, mode=<span class="string">&quot;rb&quot;</span>) <span class="keyword">as</span> f1,\</span><br><span class="line">        aiofiles.<span class="built_in">open</span>(<span class="string">f&quot;data23/temp_<span class="subst">&#123;name&#125;</span>&quot;</span>, mode= <span class="string">&quot;wb&quot;</span>) <span class="keyword">as</span> f2:</span><br><span class="line">        bs = <span class="keyword">await</span> f1.read()</span><br><span class="line">        <span class="keyword">await</span> f2.write(aes.decrypt(bs))</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;name&#125;</span> decrypt finished&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h3 id="ts合并"><a href="#ts合并" class="headerlink" title="ts合并"></a>ts合并</h3><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># mac os</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">merge_ts</span>():</span><br><span class="line">    file_list = []</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;data15/temp2.m3u8&quot;</span>, mode=<span class="string">&quot;r&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        <span class="keyword">for</span> line <span class="keyword">in</span> f :</span><br><span class="line">            <span class="keyword">if</span> line.startswith(<span class="string">&quot;#&quot;</span>):</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            line = line.strip()</span><br><span class="line">            name = line.rsplit(<span class="string">&quot;/&quot;</span>, <span class="number">1</span>)[<span class="number">1</span>]</span><br><span class="line">            file_list.append(<span class="string">f&quot;data23/temp_<span class="subst">&#123;name&#125;</span>&quot;</span>)</span><br><span class="line">    s = <span class="string">&quot; &quot;</span>.join(file_list)</span><br><span class="line">    os.system(<span class="string">f&quot;cat <span class="subst">&#123;s&#125;</span> &gt; movie.mp4&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># windows os</span></span><br><span class="line"><span class="comment">#文件夹下的ts文件的命名必须按照字母顺序排列, 否则合并文件后视频片段会产生混乱.（注意：名为‘10.ts’的文件的顺序会排在名为&#x27;9.ts&#x27;文件的前面，</span></span><br><span class="line"><span class="comment"># 也就是说，这里的字母顺序是指字符串的顺序。如果要用字符数字来命名ts文件，那么就需要给某些数字加上前导0）</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">merge_ts2</span>():</span><br><span class="line">    os.system(<span class="string">&#x27;copy /b &#x27;</span> + <span class="string">r&#x27;C:\Users\lcf\Documents\learning\xiaoyuan\data23\*.ts &#x27;</span> + <span class="string">r&#x27;C:\Users\lcf\Documents\learning\xiaoyuan\data23\new.ts&#x27;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;合并成功&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="selenium"><a href="#selenium" class="headerlink" title="selenium"></a>selenium</h2><p>pip install selenium</p>
+<p>install chrome driver<br>copy to the python.exe and scripts folder</p>
+<p>if you have selenium above the 4.6.0 you don’t need to add executable_url and in the latest version of Selenium you don’t need to download webdriver.<br>With latest selenium(v4.6.0 and onwards), its in-built tool known as SeleniumManger can download and handle the driver.exe if you do not specify.</p>
+<p>Selenium Manager provides automated driver management for: Google Chrome, Mozilla Firefox, Microsoft Edge.<br>Selenium Manager is invoked transparently by the Selenium bindings when:<br>No browser driver is detected on the PATH<br>No third party driver manager is being used</p>
+<hr>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> selenium.webdriver <span class="keyword">import</span> Chrome, ChromeOptions</span><br><span class="line">chrome_options = ChromeOptions()</span><br><span class="line">chrome_options.add_experimental_option(<span class="string">&quot;detach&quot;</span>, <span class="literal">True</span>)</span><br><span class="line">web_browser = Chrome(options=chrome_options)</span><br><span class="line">web_browser.get(<span class="string">&quot;https://www.baidu.com&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(web_browser.title)</span><br></pre></td></tr></table></figure>
+
+<p>With <code>WebDriverWait</code>, you don’t really have to take that into account. It will wait only as long as necessary until the desired element shows up (or it hits a timeout).</p>
+<hr>
+<p>A WebElement is a Selenium object representing an HTML element.</p>
+<p>There are many actions that you can perform on those objects, here are the most useful:</p>
+<p>Accessing the text of the element with the property <code>element.text</code><br>Clicking the element with <code>element.click()</code><br>Accessing an attribute with <code>element.get_attribute(&#39;class&#39;)</code><br>Sending text to an input with <code>element.send_keys(&#39;mypassword&#39;)</code></p>
+<hr>
+<p>WebDriver provides two main methods for finding elements.</p>
+<p>find_element<br>find_elements</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+<th>DOM Sample</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>By.ID</td>
+<td>Searches for elements based on their HTML ID</td>
+<td><code>&lt;div id=&quot;myID&quot;&gt;</code></td>
+<td>find_element(By.ID, “myID”)</td>
+</tr>
+<tr>
+<td>By.NAME</td>
+<td>Searches for elements based on their name attribute</td>
+<td><code>&lt;input name=&quot;myNAME&quot;&gt;</code></td>
+<td>find_element(By.NAME, “myNAME”)</td>
+</tr>
+<tr>
+<td>By.XPATH</td>
+<td>Searches for elements based on an XPath expression</td>
+<td><code>&lt;span&gt;My &lt;a&gt;Link&lt;/a&gt;&lt;/span&gt;</code></td>
+<td>find_element(By.XPATH, “&#x2F;&#x2F;span&#x2F;</td>
+</tr>
+<tr>
+<td>By.LINK_TEXT</td>
+<td>Searches for anchor elements based on a match of their text content</td>
+<td><code>&lt;a&gt;My Link&lt;/a&gt;</code></td>
+<td>find_element(By.LINK_TEXT, “My Link”)</td>
+</tr>
+<tr>
+<td>By.PARTIAL_LINK_TEXT</td>
+<td>Searches for anchor elements based on a sub-string match of their text content</td>
+<td><code>&lt;a&gt;My Link&lt;/a&gt;</code></td>
+<td>find_element(By.PARTIAL_LINK_TEXT, “Link”)</td>
+</tr>
+<tr>
+<td>By.TAG_NAME</td>
+<td>Searches for elements based on their tag name</td>
+<td><code>&lt;h1&gt;</code></td>
+<td>find_element(By.TAG_NAME, “h1”)</td>
+</tr>
+<tr>
+<td>By.CLASS_NAME</td>
+<td>Searches for elements based on their HTML classes</td>
+<td><code>&lt;div class=&quot;myCLASS&quot;&gt;</code></td>
+<td>find_element(By.CLASSNAME,</td>
+</tr>
+<tr>
+<td>By.CSS_SELECTOR</td>
+<td>Searches for elements based on a CSS selector</td>
+<td><code>&lt;span&gt;My &lt;a&gt;Link&lt;/a&gt;&lt;/span&gt;</code></td>
+<td>find_element(By.CSS_SELECTOR,</td>
+</tr>
+</tbody></table>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># from selenium.webdriver import Chrome, ChromeOptions</span></span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.chrome.options <span class="keyword">import</span> Options</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver <span class="keyword">import</span> Chrome</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.common.by <span class="keyword">import</span> By</span><br><span class="line"><span class="keyword">from</span> selenium.webdriver.common.keys <span class="keyword">import</span> Keys</span><br><span class="line"></span><br><span class="line">chrome_options = Options()</span><br><span class="line">chrome_options.add_experimental_option(<span class="string">&quot;detach&quot;</span>, <span class="literal">True</span>)</span><br><span class="line">web_browser = Chrome(options=chrome_options)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">url = <span class="string">&quot;https://www.lagou.com/&quot;</span></span><br><span class="line">web_browser.get(url)</span><br><span class="line"><span class="comment"># print(web_browser.title)</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在selenium环境下可以大胆chrome复制XPATH</span></span><br><span class="line">location = web_browser.find_element(by=By.XPATH, value=<span class="string">&#x27;//*[@id=&quot;changeCityBox&quot;]/p[1]/a&#x27;</span>)</span><br><span class="line">location.click()</span><br><span class="line"></span><br><span class="line">time.sleep(<span class="number">3</span>)</span><br><span class="line"></span><br><span class="line">search_input = web_browser.find_element(by=By.XPATH, value=<span class="string">&#x27;//*[@id=&quot;search_input&quot;]&#x27;</span>)</span><br><span class="line">search_input.send_keys(<span class="string">&quot;python&quot;</span>, Keys.ENTER)</span><br><span class="line"></span><br><span class="line"><span class="comment">## selenium 动态执行JS</span></span><br><span class="line">web_browser.execute_script(<span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">let a = document.getElementsByClassName(&quot;un-login-banner&quot;)[0];</span></span><br><span class="line"><span class="string">if (a) &#123;</span></span><br><span class="line"><span class="string">a.style.display = &quot;none&quot;;</span></span><br><span class="line"><span class="string">&#125;</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">time.sleep(<span class="number">2</span>)</span><br><span class="line">                                                <span class="comment">#    //*[@id=&quot;jobList&quot;]/div[1]/div[1]/div[1]/div[2]/div[1]/a</span></span><br><span class="line">jobs = web_browser.find_elements(by=By.XPATH, value=<span class="string">&#x27;//*[@id=&quot;jobList&quot;]/div[1]/div&#x27;</span>)</span><br><span class="line"><span class="keyword">for</span> job <span class="keyword">in</span> jobs:</span><br><span class="line">    job_name = job.find_element(By.XPATH, <span class="string">&#x27;.//*[@id=&quot;openWinPostion&quot;]&#x27;</span>)</span><br><span class="line">    <span class="comment"># company_name = job.find_element(By.XPATH, &#x27;./div[1]/div[2]/div[1]/a&#x27;)</span></span><br><span class="line">    <span class="comment"># print(job_name.text, company_name.text)</span></span><br><span class="line">    job_name.click()</span><br><span class="line">    <span class="comment">##切换 TAB</span></span><br><span class="line">    time.sleep(<span class="number">2</span>)</span><br><span class="line">    web_browser.switch_to.window(web_browser.window_handles[-<span class="number">1</span>])</span><br><span class="line">    job_detail = web_browser.find_element(By.XPATH,<span class="string">&#x27;//*[@id=&quot;job_detail&quot;]/dd[2]/div&#x27;</span>).text</span><br><span class="line">    <span class="built_in">print</span>(job_detail)</span><br><span class="line">    <span class="comment">## close tab</span></span><br><span class="line">    web_browser.close()</span><br><span class="line">    web_browser.switch_to.window(web_browser.window_handles[<span class="number">0</span>])</span><br><span class="line">    <span class="comment"># break</span></span><br><span class="line"><span class="comment"># web_browser.quit()</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">browser = Chrome()</span><br><span class="line">browser.get(<span class="string">&quot;&quot;</span>)</span><br><span class="line">html_source = browser.page_source</span><br></pre></td></tr></table></figure>
+</div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/github_python_100_days/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">python 100 days</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/qiangfeng_python/"><span class="level-item">qiangfeng python</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1 is-sticky"><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/"><span class="level-start"><span class="level-item">0001 Humanities</span></span><span class="level-end"><span class="level-item tag">4</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/%E5%8E%86%E5%8F%B2%E5%AD%A6-History/"><span class="level-start"><span class="level-item">历史学 History</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0001-Humanities/%E8%89%BA%E6%9C%AF%E5%AD%A6-Arts/"><span class="level-start"><span class="level-item">艺术学 Arts</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/"><span class="level-start"><span class="level-item">0002 Social science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/%E7%BB%8F%E6%B5%8E%E7%AE%A1%E7%90%86%E5%AD%A6-Business-and-Economics/"><span class="level-start"><span class="level-item">经济管理学 Business and Economics</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0002-Social-science/%E8%AF%AD%E8%A8%80%E5%AD%A6-Linguistics-and-languages/"><span class="level-start"><span class="level-item">语言学 Linguistics and languages</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0003-Natural-science/"><span class="level-start"><span class="level-item">0003 Natural science</span></span><span class="level-end"><span class="level-item tag">3</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0003-Natural-science/%E5%9C%B0%E7%90%83%E7%A7%91%E5%AD%A6-Earth-science/"><span class="level-start"><span class="level-item">地球科学 Earth science</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/"><span class="level-start"><span class="level-item">0004 Formal science</span></span><span class="level-end"><span class="level-item tag">6</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/%E6%95%B0%E5%AD%A6-Mathematics/"><span class="level-start"><span class="level-item">数学 Mathematics</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0004-Formal-science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF-Computer-science/"><span class="level-start"><span class="level-item">计算机科学技术 Computer science</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/"><span class="level-start"><span class="level-item">0005 Applied science</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/"><span class="level-start"><span class="level-item">工程与技术科学 Engineering and technology</span></span><span class="level-end"><span class="level-item tag">2</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/0005-Applied-science/%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A7%91%E5%AD%A6-Engineering-and-technology/%E6%9C%BA%E6%A2%B0%E5%B7%A5%E7%A8%8B-Mechanical-engineering/"><span class="level-start"><span class="level-item">机械工程 Mechanical engineering</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/category1-level1/"><span class="level-start"><span class="level-item">category1 level1</span></span><span class="level-end"><span class="level-item tag">3</span></span></a><ul><li><a class="level is-mobile" href="/lucfe-hexo/categories/category1-level1/category1-level2/"><span class="level-start"><span class="level-item">category1 level2</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li></ul></li><li><a class="level is-mobile" href="/lucfe-hexo/categories/jekyll-update/"><span class="level-start"><span class="level-item">jekyll update</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><!--!--></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/lucfe-hexo/">Lucfe Knowledges</a><p class="is-size-7"><span>&copy; 2023 lucfe</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2019</p></div><div class="level-end"></div></div></div></footer><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/lucfe-hexo/js/column.js"></script><script src="/lucfe-hexo/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/lucfe-hexo/js/back_to_top.js" defer></script><!--!--><script src="/lucfe-hexo/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/lucfe-hexo/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/lucfe-hexo/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>

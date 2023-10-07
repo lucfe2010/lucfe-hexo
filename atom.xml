@@ -6,7 +6,7 @@
   <link href="http://lucfe2010.github.io/lucfe-hexo/atom.xml" rel="self"/>
   
   <link href="http://lucfe2010.github.io/lucfe-hexo/"/>
-  <updated>2023-09-26T07:01:01.819Z</updated>
+  <updated>2023-10-05T03:54:02.570Z</updated>
   <id>http://lucfe2010.github.io/lucfe-hexo/</id>
   
   <author>
@@ -17,11 +17,97 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>python 100 days</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/github_python_100_days/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/github_python_100_days/</id>
+    <published>2023-10-04T22:44:54.142Z</published>
+    <updated>2023-10-05T03:54:02.570Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;语言元素&quot;&gt;&lt;a href=&quot;#语言元素&quot; class=&quot;headerlink&quot; title=&quot;语言元素&quot;&gt;&lt;/a&gt;语言元素&lt;/h2&gt;&lt;h3 id=&quot;变量和类型&quot;&gt;&lt;a href=&quot;#变量和类型&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>xiaoyuan python</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/xiaoyuan_python/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/xiaoyuan_python/</id>
+    <published>2023-10-04T01:49:56.054Z</published>
+    <updated>2023-10-07T04:41:09.434Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight py&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>qiangfeng python</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/qiangfeng_python/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/qiangfeng_python/</id>
+    <published>2023-10-04T00:21:18.834Z</published>
+    <updated>2023-10-04T01:19:01.889Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;网络请求库 –&amp;gt; 浏览器客户端&lt;/p&gt;
+&lt;p&gt;网站服务器&lt;br&gt;WSGI： The Web Server Gateway Interface is a simple calling convention for web servers to forward</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>达内 Python</title>
+    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/danei_python/"/>
+    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/python/danei_python/</id>
+    <published>2023-10-03T22:22:13.569Z</published>
+    <updated>2023-10-03T23:24:18.714Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;程序： 计算机指令，实现需求的软件&lt;/p&gt;
+&lt;h3 id=&quot;多态&quot;&gt;&lt;a href=&quot;#多态&quot; class=&quot;headerlink&quot; title=&quot;多态&quot;&gt;&lt;/a&gt;多态&lt;/h3&gt;&lt;figure class=&quot;highlight py&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>udemy html5 css3</title>
     <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/html%20css%20js/Udemy%20HTML5%20CSS3/"/>
     <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Software%20notations%C2%A0and%C2%A0tools/html%20css%20js/Udemy%20HTML5%20CSS3/</id>
     <published>2023-09-21T08:47:50.252Z</published>
-    <updated>2023-09-26T07:01:01.819Z</updated>
+    <updated>2023-09-27T08:13:39.358Z</updated>
     
     
       
@@ -372,90 +458,6 @@
         
     <summary type="html">&lt;h2 id=&quot;问题分析&quot;&gt;&lt;a href=&quot;#问题分析&quot; class=&quot;headerlink&quot; title=&quot;问题分析&quot;&gt;&lt;/a&gt;问题分析&lt;/h2&gt;&lt;p&gt;问题是什么 what&lt;br&gt;事情不是按预定的行为进行&lt;br&gt;物体的状态不是预期的&lt;/p&gt;
 &lt;p&gt;原因</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://lucfe2010.github.io/lucfe-hexo/0002%20Social%20science/%E5%BF%83%E7%90%86%E5%AD%A6%20Psychology/psychology/"/>
-    <id>http://lucfe2010.github.io/lucfe-hexo/0002%20Social%20science/%E5%BF%83%E7%90%86%E5%AD%A6%20Psychology/psychology/</id>
-    <published>2023-09-15T00:07:19.249Z</published>
-    <updated>2023-09-15T00:07:36.504Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;psychology&quot;&gt;&lt;a href=&quot;#psychology&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E6%96%87%E5%AD%A6%20Literature/book%20to%20read/"/>
-    <id>http://lucfe2010.github.io/lucfe-hexo/0001%20Humanities/%E6%96%87%E5%AD%A6%20Literature/book%20to%20read/</id>
-    <published>2023-09-15T00:06:09.315Z</published>
-    <updated>2023-09-15T00:06:32.532Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;science-fiction&quot;&gt;&lt;a href=&quot;#science-fiction&quot; class=&quot;headerlink&quot; title=&quot;science fiction&quot;&gt;&lt;/a&gt;science fiction&lt;/h3&gt;&lt;p&gt;末日之旅&lt;br&gt;加斯汀 .</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://lucfe2010.github.io/lucfe-hexo/0005%20Applied%20science/%E5%9B%BE%E4%B9%A6%E9%A6%86%20%E6%83%85%E6%8A%A5%E4%B8%8E%E6%96%87%E7%8C%AE%E5%AD%A6%20Library%20and%20museum%20studies/amazon%20ebook/"/>
-    <id>http://lucfe2010.github.io/lucfe-hexo/0005%20Applied%20science/%E5%9B%BE%E4%B9%A6%E9%A6%86%20%E6%83%85%E6%8A%A5%E4%B8%8E%E6%96%87%E7%8C%AE%E5%AD%A6%20Library%20and%20museum%20studies/amazon%20ebook/</id>
-    <published>2023-09-15T00:05:31.922Z</published>
-    <updated>2023-09-15T00:06:32.530Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;ebook&quot;&gt;&lt;a href=&quot;#ebook&quot; class=&quot;headerlink&quot; title=&quot;ebook&quot;&gt;&lt;/a&gt;ebook&lt;/h2&gt;&lt;h3 id=&quot;amazon-book&quot;&gt;&lt;a href=&quot;#amazon-book&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Hardware/phone/"/>
-    <id>http://lucfe2010.github.io/lucfe-hexo/0004%20Formal%20science/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%20Computer%20science/Hardware/phone/</id>
-    <published>2023-09-15T00:02:41.506Z</published>
-    <updated>2023-09-15T04:02:14.865Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;摄像头&quot;&gt;&lt;a href=&quot;#摄像头&quot; class=&quot;headerlink&quot; title=&quot;摄像头&quot;&gt;&lt;/a&gt;摄像头&lt;/h3&gt;&lt;p&gt;計算攝影（Computational</summary>
         
       
     
